@@ -5,7 +5,7 @@
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)
 
-<img src="assets/images/portada_ciber.jpeg" alt="Portada del Libro - Ciberseguridad Orientada a Resultados" width="500">
+<img src="assets/images/portada_ciber.png" alt="Portada del Libro - Ciberseguridad Orientada a Resultados" width="500">
 
 ---
 
