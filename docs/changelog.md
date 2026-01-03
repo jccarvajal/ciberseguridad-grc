@@ -2,7 +2,7 @@
 
 Todos los cambios notables en este proyecto serán documentados en este archivo. El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) y este proyecto adhiere a la numeración de versiones semántica.
 
-Este documento registra todas las modificaciones estructurales, técnicas y conceptuales realizadas en el libro **"Ciberseguridad Orientada a Resultados: Arquitectura de Resiliencia y Gobernanza"**.
+Este documento registra todas las modificaciones estructurales, técnicas y conceptuales realizadas en el libro **"Ciberseguridad Orientada a Resultados: Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica"**.
 
 ---
 
