@@ -1,0 +1,109 @@
+site_name: Ciberseguridad Orientada a Resultados
+site_url: https://ciber.jccarvajal.com
+site_author: Juan Carlos Carvajal
+site_description: Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica (Directorio, Mando Medio e Ingeniería).
+copyright: Copyright &copy; 2025 Juan Carlos Carvajal - Licencia CC BY-NC-ND 4.0
+
+# Configuración del Tema (Material for MkDocs - Modo Cyber/Noir)
+theme:
+  name: material
+  language: es
+  logo: assets/images/portada_ciber.jpeg
+  favicon: assets/images/favicon.ico
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+
+# Extensiones (ACTIVACIÓN DE MERMAID)
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - def_list
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+# Activación de Mermaid (Material for MkDocs)
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+# Sección de Plugins  
+plugins:
+  - search # Importante mantenerlo para que funcione el buscador del sitio web
+
+# Mapa del Sitio (Estructura de Archivos)
+nav:
+  - Inicio: index.md
+  - Introducción:
+    - Nota al Lector: nota-lector.md
+    - Nota Metodológica: nota-metodologica.md
+    - Prólogo Ejecutivo: prologo.md
+    - Ideas Centrales: ideas-centrales.md
+  - 'Bloque 1: Fundamentos y Estrategia':
+      - 'Capítulo 01: CISO Socio de Negocio': capitulos/01-CISO-Socio-Negocio.md
+      - 'Capítulo 02: Matemática del Riesgo': capitulos/02-Riesgo-Financiero.md
+      - 'Capítulo 03: Marcos y Madurez Legal': capitulos/03-Marcos-Madurez.md
+  - 'Bloque 2: Arquitectura y Prevención':
+      - 'Capítulo 04: Zero Trust (Confianza Cero)': capitulos/04-Zero-Trust.md
+      - 'Capítulo 05: Identidad (IAM)': capitulos/05-Identidad-IAM.md
+      - 'Capítulo 06: Higiene de Datos (DLP)': capitulos/06-Higiene-Datos.md
+  - 'Bloque 3: Gestión de Crisis':
+      - 'Capítulo 07: Flujo del Incidente (IRP)': capitulos/07-Flujo-IRP.md
+      - 'Capítulo 08: Automatización y SOAR': capitulos/08-Automatizacion-SOAR.md
+      - 'Capítulo 09: Comunicación de Crisis': capitulos/09-Comunicacion-Crisis.md
+      - 'Capítulo 10: Gobierno de Crisis y Botón Rojo': capitulos/10-Gobierno-Crisis.md
+  - 'Bloque 4: Resiliencia y Proyección':
+      - 'Capítulo 11: Integración de la Resiliencia': capitulos/11-Integracion-Resiliencia.md
+      - 'Capítulo 12: Cultura Post-Incidente': capitulos/12-Cultura-Post-Incidente.md
+      - 'Capítulo 13: EL Futuro Inevitable': capitulos/13-Futuro-Inevitable.md
+  - Conclusión y Cierre:
+      - 'Epílogo: La Dimensión Humana': epilogo.md
+  - Anexos Operativos:
+    - 'A: Matriz RACI': anexos/A-Matriz-RACI.md
+    - 'B: Tablero de Métricas': anexos/B-Metricas.md
+    - 'C: Checklist Zero Trust': anexos/C-ZeroTrust.md
+    - 'D: Guía de Reporting Ejecutivo': anexos/D-Reporting.md
+    - 'E: Ecosistema Global de Inteligencia': anexos/E-Ecosistema.md
+    - 'F: Gestión de Vulnerabilidades': anexos/F-Vulnerabilidades.md
+    - 'G: Estructura CSIRT': anexos/G-CSIRT.md
+    - 'H: Plan IRP': anexos/H-Plan-IRP.md
+    - 'I: Plan DRP': anexos/I-Plan-DRP.md
+    - 'J: Plan BCP': anexos/J-Plan-BCP.md
+    - 'K: Patrones de Fracaso': anexos/K-Fracaso.md
+  - Referencias:
+    - Glosario: referencias/Glosario.md
+    - Bibliografía: referencias/Bibliografia.md
+  - Acerca de:
+    - Autor: acerca/autor.md
+    - Licencia: acerca/licence.md
+    - Cómo Contribuir: acerca/contribuir.md
+    - Historial (Changelog): changelog.md
