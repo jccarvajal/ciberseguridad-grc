@@ -64,7 +64,7 @@ plugins:
 nav:
   - Inicio: index.md
   - Introducción:
-    - Nota al Lector: nota-lector.md
+    - Nota al Lector: nota-al-lector.md
     - Nota Metodológica: nota-metodologica.md
     - Prólogo Ejecutivo: prologo.md
     - Ideas Centrales: ideas-centrales.md
