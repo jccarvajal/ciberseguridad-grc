@@ -10,7 +10,7 @@
 ---
 
 ### Visión
-Mi enfoque combina la ingeniería de sistemas robustos con la gobernanza estratégica. Este proyecto, **[Arquitectura de IA](http://ia.jccarvajal.com)**, refleja esa intersección: cerrar la brecha entre la experimentación técnica y la implementación productiva, fiable y ética en las organizaciones.
+Mi enfoque combina la ingeniería de sistemas robustos con la gobernanza estratégica. Este proyecto, **[Ciberseguridad Orientada a Resultados](http://ciber.jccarvajal.com)**, refleja esa intersección: cerrar la brecha entre la complejidad de las amenazas técnicas y la toma de decisiones ejecutiva, transformando la seguridad en un pilar de resiliencia y valor de negocio para la organización.
 
 ### Conecta conmigo
 
