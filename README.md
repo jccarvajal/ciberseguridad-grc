@@ -1,2 +1,2 @@
-# ciberseguridad-grc
-Framework de ciberseguridad estratégica y gestión de incidentes para alta gerencia
+# Ciberseguridad Orientada a Resultados
+Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica
