@@ -1,5 +1,5 @@
 # Ciberseguridad Orientada a Resultados
-## Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica
+## Arquitectura de Resiliencia y Gobernanza
 
 **Versión 1.0 (Enero 2026)**
 
