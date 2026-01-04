@@ -1,24 +1,23 @@
-# Nota al Lector: Reglas de este Manual
+# Nota al Lector: Manual de Arquitectura Institucional y Supervivencia
 
-Si buscas una guía académica sobre protocolos de red o un tratado filosófico sobre la ética digital, este no es tu libro. Si buscas una apología del miedo diseñada para vender software, tampoco lo es.
+Si buscas una guía académica sobre protocolos de red, este no es tu libro. Si buscas una apología del miedo diseñada para justificar presupuestos infinitos, tampoco lo es. 
 
-Lo que tienes en tus manos es un **manual de arquitectura y supervivencia**. Está escrito desde la convicción de que la ciberseguridad es una disciplina de ingeniería y gestión de riesgos, no una de artes oscuras. 
+Este es un manual de **arquitectura institucional y supervivencia**. Está escrito para quienes deben tomar decisiones bajo presión, para quienes entienden que la seguridad es una variable del balance general y para quienes saben que la negligencia se paga con patrimonio y reputación.
 
-Para sacar el máximo provecho de esta obra, te pido que aceptes tres premisas fundamentales que guiarán cada capítulo:
+Este libro se construye sobre tres premisas innegociables:
 
-1.  **La Ciberseguridad es un Riesgo Financiero:** En estas páginas hablaremos de dinero. Si no puedes calcular el costo de tu inactividad o el valor de tus activos, no puedes gestionar tu defensa. El lenguaje del CISO debe ser el lenguaje del balance general.
-2.  **Asumir la Brecha (*Assume Breach*):** Operaremos bajo la mentalidad de que el atacante ya está dentro o eventualmente lo estará. Esto cambia radicalmente cómo diseñamos sistemas: pasamos de construir murallas inútiles a crear compartimentos estancos y sistemas de recuperación resiliente.
-3.  **La Simplicidad es Seguridad:** Los planes de doscientas páginas no se leen durante un incendio. Aquí priorizamos la agilidad, los diagramas claros y los "Playbooks" ejecutables por sobre la burocracia documental.
+1.  **El Riesgo es Financiero:** La ciberseguridad que no se puede cuantificar es solo una opinión técnica. El lenguaje del Vigilante Estratégico debe ser el lenguaje del balance general.
+2.  **Aceptar la Brecha (*Assume Breach*):** Operaremos bajo la premisa de que el adversario —potenciado por autonomía adversaria— ya ha comprometido parte del sistema. La meta no es la invulnerabilidad, sino la resiliencia y la capacidad de absorción operativa.
+3.  **La Simplicidad es Seguridad:** La complejidad es la mayor superficie de ataque. Los planes de doscientas páginas no se leen durante un incendio; diseñaremos sistemas de decisión rápidos, binarios y auditables.
 
-Este libro está diseñado para el **Vigilante Estratégico**: esa tríada compuesta por el Directorio que decide, el Mando Medio que orquesta y el Ingeniero que ejecuta. Al final del día, la tecnología fallará y las personas cometerán errores. Pero la estructura de gobernanza que construyas hoy determinará si tu organización será una nota al pie en un informe de incidentes o un caso de éxito en resiliencia institucional.
-
-Bienvenido a la trinchera.
-
-**Juan Carlos Carvajal**
+Bienvenido a la trinchera. Aquí no gestionamos certezas, gestionamos la supervivencia de la organización.
 
 ---
 
-## Sobre la autoría y el uso de IA
-Este documento fue desarrollado por Juan Carlos Carvajal, autor principal y responsable de su contenido y visión. Para más información, visite [www.jccarvajal.com](https://www.jccarvajal.com/).
+# Nota sobre la Autoría y el uso de Inteligencia Artificial
 
-Para la redacción se utilizó el modelo **Gemini** como asistente principal y **ChatGPT** como 'sparring' crítico para refinar las ideas. La estructura y visión final son plenamente autorales; la IA fue un instrumento de apoyo, nunca un sustituto del pensamiento crítico.
+Este documento fue desarrollado por Juan Carlos Carvajal, quien es el autor principal y responsable de su contenido, estructura y visión final. Para más información sobre el autor, sus proyectos o para contacto profesional, puede visitar [www.jccarvajal.com](https://www.jccarvajal.com/).
+
+Para la redacción y generación de los borradores iniciales se utilizó el modelo de lenguaje avanzado Gemini como herramienta de asistencia principal. Adicionalmente, el modelo ChatGPT fue empleado como 'sparring' crítico para revisar, cuestionar y refinar las ideas y el texto.
+
+Las ideas, estructura y visión final son plenamente autorales; las herramientas de IA fueron utilizadas como instrumentos de apoyo, nunca como sustituto del pensamiento crítico.
