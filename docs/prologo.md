@@ -3,7 +3,7 @@
 
 Durante décadas, la ciberseguridad habitó en el ángulo muerto de la alta dirección. Era un **silo de opacidad técnica** donde el éxito se medía por el silencio: si nada fallaba, se asumía que la inversión era suficiente. Este modelo de "gestión por ausencia de noticias" ha colapsado bajo el peso de la realidad digital.
 
-Hoy, la ciberseguridad ha salido del rack de servidores para sentarse en la cabecera del Directorio. Ya no es un desafío puramente técnico; es un riesgo existencial. Una organización moderna puede sobrevivir a un mal trimestre de ventas, pero difícilmente sobrevive a la pérdida de su integridad operativa, al cifrado masivo de sus activos críticos o al escrutinio de un marco regulatorio —como la Ley 21.663— que hoy exige **accountability** real y no solo defensas de papel.
+Hoy, la ciberseguridad ha salido del rack de servidores para sentarse en la cabecera del Directorio. Ya no es un desafío puramente técnico; es un riesgo existencial. Una organización moderna puede sobrevivir a un mal trimestre de ventas, pero difícilmente sobrevive a la pérdida de su integridad operativa, al cifrado masivo de sus activos críticos o al escrutinio de un marco regulatorio, como la Ley 21.663, que hoy exige **accountability** real y no solo defensas de papel.
 
 ### La Asimetría del Riesgo
 Nos enfrentamos a una brecha crítica. Por un lado, la **autonomía adversaria** capaz de identificar y explotar vulnerabilidades en milisegundos; por otro, organizaciones atrapadas en el "ruido" de procesos manuales, juicios inconsistentes y una burocracia heredada del siglo pasado. 
