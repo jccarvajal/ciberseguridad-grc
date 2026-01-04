@@ -1,60 +1,54 @@
-## Bibliografía Fundamental
-
-Subtítulo: Lecturas Clave para el Arquitecto de Resiliencia y el Vigilante Estratégico
+# Bibliografía Fundamental
+**(Lecturas Clave para el Arquitecto de Resiliencia)**
 
 ### Introducción: Las Fuentes del Criterio
-
-Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primarias. Su objetivo es proporcionar al "Arquitecto" y al "Vigilante" la base teórica y técnica sobre la cual se construye el criterio de esta obra.
-
----
+Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primarias. Su objetivo es proporcionar al Vigilante Estratégico la base teórica, técnica y legal sobre la cual se construye el criterio de esta obra.
 
 ### Prólogo: Pensamiento y Estrategia
 
-* **Kahneman, D. (2011). "Thinking, Fast and Slow". Farrar, Straus and Giroux.** [[Web]](https://www.fsgbooks.com/)
-    * **Por qué leerlo:** Explica la dicotomía entre el Sistema 1 (reacción) y el Sistema 2 (análisis), fundamental para entender por qué fallamos al gestionar crisis de ciberseguridad.
-* **Gibson, W. (1984). "Neuromancer". Ace Books.** [[Web]](https://www.williamgibsonbooks.com/)
-    * **Por qué leerlo:** La referencia cultural que dio origen al concepto de "Ciberespacio" y a la visión de la red como un territorio en disputa.
-
----
+* **Kahneman, D. (2011).** "Thinking, Fast and Slow". Farrar, Straus and Giroux. [Web]
+    * **Por qué leerlo:** Explica la dicotomía entre el Sistema 1 (reacción) y el Sistema 2 (análisis), fundamental para entender por qué la intuición falla en la gestión de crisis.
+* **Gibson, W. (1984).** "Neuromancer". Ace Books. [Web]
+    * **Por qué leerlo:** La referencia cultural que dio origen al concepto de "Ciberespacio" y a la visión de la red como un territorio soberano en disputa.
 
 ### Bloque 1: Fundamentos y Gestión del Riesgo (Capítulos 1-3)
 
-* **Hubbard, D. W., & Seiersen, R. (2023). "How to Measure Anything in Cybersecurity Risk". Wiley.** [[Web]](https://www.howtomeasureanything.com/cybersecurity/)
-    * **Por qué leerlo:** Es el texto base del Capítulo 02. Enseña a cuantificar el riesgo en términos de probabilidad e impacto financiero real, alejándose de las matrices cualitativas.
-* **Gobierno de Chile. (2024). "Ley N° 21.663 Ley Marco de Ciberseguridad".** [[Web]](https://www.bcn.cl/leychile/navegar?idNorma=1202461)
-    * **Por qué leerlo:** Marco legal vigente que establece las obligaciones de los servicios públicos y privados en Chile, central para la tesis del Capítulo 03.
-* **NIST. (2024). "Cybersecurity Framework (CSF) 2.0".** [[PDF]](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.262r1.pdf)
-    * **Por qué leerlo:** El estándar global de gobernanza que eleva la ciberseguridad al nivel del Directorio.
-
----
+* **Hubbard, D. W., & Seiersen, R. (2023).** "How to Measure Anything in Cybersecurity Risk". Wiley. [Web]
+    * **Por qué leerlo:** Texto base del Capítulo 02. Enseña a cuantificar el riesgo en términos de probabilidad e impacto financiero (ALE), eliminando las matrices cualitativas.
+* **Kahneman, D., Sibony, O., & Sunstein, C. R. (2021).** "Noise: A Flaw in Human Judgment". Little, Brown and Company. [Web]
+    * **Por qué leerlo:** Crucial para entender el concepto de Ruido de Juicio citado en los capítulos 2, 9 y 11. Explica cómo reducir la variabilidad en la toma de decisiones estratégicas.
+* **Gobierno de Chile. (2024).** "Ley N° 21.663 Ley Marco de Ciberseguridad". [Web]
+    * **Por qué leerlo:** Marco legal vigente que establece las obligaciones de debida diligencia y las facultades de la ANCI en Chile.
+* **Bernstein, P. L. (1996).** "Against the Gods: The Remarkable Story of Risk". Wiley. [Web]
+    * **Por qué leerlo:** Provee el contexto histórico sobre cómo la humanidad pasó de la superstición a la gestión del riesgo mediante la probabilidad.
+* **NIST. (2024).** "Cybersecurity Framework (CSF) 2.0". [PDF]
+    * **Por qué leerlo:** El estándar global que introduce la función GOVERN, elevando la ciberseguridad al nivel del Directorio.
 
 ### Bloque 2: Arquitectura y Prevención (Capítulos 4-6)
 
-* **Gilman, E., & Barth, D. (2017). "Zero Trust Networks". O'Reilly Media.** [[Web]](https://www.oreilly.com/library/view/zero-trust-networks/9781491962183/)
-    * **Por qué leerlo:** Define la arquitectura de "Confianza Cero" analizada en el Capítulo 04. Esencial para entender el fin del perímetro tradicional.
-* **Anderson, R. (2020). "Security Engineering: A Guide to Building Dependable Distributed Systems". Wiley.** [[Web]](https://www.cl.cam.ac.uk/~rja14/book.html)
-    * **Por qué leerlo:** La biblia técnica de este bloque. Explica cómo se diseñan sistemas que resistan ataques, fallos y errores humanos.
-* **Shirow, M. (1989). "The Ghost in the Shell". Kodansha.** [[Web]](https://www.kodansha.com/)
-    * **Por qué leerlo:** Referencia para el Capítulo 05 sobre Identidad. Plantea la visión de la "Identidad Digital" como el único ancla de seguridad en sistemas distribuidos.
-
----
+* **Gilman, E., & Barth, D. (2017).** "Zero Trust Networks". O'Reilly Media. [Web]
+    * **Por qué leerlo:** Define la arquitectura de "Confianza Cero" y la estrategia de Asumir la Brecha analizada en el Capítulo 04.
+* **Kim, G., Behr, K., & Spafford, G. (2013).** "The Phoenix Project". IT Revolution Press. [Web]
+    * **Por qué leerlo:** Clave para el Capítulo 01. Ilustra cómo integrar la seguridad en el flujo de valor del negocio mediante la agilidad y la visibilidad operativa.
+* **Gobierno de Chile. (1999).** "Ley N° 19.628 sobre protección de la vida privada". [Web]
+    * **Por qué leerlo:** Referencia obligatoria para la gestión de datos sensibles y las políticas de DLP discutidas en el Capítulo 06.
+* **Shirow, M. (1989).** "The Ghost in the Shell". Kodansha. [Web]
+    * **Por qué leerlo:** Referencia para el Capítulo 05 sobre Identidad. Plantea la visión de la identidad digital como el único ancla de soberanía en sistemas distribuidos.
 
 ### Bloque 3: Gestión de Incidentes y Crisis (Capítulos 7-10)
 
-* **CISA. (2025). "Incident Response Playbook". Cybersecurity & Infrastructure Security Agency.** [[PDF]](https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks)
-    * **Por qué leerlo:** Fuente del Anexo B (IRP). Define los pasos de orquestación ante una intrusión activa.
-* **Perlroth, N. (2021). "This Is How They Tell Me the World Ends". Bloomsbury.** [[Web]](https://www.nicoleperlroth.com/)
-    * **Por qué leerlo:** Provee el contexto de la amenaza real (Zero-Days y Ransomware) para entender la urgencia de los Capítulos 07 y 10.
-* **FIRST. (2024). "Common Vulnerability Scoring System (CVSS) v4.0 Specification".** [[Web]](https://www.first.org/cvss/v4.0/specification-document)
-    * **Por qué leerlo:** El documento técnico que rige la medición de vulnerabilidades discutida en el Anexo F y L.
-
----
+* **CISA. (2024).** "Incident Response Playbook". Cybersecurity & Infrastructure Security Agency. [PDF]
+    * **Por qué leerlo:** Fuente técnica para el diseño del IRP y la orquestación de respuesta ante intrusiones activas.
+* **NIST. (2012).** "Computer Security Incident Handling Guide (SP 800-61 Rev. 2)". [PDF]
+    * **Por qué leerlo:** Estándar global para el ciclo de vida del incidente (Preparación, Detección, Contención, Post-Incidente) usado como base en el Capítulo 07.
+* **MITRE Corporation. (2024).** "MITRE ATT&CK® Framework". [Web]
+    * **Por qué leerlo:** Base de conocimiento esencial para entender las tácticas del adversario y el movimiento lateral discutido en los Capítulos 07 y 13.
 
 ### Bloque 4: Resiliencia y Futuro (Capítulos 11-13)
 
-* **Taleb, N. N. (2012). "Antifragile". Random House.** [[Web]](https://www.fooledbyrandomness.com/)
-    * **Por qué leerlo:** El fundamento filosófico del Capítulo 12. Explica cómo las organizaciones pueden salir fortalecidas de un ataque si gestionan correctamente el aprendizaje.
-* **ISO/IEC. (2022). "ISO/IEC 27031: Information technology — Readiness for business continuity".** [[Web]](https://www.iso.org/standard/79015.html)
-    * **Por qué leerlo:** Base metodológica para la integración de los planes DRP y BCP en el Capítulo 11 y Anexo J.
-* **Suleyman, M. (2023). "The Coming Wave". Crown.** [[Web]](https://www.thecomingwave.com/)
-    * **Por qué leerlo:** Referencia para el Capítulo 13 sobre el futuro de la IA y el problema de la contención tecnológica.
+* **Taleb, N. N. (2012).** "Antifragile: Things That Gain from Disorder". Random House. [Web]
+    * **Por qué leerlo:** Pilar conceptual del Capítulo 12. Define la diferencia entre ser robusto (resistir) y ser antifrágil (mejorar con el estrés), el objetivo final de la cultura post-incidente.
+* **Bostrom, N. (2014).** "Superintelligence: Paths, Dangers, Strategies". Oxford University Press. [Web]
+    * **Por qué leerlo:** Contexto filosófico para el Capítulo 13 sobre los riesgos existenciales de la IA y la necesidad de alineación en sistemas de defensa agéntica.
+* **FIRST. (2023).** "Common Vulnerability Scoring System (CVSS) v4.0 Specification". [Web]
+    * **Por qué leerlo:** Estándar matemático utilizado en el Anexo F para puntuar la severidad técnica de una vulnerabilidad de manera objetiva.
