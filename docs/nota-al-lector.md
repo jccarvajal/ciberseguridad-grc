@@ -7,7 +7,7 @@ Este es un manual de **arquitectura institucional y supervivencia**. Está escri
 Este libro se construye sobre tres premisas innegociables:
 
 1.  **El Riesgo es Financiero:** La ciberseguridad que no se puede cuantificar es solo una opinión técnica. El lenguaje del Vigilante Estratégico debe ser el lenguaje del balance general.
-2.  **Aceptar la Brecha (*Assume Breach*):** Operaremos bajo la premisa de que el adversario —potenciado por autonomía adversaria— ya ha comprometido parte del sistema. La meta no es la invulnerabilidad, sino la resiliencia y la capacidad de absorción operativa.
+2.  **Aceptar la Brecha (*Assume Breach*):** Operaremos bajo la premisa de que el adversario, potenciado por autonomía adversaria, ya ha comprometido parte del sistema. La meta no es la invulnerabilidad, sino la resiliencia y la capacidad de absorción operativa.
 3.  **La Simplicidad es Seguridad:** La complejidad es la mayor superficie de ataque. Los planes de doscientas páginas no se leen durante un incendio; diseñaremos sistemas de decisión rápidos, binarios y auditables.
 
 Bienvenido a la trinchera. Aquí no gestionamos certezas, gestionamos la supervivencia de la organización.
