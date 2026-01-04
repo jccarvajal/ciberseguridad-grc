@@ -130,9 +130,9 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Hoja de ruta legal y gestión de proveedores.*
 
 #### Referencias y Fundamento
-* [Glosario](./referencias/glosario.md)
+* [Glosario](./referencias/Glosario.md)
   *Diccionario Técnico-Negocio.*
-* [Bibliografia](./referencias/bibliografia.md)
+* [Bibliografia](./referencias/Bibliografia.md)
   *Lecturas Clave para el Arquitecto de Resiliencia y el Vigilante Estratégico.*
 
 ---

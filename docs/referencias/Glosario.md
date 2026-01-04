@@ -13,6 +13,10 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** *Control de Acceso Basado en Atributos.* Modelo que otorga permisos según un contexto dinámico (rol, ubicación, estado del dispositivo). Es el estándar para arquitecturas Zero Trust de alta madurez.
 * **Referencia Principal:** Capítulo 05.
 
+**Air-Gap (Brecha de Aire)**
+* **Definición:** Medida de seguridad física o lógica donde un sistema de respaldo o red crítica está completamente aislado y desconectado de cualquier otra red, haciendo imposible el acceso remoto para un atacante.
+* **Referencia Principal:** Anexo I / Anexo K.
+
 **ALE (Annualized Loss Expectancy)**
 * **Definición:** *Expectativa de Pérdida Anualizada.* Métrica financiera que proyecta la pérdida anual por un riesgo específico. 
 * **Fórmula:** $$ALE = SLE \times ARO$$.
