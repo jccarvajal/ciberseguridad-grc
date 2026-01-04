@@ -1,70 +1,70 @@
 # CAPÍTULO 6: Higiene de Datos y Soberanía (DLP)
 **(Protegiendo el Activo más Crítico)**
 
-Si la Identidad (Capítulo 5) es el pasaporte que permite circular por la organización, el **Dato** es la mercancía valiosa que ese pasaporte intenta proteger. En la economía digital de 2026, los datos son a menudo descritos como "el nuevo petróleo", pero para el **Vigilante Estratégico**, los datos mal gestionados son más parecidos a los **desechos radiactivos**: son extremadamente útiles si se manejan bien, pero catastróficos si se filtran.
+Si la Identidad (Capítulo 5) es el pasaporte que permite circular por la organización, el **Dato** es la mercancía valiosa que ese pasaporte intenta proteger. En el entorno de 2026, los datos mal gestionados son similares a los **desechos radiactivos**: extremadamente útiles si se mantienen en su contenedor, pero catastróficos si se filtran.
 
-La higiene de datos no es solo un proceso de limpieza; es la capacidad técnica de asegurar que la información sensible no salga de la organización por canales no autorizados (**DLP - Data Loss Prevention**).
+La higiene de datos no es solo un proceso de limpieza; es la capacidad técnica de asegurar que la información sensible no abandone la organización por canales no autorizados (**DLP - *Data Loss Prevention***).
 
-### 1. El Dilema de la Visibilidad: No puedes proteger lo que no conoces
+### 1. El Dilema de la Visibilidad y el Ruido de Juicio
 
-El mayor riesgo para el **Mando Medio** es la "oscuridad de datos". Muchas organizaciones gastan millones en seguridad sin saber dónde están sus datos más críticos (Propiedad intelectual, datos de clientes, fórmulas, estrategias financieras).
+El mayor riesgo para el **Mando Medio** es la "oscuridad de datos". No se puede proteger lo que no se conoce. La higiene institucional comienza con la **Clasificación**, un proceso que debe ser dictado por el negocio pero ejecutado por la técnica para reducir el **Ruido de Juicio** en la toma de decisiones:
 
-La higiene de datos comienza con la **Clasificación**, un proceso que debe ser dictado por el negocio pero ejecutado por la técnica:
-* **Datos Públicos:** Información de marketing, comunicados.
-* **Datos de Uso Interno:** Memorándums, minutas de reuniones.
-* **Datos Confidenciales:** Información financiera, datos personales de clientes (sujetos a la Ley 19.628).
-* **Datos Secretos:** Propiedad intelectual, "Joyas de la Corona", claves maestras.
+* **Públicos:** Información de marketing y comunicados.
+* **De Uso Interno:** Minutas, memorándums y flujos operativos.
+* **Confidenciales:** Datos financieros y datos personales (sujetos a la **Ley 19.628**).
+* **Secretos:** Propiedad intelectual, "Joyas de la Corona" y estrategias de mercado.
 
 ---
 
 ### 2. DLP: Los Tres Estados del Dato
 
-Para el **Ingeniero**, la protección no es estática. El sistema de prevención de fuga de datos (DLP) debe actuar en los tres estados del ciclo de vida del dato:
+Para el **Ingeniero**, la protección no es un estado estático, sino un flujo continuo. El sistema DLP debe generar evidencia de control en los tres estados del ciclo de vida:
 
-1.  **Dato en Reposo (At Rest):** Datos almacenados en servidores, nubes o discos. La defensa aquí es el **Cifrado** y el control de acceso estricto.
-2.  **Dato en Tránsito (In Motion):** Datos viajando por la red o correos electrónicos. La defensa es el uso de protocolos seguros (TLS/SSL) y la inspección de tráfico.
-3.  **Dato en Uso (In Use):** Datos abiertos en la pantalla de un analista o procesados en memoria. La defensa es el control de periféricos (bloqueo de USB) y marcas de agua digitales.
+1.  **Dato en Reposo (*At Rest*):** Almacenado en servidores o nubes. La defensa es el **Cifrado** y la gestión de acceso privilegiado (Capítulo 5).
+2.  **Dato en Tránsito (*In Motion*):** Viajando por la red o correos. Requiere protocolos seguros (TLS 1.3) e inspección de contenido en tiempo real.
+3.  **Dato en Uso (*In Use*):** Procesado en memoria o visible en pantalla. Exige control de periféricos y marcas de agua digitales para garantizar la **Trazabilidad**.
 
 ---
 
 ### 3. Soberanía de Datos y Cumplimiento Legal
 
-Desde la perspectiva del **Directorio**, la higiene de datos es una obligación de cumplimiento. Con la actualización de la normativa de protección de datos en Chile y el estándar GDPR en Europa, el **SLE (Impacto)** de una filtración no es solo la pérdida del dato, sino la **Pérdida de la Licencia Social**.
+Desde la perspectiva del **Directorio**, la higiene de datos es el pilar de la **Debida Diligencia**. Bajo la **Ley 21.663**, la pérdida de datos sensibles no es solo un fallo técnico, sino una violación de la **Licencia para Operar**.
 
-* **Derecho al Olvido y Portabilidad:** La arquitectura debe permitir borrar o mover datos si el cliente lo solicita.
-* **Residencia de Datos:** ¿Dónde están físicamente nuestros datos? ¿En una nube en EE.UU., Europa o en suelo nacional? Esto define qué leyes aplican en caso de un conflicto legal.
+* **Residencia de Datos:** El Vigilante Estratégico debe conocer la jurisdicción física de los datos. En un conflicto legal, la ubicación del servidor determina la ley aplicable.
+* **Derecho al Olvido y Portabilidad:** La arquitectura debe permitir la eliminación o migración eficiente de datos para cumplir con los estándares de privacidad modernos, evitando el **$SLE$** derivado de sanciones regulatorias masivas.
 
 ---
 
 ### 4. Blueprint 6: Matriz de Control de Fuga de Datos
 
-El **Mando Medio** debe implementar estos peajes de control para asegurar la higiene institucional:
+El **Mando Medio** implementa estos "peajes" de control para asegurar la soberanía institucional:
 
 | Canal de Fuga | Método de Control | Nivel de Restricción |
 | :--- | :--- | :--- |
-| **Correo Electrónico** | Escaneo de palabras clave y adjuntos cifrados. | Alto (Bloqueo de envío de tarjetas de crédito/RUTs). |
-| **Almacenamiento Cloud** | CASB (Cloud Access Security Broker). | Medio (Solo nubes corporativas autorizadas). |
-| **Dispositivos USB** | Bloqueo de puertos o cifrado obligatorio. | Crítico (Prohibición de extracción de bases de datos). |
-| **IA Generativa** | Filtrado de Prompts (Ver Capítulo 1). | Alto (Evitar que datos sensibles entrenen modelos públicos). |
+| **Correo Electrónico** | Escaneo de *keywords* y adjuntos cifrados. | Alto (Bloqueo de PII/RUTs). |
+| **Almacenamiento Cloud** | **CASB** (*Cloud Access Security Broker*). | Crítico (Solo nubes corporativas). |
+| **IA Generativa** | Filtrado de *Prompts* y anonimización. | Alto (Prevención de fuga a modelos externos). |
+| **Endpoint / USB** | Bloqueo de puertos y monitoreo de portapapeles. | Crítico (Prohibición de extracción masiva). |
 
 ---
 
-### 5. La Regla de Oro: Datos Mínimos Necesarios
+### 5. La Regla de Oro: Minimización de la Exposición Financiera
 
-La mejor forma de reducir el riesgo financiero (**ALE**) es simplemente no tener datos que no necesitamos. 
-* **Higiene:** Eliminar datos antiguos (políticas de retención).
-* **Ofuscación:** Si el equipo de desarrollo necesita probar una App, no debe usar la base de datos real; debe usar datos sintéticos o anonimizados.
+La forma más eficiente de reducir el **$ALE$** es eliminar los datos que no aportan valor operativo. 
 
----
-
-### Conclusión para el "Vigilante Estratégico"
-
-Un sistema seguro con datos sucios es una bomba de tiempo. El ingeniero que implementa reglas de DLP y el gerente que clasifica la información están construyendo la verdadera soberanía de la empresa. Los datos son el alma de la organización; su higiene es el hábito que separa a las empresas maduras de las negligentes.
-
-Con este capítulo finalizamos el bloque de arquitectura. Ahora que tenemos los muros (Zero Trust), las llaves (Identidad) y el tesoro protegido (Datos), es hora de prepararnos para lo inevitable: **¿Qué pasa cuando, a pesar de todo, algo sale mal?** Entramos al Bloque 3: Gestión de Crisis.
+* **Higiene:** Ejecutar políticas de retención y eliminación segura. Un dato borrado es un dato que no puede ser robado.
+* **Ofuscación:** El uso de datos sintéticos o anonimización en entornos de prueba reduce la superficie de ataque sin afectar la agilidad del desarrollo.
 
 ---
 
-> **Tesis del Capítulo:** La seguridad del dato no es un candado; es un proceso de visibilidad y clasificación. Si no sabes qué datos tienes y quién los mueve, no tienes soberanía, solo tienes suerte.
+### Conclusión: La Soberanía como Hábito
+
+Un sistema seguro con datos desordenados es una bomba de tiempo. El ingeniero que implementa reglas de DLP y el gerente que clasifica la información están construyendo la verdadera soberanía institucional. Los datos son el alma de la organización; su higiene es el hábito que separa a las empresas resilientes de las negligentes.
+
+Con este capítulo finalizamos el **Bloque 2: Arquitectura y Prevención**. Ahora que tenemos los muros (Zero Trust), las llaves (Identidad) y el tesoro protegido (Datos), es hora de enfrentar la realidad: **¿Qué pasa cuando el sistema falla?** Entramos al **Bloque 3: Gestión de Crisis**.
+
+---
+
+> **Tesis del Capítulo:** La seguridad del dato no es un candado; es un proceso de visibilidad y clasificación continua. Sin saber qué datos tienes y quién los mueve, no tienes soberanía, solo tienes la ilusión de control.
 
 ---
