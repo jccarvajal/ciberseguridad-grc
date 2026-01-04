@@ -11,7 +11,7 @@ Para el Directorio, el cumplimiento no es un hito estático, es un estado de **D
 
 La entrada en vigencia de la **Ley 21.663** y la plena autoridad de la **Agencia Nacional de Ciberseguridad (ANCI)** introducen una variable de coerción que altera el balance financiero del riesgo. La ley no solo castiga el incidente, sino que sanciona la **ausencia de gobierno y la omisión de control**.
 
-$$SLE_{nuevo} = SLE_{operativo} + Multa_{ANCI} + Costo_{Litigación}$$
+$$SLE_{\text{nuevo}} = SLE_{\text{operativo}} + \text{Multa}_{\text{ANCI}} + \text{Costo}_{\text{Litigación}}$$
 
 * **ANCI:** Órgano fiscalizador con potestad para calificar la suficiencia de las medidas. Es crítico entender que **la ANCI no fiscaliza herramientas aisladas, sino la suficiencia y coherencia del sistema de gobierno** que las selecciona, opera y revisa. Su estándar es la evidencia de control comprobable.
 * **El Piso Legal de Aceptación:** Es un error crítico de gobernanza creer que el Directorio puede "aceptar" riesgos que sitúen a la organización por debajo del estándar base exigido para Servicios Esenciales. Aceptar un riesgo residual es una decisión financiera; aceptar el incumplimiento de la ley es una **confesión de negligencia**.
