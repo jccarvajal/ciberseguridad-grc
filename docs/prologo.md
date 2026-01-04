@@ -11,7 +11,7 @@ Nos enfrentamos a una brecha crítica. Por un lado, la **autonomía adversaria**
 Para cerrar esta brecha, debemos entender que la ciberseguridad no es el muro que detiene el avance, sino los frenos de un auto de Fórmula 1. Los frenos no existen para que el auto se detenga, sino para permitir que el piloto acelere a fondo con la certeza de que puede gestionar la curva. La seguridad es, por tanto, el habilitador de la velocidad del negocio.
 
 ### El Nacimiento del Vigilante Estratégico
-Este libro es la hoja de ruta para el **Vigilante Estratégico**: una función crítica —más que un cargo individual— que surge de la integración disciplinada de tres roles fundamentales:
+Este libro es la hoja de ruta para el **Vigilante Estratégico**: una función crítica, más que un cargo individual, que surge de la integración disciplinada de tres roles fundamentales:
 
 1. **El Directorio:** Que traduce el riesgo en matemática financiera (**ALE**) y responsabilidad legal de diligencia debida.
 2. **El Mando Medio:** El orquestador que elimina el ruido técnico para ofrecer claridad de impacto y orquestar la respuesta ante la crisis.
