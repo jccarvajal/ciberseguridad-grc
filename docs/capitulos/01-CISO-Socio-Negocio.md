@@ -5,7 +5,7 @@ Durante décadas, el Oficial de Seguridad de la Información (CISO) ha habitado 
 
 Este modelo de seguridad basado en la prohibición ha colapsado. En un entorno definido por la **Autonomía Adversaria** y la presión regulatoria de la **Ley Marco de Ciberseguridad (Ley 21.663)**, el CISO ya no puede ser un bloqueador. Un negocio apagado es intrínsecamente seguro, pero es un negocio muerto. El nuevo imperativo es pasar de la gestión del "No" a la **Arquitectura de la Resiliencia**.
 
-### La Evasión y el Ruido Sistémico
+### 1. La Evasión y el Ruido Sistémico
 
 Cuando la seguridad actúa como un obstáculo, el negocio no se detiene; simplemente busca rutas alternativas. Este fenómeno, conocido como *Shadow IT*, es en realidad la manifestación de una **incertidumbre no gestionada**. 
 
@@ -15,7 +15,7 @@ Al evadir los controles oficiales, los líderes de área introducen **Ruido Sist
 
 ---
 
-### La Pirámide de Información: Arquitectura de la Decisión
+### 2. La Pirámide de Información: Arquitectura de la Decisión
 
 Incluso con la mejor voluntad, la gobernanza falla debido a la **asimetría de información**. El ingeniero habla de bits, el mando medio de procesos y el Directorio de dividendos. Para romper esta "Torre de Babel", el CISO debe implementar un mecanismo de traducción estratégica que reduzca la variabilidad del juicio (Ruido):
 
@@ -27,14 +27,14 @@ Incluso con la mejor voluntad, la gobernanza falla debido a la **asimetría de i
 
 ---
 
-### De Bits a EBITDA: La Comunicación de Riesgos
+### 3. De Bits a EBITDA: La Comunicación de Riesgos
 
 Bajo estándares modernos y marcos legales vigentes, el CISO tiene el **deber de diligencia** de asegurar que el Directorio comprenda el impacto real de las amenazas. Reportar "métricas de vanidad" (como el número de ataques bloqueados) es añadir ruido al tablero de control. El éxito se mide en **probabilidad de impacto**.
 
 * **Reporte Técnico (Ruido):** *"Tenemos una vulnerabilidad crítica CVE-202X en el servidor de producción."* (Información sin contexto de decisión).
 * **Reporte del Socio (Señal):** *"Se detectó un fallo explotado activamente por autonomía adversaria (KEV). Si no remediamos en 48 horas, el riesgo de interrupción del portal de pagos es del 70%, con una pérdida estimada (ALE) de $200,000 USD diarios."*
 
-### Blueprint 1: Matriz de Alineación Estratégica
+### 4. Blueprint 1: Matriz de Alineación Estratégica
 
 Esta herramienta transforma el "No" en una arquitectura de soporte que permite al negocio alcanzar sus objetivos sin comprometer la soberanía operativa.
 
@@ -46,7 +46,7 @@ Esta herramienta transforma el "No" en una arquitectura de soporte que permite a
 
 ---
 
-### La Definición del Éxito
+### Conclusión: La Definición del Éxito
 
 El éxito del CISO no se mide por la ausencia de incidentes, que puede ser solo azar, sino por su posición en la estructura de poder y la reducción de la varianza en la toma de decisiones. La prueba es sencilla: **¿Lo llaman al principio de la reunión o al final?**
 
