@@ -31,7 +31,7 @@ Para el **Ingeniero**, la protección no es un estado estático, sino un flujo c
 Desde la perspectiva del **Directorio**, la higiene de datos es el pilar de la **Debida Diligencia**. Bajo la **Ley 21.663**, la pérdida de datos sensibles no es solo un fallo técnico, sino una violación de la **Licencia para Operar**.
 
 * **Residencia de Datos:** El Vigilante Estratégico debe conocer la jurisdicción física de los datos. En un conflicto legal, la ubicación del servidor determina la ley aplicable.
-* **Derecho al Olvido y Portabilidad:** La arquitectura debe permitir la eliminación o migración eficiente de datos para cumplir con los estándares de privacidad modernos, evitando el **$SLE$** derivado de sanciones regulatorias masivas.
+* **Derecho al Olvido y Portabilidad:** La arquitectura debe permitir la eliminación o migración eficiente de datos para cumplir con los estándares de privacidad modernos, evitando el ***SLE*** derivado de sanciones regulatorias masivas.
 
 ---
 
@@ -50,7 +50,7 @@ El **Mando Medio** implementa estos "peajes" de control para asegurar la soberan
 
 ### 5. La Regla de Oro: Minimización de la Exposición Financiera
 
-La forma más eficiente de reducir el **$ALE$** es eliminar los datos que no aportan valor operativo. 
+La forma más eficiente de reducir el ***ALE*** es eliminar los datos que no aportan valor operativo. 
 
 * **Higiene:** Ejecutar políticas de retención y eliminación segura. Un dato borrado es un dato que no puede ser robado.
 * **Ofuscación:** El uso de datos sintéticos o anonimización en entornos de prueba reduce la superficie de ataque sin afectar la agilidad del desarrollo.
