@@ -9,7 +9,7 @@ Las escalas cualitativas son inherentemente subjetivas y generan variabilidad en
 
 El cerebro humano, el Sistema 1 (rápido e intuitivo), es particularmente ineficiente para evaluar riesgos de baja frecuencia pero alto impacto. Tendemos a sobreestimar amenazas mediáticas y a subestimar vulnerabilidades críticas pero invisibles. Esta variabilidad sistemática es lo que Daniel Kahneman define como **Ruido**.
 
-La matemática del riesgo no busca eliminar la incertidumbre, inherente a cualquier entorno tecnológico, sino hacerla explícita y comparable. Forzamos al Sistema 2 (pensamiento analítico) a tomar el control. No gestionamos miedo, percepciones o titulares; gestionamos la **Exposición Financiera Anualizada ($ALE$)**.
+La matemática del riesgo no busca eliminar la incertidumbre, inherente a cualquier entorno tecnológico, sino hacerla explícita y comparable. Forzamos al Sistema 2 (pensamiento analítico) a tomar el control. No gestionamos miedo, percepciones o titulares; gestionamos la **Exposición Financiera Anualizada (*ALE*)**.
 
 ---
 
@@ -21,17 +21,17 @@ $$ALE = SLE \times ARO$$
 
 Donde:
 
-* **$SLE$ (Single Loss Expectancy):** ¿Cuánto cuesta que el incidente ocurra una sola vez? Incluye multas regulatorias (**Ley 21.663**), pérdida de productividad, costos de remediación, interrupción operacional y el impacto en la valoración de la marca.
-* **$ARO$ (Annualized Rate of Occurrence):** ¿Cuántas veces al año esperamos que este evento ocurra?
+* ***SLE* (Single Loss Expectancy):** ¿Cuánto cuesta que el incidente ocurra una sola vez? Incluye multas regulatorias (**Ley 21.663**), pérdida de productividad, costos de remediación, interrupción operacional y el impacto en la valoración de la marca.
+* ***ARO* (Annualized Rate of Occurrence):** ¿Cuántas veces al año esperamos que este evento ocurra?
 
-#### La Autonomía Adversaria y el ARO Dinámico
+#### La Autonomía Adversaria y el *ARO* Dinámico
 
-En la era de la **Autonomía Adversaria**, el $ARO$ ya no es una estadística histórica estática. Los agentes autónomos buscan vulnerabilidades 24/7, lo que incrementa la frecuencia de exposición de forma dinámica y no lineal. 
+En la era de la **Autonomía Adversaria**, el *ARO* ya no es una estadística histórica estática. Los agentes autónomos buscan vulnerabilidades 24/7, lo que incrementa la frecuencia de exposición de forma dinámica y no lineal. 
 
-Esto no elimina la necesidad de estimar el $ARO$, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo: Inteligencia Técnica**):
+Esto no elimina la necesidad de estimar el *ARO*, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo: Inteligencia Técnica**):
 
-* **KEV (Known Exploited Vulnerabilities):** Si una vulnerabilidad está siendo explotada activamente en el ecosistema global, el $ARO$ se dispara.
-* **EPSS (Exploit Prediction Scoring System):** Entrega la probabilidad real de explotación en el corto plazo (próximos 30 días).
+* ***KEV* (Known Exploited Vulnerabilities):** Si una vulnerabilidad está siendo explotada activamente en el ecosistema global, el $ARO$ se dispara.
+* ***EPSS* (Exploit Prediction Scoring System):** Entrega la probabilidad real de explotación en el corto plazo (próximos 30 días).
 
 ---
 
@@ -39,7 +39,7 @@ Esto no elimina la necesidad de estimar el $ARO$, pero obliga a una **revisión 
 
 La pregunta correcta del Directorio no es "¿Estamos seguros?", sino: **¿Es esta inversión financieramente eficiente frente al riesgo que buscamos reducir?**
 
-El $ROS$ (*Return on Security*) permite comparar la reducción del riesgo con el costo del control aplicado:
+El *ROS* (*Return on Security*) permite comparar la reducción del riesgo con el costo del control aplicado:
 
 $$ROS = \frac{(ALE_{previo} - ALE_{post}) - Costo_{Control}}{Costo_{Control}}$$
 
@@ -51,7 +51,7 @@ Cuando el costo de un control es menor que la pérdida esperada que evita, la de
 
 En lugar de matrices de colores, el Mando Medio presenta al Directorio una **Tabla de Exposición**. Este artefacto convierte la ciberseguridad en un problema de decisión financiera y legal, no de opinión técnica.
 
-| Activo de Negocio | Amenaza (KEV / EPSS) | Impacto ($SLE$ + Ley 21.663) | Frecuencia ($ARO$) | Exposición ($ALE$) | Acción / Deuda de Gobernanza |
+| Activo de Negocio | Amenaza (*KEV* / *EPSS*) | Impacto (*SLE* + Ley 21.663) | Frecuencia (*ARO*) | Exposición (*ALE*) | Acción / Deuda de Gobernanza |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Portal de Pagos** | Inyección SQL (EPSS 0.9) | $600,000 USD | 0.8 | $480,000 USD | **Mitigar:** Invertir $20k o asumir riesgo legal. |
 | **Base de Datos Core** | Ransomware (KEV Activo) | $1,500,000 USD | 0.2 | $300,000 USD | **Transferir:** Póliza ciber ante sanciones ANCI. |
@@ -65,7 +65,7 @@ Esta tabla deja explícito un principio clave: la aceptación del riesgo es una 
 
 Con la matemática sobre la mesa, el Directorio solo tiene cuatro caminos legítimos para gestionar la incertidumbre:
 
-1.  **Mitigar:** Aplicar controles técnicos u organizacionales (Zero Trust, parches) para reducir el $ARO$ o el $SLE$.
+1.  **Mitigar:** Aplicar controles técnicos u organizacionales (Zero Trust, parches) para reducir el *ARO* o el *SLE*.
 2.  **Transferir:** Trasladar el impacto financiero a un tercero (Seguros Ciber).
 3.  **Evitar:** Eliminar la actividad, sistema o proceso que genera el riesgo.
 4.  **Aceptar:** Reconocer el riesgo residual y asumir formalmente la responsabilidad de la decisión.
