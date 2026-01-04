@@ -9,13 +9,13 @@ No lo hacemos por los servidores; a los servidores no les importa ser cifrados. 
 
 Hacemos esto por la **continuidad de la vida humana y económica** que depende de esos sistemas. Detrás de cada base de datos hay una pensión que debe pagarse, una receta médica que debe emitirse y una pequeña empresa que no puede permitirse desaparecer.
 
-### La Triada de la Resiliencia
+### La Tríada de la Resiliencia
 
 Este libro ha dejado de ser solo un manual para el CISO. Es un manifiesto para el **Vigilante Estratégico**: ese equipo formado por el Directorio que decide, el Mando Medio que traduce y el Ingeniero que ejecuta.
 
 * **Para el Ingeniero:** Su honor no está en el código perfecto, sino en la verdad técnica. Usted es quien provee la certidumbre (CVE/KEV) en medio del caos. Su labor es la base de la pirámide; sin sus datos, la estrategia es solo una expresión de deseos.
 * **Para el Mando Medio:** Usted es el puente. Su misión es evitar que la organización hable lenguajes distintos. Usted transforma la vulnerabilidad en riesgo y el riesgo en decisión.
-* **Para el Directorio:** Su rol es el de la "Diligencia Debida". No necesita ser un experto en bits, pero sí un experto en consecuencias. La ciberseguridad es, bajo su mando, un ejercicio de responsabilidad ética ante la sociedad.
+* **Para el Directorio:** Su rol es el de la **Debida Diligencia**. No necesita ser un experto en bits, pero sí un experto en consecuencias. La ciberseguridad es, bajo su mando, un ejercicio de responsabilidad ética ante la sociedad.
 
 ### El Criterio en la Era de la IA
 
@@ -37,5 +37,3 @@ Salga de su zona de confort técnica. Hable con el negocio. Entienda qué es lo 
 La ciberseguridad no es un destino al que se llega; es la disciplina de caminar tranquilos en medio de la tormenta, sabiendo que tenemos los frenos necesarios para acelerar hacia el futuro.
 
 Gracias por permitirme ser su pensamiento estratégico en este viaje. Ahora, vaya y gobierne su arquitectura.
-
----

@@ -1,4 +1,5 @@
-## Glosario Unificado
+# Glosario Unificado
+**(El Lenguaje del Vigilante Estratégico)**
 
 ### Introducción: Un Lenguaje Común
 
@@ -8,58 +9,136 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 ### Léxico de "Ciberseguridad Orientada a Resultados"
 
+**ABAC (Attribute-Based Access Control)**
+* **Definición:** *Control de Acceso Basado en Atributos.* Modelo que otorga permisos según un contexto dinámico (rol, ubicación, estado del dispositivo). Es el estándar para arquitecturas Zero Trust de alta madurez.
+* **Referencia Principal:** Capítulo 05.
+
 **ALE (Annualized Loss Expectancy)**
-* **Definición:** *Expectativa de Pérdida Anualizada.* Es la métrica financiera que proyecta cuánto dinero perderá la organización en un año debido a un riesgo específico si no se aplican controles. Es la base para calcular el ROI de cualquier inversión en seguridad.
-* **Referencia Principal:** Capítulo 02 (Riesgo Financiero), Anexo B (Métricas).
+* **Definición:** *Expectativa de Pérdida Anualizada.* Métrica financiera que proyecta la pérdida anual por un riesgo específico. 
+* **Fórmula:** $$ALE = SLE \times ARO$$.
+* **Referencia Principal:** Capítulo 02.
+
+**ANCI (Agencia Nacional de Ciberseguridad)**
+* **Definición:** Órgano fiscalizador en Chile con potestad para calificar la suficiencia de las medidas de seguridad y sancionar la negligencia bajo la Ley 21.663.
+* **Referencia Principal:** Capítulo 03.
+
+**Antifragilidad**
+* **Definición:** Capacidad de una organización para fortalecerse y mejorar a partir de eventos de estrés, fallos o desastres.
+* **Referencia Principal:** Capítulo 12.
+
+**ARO (Annualized Rate of Occurrence)**
+* **Definición:** *Tasa de Ocurrencia Anualizada.* Estimación de cuántas veces al año se espera que ocurra un evento de riesgo.
+* **Referencia Principal:** Capítulo 02.
 
 **Asumir la Brecha (Assume Breach)**
-* **Definición:** El cambio de paradigma fundamental. Es la mentalidad de diseño que asume que el atacante ya ha comprometido el perímetro y está dentro de la red. Obliga a priorizar la detección y la velocidad de recuperación.
-* **Referencia Principal:** Capítulo 04 (Zero Trust), Nota Metodológica.
+* **Definición:** Mentalidad de diseño que asume que el atacante ya ha comprometido el perímetro, priorizando la detección y la contención interna.
+* **Referencia Principal:** Capítulo 04.
 
 **BCP (Business Continuity Plan)**
-* **Definición:** *Plan de Continuidad de Negocio.* Documento estratégico que describe cómo la organización mantendrá sus operaciones críticas (procesos manuales, comunicación) mientras la tecnología está fuera de servicio.
-* **Referencia Principal:** Capítulo 11 (Integración de la Resiliencia), Anexo J (Plan de Continuidad).
+* **Definición:** *Plan de Continuidad de Negocio.* Estrategia para mantener las operaciones críticas (procesos manuales, planes B) mientras la tecnología está fuera de servicio.
+* **Referencia Principal:** Capítulo 11.
 
 **BIA (Business Impact Analysis)**
-* **Definición:** *Análisis de Impacto al Negocio.* Proceso para determinar cuáles son los procesos vitales de la organización y cuál es el tiempo máximo que pueden estar detenidos antes de que el daño sea irreversible.
-* **Referencia Principal:** Capítulo 11 (Integración de la Resiliencia), Anexo J (Plan de Continuidad).
+* **Definición:** *Análisis de Impacto al Negocio.* Proceso que determina los tiempos máximos tolerables de interrupción (*RTO*) y pérdida de datos (*RPO*) para cada proceso vital.
+* **Referencia Principal:** Capítulo 11.
+
+**Botón Rojo**
+* **Definición:** Metáfora de la decisión soberana del Directorio de desconectar servicios críticos para contener un daño irreversible.
+* **Referencia Principal:** Capítulo 10.
+
+**CISO Centauro**
+* **Definición:** Modelo de liderazgo donde el humano utiliza la IA para gestionar la escala técnica mientras preserva la soberanía del criterio estratégico.
+* **Referencia Principal:** Capítulo 13.
 
 **CSIRT (Computer Security Incident Response Team)**
-* **Definición:** El equipo especializado responsable de recibir, revisar y responder a informes y actividades de incidentes de seguridad informática. Es el "equipo de respuesta rápida" de la institución.
-* **Referencia Principal:** Capítulo 07 (Flujo IRP), Anexo G (Estructura CSIRT).
+* **Definición:** Equipo especializado responsable de la respuesta táctica ante incidentes de seguridad.
+* **Referencia Principal:** Capítulo 07.
 
-**CVE / CWE (Common Vulnerabilities and Exposures / Weakness Enumeration)**
-* **Definición:** Estándares universales para identificar fallos. 
-    * **CVE:** Es el identificador único para una vulnerabilidad específica en un producto real. 
-    * **CWE:** Es la categoría o tipo de error de arquitectura/programación (ej. "Inyección de SQL").
-* **Referencia Principal:** Anexo F (Gestión de Vulnerabilidades), Anexo E (Ecosistema de Inteligencia).
+**CVE / CWE**
+* **Definición:** Estándares universales de fallos. 
+    * **CVE:** Identificador único de una vulnerabilidad específica en un producto.
+    * **CWE:** Categoría de debilidad de diseño o programación (ej. Inyección SQL).
+* **Referencia Principal:** Anexo E / Anexo F.
 
 **CVSS (Common Vulnerability Scoring System)**
-* **Definición:** Sistema de puntuación estándar (0 a 10) que mide la severidad técnica de una vulnerabilidad. Permite a los ingenieros priorizar el parcheo basándose en métricas objetivas como el vector de ataque y el impacto en la confidencialidad.
-* **Referencia Principal:** Anexo F (Gestión de Vulnerabilidades), Anexo E (Ecosistema de Inteligencia).
+* **Definición:** Sistema de puntuación (0 a 10) que mide la severidad técnica de una vulnerabilidad.
+* **Referencia Principal:** Anexo F.
+
+**Debida Diligencia**
+* **Definición:** Estado de cumplimiento continuo probado mediante decisiones informadas y documentadas para exonerar de responsabilidad a la dirección ante la ANCI.
+* **Referencia Principal:** Capítulo 03.
+
+**DLP (Data Loss Prevention)**
+* **Definición:** *Prevención de Fuga de Datos.* Capacidad técnica para evitar que información sensible abandone la organización en reposo, tránsito o uso.
+* **Referencia Principal:** Capítulo 06.
 
 **DRP (Disaster Recovery Plan)**
-* **Definición:** *Plan de Recuperación de Desastres.* Es el brazo técnico de la continuidad. Se enfoca exclusivamente en la restauración de los sistemas, servidores, redes y datos después de un evento catastrófico o ataque de ransomware.
-* **Referencia Principal:** Capítulo 11 (Integración de la Resiliencia), Anexo I (Plan DRP).
+* **Definición:** *Plan de Recuperación de Desastres.* Brazo técnico enfocado en restaurar servidores, redes y datos desde respaldos.
+* **Referencia Principal:** Capítulo 11.
+
+**EPSS (Exploit Prediction Scoring System)**
+* **Definición:** Probabilidad real de que una vulnerabilidad sea explotada en los próximos 30 días.
+* **Referencia Principal:** Capítulo 02.
+
+**Flash Report**
+* **Definición:** Primer artefacto de evidencia de debida diligencia generado al Minuto 60 de un incidente para informar al Directorio sobre el impacto y la estrategia.
+* **Referencia Principal:** Capítulo 07 / Anexo D.
+
+**IAM (Identity and Access Management)**
+* **Definición:** Gestión del ciclo de vida de las identidades (*Joiner, Mover, Leaver*) como eje central de la gobernanza.
+* **Referencia Principal:** Capítulo 05.
+
+**IRP (Incident Response Plan)**
+* **Definición:** *Plan de Respuesta a Incidentes.* Manual de guerra para transformar una intrusión en una operación de contención controlada.
+* **Referencia Principal:** Capítulo 07.
 
 **KEV (Known Exploited Vulnerabilities)**
-* **Definición:** *Catálogo de Vulnerabilidades Explotadas Conocidas.* Lista mantenida por CISA que identifica fallos que **ya están siendo usados por atacantes** en el mundo real. Es la métrica de urgencia más alta para un Mando Medio.
-* **Referencia Principal:** Anexo E (Ecosistema de Inteligencia), Anexo F (Gestión de Vulnerabilidades).
+* **Definición:** Catálogo de vulnerabilidades que ya están siendo usadas por atacantes en el mundo real.
+* **Referencia Principal:** Anexo E.
 
-**MITRE (MITRE Corporation)**
-* **Definición:** Organización sin fines de lucro que gestiona el sistema CVE y el framework ATT&CK. Actúa como el árbitro central que estandariza cómo se nombran las vulnerabilidades y cómo se describen las tácticas de los atacantes a nivel global.
-* **Referencia Principal:** Anexo E (Ecosistema de Inteligencia).
+**Ley 21.663**
+* **Definición:** Ley Marco de Ciberseguridad en Chile que establece deberes de dirección y sanciones por negligencia.
+* **Referencia Principal:** Capítulo 01 / Capítulo 03.
 
-**NVD (National Vulnerability Database)**
-* **Definición:** El repositorio del gobierno de EE.UU. (NIST) que centraliza y analiza todos los CVEs del mundo, proveyendo los puntajes CVSS oficiales de los que se alimentan los softwares de escaneo.
-* **Referencia Principal:** Anexo E (Ecosistema de Inteligencia).
+**MFA (Multi-Factor Authentication)**
+* **Definición:** Autenticación basada en algo que sabes, tienes o eres.
+* **Referencia Principal:** Capítulo 05.
 
-**RTO / RPO (Recovery Time Objective / Recovery Point Objective)**
-* **Definición:** Los dos indicadores críticos de recuperación.
-    * **RTO (Tiempo):** ¿Cuánto tiempo tardamos en volver a operar? 
-    * **RPO (Datos):** ¿Cuánta información estamos dispuestos a perder? 
-* **Referencia Principal:** Capítulo 11 (Integración de la Resiliencia), Anexo I (Plan DRP).
+**Microsegmentación**
+* **Definición:** División de la red en compartimentos estancos para reducir el radio de explosión.
+* **Referencia Principal:** Capítulo 04.
+
+**MTTR (Mean Time To Remediate)**
+* **Definición:** *Tiempo Medio de Remediación.* Métrica que mide la velocidad de vuelta a la normalidad operativa.
+* **Fórmula:** $$MTTR = \frac{\sum (Fin \: Incidente - Detección)}{Número \: de \: Incidentes}$$.
+* **Referencia Principal:** Capítulo 08.
+
+**PAM (Privileged Access Management)**
+* **Definición:** Control estricto de cuentas de administrador mediante bóvedas y acceso Just-in-Time (*JIT*).
+* **Referencia Principal:** Capítulo 05.
+
+**PoLP (Principle of Least Privilege)**
+* **Definición:** *Principio de Mínimo Privilegio.* Otorgar solo el acceso necesario para la tarea y solo durante el tiempo requerido.
+* **Referencia Principal:** Capítulo 04.
+
+**ROS (Return on Security)**
+* **Definición:** Evaluación de la eficiencia financiera de una inversión en seguridad frente al riesgo reducido.
+* **Referencia Principal:** Capítulo 02.
+
+**RTO / RPO**
+* **Definición:** Indicadores críticos de recuperación.
+    * **RTO:** Tiempo máximo de recuperación aceptable.
+    * **RPO:** Cantidad máxima de pérdida de datos tolerable.
+* **Referencia Principal:** Capítulo 11.
+
+**SLE (Single Loss Expectancy)**
+* **Definición:** *Expectativa de Pérdida Única.* Costo monetario de un incidente si ocurre una sola vez.
+* **Referencia Principal:** Capítulo 02.
+
+**SOAR (Security Orchestration, Automation, and Response)**
+* **Definición:** Capa tecnológica que automatiza la respuesta mediante *playbooks* que generan evidencia inalterable.
+* **Referencia Principal:** Capítulo 08.
 
 **Zero Trust (Confianza Cero)**
-* **Definición:** Modelo de seguridad basado en el principio "nunca confiar, siempre verificar". Elimina el concepto de "red interna segura" y requiere autenticación continua para cada acceso a recursos.
-* **Referencia Principal:** Capítulo 04 (Zero Trust), Anexo C (Checklist Zero Trust).
+* **Definición:** Modelo basado en "nunca confiar, siempre verificar", eliminando la noción de red interna segura.
+* **Referencia Principal:** Capítulo 04.
