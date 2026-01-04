@@ -140,7 +140,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 ---
 
 ## Changelog
-* **v1.0 (Enero 2026):** Consolidación del marco GRC de Ciberseguridad. Publicación de los 13 capítulos y el kit completo de 11 anexos operativos.
+* **v1.0 (Enero 2026):** Consolidación del marco GRC de Ciberseguridad. Publicación de los 13 capítulos y el kit completo de anexos operativos.
 * Ver [Historial Completo](./changelog.md).
 
 ## Sugerencias y Mejoras
