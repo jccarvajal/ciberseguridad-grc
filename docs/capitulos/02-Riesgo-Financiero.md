@@ -24,7 +24,7 @@ Donde:
 * **$SLE$ (Single Loss Expectancy):** ¿Cuánto cuesta que el incidente ocurra una sola vez? Incluye multas regulatorias (**Ley 21.663**), pérdida de productividad, costos de remediación, interrupción operacional y el impacto en la valoración de la marca.
 * **$ARO$ (Annualized Rate of Occurrence):** ¿Cuántas veces al año esperamos que este evento ocurra?
 
-**La Autonomía Adversaria y el $ARO$ Dinámico**
+#### La Autonomía Adversaria y el ARO Dinámico
 
 En la era de la **Autonomía Adversaria**, el $ARO$ ya no es una estadística histórica estática. Los agentes autónomos buscan vulnerabilidades 24/7, lo que incrementa la frecuencia de exposición de forma dinámica y no lineal. 
 
