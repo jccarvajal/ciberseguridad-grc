@@ -25,6 +25,7 @@ Donde:
 * **$ARO$ (Annualized Rate of Occurrence):** ¿Cuántas veces al año esperamos que este evento ocurra?
 
 #### La Autonomía Adversaria y el $ARO$ Dinámico
+
 En la era de la **Autonomía Adversaria**, el $ARO$ ya no es una estadística histórica estática. Los agentes autónomos buscan vulnerabilidades 24/7, lo que incrementa la frecuencia de exposición de forma dinámica y no lineal. 
 
 Esto no elimina la necesidad de estimar el $ARO$, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo: Inteligencia Técnica**):
