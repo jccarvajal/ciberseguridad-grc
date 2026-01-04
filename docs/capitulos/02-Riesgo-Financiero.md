@@ -7,9 +7,9 @@ Las escalas cualitativas son inherentemente subjetivas y generan variabilidad en
 
 ### 1. El Fracaso de la Intuición: El "Efecto Kahneman"
 
-El cerebro humano —el Sistema 1, rápido e intuitivo— es particularmente ineficiente para evaluar riesgos de baja frecuencia pero alto impacto. Tendemos a sobreestimar amenazas mediáticas y a subestimar vulnerabilidades críticas pero invisibles. Esta variabilidad sistemática es lo que Daniel Kahneman define como **Ruido**.
+El cerebro humano, el Sistema 1 (rápido e intuitivo), es particularmente ineficiente para evaluar riesgos de baja frecuencia pero alto impacto. Tendemos a sobreestimar amenazas mediáticas y a subestimar vulnerabilidades críticas pero invisibles. Esta variabilidad sistemática es lo que Daniel Kahneman define como **Ruido**.
 
-La matemática del riesgo no busca eliminar la incertidumbre —inherente a cualquier entorno tecnológico— sino hacerla explícita y comparable. Forzamos al Sistema 2 (pensamiento analítico) a tomar el control. No gestionamos miedo, percepciones o titulares; gestionamos la **Exposición Financiera Anualizada ($ALE$)**.
+La matemática del riesgo no busca eliminar la incertidumbre, inherente a cualquier entorno tecnológico, sino hacerla explícita y comparable. Forzamos al Sistema 2 (pensamiento analítico) a tomar el control. No gestionamos miedo, percepciones o titulares; gestionamos la **Exposición Financiera Anualizada ($ALE$)**.
 
 ---
 
