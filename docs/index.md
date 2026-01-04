@@ -38,7 +38,7 @@ El contenido está organizado modularmente siguiendo el ciclo de vida del riesgo
 ### Introducción y Preliminares
 Marco conceptual y bases metodológicas.
 
-* [Nota al Lector](./nota-lector.md)
+* [Nota al Lector](./nota-al-lector.md)
   *Filosofía del manual y reglas de compromiso.*
 * [Nota Metodológica](./nota-metodologica.md)
   *Alineación con NIST 2.0, ISO 27001 y Ley 21.663.*
