@@ -7,7 +7,7 @@ La diferencia entre una organización que sobrevive y una que colapsa no es el a
 
 ### 1. El Ciclo de Vida del Incidente (NIST 800-61)
 
-Para el **Vigilante Estratégico**, responder no es correr en círculos; es seguir un ciclo de cuatro fases diseñado para minimizar el $SLE$ (Impacto de un solo evento):
+Para el **Vigilante Estratégico**, responder no es correr en círculos; es seguir un ciclo de cuatro fases diseñado para minimizar el *SLE* (Impacto de un solo evento):
 
 1.  **Preparación:** La fase más crítica. Ocurre *antes* del ataque e incluye la formación del equipo **CSIRT** (Anexo G) y la creación de los libros de jugadas (*Playbooks*).
 2.  **Detección y Análisis:** El momento en que los sensores (Capítulo 4) disparan una alerta. El **Ingeniero** debe validar si es un falso positivo o un incidente real.

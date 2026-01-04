@@ -1,7 +1,7 @@
 # CAPÍTULO 10: Gobierno de la Crisis y el "Botón Rojo"
 **(La Decisión Final en el Ojo de la Tormenta)**
 
-Todo lo que hemos construido hasta ahora —la matemática del riesgo, la arquitectura Zero Trust y los planes de respuesta— tiene un solo objetivo: que en el momento en que el ataque sea crítico, la organización no actúe por pánico, sino por diseño. 
+Todo lo que hemos construido hasta ahora (la matemática del riesgo, la arquitectura Zero Trust y los planes de respuesta) tiene un solo objetivo: que en el momento en que el ataque sea crítico, la organización no actúe por pánico, sino por diseño. 
 
 El **"Botón Rojo"** es una metáfora de la decisión más difícil que puede enfrentar un Directorio: desconectar los servicios *core*, apagar la operación o interrumpir la conectividad para contener un daño irreversible. En 2026, esta decisión no es técnica; es un acto de **Gobernanza de Alta Dirección**.
 
@@ -50,7 +50,7 @@ Para que el Directorio decida, el equipo técnico debe entregar certidumbre medi
 
 ### 5. Responsabilidad Legal y debida diligencia
 
-Bajo la **Ley 21.663**, el Directorio no puede delegar la responsabilidad de una crisis mayor. La decisión de apagar —o de seguir operando— quedará registrada en actas como evidencia de gobierno. 
+Bajo la **Ley 21.663**, el Directorio no puede delegar la responsabilidad de una crisis mayor. La decisión de apagar, o de seguir operando, quedará registrada en actas como evidencia de gobierno. 
 
 * **Negligencia:** Si el Directorio decide NO apagar y el daño se multiplica de forma previsible.
 * **debida diligencia:** Si el Directorio decide APAGAR basándose en un proceso documentado de ***IRP***, protegiendo la integridad de los datos y la licencia social de la empresa.

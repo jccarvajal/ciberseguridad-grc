@@ -26,6 +26,7 @@ Para el **Ingeniero**, la respuesta ya no es el SOAR tradicional de scripts est�
 ### 3. El CISO "Centauro": La Unión Humano-Máquina
 
 A pesar de la automatización, el rol del CISO y sus mandos medios es más vital que nunca. Adoptamos aquí el concepto de **Soberanía del Criterio**:
+
 * **La IA gestiona la escala:** Se encarga de los millones de eventos por segundo.
 * **El Humano gestiona la ética y la estrategia:** Toma las decisiones que impactan la **Licencia Social** y la responsabilidad legal ante la **ANCI** (Ley 21.663).
 

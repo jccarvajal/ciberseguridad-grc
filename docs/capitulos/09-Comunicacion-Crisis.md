@@ -19,7 +19,10 @@ El mayor error del **Mando Medio** es esperar a tener la "verdad total" para hab
 
 Para el **Ingeniero**, su labor es proveer la materia prima del relato: los hechos inalterables. Debe alimentar al Comité de Crisis usando el **Flash Report (Anexo D)**, evitando cualquier especulación que pueda contradecir la evidencia técnica del **SOAR** (Capítulo 8).
 
-**Toda comunicación externa debe estar estrictamente alineada con la evidencia técnica preservada por el IRP; una declaración inconsistente con los registros forenses no es un error comunicacional, es un riesgo legal mayor.** Los datos críticos para el relato son:
+**Toda comunicación externa debe estar estrictamente alineada con la evidencia técnica preservada por el IRP; una declaración inconsistente con los registros forenses no es un error comunicacional, es un riesgo legal mayor.** 
+
+Los datos críticos para el relato son:
+
 * **Alcance:** Sistemas confirmados como comprometidos.
 * **Integridad:** Estado de la exfiltración de datos según el inventario del Capítulo 6.
 * **Cronología:** Tiempos de detección y contención para probar la diligencia técnica.

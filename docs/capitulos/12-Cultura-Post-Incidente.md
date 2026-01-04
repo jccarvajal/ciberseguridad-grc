@@ -10,7 +10,7 @@ Como exploramos en el prólogo citando a Nassim Taleb, nuestra meta no es solo s
 Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tras un incidente el objetivo es encontrar un culpable para despedirlo, el equipo técnico aprenderá a ocultar errores en el futuro, aumentando drásticamente el riesgo oculto.
 
 * **Cultura de Aprendizaje:** El foco debe estar en el **proceso**, no en la persona. 
-* **La Pregunta Correcta:** No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".---
+* **La Pregunta Correcta:** No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".
 
 ---
 
@@ -29,13 +29,13 @@ Desde la perspectiva del **Directorio**, un incidente es una inversión forzosa 
 
 $$Valor_{Aprendizaje} > Costo_{Incidente}$$
 
-Para asegurar esto, el **Vigilante Estratégico** debe actualizar el cálculo del **ALE** (Capítulo 2). Tras el incidente, la variable **ARO** (Frecuencia) ahora es un dato real, no una estimación, lo que permite ajustar el presupuesto de seguridad con una precisión sin precedentes.
+Para asegurar esto, el **Vigilante Estratégico** debe actualizar el cálculo del ***ALE*** (Capítulo 2). Tras el incidente, la variable ***ARO*** (Frecuencia) ahora es un dato real, no una estimación, lo que permite ajustar el presupuesto de seguridad con una precisión sin precedentes.
 
 ---
 
 ### 4. Blueprint 12: El Reporte de Lecciones Aprendidas
 
-El **Mando Medio** debe liderar la redacción de este documento, que servirá como evidencia de **Diligencia Debida** ante la **ANCI** (Ley 21.663):
+El **Mando Medio** debe liderar la redacción de este documento, que servirá como evidencia de **Debida Diligencia** ante la **ANCI** (Ley 21.663):
 
 | Sección del Reporte | Contenido Requerido | Referencia de Soporte |
 | :--- | :--- | :--- |
@@ -49,6 +49,7 @@ El **Mando Medio** debe liderar la redacción de este documento, que servirá co
 ### 5. Transformando el Dolor en Cultura
 
 La resiliencia no es un estado técnico; es un hábito organizacional. 
+
 * **Entrenamiento Basado en Hechos:** Use el incidente real (anonimizado si es necesario) para entrenar al resto del personal. No hay mejor concientización que mostrar cómo un clic en un correo real puso en jaque a la empresa.
 * **Actualización del BIA:** Si durante la crisis descubrimos que un proceso "secundario" era en realidad crítico, debemos actualizar el **Anexo J (BCP)** de inmediato.
 

@@ -1,7 +1,7 @@
 # CAPÍTULO 8: Automatización y Defensa Agéntica
 **(Multiplicando la Capacidad de Respuesta)**
 
-En el Capítulo 1 comparamos la ciberseguridad con los frenos de un Fórmula 1. Pero en 2026, esos frenos no pueden depender únicamente del pie del piloto. Los ataques modernos —impulsados por IA y bots— ocurren en milisegundos. Si su organización depende de que un ingeniero lea un log, analice un **CVE** y ejecute un comando manualmente, usted está incurriendo en una omisión de la **debida diligencia**.
+En el Capítulo 1 comparamos la ciberseguridad con los frenos de un Fórmula 1. Pero en 2026, esos frenos no pueden depender únicamente del pie del piloto. Los ataques modernos, impulsados por IA y bots, ocurren en milisegundos. Si su organización depende de que un ingeniero lea un log, analice un **CVE** y ejecute un comando manualmente, usted está incurriendo en una omisión de la **debida diligencia**.
 
 La automatización no es un lujo; es la única forma de gestionar la **Fatiga de Alertas** y asegurar que el equipo humano se enfoque en decisiones de alto nivel mientras la arquitectura genera evidencia de control en tiempo real.
 
