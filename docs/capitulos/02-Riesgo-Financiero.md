@@ -30,7 +30,7 @@ En la era de la **Autonomía Adversaria**, el *ARO* ya no es una estadística hi
 
 Esto no elimina la necesidad de estimar el *ARO*, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo: Inteligencia Técnica**):
 
-* ***KEV* (Known Exploited Vulnerabilities):** Si una vulnerabilidad está siendo explotada activamente en el ecosistema global, el $ARO$ se dispara.
+* ***KEV* (Known Exploited Vulnerabilities):** Si una vulnerabilidad está siendo explotada activamente en el ecosistema global, el *ARO* se dispara.
 * ***EPSS* (Exploit Prediction Scoring System):** Entrega la probabilidad real de explotación en el corto plazo (próximos 30 días).
 
 ---
