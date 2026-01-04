@@ -52,6 +52,15 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
 
+# Para ver las formulas de LaTeX
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 # Activación de Mermaid (Material for MkDocs)
 extra_javascript:
   - https://unpkg.com/mermaid/dist/mermaid.min.js
