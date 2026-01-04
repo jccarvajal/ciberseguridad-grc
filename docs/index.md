@@ -126,6 +126,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Continuidad del negocio y BIA.*
 * [Anexo K: Patrones de Fracaso](./anexos/K-Fracaso.md)
   *Antifragilidad operativa.*
+* [Anexo L: Cumplimiento Normativo y Riesgo de Terceros](./anexos/L-Cumplimiento.md)
+  *Hoja de ruta legal y gestión de proveedores.*
 
 #### Referencias y Fundamento
 * [Glosario](./referencias/glosario.md)
