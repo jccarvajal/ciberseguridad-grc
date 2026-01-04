@@ -58,5 +58,7 @@ Si el CISO no participa en el diseño inicial, la organización no está asumien
 En los siguientes capítulos, pasaremos de la actitud a la aptitud: entraremos en la **Matemática del Riesgo** para ponerle un precio exacto a la incertidumbre.
 
 ---
+
 > **Tesis del Capítulo:** La ciberseguridad ya no es un problema de ingeniería que el Directorio debe financiar, sino una capacidad de gobernanza que la ingeniería debe ejecutar para asegurar la supervivencia del negocio.
+
 ---
