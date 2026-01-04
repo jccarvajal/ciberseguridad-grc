@@ -14,12 +14,14 @@ Este plan no es opcional. Se activa automáticamente cuando el **Incident Comman
 **ADVERTENCIA DE MANDO:** Siga este flujo secuencial. **NO SALTE PASOS.** Un error común por pánico es intentar "Recuperar" (Fase 4) sin haber terminado la "Erradicación" (Fase 3), lo que provoca una reinfección inmediata.
 
 #### FASE 1: Detección y Análisis (Triage)
+
 * **Validar:** ¿Es un falso positivo? Confirmar cruzando al menos dos fuentes (Logs de Firewall + Alerta de EDR + Reporte de Usuario).
 * **Clasificar:** Determinar el alcance (¿Un PC aislado o el Controlador de Dominio?) y la severidad.
 * **Declarar:** El IC activa formalmente el **CSIRT** y convoca a la "Sala de Guerra" (Física o Virtual Segura).
 
 #### FASE 2: Contención (El Torniquete)
 *Prioridad: Detener la hemorragia operativa.*
+
 * **Aislamiento de Red:** Desconectar VLANs afectadas en el Core Switch. Bloquear tráfico de salida (*Egress*) en el Firewall perimetral.
 * **Suspensión de Cuentas:** Deshabilitar usuarios comprometidos y cuentas de administración global (*Domain Admins*).
 * **Preservación Forense:**
@@ -28,6 +30,7 @@ Este plan no es opcional. Se activa automáticamente cuando el **Incident Comman
 
 #### FASE 3: Erradicación (La Cirugía)
 *Prioridad: Eliminar la amenaza de raíz.*
+
 * **Limpieza:** Eliminar binarios de malware, artefactos y persistencias.
 * **Cierre de Puertas Traseras (*Backdoors*):** Buscar cuentas creadas recientemente, tareas programadas ocultas o reglas de firewall no autorizadas.
 * **Parchado de Causa Raíz:** Cerrar la vulnerabilidad que permitió la entrada inicial (Ej: Aplicar parche a la VPN o cerrar puerto RDP).
@@ -35,6 +38,7 @@ Este plan no es opcional. Se activa automáticamente cuando el **Incident Comman
 
 #### FASE 4: Recuperación (La Rehabilitación)
 *Prioridad: Restaurar el servicio de forma segura y gradual.*
+
 * **Restauración:** Levantar servicios críticos desde backups limpios y verificados (Tier 0 y 1).
 * **Cuarentena de Red:** Los servidores restaurados no deben tener salida a Internet inmediata.
 * **Monitoreo Intensivo:** Vigilar el tráfico de red por 24/48 horas para asegurar que el atacante no regrese (*Persistence check*).
@@ -46,17 +50,20 @@ Este plan no es opcional. Se activa automáticamente cuando el **Incident Comman
 *(Guía de Ejecución Rápida para casos tipo Akira/LockBit)*
 
 **A. Acción Inmediata (Minutos 0-15)**
+
 1.  [ ] **Aislar:** Desconectar físicamente (cable) o lógicamente (vSwitch) los equipos infectados.
 2.  [ ] **Proteger Backups:** Verificar que los repositorios de respaldo estén desconectados de la red (*Air-Gapped*) o en modo inmutable inmediatamente.
 3.  [ ] **Identificar Variante:** Tomar una muestra de la nota de rescate y un archivo cifrado. Subir a *ID Ransomware* (desde una red externa segura) para identificar la familia.
 
 **B. Decisión de Negocio (Horas 1-4)**
+
 1.  [ ] **Evaluar Viabilidad:** ¿Podemos restaurar desde backups con un RTO aceptable?
     * *SÍ:* Proceder a limpiar y restaurar. **NO PAGAR.**
     * *NO (Backups cifrados/inexistentes):* Escalar al Comité de Crisis/Directorio de inmediato.
     * **ADVERTENCIA:** Solo el Directorio puede decidir sobre negociación/pago (Ver **Capítulo 10**). Pagar sin autorización legal puede constituir financiamiento del terrorismo.
 
 **C. Investigación Forense (Paralelo)**
+
 1.  [ ] **Vector de Entrada:** ¿Cómo entraron? (VPN sin MFA, Phishing, RDP expuesto). **Si no se encuentra y cierra la entrada, volverán a cifrar mañana.**
 2.  [ ] **Exfiltración (Doble Extorsión):** Revisar logs de firewall para ver si salieron grandes volúmenes de datos antes del cifrado. Esto activa obligaciones legales de notificación (**Ley 21.663**).
 

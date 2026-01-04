@@ -95,5 +95,7 @@ Cuando el IC declara "Código Rojo" (Nivel 1), se ejecuta esta secuencia inmedia
 - [ ] **5. Apertura de Bitácora:** El Escriba anota la hora de inicio oficial del incidente para efectos legales.
 
 ---
-**Nota para la Implementación Pública:**
-Para organismos del Estado, es mandatorio designar formalmente al **Enlace con el CSIRT de Gobierno**. Esta persona es la única autorizada con clave única/token para subir el reporte de incidente al portal gubernamental, cumpliendo con la obligación de notificación de la Ley 21.663.
+
+> Nota para la Implementación Pública
+> 
+> Para organismos del Estado, es mandatorio designar formalmente al **Enlace con el CSIRT de Gobierno**. Esta persona es la única autorizada con clave única/token para subir el reporte de incidente al portal gubernamental, cumpliendo con la obligación de notificación de la Ley 21.663.

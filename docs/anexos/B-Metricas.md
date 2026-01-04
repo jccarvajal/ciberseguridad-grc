@@ -77,6 +77,7 @@ Estas métricas validan la gestión de vulnerabilidades (**Anexo F**) e identida
 > * 🟢 **Endpoint:** Cobertura de EDR al 99%.
 
 **Interpretación del Semáforo:**
+
 * 🟢 **Verde:** Riesgo dentro del apetito aceptado. Mantener estrategia.
 * 🟡 **Amarillo:** Riesgo latente o desviación menor. Requiere atención o reasignación de recursos.
 * 🔴 **Rojo:** Riesgo inminente, materializado o fuera de cumplimiento legal. **Requiere decisión inmediata del Directorio (Inversión o Aceptación formal).**
@@ -90,5 +91,6 @@ Estas métricas validan la gestión de vulnerabilidades (**Anexo F**) e identida
 Es una meta imposible en un entorno de Autonomía Adversaria. Si la logra, es por pura suerte o porque sus sistemas de detección no están viendo la realidad.
 
 **Use metas de resiliencia:**
+
 * *"0 Incidentes con impacto material financiero"* (Antifragilidad).
 * *"100% de Incidentes críticos contenidos en < 1 hora"* (Capacidad de Respuesta).

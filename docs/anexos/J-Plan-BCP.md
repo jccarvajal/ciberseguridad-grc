@@ -88,11 +88,16 @@ Cada Gerencia o Departamento Crítico debe tener una caja física sellada ("Cras
 ---
 
 > **ADVERTENCIA DE PRIVACIDAD (LEY 19.628):**
+> 
 > En modo manual, los formularios con datos personales quedan expuestos en escritorios.
+> 
 > **Regla:** Todo papel con datos sensibles debe guardarse bajo llave cada vez que el funcionario se levanta de su puesto. La seguridad física del papel es ahora su ciberseguridad.
 
 ---
 **Prueba de Fuego para el Responsable:**
 
-La prueba de este plan es simple: Corte el cable de red de su departamento un martes por la mañana sin avisar. **¿Pueden seguir trabajando y facturando?**
+La prueba de este plan es simple: Corte el cable de red de su departamento un martes por la mañana sin avisar. 
+
+**¿Pueden seguir trabajando y facturando?**
+
 Si la respuesta es "no, nos vamos a tomar café", entonces **usted no tiene un BCP, solo tiene buenos deseos.**

@@ -76,8 +76,10 @@ Marque dónde se encuentra su organización hoy para reportar al Directorio:
 ---
 
 > **NOTA ESTRATÉGICA PARA EL CISO:**
+> 
 > No intente marcar todas las casillas en un mes. La implementación es una maratón, no un sprint.
->
+> 
 > **Prioridad 1 (Supervivencia):** MFA Universal + Backups Inmutables.
 > **Prioridad 2 (Visibilidad):** EDR en el 100% de los equipos.
 > **Prioridad 3 (Contención):** Microsegmentación de Red.
+> 

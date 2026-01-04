@@ -78,6 +78,7 @@ Marque con honestidad brutal. Si marca **SÍ** en 3 o más casillas, su organiza
 6.  [ ] ¿Creemos que el Antivirus tradicional es suficiente y no tenemos EDR/XDR?
 
 > **Resultado:**
+> 
 > * **0-1 Sí:** Gestión Saludable.
 > * **2-3 Sí:** Riesgo Elevado. Se requiere plan de remediación a 90 días.
 > * **4+ Sí:** **Negligencia Grave.** La pregunta no es si serán hackeados, sino cuándo.

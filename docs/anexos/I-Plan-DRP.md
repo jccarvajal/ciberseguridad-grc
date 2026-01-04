@@ -83,6 +83,7 @@ Un DRP no probado es una alucinación peligrosa. La **ANCI** exigirá evidencia 
 > **Problema:** Si el Ransomware cifra el Directorio Activo, sus credenciales de "Admin de Dominio" no funcionarán. No podrá entrar a la consola de Backups para iniciar la restauración.
 >
 > **Solución:**
+> 
 > 1. La consola de Backup **NO debe estar unida al dominio**.
 > 2. Debe existir una cuenta de **Administrador Local** con contraseña compleja (25+ caracteres), guardada en un sobre sellado en la caja fuerte física o en una bóveda de contraseñas *offline*.
 > 3. **Documentación Física:** Imprima este anexo. Si el servidor de archivos está cifrado, no podrá leer este PDF para saber cómo recuperarlo.
