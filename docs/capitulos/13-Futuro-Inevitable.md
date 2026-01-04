@@ -21,7 +21,7 @@ Para el **Ingeniero**, la respuesta ya no es el SOAR tradicional de scripts est�
 * **Agentes de Triage:** IAs que analizan alertas, descartan falsos positivos y entregan un **Flash Report** (Anexo D) listo para la firma del humano.
 * **Auto-Remediación:** Sistemas que detectan un **CVE crítico** (Anexo F) y aplican un "parche virtual" o aíslan el segmento de red de forma autónoma basándose en el apetito de riesgo definido por el Directorio.
 
-
+---
 
 ### 3. El CISO "Centauro": La Unión Humano-Máquina
 
@@ -60,5 +60,7 @@ Usted, como lector, ya no es solo un gestor de tecnología. Es un **Arquitecto d
 Los frenos del Fórmula 1 están listos. El auto es potente. La pista es suya. **Es hora de acelerar.**
 
 ---
+
 > **Tesis Final:** La ciberseguridad agéntica no reemplaza al humano; lo libera de la tiranía del dato crudo para devolverlo a su función más noble: la toma de decisiones estratégicas que aseguran el futuro de la sociedad.
+
 ---

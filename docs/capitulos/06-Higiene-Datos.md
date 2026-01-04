@@ -25,6 +25,8 @@ Para el **Ingeniero**, la protección no es estática. El sistema de prevención
 2.  **Dato en Tránsito (In Motion):** Datos viajando por la red o correos electrónicos. La defensa es el uso de protocolos seguros (TLS/SSL) y la inspección de tráfico.
 3.  **Dato en Uso (In Use):** Datos abiertos en la pantalla de un analista o procesados en memoria. La defensa es el control de periféricos (bloqueo de USB) y marcas de agua digitales.
 
+---
+
 ### 3. Soberanía de Datos y Cumplimiento Legal
 
 Desde la perspectiva del **Directorio**, la higiene de datos es una obligación de cumplimiento. Con la actualización de la normativa de protección de datos en Chile y el estándar GDPR en Europa, el **SLE (Impacto)** de una filtración no es solo la pérdida del dato, sino la **Pérdida de la Licencia Social**.
@@ -45,8 +47,6 @@ El **Mando Medio** debe implementar estos peajes de control para asegurar la hig
 | **Dispositivos USB** | Bloqueo de puertos o cifrado obligatorio. | Crítico (Prohibición de extracción de bases de datos). |
 | **IA Generativa** | Filtrado de Prompts (Ver Capítulo 1). | Alto (Evitar que datos sensibles entrenen modelos públicos). |
 
-
-
 ---
 
 ### 5. La Regla de Oro: Datos Mínimos Necesarios
@@ -55,6 +55,8 @@ La mejor forma de reducir el riesgo financiero (**ALE**) es simplemente no tener
 * **Higiene:** Eliminar datos antiguos (políticas de retención).
 * **Ofuscación:** Si el equipo de desarrollo necesita probar una App, no debe usar la base de datos real; debe usar datos sintéticos o anonimizados.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 Un sistema seguro con datos sucios es una bomba de tiempo. El ingeniero que implementa reglas de DLP y el gerente que clasifica la información están construyendo la verdadera soberanía de la empresa. Los datos son el alma de la organización; su higiene es el hábito que separa a las empresas maduras de las negligentes.
@@ -62,5 +64,7 @@ Un sistema seguro con datos sucios es una bomba de tiempo. El ingeniero que impl
 Con este capítulo finalizamos el bloque de arquitectura. Ahora que tenemos los muros (Zero Trust), las llaves (Identidad) y el tesoro protegido (Datos), es hora de prepararnos para lo inevitable: **¿Qué pasa cuando, a pesar de todo, algo sale mal?** Entramos al Bloque 3: Gestión de Crisis.
 
 ---
+
 > **Tesis del Capítulo:** La seguridad del dato no es un candado; es un proceso de visibilidad y clasificación. Si no sabes qué datos tienes y quién los mueve, no tienes soberanía, solo tienes suerte.
+
 ---

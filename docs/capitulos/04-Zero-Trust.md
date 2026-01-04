@@ -13,8 +13,6 @@ Para el **Vigilante Estratégico**, Zero Trust se resume en tres mandatos impera
 2.  **Acceso de Mínimo Privilegio (PoLP):** Los usuarios solo deben tener acceso a lo estrictamente necesario para su función y solo durante el tiempo requerido. Si un ingeniero solo necesita ver logs, no debe tener permisos de administrador.
 3.  **Asumir la Brecha (Assume Breach):** Diseñamos el sistema asumiendo que el atacante ya tiene éxito en algún punto. Esto nos obliga a minimizar el **radio de explosión** (daño potencial).
 
-
-
 ---
 
 ### 2. La Identidad es el Nuevo Perímetro
@@ -24,6 +22,8 @@ En un mundo sin muros, la **Identidad** (quién eres) y el **Contexto** (desde d
 Para el **Ingeniero**, esto significa implementar:
 * **MFA (Autenticación de Múltiple Factor):** La contraseña ha muerto; hoy es solo un factor débil.
 * **Acceso Condicional:** Si un analista se conecta a las 3:00 AM desde una ubicación inusual y con un equipo que tiene un **CVE crítico** pendiente (Ver **Anexo F**), el sistema debe bloquear el acceso automáticamente.
+
+---
 
 ### 3. Microsegmentación: Dividir para Sobrevivir
 
@@ -47,8 +47,6 @@ El **Mando Medio** debe evaluar la madurez de la arquitectura utilizando estos c
 | **Aplicaciones** | Acceso seguro a apps sin exponer la red interna. | ZTNA (Zero Trust Network Access) |
 | **Datos** | Clasificación y cifrado en reposo y tránsito. | DLP / Clasificación Automática |
 
-
-
 ---
 
 ### 5. El Impacto en el ROI y el Cumplimiento
@@ -57,6 +55,8 @@ Implementar Zero Trust no es solo una mejora técnica; es una decisión financie
 * **Financieramente:** Reduce el **ALE** al bajar drásticamente la probabilidad de un incidente masivo.
 * **Legalmente:** Cumple con la "Diligencia Debida" exigida por la **Ley 21.663**. Demuestra que la organización no fue negligente al dejar "las llaves puestas" en la red interna.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 Zero Trust es la arquitectura que permite que el CISO duerma tranquilo. No porque crea que nadie entrará, sino porque sabe que, si alguien entra, estará atrapado en una habitación pequeña, sin luces y sin acceso a lo que realmente importa. 
@@ -64,5 +64,7 @@ Zero Trust es la arquitectura que permite que el CISO duerma tranquilo. No porqu
 El ingeniero que diseña bajo estos principios está construyendo un sistema **antifrágil**. En el próximo capítulo, profundizaremos en el componente más crítico de esta arquitectura: la **Gestión de Identidades (IAM)**, el corazón del control de acceso moderno.
 
 ---
+
 > **Tesis del Capítulo:** En la arquitectura moderna, la confianza es una vulnerabilidad. La seguridad real comienza cuando dejamos de confiar en la ubicación y empezamos a verificar la identidad y el contexto.
+
 ---

@@ -24,6 +24,8 @@ $$Costo_{Operar} > Costo_{Incidente} \times Probabilidad_{Impacto \: Total}$$
 
 Si mantener el sistema encendido permite que un Ransomware cifre el 100% de la infraestructura o que la exfiltración de datos sensibles active multas máximas de la **ANCI** (Ley 21.663), apagar preventivamente es la decisión financieramente más responsable.
 
+---
+
 ### 3. El Insumo Técnico: Datos sobre Instinto
 
 Para que el Directorio decida, el equipo técnico debe entregar certidumbre mediante el **Flash Report (Anexo D)**. No basta con decir "estamos bajo ataque". El **Ingeniero** debe informar basándose en el **Ecosistema Global (Anexo E)**:
@@ -53,6 +55,8 @@ Bajo la **Ley 21.663**, el Directorio no puede delegar la responsabilidad de una
 * **Si el Directorio decide NO apagar** y el daño se multiplica, la ANCI puede calificar la acción como **Negligencia**.
 * **Si el Directorio decide APAGAR** basándose en un proceso documentado de IRP (Anexo H), está ejerciendo su **Diligencia Debida**, protegiendo el patrimonio y la licencia social de la empresa.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 Presionar el Botón Rojo no es un acto de derrota; es un acto de control. Es la demostración de que la organización prefiere el costo de una parada controlada que el caos de una destrucción sistémica. El ingeniero que entrega la evidencia y el director que toma la decisión son las dos caras de la misma moneda: la **Resiliencia Operativa**.
@@ -60,5 +64,7 @@ Presionar el Botón Rojo no es un acto de derrota; es un acto de control. Es la 
 Con este capítulo cerramos el bloque de gestión de crisis. Ahora que sabemos cómo operar durante el fuego, es hora de ver cómo nos levantamos. Entramos al Bloque 4: Resiliencia y Futuro.
 
 ---
+
 > **Tesis del Capítulo:** El poder real en ciberseguridad no es saber cómo encender los sistemas, sino tener el criterio, los datos y el valor para saber cuándo apagarlos.
+
 ---

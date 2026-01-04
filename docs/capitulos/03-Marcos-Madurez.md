@@ -33,8 +33,6 @@ La responsabilidad legal no se deriva del ataque en sí, sino de **cómo se deci
 
 Adoptamos el **NIST CSF 2.0** como el *Control Loop* de la organización. La función **GOVERN (Gobernar)** no es una fase del proyecto, es el centro de gravedad que determina la eficacia de todas las demás funciones de seguridad.
 
-
-
 * **Gobernar:** Define la autoridad, los incentivos y la rendición de cuentas. Sin gobierno, la detección es ruido y la respuesta es caos.
 * **Ciclo de Retroalimentación:** Cada incidente y cada ejercicio de respuesta debe alimentar la función de Gobierno para ajustar el presupuesto y la arquitectura de control.
 
@@ -71,5 +69,7 @@ En el entorno de la Ley 21.663, la ciberseguridad es derecho corporativo aplicad
 En este marco, gobernar no es evitar el incidente, sino asegurar que cada decisión previa pueda ser defendida bajo escrutinio adversarial. No olvide la máxima de este escenario: **la ausencia de evidencia de control no es un vacío; es una prueba de negligencia.**
 
 ---
+
 > **Tesis del Capítulo:** La madurez institucional no es un objetivo de TI; es la arquitectura de defensa legal necesaria para asegurar la supervivencia de la organización y la protección del patrimonio de sus directivos.
+
 ---

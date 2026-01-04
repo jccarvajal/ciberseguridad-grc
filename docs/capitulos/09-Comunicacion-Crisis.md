@@ -12,11 +12,14 @@ El mayor error de un **Mando Medio** durante una crisis es esperar a tener "toda
 * **La Regla del Vigilante:** Si usted no cuenta su historia, alguien más (un atacante en redes sociales o un medio de prensa) la contará por usted. 
 * **Transparencia Radical vs. Prudencia Estratégica:** Debemos informar qué sabemos, qué no sabemos y qué estamos haciendo para solucionarlo.
 
+---
+
 ### 2. La Cadena de Reporte: De la Vulnerabilidad al Comunicado
 
 Para el **Ingeniero**, su labor en este capítulo es proveer los hechos crudos para que el equipo de crisis pueda construir el mensaje. No debe especular. 
 
 Debe usar el **Flash Report (Anexo D)** para alimentar al **CSIRT (Anexo G)** con datos precisos:
+
 * **Alcance:** ¿Qué sistemas están realmente afectados?
 * **Estado de los Datos:** ¿Hay evidencia de exfiltración? (Ver **Anexo E: Ecosistema** para clasificar si es un ataque conocido).
 * **Tiempo Estimado:** ¿Estamos en fase de contención o recuperación?
@@ -52,6 +55,8 @@ El **Mando Medio** debe coordinar que estos hitos se cumplan para evitar la dest
 En la era de la IA agéntica, los ataques pueden ser personalizados y masivos. La comunicación debe ser igual de ágil. No podemos permitir que una alucinación técnica o un pánico infundado detengan la operación. 
 La **Licencia Social** no se recupera con parches; se recupera con la demostración de **Diligencia Debida**: *"Teníamos un plan, el plan se ejecutó, y fuimos honestos sobre el proceso"*.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 Comunicar durante una crisis no es "maquillar" la realidad; es liderar la narrativa. El ingeniero que entrega datos precisos y el mando medio que los traduce para el Directorio están protegiendo la marca más allá de los bits. Un incidente bien comunicado puede, paradójicamente, fortalecer la reputación de una empresa al demostrar su madurez y resiliencia.
@@ -59,5 +64,7 @@ Comunicar durante una crisis no es "maquillar" la realidad; es liderar la narrat
 En el próximo capítulo, llegamos al momento de la verdad definitiva: **El Gobierno de la Crisis y el Botón Rojo**. Veremos quién toma la decisión final cuando el costo de seguir operando es mayor que el costo de apagarlo todo.
 
 ---
+
 > **Tesis del Capítulo:** La confianza es un activo que se construye en años y se pierde en minutos. Durante un incidente de ciberseguridad, la transparencia no es una debilidad, es el único escudo reputacional efectivo.
+
 ---

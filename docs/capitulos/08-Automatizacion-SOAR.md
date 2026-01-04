@@ -8,12 +8,16 @@ La automatización no es un lujo; es la única forma de gestionar la **Fatiga de
 ### 1. El Problema: La Fatiga de Alertas (Alert Fatigue)
 
 El **Mando Medio** se enfrenta a una realidad brutal: un equipo de seguridad típico recibe miles de alertas diarias. El 80% suelen ser falsos positivos o eventos triviales. 
+
 * **El Riesgo:** El "ruido" oculta la señal. Los ingenieros se agotan (burnout) y las alertas críticas son ignoradas.
 * **La Solución:** Implementar una capa de **SOAR** (Security Orchestration, Automation, and Response).
+
+---
 
 ### 2. ¿Qué es SOAR? El Director de Orquesta
 
 Para el **Ingeniero**, el SOAR es el pegamento que une todas las herramientas. Su función es triple:
+
 1.  **Orquestación:** Conecta el Firewall, el EDR, el IAM y el correo electrónico para que hablen entre sí.
 2.  **Automatización:** Ejecuta tareas repetitivas mediante **Playbooks** (libros de jugadas).
 3.  **Respuesta:** Toma acciones de contención sin intervención humana (ej. bloquear un usuario sospechoso en milisegundos).
@@ -27,6 +31,7 @@ El **Directorio** evalúa la automatización mediante una sola métrica técnica
 $$MTTR = \frac{\sum (Tiempo \: Fin \: Incidente - Tiempo \: Detección)}{Número \: de \: Incidentes}$$
 
 La automatización ataca directamente los dos componentes más caros del **SLE** (Impacto):
+
 * **MTTD (Detección):** Cuánto tiempo pasa el atacante dentro antes de ser visto.
 * **MTTR (Respuesta):** Cuánto tiempo tarda el negocio en volver a la normalidad.
 * **Resultado:** Si el MTTR baja de horas a segundos, el impacto financiero se reduce exponencialmente.
@@ -50,11 +55,14 @@ El **Mando Medio** debe liderar la transición de procesos en papel hacia flujos
 Adoptando el principio de mi obra anterior (*Arquitectura de IA*), en ciberseguridad aplicamos: **"Delegar la ejecución, no abdicar la decisión"**.
 
 La automatización se encarga de la "fuerza bruta" de la defensa:
+
 * Bloqueo de IPs maliciosas.
 * Aislamiento de hosts infectados.
 * Reseteo de contraseñas comprometidas.
 
 Sin embargo, el **Vigilante Estratégico** (el humano) reserva para sí el **"Botón Rojo"** (Capítulo 10): la decisión de apagar un servicio crítico para el negocio o iniciar un proceso legal ante la ANCI.
+
+---
 
 ### Conclusión para el "Vigilante Estratégico"
 
@@ -63,5 +71,7 @@ La automatización es el multiplicador de fuerzas. Un solo ingeniero armado con 
 En el próximo capítulo, abordaremos la parte más frágil y poderosa de la crisis: la **Comunicación**. Veremos cómo explicar lo que la automatización detectó sin destruir la reputación de la empresa.
 
 ---
+
 > **Tesis del Capítulo:** En una guerra que ocurre a la velocidad del silicio, la respuesta manual es negligencia. La automatización es el único camino para mantener el MTTR por debajo del umbral de daño catastrófico.
+
 ---

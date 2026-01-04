@@ -13,8 +13,6 @@ Para el **Vigilante Estratégico**, es vital distinguir el propósito de cada pl
 2.  **DRP (Disaster Recovery Plan):** Su objetivo es **recuperar la tecnología**. Es un plan técnico para restaurar servidores, bases de datos y redes desde respaldos (Backups).
 3.  **BCP (Business Continuity Plan):** Su objetivo es **mantener el negocio vivo**. Es un plan operativo liderado por las áreas de negocio para trabajar en "modo degradado" (ej. procesos manuales) mientras TI se recupera.
 
-
-
 ---
 
 ### 2. El BIA: El Origen de la Verdad
@@ -49,8 +47,6 @@ El **Mando Medio** debe asegurar que la comunicación entre estos tres frentes s
 | **DRP** | Equipo de Infraestructura | "Botón Rojo" o falla crítica. | Restauración de Servicios TI. |
 | **BCP** | Gerentes de Área / Usuarios | Interrupción del servicio core. | Continuidad de la Operación. |
 
-
-
 ---
 
 ### 5. La Prueba de Resiliencia: Simulacros "War Games"
@@ -60,6 +56,8 @@ Un plan que solo vive en un PDF es un plan que fallará. El **Vigilante Estraté
 * **Técnico (Red Team):** El Ingeniero prueba la restauración real de respaldos en un ambiente aislado (Sandboxing).
 * **Operativo:** Las áreas de negocio simulan trabajar sin sus sistemas principales por 4 horas.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 La resiliencia no es la capacidad de evitar el golpe, sino la capacidad de absorberlo y seguir caminando. El ingeniero que garantiza un RPO de minutos y el mando medio que coordina la operación manual son los arquitectos de una empresa invulnerable. Cuando IRP, DRP y BCP están sincronizados, la ciberseguridad deja de ser una defensa técnica y se convierte en una **ventaja competitiva estratégica**.
@@ -67,5 +65,7 @@ La resiliencia no es la capacidad de evitar el golpe, sino la capacidad de absor
 En el próximo capítulo, veremos cómo gestionar la cultura organizacional después del desastre. Aprenderemos a transformar el dolor del incidente en una **Cultura Post-Incidente** de aprendizaje continuo.
 
 ---
+
 > **Tesis del Capítulo:** La resiliencia integral ocurre cuando el negocio deja de preguntar "¿cuándo vuelve el sistema?" y empieza a preguntar "¿cómo seguimos operando mientras vuelve?".
+
 ---

@@ -10,7 +10,9 @@ Como exploramos en el prólogo citando a Nassim Taleb, nuestra meta no es solo s
 Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tras un incidente el objetivo es encontrar un culpable para despedirlo, el equipo técnico aprenderá a ocultar errores en el futuro, aumentando drásticamente el riesgo oculto.
 
 * **Cultura de Aprendizaje:** El foco debe estar en el **proceso**, no en la persona. 
-* **La Pregunta Correcta:** No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".
+* **La Pregunta Correcta:** No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".---
+
+---
 
 ### 2. Análisis de Causa Raíz: Conectando con el CWE
 
@@ -18,8 +20,6 @@ Para el **Ingeniero**, la fase post-incidente es el momento de la honestidad té
 
 * **Análisis Técnico:** ¿Fue una falla de configuración, un error de código o una brecha en la gobernanza de identidades (IAM)?
 * **Soberanía de Datos:** ¿Nuestros controles de **DLP** (Capítulo 6) funcionaron como se esperaba o hubo una fuga que no detectamos en tiempo real?
-
-
 
 ---
 
@@ -44,8 +44,6 @@ El **Mando Medio** debe liderar la redacción de este documento, que servirá co
 | **Brechas de Proceso** | ¿Hubo demora en la toma de decisiones del Comité? | **Anexo G** (CSIRT) |
 | **Plan de Acción** | Tareas específicas con fecha y responsable para evitar repetición. | **Matriz RACI** (Anexo A) |
 
-
-
 ---
 
 ### 5. Transformando el Dolor en Cultura
@@ -61,5 +59,7 @@ Un incidente es una cicatriz que nos recuerda dónde somos vulnerables, pero tam
 Con este capítulo cerramos el bloque operativo de resiliencia. En el capítulo final, miraremos hacia el horizonte: la **Ciberseguridad Agéntica** y los retos que nos depara un futuro donde la IA no solo ayuda a defender, sino que también lidera el ataque.
 
 ---
+
 > **Tesis del Capítulo:** La verdadera medida de una organización no es cuántas veces cae, sino qué tan rápido se levanta y qué tan inteligente se vuelve después de cada caída. La cultura es el firewall que no se puede hackear.
+
 ---

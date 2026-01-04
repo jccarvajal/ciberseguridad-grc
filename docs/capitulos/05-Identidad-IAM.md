@@ -13,8 +13,6 @@ El mayor riesgo de identidad no suele ser un hacker externo, sino la mala gesti�
 2.  **Cambios (Mover):** Ajuste de permisos cuando un empleado cambia de rol (evitando la "acumulación de privilegios").
 3.  **Desaprovisionamiento (Leaver):** El punto más crítico. Las "cuentas huérfanas" de exempleados son la puerta de entrada principal para el ransomware.
 
-
-
 ---
 
 ### 2. El Triángulo de la Autenticación Moderna
@@ -25,6 +23,8 @@ Para el **Ingeniero**, asegurar la identidad significa pasar de una autenticaci�
 * **Algo que eres:** Biometría (huella, rostro, iris).
 
 **La Regla del Vigilante:** Si un acceso crítico no tiene al menos dos de estos factores, el riesgo de suplantación es cercano al 100% en caso de un ataque de *phishing*.
+
+---
 
 ### 3. PAM: Protegiendo las Llaves del Reino
 
@@ -46,8 +46,6 @@ El **Mando Medio** debe decidir cómo otorgar permisos. En este libro proponemos
 | **ABAC** (Basado en Atributos)| Permisos según el contexto (ej: "Contador" + "Horario laboral" + "Desde oficina"). | Organizaciones con alta movilidad y arquitectura Zero Trust. |
 | **Mínimo Privilegio** | Dar solo lo justo para la tarea actual. | **Obligatorio para cumplimiento de Ley 21.663.** |
 
-
-
 ---
 
 ### 5. Identidad y Riesgo Financiero
@@ -56,6 +54,8 @@ Desde la perspectiva del **Directorio**, una mala gestión de identidades impact
 * **Fraude Interno:** El 60% de los fraudes financieros ocurren por exceso de privilegios o falta de segregación de funciones (SoD).
 * **Multas Legales:** La Ley 21.663 y las leyes de protección de datos (19.628) sancionan severamente la falta de control sobre quién accede a la información sensible.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 La identidad es el "Ghost" (el espíritu) dentro de la máquina. Si no controlamos quién entra y qué puede hacer, no tenemos seguridad, solo tenemos la ilusión de ella. El ingeniero que implementa MFA y el gerente que audita las cuentas huérfanas están cerrando la brecha más peligrosa de la empresa.
@@ -63,5 +63,7 @@ La identidad es el "Ghost" (el espíritu) dentro de la máquina. Si no controlam
 En el próximo capítulo, veremos cómo proteger el activo que estas identidades buscan consumir: los datos. Entraremos en la **Higiene de Datos (DLP)** y la soberanía de la información.
 
 ---
+
 > **Tesis del Capítulo:** En la red moderna, tu identidad es tu pasaporte. Sin una gobernanza estricta de quién es quién, el perímetro es inexistente y el riesgo es total.
+
 ---

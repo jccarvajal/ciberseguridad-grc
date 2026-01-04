@@ -24,8 +24,6 @@ El **Ingeniero** y el **Mando Medio** deben ejecutar estas tres etapas con preci
 * **Erradicación:** Eliminar la causa raíz. Si el atacante entró por un **CVE crítico** (Anexo F), se cierra la vulnerabilidad y se eliminan las "puertas traseras" que el atacante pudo haber dejado.
 * **Recuperación:** El retorno a la normalidad. Se restauran sistemas desde respaldos limpios y se verifica que el servicio sea seguro antes de abrirlo al público.
 
-
-
 ---
 
 ### 3. El Rol del Mando Medio: El "Flash Report"
@@ -58,6 +56,8 @@ Un error común de los ingenieros novatos es "limpiar" el sistema demasiado ráp
 * **Segundo:** Preservar (clonar discos, guardar logs).
 * **Tercero:** Erradicar y Recuperar.
 
+---
+
 ### Conclusión para el "Vigilante Estratégico"
 
 El IRP es el sistema inmunológico de la empresa. El ingeniero que detecta y el mando medio que coordina son los anticuerpos que evitan que una infección se convierta en una falla orgánica sistémica. Si el IRP funciona, el incidente es solo una anécdota costosa; si falla, el incidente es el fin de la organización.
@@ -65,5 +65,7 @@ El IRP es el sistema inmunológico de la empresa. El ingeniero que detecta y el 
 En el próximo capítulo, veremos cómo potenciar este flujo mediante la **Automatización (SOAR)**, para que la respuesta no dependa solo de la velocidad humana, sino de la potencia de la arquitectura.
 
 ---
+
 > **Tesis del Capítulo:** En una crisis, la velocidad es importante, pero el orden es vital. No se responde al instinto; se responde al proceso. Un incidente bien gestionado es la prueba máxima de madurez institucional.
+
 ---

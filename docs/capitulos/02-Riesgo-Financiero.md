@@ -71,6 +71,8 @@ Con la matemática sobre la mesa, el Directorio solo tiene cuatro caminos legít
 
 Aceptar un riesgo sin cuantificarlo genera **Deuda de Gobernanza**. Aceptarlo cuantificado y aprobado en acta es ejercer gobierno corporativo real.
 
+---
+
 ### Conclusión: El Riesgo es una Decisión, no una Opinión
 
 El CISO que domina esta matemática deja de ser un "centro de costos" y se convierte en un **protector del EBITDA**. Para un Directorio, un riesgo sin precio no es un riesgo: es solo una opinión técnica con distinto volumen. 
@@ -80,5 +82,7 @@ La gobernanza comienza cuando el riesgo tiene nombre, probabilidad, impacto y re
 En el próximo capítulo, veremos cómo este modelo se ve radicalmente alterado por el factor externo más disruptivo de la década: la **Ley Marco de Ciberseguridad**, que introduce sanciones, deberes de dirección y responsabilidad personal para quienes toman, o evitan tomar, decisiones.
 
 ---
+
 > **Tesis del Capítulo:** La gobernanza del riesgo exige abandonar la intuición cualitativa y adoptar la cuantificación financiera. Solo cuando el riesgo tiene un precio, el Directorio puede ejercer su verdadera función: decidir con base en evidencia.
+
 ---
