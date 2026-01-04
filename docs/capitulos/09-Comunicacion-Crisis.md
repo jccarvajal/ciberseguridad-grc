@@ -1,70 +1,69 @@
 # CAPÍTULO 9: Comunicación en Tiempos de Crisis
 **(Gestionando la Verdad y la Licencia Social)**
 
-Cuando ocurre un incidente, la organización se enfrenta a dos incendios simultáneos. El primero es **técnico**: servidores cifrados, datos filtrados o servicios caídos. El segundo es **reputacional**: la pérdida de confianza de los clientes, el escrutinio de la prensa y la presión de los reguladores. 
+Cuando ocurre un incidente, la organización se enfrenta a dos incendios simultáneos. El primero es **técnico**: servidores cifrados, datos filtrados o servicios caídos. El segundo es **reputacional**: la pérdida de confianza, el escrutinio público y la presión regulatoria. 
 
-El incendio técnico se apaga con código y arquitectura. El incendio reputacional solo se apaga con una comunicación estratégica, honesta y oportuna. En 2026, el silencio no es una opción; bajo la **Ley 21.663**, la notificación de incidentes es un mandato legal, no una sugerencia de relaciones públicas.
+El incendio técnico se apaga con arquitectura; el reputacional, con una comunicación estratégica basada en la **debida diligencia**. Bajo la **Ley 21.663**, la notificación no es una opción de relaciones públicas, sino un mandato legal. El silencio, en 2026, se interpreta como una confesión de falta de control.
 
-### 1. El Vacío de Información: El Enemigo Silencioso
+### 1. El Vacío de Información y la Reducción del Ruido
 
-El mayor error de un **Mando Medio** durante una crisis es esperar a tener "toda la información" antes de hablar. En el vacío de información, proliferan los rumores, el pánico y las teorías conspirativas. 
+El mayor error del **Mando Medio** es esperar a tener la "verdad total" para hablar. En el vacío de información, el **ruido** de los rumores y el pánico destruyen la credibilidad institucional.
 
-* **La Regla del Vigilante:** Si usted no cuenta su historia, alguien más (un atacante en redes sociales o un medio de prensa) la contará por usted. 
-* **Transparencia Radical vs. Prudencia Estratégica:** Debemos informar qué sabemos, qué no sabemos y qué estamos haciendo para solucionarlo.
-
----
-
-### 2. La Cadena de Reporte: De la Vulnerabilidad al Comunicado
-
-Para el **Ingeniero**, su labor en este capítulo es proveer los hechos crudos para que el equipo de crisis pueda construir el mensaje. No debe especular. 
-
-Debe usar el **Flash Report (Anexo D)** para alimentar al **CSIRT (Anexo G)** con datos precisos:
-
-* **Alcance:** ¿Qué sistemas están realmente afectados?
-* **Estado de los Datos:** ¿Hay evidencia de exfiltración? (Ver **Anexo E: Ecosistema** para clasificar si es un ataque conocido).
-* **Tiempo Estimado:** ¿Estamos en fase de contención o recuperación?
+* **La Regla del Vigilante:** Si usted no lidera la narrativa, el atacante o el rumor la liderarán por usted.
+* **Transparencia de Proceso:** No siempre se puede informar "qué pasó" de inmediato, pero siempre se debe informar "qué estamos haciendo". La transparencia sobre el proceso es el primer escudo contra la negligencia. 
+* **La Transparencia no es Especulación:** Informar lo que se sabe no autoriza la especulación técnica; comunicar hipótesis no verificadas erosiona la credibilidad y compromete gravemente la defensa regulatoria futura.
 
 ---
 
-### 3. Gestionando a los Stakeholders (Grupos de Interés)
+### 2. La Cadena de Reporte: Hechos vs. Especulación
 
-El **Directorio** debe asegurar que el mensaje sea coherente para todos los niveles, pero adaptado a cada audiencia:
+Para el **Ingeniero**, su labor es proveer la materia prima del relato: los hechos inalterables. Debe alimentar al Comité de Crisis usando el **Flash Report (Anexo D)**, evitando cualquier especulación que pueda contradecir la evidencia técnica del **SOAR** (Capítulo 8).
+
+**Toda comunicación externa debe estar estrictamente alineada con la evidencia técnica preservada por el IRP; una declaración inconsistente con los registros forenses no es un error comunicacional, es un riesgo legal mayor.** Los datos críticos para el relato son:
+* **Alcance:** Sistemas confirmados como comprometidos.
+* **Integridad:** Estado de la exfiltración de datos según el inventario del Capítulo 6.
+* **Cronología:** Tiempos de detección y contención para probar la diligencia técnica.
+
+---
+
+### 3. Gestionando a los *Stakeholders* (Grupos de Interés)
+
+El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero adaptado a la necesidad de cada audiencia:
 
 | Audiencia | Qué necesitan saber | Canal Recomendado |
 | :--- | :--- | :--- |
-| **El Directorio** | Impacto financiero (ALE), legal y reputacional. | Sesión de Comité de Crisis. |
-| **La ANCI (Regulador)**| Detalles técnicos, impacto en servicios esenciales. | Portal de Notificación Ley 21.663. |
-| **Clientes / Usuarios** | ¿Mis datos están seguros? ¿Cuándo vuelve el servicio? | Comunicado oficial / Redes sociales. |
-| **Empleados** | ¿Qué debo decir si me preguntan? ¿Cómo opero hoy? | Comunicación interna / Intranet. |
+| **El Directorio** | Impacto financiero (***ALE***), legal y continuidad. | Comité de Crisis / Acta de Directorio. |
+| **La ANCI (Regulador)**| Detalles técnicos y cumplimiento de la Ley 21.663. | Portal de Notificación Oficial. |
+| **Clientes** | Seguridad de sus datos y tiempo de restauración. | Comunicado Oficial / Redes Sociales. |
+| **Empleados** | Protocolos de operación y narrativa interna. | Intranet / Comunicación Directa. |
 
 ---
 
 ### 4. Blueprint 9: La Matriz de Comunicación de Crisis
 
-El **Mando Medio** debe coordinar que estos hitos se cumplan para evitar la destrucción de la "Licencia Social":
+El **Mando Medio** coordina estos hitos para proteger la "Licencia Social" de la empresa:
 
-1.  **Hito 1 (T+60 min):** Notificación interna y activación del comité. "Sabemos que algo pasa".
-2.  **Hito 2 (T+4 horas):** Primera declaración oficial. "Estamos gestionando un incidente, impacto limitado a X servicio".
-3.  **Hito 3 (T+24 horas):** Reporte de progreso. "Contención lograda, iniciando fase de recuperación bajo protocolos **DRP** (Anexo I)".
-4.  **Hito 4 (Post-Crisis):** El Post-Mortem. "Esto aprendimos y así mejoramos nuestra arquitectura" (Capítulo 12).
-
----
-
-### 5. La Licencia Social y el Riesgo de la IA
-
-En la era de la IA agéntica, los ataques pueden ser personalizados y masivos. La comunicación debe ser igual de ágil. No podemos permitir que una alucinación técnica o un pánico infundado detengan la operación. 
-La **Licencia Social** no se recupera con parches; se recupera con la demostración de **Diligencia Debida**: *"Teníamos un plan, el plan se ejecutó, y fuimos honestos sobre el proceso"*.
+1.  **Hito 1 (T+60 min):** Notificación interna. Confirmación de activación de protocolos de **debida diligencia**.
+2.  **Hito 2 (T+4 horas):** Primera declaración oficial. Enfoque en la contención y protección de datos.
+3.  **Hito 3 (T+24 horas):** Reporte de progreso y transparencia sobre la fase de recuperación (**DRP - Anexo I**).
+4.  **Hito 4 (Post-Crisis):** El *Post-Mortem* público. Demostración de aprendizaje y endurecimiento de la arquitectura (Capítulo 12).
 
 ---
 
-### Conclusión para el "Vigilante Estratégico"
+### 5. La Licencia Social y la Verdad Defendible
 
-Comunicar durante una crisis no es "maquillar" la realidad; es liderar la narrativa. El ingeniero que entrega datos precisos y el mando medio que los traduce para el Directorio están protegiendo la marca más allá de los bits. Un incidente bien comunicado puede, paradójicamente, fortalecer la reputación de una empresa al demostrar su madurez y resiliencia.
-
-En el próximo capítulo, llegamos al momento de la verdad definitiva: **El Gobierno de la Crisis y el Botón Rojo**. Veremos quién toma la decisión final cuando el costo de seguir operando es mayor que el costo de apagarlo todo.
+En la era de la IA, la velocidad del engaño es masiva. La **Licencia Social** no se recupera con parches técnicos, sino con la demostración de que la organización actuó con **debida diligencia** demostrable. El relato de crisis debe ser **jurídicamente defendible**: cada palabra dicha en público queda como un registro oficial que será contrastado con la evidencia forense preservada en el Capítulo 7. 
 
 ---
 
-> **Tesis del Capítulo:** La confianza es un activo que se construye en años y se pierde en minutos. Durante un incidente de ciberseguridad, la transparencia no es una debilidad, es el único escudo reputacional efectivo.
+### Conclusión: La Confianza como Registro Público
+
+Comunicar durante una crisis no es "maquillar" la realidad; es liderar la narrativa mediante la exposición de hechos controlados. En crisis, comunicar no es persuadir: es dejar un registro público coherente con la evidencia privada. Un incidente bien comunicado prueba que la organización es madura y posee el control del proceso, incluso cuando la tecnología ha fallado.
+
+En el próximo capítulo, abordaremos la decisión más difícil para el **Vigilante Estratégico**: **El Gobierno de la Crisis y el Botón Rojo**. Veremos quién tiene la autoridad de apagar el negocio para salvar la empresa.
+
+---
+
+> **Tesis del Capítulo:** La confianza se construye en años y se pierde en minutos. Durante un incidente, la transparencia no es una debilidad; es la única forma de transformar un desastre técnico en un registro público de madurez institucional y **debida diligencia**.
 
 ---
