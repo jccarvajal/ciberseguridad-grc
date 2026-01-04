@@ -35,7 +35,7 @@ Esto no elimina la necesidad de estimar el $ARO$, pero obliga a una **revisión 
 
 ---
 
-### 3. El Retorno de la Inversión en Seguridad ($ROS$)
+### 3. El Retorno de la Inversión en Seguridad (ROS)
 
 La pregunta correcta del Directorio no es "¿Estamos seguros?", sino: **¿Es esta inversión financieramente eficiente frente al riesgo que buscamos reducir?**
 
