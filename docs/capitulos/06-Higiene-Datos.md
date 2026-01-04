@@ -33,6 +33,8 @@ Desde la perspectiva del **Directorio**, la higiene de datos es el pilar de la *
 * **Residencia de Datos:** El Vigilante Estratégico debe conocer la jurisdicción física de los datos. En un conflicto legal, la ubicación del servidor determina la ley aplicable.
 * **Derecho al Olvido y Portabilidad:** La arquitectura debe permitir la eliminación o migración eficiente de datos para cumplir con los estándares de privacidad modernos, evitando el ***SLE*** derivado de sanciones regulatorias masivas.
 
+Los reportes de DLP (*Data Loss Prevention*, controles diseñados para detectar, bloquear y registrar la salida no autorizada de datos sensibles) no solo detienen la fuga: constituyen evidencia objetiva de debida diligencia y control efectivo ante la ANCI.
+
 ---
 
 ### 4. Blueprint 6: Matriz de Control de Fuga de Datos
