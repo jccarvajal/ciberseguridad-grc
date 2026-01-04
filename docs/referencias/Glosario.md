@@ -203,6 +203,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Estándar de oro moderno para respaldos resilientes: 3 copias de datos, 2 medios diferentes, 1 copia fuera del sitio, 1 copia inmutable/offline y 0 errores de verificación (probados).
 * **Referencia Principal:** Anexo I.
 
+**Responsabilidad Solidaria**
+
+* **Definición:** Principio legal (Ley 21.663) que establece que la organización contratante es responsable ante el regulador por las fallas de seguridad de sus proveedores. "Se delega el servicio, no la responsabilidad".
+* **Referencia Principal:** Anexo L.
+
 **ROS (Return on Security)**
 
 * **Definición:** Evaluación de la eficiencia financiera de una inversión en seguridad frente al riesgo reducido.
@@ -229,6 +234,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** Capa tecnológica que automatiza la respuesta mediante *playbooks* que generan evidencia inalterable.
 * **Referencia Principal:** Capítulo 08.
+
+**TPRM (Third-Party Risk Management)**
+
+* **Definición:** *Gestión de Riesgos de Terceros.* Disciplina de gobernanza enfocada en identificar y mitigar los riesgos introducidos por la cadena de suministro y proveedores externos.
+* **Referencia Principal:** Anexo L.
 
 **Zero Trust (Confianza Cero)**
 
