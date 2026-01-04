@@ -75,7 +75,7 @@ El CISO que domina esta matemática deja de ser un "centro de costos" y se convi
 
 La gobernanza comienza cuando el riesgo tiene nombre, probabilidad, impacto y responsable. 
 
-En el próximo capítulo, veremos cómo este modelo se ve radicalmente alterado por el factor externo más disruptivo de la década: la **Ley Marco de Ciberseguridad**, que introduce sanciones, deberes de dirección y responsabilidad personal para quienes toman —o evitan tomar— decisiones.
+En el próximo capítulo, veremos cómo este modelo se ve radicalmente alterado por el factor externo más disruptivo de la década: la **Ley Marco de Ciberseguridad**, que introduce sanciones, deberes de dirección y responsabilidad personal para quienes toman, o evitan tomar, decisiones.
 
 ---
 > **Tesis del Capítulo:** La gobernanza del riesgo exige abandonar la intuición cualitativa y adoptar la cuantificación financiera. Solo cuando el riesgo tiene un precio, el Directorio puede ejercer su verdadera función: decidir con base en evidencia.
