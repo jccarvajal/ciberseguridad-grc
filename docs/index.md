@@ -124,6 +124,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Recuperación técnica de desastres.*
 * [Anexo J: Plan BCP](./anexos/J-Plan-BCP.md)
   *Continuidad del negocio y BIA.*
+
+#### Cultura y Legal
 * [Anexo K: Patrones de Fracaso](./anexos/K-Fracaso.md)
   *Antifragilidad operativa.*
 * [Anexo L: Cumplimiento Normativo y Riesgo de Terceros](./anexos/L-Cumplimiento.md)
