@@ -48,7 +48,7 @@ Esta herramienta transforma el "No" en una arquitectura de soporte que permite a
 
 ### La Definición del Éxito
 
-El éxito del CISO no se mide por la ausencia de incidentes —que puede ser solo azar— sino por su posición en la estructura de poder y la reducción de la varianza en la toma de decisiones. La prueba es sencilla: **¿Lo llaman al principio de la reunión o al final?**
+El éxito del CISO no se mide por la ausencia de incidentes, que puede ser solo azar, sino por su posición en la estructura de poder y la reducción de la varianza en la toma de decisiones. La prueba es sencilla: **¿Lo llaman al principio de la reunión o al final?**
 
 * Si lo llaman al final para "validar la seguridad", usted sigue siendo un costo y un auditor.
 * Si lo llaman al principio para preguntar *"¿Cómo diseñamos esto para que sea resiliente desde el origen?"*, entonces usted ha logrado ser un **Arquitecto de Resiliencia**.
