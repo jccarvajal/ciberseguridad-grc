@@ -38,12 +38,12 @@ El contenido está organizado modularmente siguiendo el ciclo de vida del riesgo
 ### Introducción y Preliminares
 Marco conceptual y bases metodológicas.
 
-* [Prólogo Ejecutivo](./prologo.md)
-  *El cambio de paradigma: de gasto de TI a riesgo de Directorio.*
 * [Nota al Lector](./nota-lector.md)
   *Filosofía del manual y reglas de compromiso.*
 * [Nota Metodológica](./nota-metodologica.md)
   *Alineación con NIST 2.0, ISO 27001 y Ley 21.663.*
+* [Prólogo Ejecutivo](./prologo.md)
+  *El cambio de paradigma: de gasto de TI a riesgo de Directorio.*
 * [Ideas Centrales](./ideas-centrales.md)
   *Resumen ejecutivo: si solo tienes 5 minutos, lee esto.*
 
