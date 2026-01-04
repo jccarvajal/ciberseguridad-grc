@@ -43,7 +43,7 @@ El *ROS* (*Return on Security*) permite comparar la reducción del riesgo con el
 
 $$ROS = \frac{(ALE_{previo} - ALE_{post}) - Costo_{Control}}{Costo_{Control}}$$
 
-Cuando el costo de un control es menor que la pérdida esperada que evita, la decisión deja de ser técnica y se convierte en una **obligación de diligencia debida**. Si el control cuesta más que el riesgo que mitiga, el Directorio puede, legítimamente, optar por aceptar el riesgo.
+Cuando el costo de un control es menor que la pérdida esperada que evita, la decisión deja de ser técnica y se convierte en una **obligación de debida diligencia**. Si el control cuesta más que el riesgo que mitiga, el Directorio puede, legítimamente, optar por aceptar el riesgo.
 
 ---
 

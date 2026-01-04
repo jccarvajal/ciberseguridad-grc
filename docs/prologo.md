@@ -13,7 +13,7 @@ Para cerrar esta brecha, debemos entender que la ciberseguridad no es el muro qu
 ### El Nacimiento del Vigilante Estratégico
 Este libro es la hoja de ruta para el **Vigilante Estratégico**: una función crítica, más que un cargo individual, que surge de la integración disciplinada de tres roles fundamentales:
 
-1. **El Directorio:** Que traduce el riesgo en matemática financiera (**ALE**) y responsabilidad legal de diligencia debida.
+1. **El Directorio:** Que traduce el riesgo en matemática financiera (**ALE**) y responsabilidad legal de debida diligencia.
 2. **El Mando Medio:** El orquestador que elimina el ruido técnico para ofrecer claridad de impacto y orquestar la respuesta ante la crisis.
 3. **El Ingeniero:** El centinela que opera en la frontera del bit, proveyendo la verdad técnica verificable (**CVE/KEV**) que alimenta toda la estrategia.
 

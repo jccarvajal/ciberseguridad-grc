@@ -21,7 +21,7 @@ $$SLE_{\text{nuevo}} = SLE_{\text{operativo}} + \text{Multa}_{\text{ANCI}} + \te
 
 ### 2. Responsabilidad: Decisión Informada y Cadencia Operativa
 
-La responsabilidad legal no se deriva del ataque en sí, sino de **cómo se decidió antes de que ocurriera**. La **Diligencia Debida** se prueba mediante la **Decisión Informada Documentada** y su vigencia temporal:
+La responsabilidad legal no se deriva del ataque en sí, sino de **cómo se decidió antes de que ocurriera**. La **Debida Diligencia** se prueba mediante la **Decisión Informada Documentada** y su vigencia temporal:
 
 1.  **El Directorio (Órgano de Exigencia):** Su función no es firmar políticas de manera pasiva, sino **desafiar el reporte**. Debe exigir escenarios de pérdida, validar la velocidad de respuesta y asegurar que la inversión cubra el estándar legal base. Su defensa es el **Acta de Directorio** que registra el cuestionamiento activo a la información recibida.
 2.  **El Mando Medio (Garante de Cadencia):** Responsable de que el ciclo de información no se rompa. La diligencia expira si la información no fluye con la velocidad que impone la **Autonomía Adversaria**.
@@ -47,7 +47,7 @@ Este mapa mide la **Resiliencia Regulatoria**. Un Nivel 1 no es solo una debilid
 | **1. Reactivo** | **Ceguera Estratégica** | Ad-hoc (solo en crisis). | Inexistente. | **Negligencia Presunta.** |
 | **2. Repetible** | **Esfuerzo Fragmentado** | Anual / Semestral. | Reportes aislados. | **Diligencia Insuficiente.** |
 | **3. Definido** | **Cumplimiento Base** | Trimestral. | Alineación con Ley 21.663. | **Cumplimiento Estándar.** |
-| **4. Gestionado** | **Resiliencia Probada** | Mensual / Por Evento. | Decisiones en Acta + ALE. | **Diligencia Debida Probada.** |
+| **4. Gestionado** | **Resiliencia Probada** | Mensual / Por Evento. | Decisiones en Acta + ALE. | **Debida Diligencia Probada.** |
 | **5. Optimizado** | **Resiliencia Regulatoria** | Continua (Tiempo Real). | Mejora continua con alta capacidad de absorción regulatoria. | **Referente Nacional.** |
 
 ---
@@ -56,7 +56,7 @@ Este mapa mide la **Resiliencia Regulatoria**. Un Nivel 1 no es solo una debilid
 
 Ante una fiscalización, el Vigilante Estratégico no muestra "planes", muestra **resultados de fallos controlados**:
 
-1.  **Inventario de Exposición:** ¿Podemos demostrar que el Directorio conocía los activos más vulnerables y su impacto financiero ($ALE$) en los últimos 30 días? (**Ver Anexo F**).
+1.  **Inventario de Exposición:** ¿Podemos demostrar que el Directorio conocía los activos más vulnerables y su impacto financiero (*ALE*) en los últimos 30 días? (**Ver Anexo F**).
 2.  **Trazabilidad del Recurso:** ¿Existe evidencia de que el Directorio asignó recursos tras detectarse una desviación del estándar legal base? (**Ver Anexo D**).
 3.  **Evidencia de Aprendizaje:** ¿Puede demostrar que el último ejercicio de respuesta (IRP) detectó un fallo y que dicho fallo generó un cambio documentado en la configuración o el presupuesto? (**Ver Anexo H**). *Si no hay registro de fallos en las pruebas, el auditor asumirá que el ejercicio fue un simulacro vacío.*
 

@@ -14,7 +14,7 @@ Aquí tienes el "resumen ejecutivo" de la obra. Si solo tienes 5 minutos para en
 
 * **Capítulo 02 (La Matemática del Riesgo):** "El riesgo no tiene colores, tiene signo de dólar. La maestría consiste en sustituir las matrices de calor subjetivas por variables financieras reales (ALE, ROI, ROS) que el Directorio pueda decidir."
 
-* **Capítulo 03 (Marcos y Madurez Legal):** "La Ley 21.663 no es una sugerencia técnica, es un mandato de responsabilidad civil y penal. La maestría consiste en usar el cumplimiento no como un check-box, sino como el escudo de Diligencia Debida para el Directorio."
+* **Capítulo 03 (Marcos y Madurez Legal):** "La Ley 21.663 no es una sugerencia técnica, es un mandato de responsabilidad civil y penal. La maestría consiste en usar el cumplimiento no como un check-box, sino como el escudo de Debida Diligencia para el Directorio."
 
 ---
 
