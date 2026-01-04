@@ -51,10 +51,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
-
-# Para ver las formulas de LaTeX
-markdown_extensions:
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # Para ver las formulas de LaTeX
       generic: true
 
 extra_javascript:
