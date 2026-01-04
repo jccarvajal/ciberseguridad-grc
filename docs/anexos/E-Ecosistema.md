@@ -34,8 +34,10 @@ Si el CVE identifica un fallo específico en un producto, el **CWE** identifica 
 Una vez identificada, la vulnerabilidad debe ser pesada. El estándar global para esto es el **CVSS (*Common Vulnerability Scoring System*)**, mantenido por **FIRST**.
 
 * **Puntuación Base:** Se calcula mediante una fórmula que evalúa la complejidad del ataque, si requiere privilegios y el impacto en la confidencialidad, integridad y disponibilidad (CIA).
+
 * **Cálculo Técnico:** El puntaje se expresa en una escala de 0.0 a 10.0.
-    $$Score = f(Exploitability, Impact)$$
+    $Score = f(Exploitability, Impact)$
+
 * **Valor Estratégico:** Proporciona una métrica objetiva para la priorización. Una vulnerabilidad con un **CVSS de 9.0+ (Crítica)** debe detener cualquier otro proyecto hasta ser remediada para evitar negligencia.
 
 ---

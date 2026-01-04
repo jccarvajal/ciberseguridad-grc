@@ -63,7 +63,7 @@ El DRP se activa formalmente cuando el **Incident Commander (IC)** declara que l
 | :--- | :--- | :--- | :--- | :--- |
 | **Controlador Dominio** | 10.0.0.5 | Ninguna | Repositorio Inmutable A | Juan Pérez |
 | **ERP (Base de Datos)** | 10.0.0.20 | Dominio, Storage SAN | Repositorio B (Cinta) | María Gómez |
-| **Web Transaccional** | 10.0.0.50 | SQL ERP, WAF | Azure Blob (Inmutable) | Pedro D. |
+| **Web Transaccional** | 10.0.0.50 | SQL ERP, WAF | Azure Blob (Inmutable) | Pedro Muñoz |
 | **File Server** | 10.0.0.100 | Dominio | NAS Local | Juan Pérez |
 
 ---
