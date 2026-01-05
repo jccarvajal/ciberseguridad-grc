@@ -1,7 +1,7 @@
 # CAPÍTULO 13: El Futuro Inevitable
 **(IA Adversaria y Ciberdefensa Agéntica)**
 
-Al llegar al final de este libro en 2026, nos encontramos en un punto de inflexión histórica. La ciberseguridad ha dejado de ser una batalla de humanos contra humanos ayudados por máquinas, para convertirse en una **guerra de algoritmos contra algoritmos**. 
+Al llegar al final de este libro en 2026, nos encontramos en un punto de inflexión histórica. La ciberseguridad ha dejado de ser una batalla de humanos contra humanos ayudados por máquinas, para convertirse en una **guerra de algoritmos contra algoritmos**.
 
 Como exploramos en la base doctrinal de esta obra, estamos pasando de la "IA como herramienta" a la "IA como agente". En este nuevo paradigma, el **Vigilante Estratégico** debe entender que la velocidad del silicio ha superado definitivamente la capacidad de reacción biológica. El futuro de la resiliencia no reside en expandir el equipo humano, sino en diseñar y gobernar mejores agentes.
 
@@ -36,11 +36,11 @@ A pesar de la automatización agéntica, la **soberanía del criterio** sigue si
 
 El **Mando Medio** debe preparar la hoja de ruta institucional basándose en la transición hacia la autonomía controlada:
 
-| Tecnología | Estado Tradicional | Futuro Agéntico | Impacto en el *ALE* |
+| Tecnología | Estado Tradicional | Futuro Agéntico | Impacto Estimado en el *ALE* |
 | :--- | :--- | :--- | :--- |
-| **Identidad** | MFA estático y contraseñas. | **Biometría de Comportamiento:** Verificación continua por IA en tiempo real. | Reduce el fraude de suplantación en un 90%. |
-| **Vulnerabilidades** | Escaneo periódico de ***CVE***. | **Pentesting Continuo:** Agentes ofensivos internos buscando fallas 24/7. | Reduce la ventana de exposición de meses a minutos. |
-| **DLP** | Reglas basadas en etiquetas fijas. | **Entendimiento Semántico:** IA que identifica la sensibilidad por contexto y propósito. | Previene la fuga de propiedad intelectual compleja. |
+| **Identidad** | MFA estático y contraseñas. | **Biometría de Comportamiento:** Verificación continua por IA en tiempo real. | Potencial reducción del fraude de suplantación hasta en un 90%. |
+| **Vulnerabilidades** | Escaneo periódico de ***CVE***. | **Pentesting Continuo:** Agentes ofensivos internos buscando fallas 24/7. | Reducción drástica de la ventana de exposición (de meses a minutos). |
+| **DLP** | Reglas basadas en etiquetas fijas. | **Entendimiento Semántico:** IA que identifica la sensibilidad por contexto y propósito. | Prevención dinámica de fuga de propiedad intelectual compleja. |
 
 ---
 
@@ -49,6 +49,8 @@ El **Mando Medio** debe preparar la hoja de ruta institucional basándose en la 
 En este horizonte, el éxito se mide por la capacidad de procesar inteligencia de amenazas antes que el adversario logre el impacto total. La fórmula de la resiliencia evoluciona para integrar la capacidad de procesamiento:
 
 $$Resiliencia = \frac{Capacidad \: Agéntica \times Criterio \: Humano}{Tiempo \: de \: Exposición}$$
+
+*(Nota: Al igual que en los modelos anteriores, esta fórmula es un marco conceptual para la toma de decisiones estratégicas, no una ecuación aritmética exacta).*
 
 Al potenciar la capacidad agéntica, el tiempo de exposición tiende a cero, permitiendo que la organización absorba el ataque y proteja el patrimonio de forma casi instantánea.
 

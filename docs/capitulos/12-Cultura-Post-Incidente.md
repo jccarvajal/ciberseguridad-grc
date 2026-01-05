@@ -3,7 +3,7 @@
 
 Una vez que el fuego se apaga, los sistemas se restauran y el **"Botón Rojo"** (Capítulo 10) se desactiva, las organizaciones suelen cometer su error más costoso: intentar volver a la "normalidad" lo más rápido posible sin procesar adecuadamente lo ocurrido. En ciberseguridad, el post-incidente no representa el final de la crisis, sino el inicio de la verdadera madurez institucional.
 
-Nuestra meta no es solo ser robustos para resistir el golpe, sino ser **Antifragiles**: lograr que la organización mejore y se fortalezca precisamente a causa del estrés y el desastre.
+Nuestra meta no es solo ser robustos para resistir el golpe, sino ser **Antifrágiles**: lograr que la organización mejore y se fortalezca precisamente a causa del estrés y el desastre.
 
 ### 1. El *Post-Mortem* Sin Culpa (*Blame-Free Culture*)
 
@@ -57,9 +57,11 @@ La resiliencia no es un estado técnico, sino un hábito organizacional alimenta
 
 ### Conclusión: La Cicatriz como Fortaleza
 
-Un incidente es una cicatriz que recuerda la vulnerabilidad, pero también es una medalla que prueba la capacidad de combate institucional. El ingeniero que analiza la falla y el director que financia la mejora están construyendo una organización que no solo sobrevive a los ataques, sino que evoluciona gracias a ellos. Un sistema que aprende del fallo es, por definición, un sistema que la **ANCI** calificará como diligente.
+Un incidente es una cicatriz que recuerda la vulnerabilidad, pero también es una medalla que prueba la capacidad de combate institucional. La diferencia entre una organización madura y una frágil no es el incidente, sino lo que hace con él.
 
-En el próximo bloque final, miraremos hacia el horizonte: la **Ciberseguridad Agéntica** y los retos de un futuro donde la IA lidera tanto la defensa como el ataque.
+El ingeniero que analiza la falla y el director que financia la mejora están construyendo una organización que no solo sobrevive a los ataques, sino que evoluciona gracias a ellos. Un sistema que aprende del fallo es, por definición, un sistema que la **ANCI** calificará como diligente.
+
+En el próximo y último capítulo, miraremos hacia el horizonte: la **Ciberseguridad Agéntica** y los retos de un futuro donde la IA lidera tanto la defensa como el ataque.
 
 ---
 

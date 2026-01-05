@@ -13,6 +13,8 @@ Para el **Vigilante Estratégico**, es vital distinguir el propósito de cada pl
 2.  **DRP (*Disaster Recovery Plan*):** Su objetivo es **recuperar la tecnología**. Es un plan técnico para restaurar servidores, bases de datos y redes desde respaldos verificados.
 3.  **BCP (*Business Continuity Plan*):** Su objetivo es **mantener el negocio vivo**. Es un plan operativo liderado por las áreas de negocio para trabajar en "modo degradado" mientras TI se recupera.
 
+> **Advertencia:** Confundir estos planes no es solo un error operativo: es una fuente directa de responsabilidad por **negligencia organizacional** ante un tribunal o regulador.
+
 ---
 
 ### 2. El BIA: El Origen de la Verdad
@@ -23,6 +25,8 @@ El **Mando Medio** no debe decidir qué se recupera primero por intuición, pues
 * ***RPO* (*Recovery Point Objective*):** ¿Cuánta pérdida de datos es tolerable? (Si el *RPO* es de 1 hora, debemos respaldar cada 60 minutos).
 
 **Fórmula de Resiliencia:** $$Disponibilidad = f(RTO, RPO, Resiliencia \: de \: Datos)$$
+
+*(Nota: Esta no es una fórmula matemática rígida, sino un marco conceptual de diseño).*
 
 Si el **Ingeniero** no conoce el *RTO* de un proceso, no puede diseñar la arquitectura de respaldos adecuada. Si el *RTO* es de 2 horas y el sistema de restauración tarda 10 horas, hay una **Brecha de Resiliencia** que debe ser informada al Directorio como un riesgo de **debida diligencia** mediante el **Anexo D**.
 
@@ -56,6 +60,8 @@ Un plan que solo vive en un PDF es una falsa sensación de seguridad. El **Vigil
 * **Mesa (*Tabletop*):** El Directorio discute escenarios de crisis y toma de decisiones soberanas.
 * **Técnico (*Red Team*):** El Ingeniero prueba la restauración real de respaldos en ambientes aislados (*Sandboxing*).
 * **Operativo:** Las áreas de negocio simulan operar sin sistemas críticos para validar sus planes de contingencia.
+
+> **Principio Rector:** Un simulacro fallido pero documentado es infinitamente preferible a una confianza ciega no probada. El fallo en el simulacro es aprendizaje; el fallo en la crisis es negligencia.
 
 ---
 
