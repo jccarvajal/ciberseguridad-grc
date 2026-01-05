@@ -1,7 +1,7 @@
 # Ciberseguridad Orientada a Resultados
 ## Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica
 
-**Versión 1.0 (Enero 2026)**
+**Versión 1.1 (Enero 2026)**
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)
 
@@ -140,7 +140,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
 ---
 
 ## Changelog
-* **v1.0 (Enero 2026):** Consolidación del marco GRC de Ciberseguridad. Publicación de los 13 capítulos y el kit completo de anexos operativos.
+* **v1.1 (Enero 2026):** Actualización "Consolidación Legal". Integración de Anexos K (Anti-patrones) y L (Cumplimiento/Terceros), y formalización de revisión adversarial.
+* **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.
 * Ver [Historial Completo](./changelog.md).
 
 ## Sugerencias y Mejoras
