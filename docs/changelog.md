@@ -17,7 +17,7 @@ Esta actualización cierra el ciclo de gobernanza integrando los pilares de Cult
 * **Anexo L (Legal):** "Cumplimiento Normativo y Riesgo de Terceros". Hoja de ruta para la Ley 21.663 y gestión de proveedores (TPRM), incluyendo cláusulas contractuales obligatorias.
 
 #### Metodología
-* **Revisión Adversarial:** Se formalizó el uso de **ChatGPT** actuando como "Sparring Partner" (Revisor Crítico) para desafiar la lógica, detectar sesgos y validar la solidez doctrinal de los textos generados.
+* **Revisión Adversarial:** Se formalizó el uso de **ChatGPT** actuando como "Sparring Partner" (Revisor Crítico) para desafiar la lógica, detectar sesgos y validar la solidez doctrinal de los textos elaborados.
 
 #### Actualizado
 * **Bibliografía:** Se incorporó explícitamente la norma **ISO/IEC 27001:2022** como marco rector del SGSI y **NIST SP 800-161** para la gestión de cadena de suministro.
