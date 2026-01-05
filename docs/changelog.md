@@ -1,8 +1,28 @@
 # Historial de Versiones (Changelog)
 
-Todos los cambios notables en este proyecto serán documentados en este archivo. El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) y este proyecto adhiere a la numeración de versiones semántica.
+Todos los cambios notables en este proyecto serán documentadas en este archivo. El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) y este proyecto adhiere a la numeración de versiones semántica.
 
 Este documento registra todas las modificaciones estructurales, técnicas y conceptuales realizadas en el libro **"Ciberseguridad Orientada a Resultados: Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica"**.
+
+---
+
+## [1.1.0] - 2026-01-04
+
+### Consolidación Legal, Cultural y Metodológica
+
+Esta actualización cierra el ciclo de gobernanza integrando los pilares de Cultura (Anti-patrones) y Cumplimiento Legal (Riesgo de Terceros), además de refinar los estándares de referencia.
+
+#### Añadido (Nuevas Herramientas GRC)
+* **Anexo K (Cultura):** "Patrones de Fracaso". Guía de anti-patrones y autoevaluación de fragilidad organizacional para detectar "malas prácticas" institucionalizadas.
+* **Anexo L (Legal):** "Cumplimiento Normativo y Riesgo de Terceros". Hoja de ruta para la Ley 21.663 y gestión de proveedores (TPRM), incluyendo cláusulas contractuales obligatorias.
+
+#### Metodología
+* **Revisión Adversarial:** Se formalizó el uso de **ChatGPT** actuando como "Sparring Partner" (Revisor Crítico) para desafiar la lógica, detectar sesgos y validar la solidez doctrinal de los textos generados.
+
+#### Actualizado
+* **Bibliografía:** Se incorporó explícitamente la norma **ISO/IEC 27001:2022** como marco rector del SGSI y **NIST SP 800-161** para la gestión de cadena de suministro.
+* **Glosario Unificado:** Expansión de términos clave de resiliencia y legalidad como *Air-Gap*, *Clean Room*, *MTPD* y *Responsabilidad Solidaria*.
+* **Estrategia DRP (Anexo I):** Actualización del estándar de respaldo a la Regla **3-2-1-1-0** (Inmutabilidad y verificación de cero errores).
 
 ---
 
