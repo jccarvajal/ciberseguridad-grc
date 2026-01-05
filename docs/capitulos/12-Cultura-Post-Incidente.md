@@ -36,7 +36,7 @@ Desde la perspectiva del **Directorio**, un incidente es una inversión forzosa 
 
 Para ello, es fundamental actualizar el cálculo del ***ALE*** (Capítulo 2). Tras el incidente, la variable ***ARO*** (Frecuencia) deja de ser una estimación para convertirse en un dato histórico real, lo que permite ajustar el presupuesto de seguridad con precisión quirúrgica.
 
-**Condición de Antifragilidad:** $$Valor_{Aprendizaje} > Costo_{Incidente}$$
+**Condición de Antifragilidad:** $Valor_{Aprendizaje} > Costo_{Incidente}$
 
 ---
 
