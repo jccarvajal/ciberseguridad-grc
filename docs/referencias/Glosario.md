@@ -40,6 +40,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** *Tasa de Ocurrencia Anualizada.* Estimación de cuántas veces al año se espera que ocurra un evento de riesgo.
 * **Referencia Principal:** Capítulo 02.
 
+**Asimetría de Información**
+
+* **Definición:** Fenómeno económico donde una parte (el Directorio) tiene menos información que la otra (el CISO) para tomar una decisión, resultando en una valoración ineficiente del riesgo ("Mercado de los Limones").
+* **Referencia Principal:** Capítulo 01.
+
 **Asumir la Brecha (Assume Breach)**
 
 * **Definición:** Mentalidad de diseño que asume que el atacante ya ha comprometido el perímetro, priorizando la detección y la contención interna.
@@ -75,6 +80,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Equipo especializado responsable de la respuesta táctica ante incidentes de seguridad.
 * **Referencia Principal:** Capítulo 07.
 
+**Culpa in Vigilando**
+
+* **Definición:** Doctrina legal que establece la responsabilidad del superior (Directorio) por no haber supervisado adecuadamente a quienes están bajo su mando. Impide delegar la culpa penal en el técnico que cometió el error.
+* **Referencia Principal:** Capítulo 10.
+
 **CVE / CWE**
 
 * **Definición:** Estándares universales de fallos. 
@@ -87,10 +97,20 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Sistema de puntuación (0 a 10) que mide la severidad técnica de una vulnerabilidad.
 * **Referencia Principal:** Anexo F.
 
+**Dark Data (Datos Oscuros)**
+
+* **Definición:** Activos de información que la organización recolecta y almacena pero no utiliza. Representan un pasivo tóxico: generan costo de almacenamiento y riesgo legal masivo sin aportar valor comercial.
+* **Referencia Principal:** Capítulo 06.
+
 **Debida Diligencia**
 
 * **Definición:** Estado de cumplimiento continuo probado mediante decisiones informadas y documentadas para exonerar de responsabilidad a la dirección ante la ANCI.
 * **Referencia Principal:** Capítulo 03.
+
+**Defensa Agéntica**
+
+* **Definición:** Evolución de la ciberseguridad donde sistemas autónomos de IA tienen la facultad de razonar y ejecutar contramedidas (bloqueos, aislamiento) sin intervención humana para combatir amenazas de alta velocidad.
+* **Referencia Principal:** Capítulo 13.
 
 **DLP (Data Loss Prevention)**
 
@@ -126,6 +146,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** Rol de autoridad absoluta durante una crisis (Nivel 1 o 2). Es el "Director de Orquesta" que toma las decisiones tácticas y autoriza acciones drásticas (como desconexiones) sin burocracia.
 * **Referencia Principal:** Anexo G / Anexo H.
+
+**Incidente vs. Ciberataque**
+
+* **Definición:** Distinción jurídica crítica. Un **Incidente** es cualquier interrupción de la tríada CIA (puede ser accidental). Un **Ciberataque** implica dolo y acción deliberada de un tercero. No se deben usar como sinónimos en reportes legales.
+* **Referencia Principal:** Capítulo 09.
 
 **IRP (Incident Response Plan)**
 
@@ -178,6 +203,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Fórmula:** $$MTTR = \frac{\sum (Fin \: Incidente - Detección)}{Número \: de \: Incidentes}$$.
 * **Referencia Principal:** Capítulo 08.
 
+**OODA (Observar, Orientar, Decidir, Actuar)**
+
+* **Definición:** Ciclo estratégico de combate (John Boyd). En ciberseguridad, el objetivo de la automatización (SOAR) es completar este ciclo más rápido que el adversario para neutralizar la amenaza antes de que se oriente en la red.
+* **Referencia Principal:** Capítulo 08.
+
 **Out-of-Band (OOB)**
 
 * **Definición:** Canales de comunicación "Fuera de Banda" (ej: Signal, Satélite, Líneas análogas) que no dependen de la infraestructura corporativa y se usan cuando la red principal está comprometida o no es confiable.
@@ -219,6 +249,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
     * **RTO:** Tiempo máximo de recuperación aceptable.
     * **RPO:** Cantidad máxima de pérdida de datos tolerable.
 * **Referencia Principal:** Capítulo 11.
+
+**Ruido (Noise)**
+
+* **Definición:** Variabilidad no deseada en el juicio humano (Kahneman). A diferencia del sesgo (error sistemático), el ruido es la inconsistencia aleatoria entre diferentes expertos o del mismo experto en diferentes momentos.
+* **Referencia Principal:** Capítulo 02.
 
 **Shadow IT (TI en las Sombras)**
 
