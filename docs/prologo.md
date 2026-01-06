@@ -1,6 +1,8 @@
 # Prólogo: El Despertar de la Gobernanza
 **(Del Sótano Técnico al Tablero de Control Estratégico)**
 
+---
+
 > *"El futuro ya está aquí, solo que no está equitativamente distribuido."*
 > — **William Gibson**
 
