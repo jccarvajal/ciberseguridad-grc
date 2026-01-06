@@ -60,6 +60,11 @@ Un error crítico es priorizar la recuperación inmediata borrando las huellas d
 2.  **Preservar:** Asegurar logs y memorias para el análisis de causa raíz.
 3.  **Erradicar y Recuperar:** Solo tras garantizar la trazabilidad del incidente.
 
+!!! danger "Advertencia de Gobernanza: La Destrucción de Evidencia (Spoliation)"
+    Formatear un servidor comprometido para "volver a operar rápido" es el error legal más grave en respuesta a incidentes.
+    
+    Al borrar el disco sin sacar una imagen forense, usted no está "limpiando el virus", está **destruyendo la evidencia exculpatoria**. Ante la ANCI o un tribunal, si no hay logs que prueben cómo entró el atacante, se asume negligencia por defecto. **Nunca se recupera sobre la evidencia original.**
+    
 ---
 
 ### Conclusión: El Sistema Inmunológico Institucional

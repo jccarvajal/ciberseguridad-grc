@@ -58,6 +58,11 @@ La forma más eficiente de reducir el ***ALE*** es eliminar los datos que no apo
 * **Higiene:** Ejecutar políticas de retención y eliminación segura. Un dato borrado es un dato que no puede ser robado.
 * **Ofuscación:** El uso de datos sintéticos o anonimización en entornos de prueba reduce la superficie de ataque sin afectar la agilidad del desarrollo.
 
+!!! danger "Advertencia de Gobernanza: El Pasivo de los 'Datos Zombis'"
+    En ciberseguridad, el dato más seguro es el que no existe.
+    
+    Mantener bases de datos de hace 10 años "por si acaso" no es una práctica de respaldo, es acumulacion de **riesgo tóxico**. Si esos datos antiguos (que ya no generan valor) son exfiltrados, la multa de la Ley 21.663 se aplica con el mismo rigor que si fueran datos actuales. **Si el dato no trabaja para el negocio, debe ser eliminado.**
+    
 ---
 
 ### Conclusión: La Soberanía como Hábito

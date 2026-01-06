@@ -36,6 +36,11 @@ No todas las identidades tienen el mismo impacto. Las **Cuentas Privilegiadas** 
 
 **Evidencia Verificable:** Desde una perspectiva de gobernanza, cada evento de autenticación, elevación de privilegio o acceso denegado debe quedar registrado como evidencia auditable, vinculable a una identidad y a una decisión de negocio. Todo control que no genera evidencia es, bajo escrutinio regulatorio, inexistente.
 
+!!! danger "Advertencia de Gobernanza: El Fin de la Imputabilidad"
+    El uso de cuentas administrativas genéricas o compartidas (ej: "root", "admin", "soporte") impide la atribución legal de acciones.
+    
+    Si tres ingenieros conocen la clave del usuario "Admin", y ese usuario borra un servidor, es jurídicamente imposible probar quién fue. Sin **No Repudio** (capacidad de probar autoría), no hay responsabilidad administrativa ni penal posible. **Cada acción privilegiada debe estar vinculada a un RUT/DNI específico.**
+    
 ---
 
 ### 4. Blueprint 5: Matriz de Control de Acceso (RBAC vs. ABAC)

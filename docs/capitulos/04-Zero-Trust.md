@@ -35,6 +35,11 @@ La microsegmentación divide la red en compartimentos estancos. En términos de 
 * La microsegmentación reduce el ***SLE* (Impacto)**. Si una oficina es infectada, el centro de datos permanece intacto. 
 * El costo de recuperación es linealmente menor cuando el ataque está contenido. Priorizamos la microsegmentación como herramienta de **control del radio de pérdida**, reduciendo la exposición financiera ante un compromiso.
 
+!!! danger "Advertencia de Gobernanza: La Falacia de la Red Segura"
+    Asumir que un dispositivo es confiable solo porque está conectado al cable de red de la oficina es negligencia técnica.
+    
+    Bajo el modelo Zero Trust, la "Red Interna" ya no existe. Permitir que un PC infectado vea toda la red plana (sin microsegmentación) garantiza que un *Ransomware* en Recepción cifre la base de datos de Finanzas en minutos. **La confianza basada en la ubicación física es obsoleta e indefendible.**
+    
 ---
 
 ### 4. Blueprint 4: Los Cinco Dominios de Implementación

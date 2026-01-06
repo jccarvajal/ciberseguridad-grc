@@ -12,14 +12,19 @@ Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tra
 * **Cultura de Aprendizaje**: El foco debe situarse estrictamente en el **proceso**, no en la persona.
 * **La Pregunta Crítica**: No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".
 
+!!! danger "Advertencia de Gobernanza: La Trampa del Chivo Expiatorio"
+    Despedir al "culpable" del clic no es una medida correctiva aceptable ante la ANCI; es una **falla de control**.
+    
+    Si su respuesta institucional ante un incidente es sancionar a una persona en lugar de parchar el proceso que permitió el error, usted está incentivando el **ocultamiento de incidentes futuros**. Una organización donde los empleados temen reportar errores es una organización ciega y legalmente indefensa.
+    
+---
+
+### 2. Análisis de Causa Raíz: Honestidad Técnica
+
 !!! failure "Nota Editorial: El Riesgo del Silencio Administrativo"
     Un incidente de ransomware sin un proceso formal de investigación administrativa constituye una ruptura del ciclo de **debida diligencia**. La contención técnica y la recuperación operativa, aun cuando sean exitosas, no agotan las obligaciones de una organización diligente. La ausencia de un sumario o mecanismo equivalente interrumpe el ciclo post-incidente en su fase más crítica: la determinación de responsabilidades, la identificación de fallas de control y la generación de evidencia institucional de aprendizaje.
     
     En términos de gobernanza, recuperar sin investigar no es resiliencia: es normalización del riesgo.
-
----
-
-### 2. Análisis de Causa Raíz: Honestidad Técnica
 
 Para el **Ingeniero**, la fase post-incidente es el momento de la verdad técnica total. Es imperativo trascender el **CVE** (la vulnerabilidad puntual) para identificar el **CWE** (la debilidad de diseño).
 

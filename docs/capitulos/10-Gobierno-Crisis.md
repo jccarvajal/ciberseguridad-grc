@@ -15,6 +15,11 @@ La decisión del Botón Rojo debe ser tomada por el **Comité de Crisis**, lider
 * **El Mando Medio:** Provee el pronóstico operativo (¿Cuánto tardaremos en recuperar según el ***DRP***?).
 * **El Directorio:** Decide el curso de acción basado en la supervivencia patrimonial del negocio.
 
+!!! danger "Advertencia de Gobernanza: Culpa in Vigilando"
+    Delegar la decisión del "Botón Rojo" (apagar el negocio) en el equipo técnico es una falla estructural de gobierno.
+    
+    Si un ingeniero decide no apagar por miedo a ser despedido y eso causa una fuga masiva de datos, la responsabilidad legal **recae indelegablemente en el Directorio** bajo la doctrina de *Culpa in Vigilando* (falta de supervisión). La ignorancia técnica no exime de responsabilidad penal corporativa.
+    
 ---
 
 ### 2. La Lógica del Apagado: ¿Cuándo es correcto detenerse?

@@ -73,6 +73,11 @@ Con la matemática sobre la mesa, el Directorio solo tiene cuatro caminos legít
 
 Aceptar un riesgo sin cuantificarlo genera **Deuda de Gobernanza**. Aceptarlo cuantificado y aprobado en acta es ejercer gobierno corporativo real.
 
+!!! danger "Advertencia de Gobernanza: Aceptación vs. Ilusión"
+    La "Aceptación del Riesgo" sin provisión presupuestaria es una ficción contable.
+    
+    Si un Director firma un acta aceptando un riesgo de $1M USD (ALE), pero no reserva ese capital en el balance como contingencia, no está gestionando el riesgo; está ocultando una **Deuda de Gobernanza**. Aceptar un riesgo "gratis" es, en la práctica, negligencia financiera.
+    
 ---
 
 ### Conclusión: El Riesgo es una Decisión, no una Opinión

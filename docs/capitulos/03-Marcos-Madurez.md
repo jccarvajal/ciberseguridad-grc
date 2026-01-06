@@ -17,6 +17,13 @@ $$SLE_{\text{nuevo}} = SLE_{\text{operativo}} + \text{Multa}_{\text{ANCI}} + \te
 * **El Piso Legal de Aceptación:** Es un error crítico de gobernanza creer que el Directorio puede "aceptar" riesgos que sitúen a la organización por debajo del estándar base exigido para Servicios Esenciales. Aceptar un riesgo residual es una decisión financiera; aceptar el incumplimiento de la ley es una **confesión de negligencia**.
 * **Impacto en la Continuidad:** Las multas de hasta **40.000 UTM** son solo la primera capa. El riesgo sistémico es la intervención operativa o la revocación de la facultad de operar ante fallos graves de gobierno.
 
+!!! danger "Advertencia de Gobernanza: La Falacia de la Aceptación"
+    Es vital distinguir entre **Riesgo de Negocio** y **Riesgo Legal**.
+    
+    Un Directorio puede legítimamente decidir no invertir en un control y asumir la pérdida financiera de un ataque (Riesgo de Negocio).
+    
+    Sin embargo, el Directorio **NO PUEDE** "aceptar el riesgo" de incumplir la Ley 21.663 o no reportar a la ANCI. Documentar la aceptación del incumplimiento legal no es una estrategia de gestión de riesgo; es una **confesión escrita de dolo eventual** ante un tribunal.
+    
 ---
 
 ### 2. Responsabilidad: Decisión Informada y Cadencia Operativa

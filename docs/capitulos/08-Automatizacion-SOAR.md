@@ -36,6 +36,11 @@ La automatización reduce drásticamente los componentes más costosos del ***SL
 * ***MTTR*** (Respuesta): Tiempo necesario para neutralizar la amenaza y restaurar el negocio.
 * **Resultado:** Al reducir el ***MTTR*** de horas a segundos, la exposición financiera total (***ALE***) disminuye de forma exponencial.
 
+!!! danger "Advertencia de Gobernanza: La Negligencia de la Velocidad Manual"
+    Confiar en la respuesta humana para detener ataques de "tiempo de máquina" (machine-speed) es una falla de diseño.
+    
+    Si un ransomware cifra 10.000 archivos por minuto, y su proceso de respuesta depende de que un analista "vea el correo y decida", el daño está garantizado. No tener capacidad de bloqueo automatizado ante amenazas de alta velocidad (*High Velocity Attacks*) puede ser interpretado como una **falta de medidas técnicas apropiadas** bajo la Ley 21.663.
+    
 ---
 
 ### 4. Blueprint 8: Del IRP Manual al Playbook Automatizado

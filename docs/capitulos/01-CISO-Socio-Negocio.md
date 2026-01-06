@@ -13,6 +13,11 @@ Al evadir los controles oficiales, los líderes de área introducen **Ruido Sist
 
 > **Principio de Resiliencia:** La seguridad no es el muro que detiene el avance, son los **frenos de un auto de Fórmula 1**. Los frenos no existen para detener el auto, sino para permitir que el piloto acelere a fondo con la confianza de que puede gestionar la curva. La seguridad es el habilitador de la velocidad competitiva.
 
+!!! danger "Advertencia de Gobernanza: El Riesgo del Shadow IT"
+    Una política de seguridad demasiado restrictiva no reduce el riesgo; lo vuelve invisible.
+    
+    Cuando el CISO actúa como un "bloqueador" sistemático, las áreas de negocio no dejan de innovar; simplemente dejan de avisarle. El uso de *Shadow IT* (tecnología oculta) invalida cualquier estrategia de defensa. **Si usted no lo ve, no lo puede gobernar, y si no lo gobierna, la responsabilidad legal por la brecha será total.**
+    
 ---
 
 ### 2. La Pirámide de Información: Arquitectura de la Decisión

@@ -13,6 +13,11 @@ El mayor error del **Mando Medio** es esperar a tener la "verdad total" para hab
 * **Transparencia de Proceso:** No siempre se puede informar "qué pasó" de inmediato, pero siempre se debe informar "qué estamos haciendo". La transparencia sobre el proceso es el primer escudo contra la negligencia. 
 * **La Transparencia no es Especulación:** Informar lo que se sabe no autoriza la especulación técnica; comunicar hipótesis no verificadas erosiona la credibilidad y compromete gravemente la defensa regulatoria futura.
 
+!!! danger "Advertencia de Gobernanza: La Trampa de la Especulación"
+    Jamás utilice frases absolutas como *"No hubo robo de datos"* en las primeras 24 horas.
+    
+    Si el análisis forense posterior demuestra lo contrario, su primera declaración se convierte en prueba de **ocultamiento o falta de control** ante el regulador y la opinión pública. Es preferible decir *"Estamos investigando el alcance"* (verdad temporal) que afirmar una falsedad que destruya su credibilidad jurídica (mentira técnica).
+    
 ---
 
 ### 2. La Cadena de Reporte: Hechos vs. Especulación

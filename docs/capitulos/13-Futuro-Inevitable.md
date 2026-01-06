@@ -30,6 +30,11 @@ A pesar de la automatización agéntica, la **soberanía del criterio** sigue si
 * **La IA gestiona la escala**: Ejecuta la contención y el análisis de datos masivos en milisegundos, reduciendo el tiempo de exposición.
 * **El Humano gestiona la ética y la estrategia**: Toma las decisiones que impactan la **Licencia Social** y asume la responsabilidad legal ante la **ANCI** bajo la **Ley 21.663**.
 
+!!! danger "Advertencia de Gobernanza: La Abdicación Algorítmica"
+    La autonomía técnica no implica autonomía legal.
+    
+    Si usted autoriza a una IA defensiva para tomar decisiones críticas (como apagar servicios o bloquear usuarios) y la IA comete un error discriminatorio o destructivo, la responsabilidad penal y civil recae **íntegramente en el Directorio** que autorizó el despliegue del agente. La frase "fue un error del sistema" carece de validez jurídica bajo la Ley 21.663.
+    
 ---
 
 ### 4. Blueprint 13: Matriz de Evolución Tecnológica (2026-2030)
