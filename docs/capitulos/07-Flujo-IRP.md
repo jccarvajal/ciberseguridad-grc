@@ -67,6 +67,7 @@ Si el IRP funciona bajo los principios de la **debida diligencia**, el incidente
 
 ---
 
-> **Tesis del Capítulo:** En una crisis, la velocidad es importante, pero el orden es vital. No se responde al instinto; se responde al proceso. Un incidente gestionado con evidencia es la prueba máxima de madurez institucional y debida diligencia.
+!!! abstract "Tesis del Capítulo"
+    En una crisis, la velocidad es importante, pero el orden es vital. No se responde al instinto; se responde al proceso. Un incidente gestionado con evidencia es la prueba máxima de madurez institucional y debida diligencia.
 
 ---

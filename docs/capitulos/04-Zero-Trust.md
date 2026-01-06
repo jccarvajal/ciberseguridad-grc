@@ -68,6 +68,7 @@ El ingeniero que diseña bajo estos principios está construyendo un sistema **a
 
 ---
 
-> **Tesis del Capítulo:** En la arquitectura moderna, la confianza es una vulnerabilidad. La seguridad real comienza cuando dejamos de confiar en la ubicación y empezamos a verificar la identidad y el contexto como generadores de evidencia de control.
+!!! abstract "Tesis del Capítulo"
+    En la arquitectura moderna, la confianza es una vulnerabilidad. La seguridad real comienza cuando dejamos de confiar en la ubicación y empezamos a verificar la identidad y el contexto como generadores de evidencia de control.
 
 ---

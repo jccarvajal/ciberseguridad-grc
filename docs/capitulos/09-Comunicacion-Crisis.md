@@ -67,6 +67,7 @@ En el próximo capítulo, abordaremos la decisión más difícil para el **Vigil
 
 ---
 
-> **Tesis del Capítulo:** La confianza se construye en años y se pierde en minutos. Durante un incidente, la transparencia no es una debilidad; es la única forma de transformar un desastre técnico en un registro público de madurez institucional y **debida diligencia**.
+!!! abstract "Tesis del Capítulo"
+    La confianza se construye en años y se pierde en minutos. Durante un incidente, la transparencia no es una debilidad; es la única forma de transformar un desastre técnico en un registro público de madurez institucional y **debida diligencia**.
 
 ---

@@ -84,6 +84,7 @@ En el próximo capítulo, veremos cómo este modelo se ve radicalmente alterado 
 
 ---
 
-> **Tesis del Capítulo:** La gobernanza del riesgo exige abandonar la intuición cualitativa y adoptar la cuantificación financiera. Solo cuando el riesgo tiene un precio, el Directorio puede ejercer su verdadera función: decidir con base en evidencia.
+!!! abstract "Tesis del Capítulo"
+    La gobernanza del riesgo exige abandonar la intuición cualitativa y adoptar la cuantificación financiera. Solo cuando el riesgo tiene un precio, el Directorio puede ejercer su verdadera función: decidir con base en evidencia.
 
 ---

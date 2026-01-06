@@ -65,6 +65,7 @@ En el próximo bloque, pasaremos de la crisis a la recuperación. Veremos cómo 
 
 ---
 
-> **Tesis del Capítulo:** El poder real en ciberseguridad no es saber cómo encender los sistemas, sino tener el criterio, los datos y el valor para saber cuándo apagarlos bajo los principios de la **debida diligencia**.
+!!! abstract "Tesis del Capítulo"
+    El poder real en ciberseguridad no es saber cómo encender los sistemas, sino tener el criterio, los datos y el valor para saber cuándo apagarlos bajo los principios de la **debida diligencia**.
 
 ---

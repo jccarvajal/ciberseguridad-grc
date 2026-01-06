@@ -65,6 +65,7 @@ El ingeniero que implementa MFA y el gerente que audita periódicamente las cuen
 
 ---
 
-> **Tesis del Capítulo:** En la red moderna, la identidad es el único perímetro real. Sin una gobernanza que garantice la trazabilidad y la atribución, el riesgo financiero es inmanejable y la responsabilidad legal es total.
+!!! abstract "Tesis del Capítulo"
+    En la red moderna, la identidad es el único perímetro real. Sin una gobernanza que garantice la trazabilidad y la atribución, el riesgo financiero es inmanejable y la responsabilidad legal es total.
 
 ---

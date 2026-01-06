@@ -64,6 +64,7 @@ En el próximo capítulo, abordaremos la dimensión más sensible de la crisis: 
 
 ---
 
-> **Tesis del Capítulo:** En una guerra a la velocidad del silicio, la respuesta manual es negligencia manifiesta. La automatización es el único camino para mantener el *MTTR* por debajo del umbral del daño catastrófico y garantizar la supervivencia legal mediante la generación automática de evidencia.
+!!! abstract "Tesis del Capítulo"
+    En una guerra a la velocidad del silicio, la respuesta manual es negligencia manifiesta. La automatización es el único camino para mantener el *MTTR* por debajo del umbral del daño catastrófico y garantizar la supervivencia legal mediante la generación automática de evidencia.
 
 ---

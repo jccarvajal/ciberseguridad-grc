@@ -66,6 +66,7 @@ Los frenos del Fórmula 1 están listos. El auto es potente. La pista es suya. *
 
 ---
 
-> **Tesis Final**: La ciberseguridad agéntica no reemplaza al humano; lo libera de la tiranía del dato crudo para devolverlo a su función más noble: la toma de decisiones estratégicas que aseguran el futuro de la sociedad bajo estándares de **debida diligencia**.
+!!! abstract "Tesis Final"
+    La ciberseguridad agéntica no reemplaza al humano; lo libera de la tiranía del dato crudo para devolverlo a su función más noble: la toma de decisiones estratégicas que aseguran el futuro de la sociedad bajo estándares de **debida diligencia**.
 
 ---

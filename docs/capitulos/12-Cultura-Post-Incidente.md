@@ -72,6 +72,7 @@ En el próximo y último capítulo, miraremos hacia el horizonte: la **Cibersegu
 
 ---
 
-> **Tesis del Capítulo**: La verdadera medida de una organización no es cuántas veces cae, sino qué tan inteligente se vuelve después de cada caída bajo los principios de la **debida diligencia**. La cultura es el *firewall* humano definitivo.
+!!! abstract "Tesis del Capítulo"
+    La verdadera medida de una organización no es cuántas veces cae, sino qué tan inteligente se vuelve después de cada caída bajo los principios de la **debida diligencia**. La cultura es el *firewall* humano definitivo.
 
 ---

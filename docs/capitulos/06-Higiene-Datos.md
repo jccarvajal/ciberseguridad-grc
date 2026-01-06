@@ -67,6 +67,7 @@ Con este capítulo finalizamos el **Bloque 2: Arquitectura y Prevención**. Ahor
 
 ---
 
-> **Tesis del Capítulo:** La seguridad del dato no es un candado; es un proceso de visibilidad y clasificación continua. Sin saber qué datos tienes y quién los mueve, no tienes soberanía, solo tienes la ilusión de control.
+!!! abstract "Tesis del Capítulo"
+    La seguridad del dato no es un candado; es un proceso de visibilidad y clasificación continua. Sin saber qué datos tienes y quién los mueve, no tienes soberanía, solo tienes la ilusión de control.
 
 ---

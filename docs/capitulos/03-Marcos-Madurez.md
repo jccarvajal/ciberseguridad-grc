@@ -70,6 +70,7 @@ En este marco, gobernar no es evitar el incidente, sino asegurar que cada decisi
 
 ---
 
-> **Tesis del Capítulo:** La madurez institucional no es un objetivo de TI; es la arquitectura de defensa legal necesaria para asegurar la supervivencia de la organización y la protección del patrimonio de sus directivos.
+!!! abstract "Tesis del Capítulo"
+    La madurez institucional no es un objetivo de TI; es la arquitectura de defensa legal necesaria para asegurar la supervivencia de la organización y la protección del patrimonio de sus directivos.
 
 ---

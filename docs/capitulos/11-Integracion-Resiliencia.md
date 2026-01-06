@@ -73,6 +73,7 @@ En el próximo capítulo, veremos cómo gestionar la organización después del 
 
 ---
 
-> **Tesis del Capítulo:** La resiliencia integral ocurre cuando el negocio deja de preguntar "¿cuándo vuelve el sistema?" y empieza a preguntar "¿cómo seguimos operando mientras vuelve?" bajo los estándares de la **debida diligencia**.
+!!! abstract "Tesis del Capítulo"
+    La resiliencia integral ocurre cuando el negocio deja de preguntar "¿cuándo vuelve el sistema?" y empieza a preguntar "¿cómo seguimos operando mientras vuelve?" bajo los estándares de la **debida diligencia**.
 
 ---
