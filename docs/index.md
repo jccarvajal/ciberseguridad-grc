@@ -86,7 +86,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Sinergia entre IRP, DRP y BCP basada en el impacto (BIA).*
 * [Capítulo 12: Cultura Post-Incidente](./capitulos/12-Cultura-Post-Incidente.md)
   *Análisis forense, lecciones aprendidas y el ciclo de mejora continua.*
-* [Capítulo 13: EL Futuro Inevitable](./capitulos/13-Futuro-Inevitable.md)
+* [Capítulo 13: El Futuro Inevitable](./capitulos/13-Futuro-Inevitable.md)
   *Ciberseguridad Agéntica e IA Adversaria.*
 
 ---
