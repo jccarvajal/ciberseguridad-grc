@@ -15,7 +15,9 @@ Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tra
 !!! failure "Nota Editorial: El Riesgo del Silencio Administrativo"
     Un incidente de ransomware sin un proceso formal de investigación administrativa constituye una ruptura del ciclo de **debida diligencia**.
     
-    La contención técnica y la recuperación operativa, aun cuando sean exitosas, no agotan las obligaciones de una organización diligente. La ausencia de un sumario o mecanismo equivalente interrumpe el ciclo post-incidente en su fase más crítica: la determinación de responsabilidades, la identificación de fallas de control y la generación de evidencia institucional de aprendizaje.
+    La contención técnica y la recuperación operativa, aun cuando sean exitosas, no agotan las obligaciones de una organización diligente. 
+    
+    La ausencia de un sumario o mecanismo equivalente interrumpe el ciclo post-incidente en su fase más crítica: la determinación de responsabilidades, la identificación de fallas de control y la generación de evidencia institucional de aprendizaje.
     
     En términos de gobernanza, recuperar sin investigar no es resiliencia: es normalización del riesgo.
 
