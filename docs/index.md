@@ -99,7 +99,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 
 ## Anexos Operativos (Biblioteca del Arquitecto)
 
-#### Control y Medición
+### Control y Medición
 * [Anexo A: Matriz RACI](./anexos/A-Matriz-RACI.md)
   *Accountability organizacional.*
 * [Anexo B: Tablero de Métricas](./anexos/B-Metricas.md)
@@ -107,7 +107,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 * [Anexo C: Checklist Zero Trust](./anexos/C-ZeroTrust.md)
   *Rúbrica de madurez técnica.*
 
-#### Comunicación e Inteligencia
+### Comunicación e Inteligencia
 * [Anexo D: Guía de Reporting Ejecutivo](./anexos/D-Reporting.md)
   *Traducción de bits a dólares.*
 * [Anexo E: Ecosistema Global de Inteligencia](./anexos/E-Ecosistema.md)
@@ -115,7 +115,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 * [Anexo F: Gestión de Vulnerabilidades](./anexos/F-Vulnerabilidades.md)
   *Ciclos de parcheo y SLAs.*
 
-#### Respuesta y Supervivencia
+### Respuesta y Supervivencia
 * [Anexo G: Estructura CSIRT](./anexos/G-CSIRT.md)
   *Roles y cadena de mando.*
 * [Anexo H: Plan IRP](./anexos/H-Plan-IRP.md)
@@ -125,7 +125,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 * [Anexo J: Plan BCP](./anexos/J-Plan-BCP.md)
   *Continuidad del negocio y BIA.*
 
-#### Cultura y Legal
+### Cultura y Legal
 * [Anexo K: Patrones de Fracaso](./anexos/K-Fracaso.md)
   *Antifragilidad operativa.*
 * [Anexo L: Cumplimiento Normativo y Riesgo de Terceros](./anexos/L-Cumplimiento.md)
@@ -133,7 +133,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 * [Anexo M: Protocolo de Entrenamiento y Simulación](./anexos/M-Entrenamiento.md) 
   *Ingeniería del Factor Humano y "Human Firewall"*
 
-#### Referencias y Fundamento
+## Referencias y Fundamento
 * [Glosario](./referencias/Glosario.md)
   *Diccionario Técnico-Negocio.*
 * [Bibliografia](./referencias/Bibliografia.md)
