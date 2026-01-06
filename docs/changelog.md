@@ -15,6 +15,7 @@ Esta actualización cierra el ciclo de gobernanza integrando los pilares de Cult
 #### Añadido (Nuevas Herramientas GRC)
 * **Anexo K (Cultura):** "Patrones de Fracaso". Guía de anti-patrones y autoevaluación de fragilidad organizacional para detectar "malas prácticas" institucionalizadas.
 * **Anexo L (Legal):** "Cumplimiento Normativo y Riesgo de Terceros". Hoja de ruta para la Ley 21.663 y gestión de proveedores (TPRM), incluyendo cláusulas contractuales obligatorias.
+* **Anexo M (Entrenamiento):** "Protocolo de Entrenamiento y Simulación". Estrategias de ingeniería del factor humano para transformar al usuario en un "Human Firewall", integrando simulaciones de ingeniería social y métricas de comportamiento.
 
 #### Metodología
 * **Revisión Adversarial:** Se formalizó el uso de **ChatGPT** actuando como "Sparring Partner" (Revisor Crítico) para desafiar la lógica, detectar sesgos y validar la solidez doctrinal de los textos elaborados.
