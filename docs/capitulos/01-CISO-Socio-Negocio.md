@@ -59,6 +59,7 @@ En los siguientes capítulos, pasaremos de la actitud a la aptitud: entraremos e
 
 ---
 
-> **Tesis del Capítulo:** La ciberseguridad ya no es un problema de ingeniería que el Directorio debe financiar, sino una capacidad de gobernanza que la ingeniería debe ejecutar para asegurar la supervivencia del negocio.
+!!! quote "Tesis del Capítulo"
+    La ciberseguridad ya no es un problema de ingeniería que el Directorio debe financiar, sino una capacidad de gobernanza que la ingeniería debe ejecutar para asegurar la supervivencia del negocio.
 
 ---
