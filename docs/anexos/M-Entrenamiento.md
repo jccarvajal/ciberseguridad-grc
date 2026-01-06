@@ -26,6 +26,7 @@ Trataremos al personal como un sistema operativo que requiere actualizaciones cr
 La única métrica real de la "Capa 8" (Usuario) es su comportamiento reflejo frente a un ataque simulado.
 
 #### Protocolo de Respuesta
+
 1.  **El Clic:** Si un usuario hace clic en el enlace simulado, es redirigido inmediatamente a una pantalla de "Ups!" y una cápsula de entrenamiento de 2 minutos (*Just-in-Time Training*).
 2.  **No-Castigo Inicial:** El fallo en simulación es una oportunidad de aprendizaje, no de sanción. Castigar el error provoca que el usuario oculte incidentes reales.
 3.  **Reincidentes Crónicos:** Usuarios que fallan 3 simulaciones consecutivas representan una **vulnerabilidad crítica de personas**.
@@ -58,3 +59,5 @@ En lugar de que TI sea el "policía" lejano, se recluta a un miembro no-técnico
 ---
 
 > **Regla de Oro:** Un usuario que pregunta "¿es esto un virus?" al CSIRT no debe ser regañado por molestar, debe ser felicitado por verificar. La barrera psicológica para reportar debe ser cero.
+
+---

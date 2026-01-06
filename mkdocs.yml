@@ -88,7 +88,7 @@ nav:
   - 'Bloque 4: Resiliencia y Proyección':
       - 'Capítulo 11: Integración de la Resiliencia': capitulos/11-Integracion-Resiliencia.md
       - 'Capítulo 12: Cultura Post-Incidente': capitulos/12-Cultura-Post-Incidente.md
-      - 'Capítulo 13: EL Futuro Inevitable': capitulos/13-Futuro-Inevitable.md
+      - 'Capítulo 13: El Futuro Inevitable': capitulos/13-Futuro-Inevitable.md
   - Conclusión y Cierre:
       - 'Epílogo: La Dimensión Humana': epilogo.md
   - Anexos Operativos:
@@ -104,6 +104,7 @@ nav:
     - 'J: Plan BCP': anexos/J-Plan-BCP.md
     - 'K: Patrones de Fracaso': anexos/K-Fracaso.md
     - 'L: Cumplimiento Normativo': anexos/L-Cumplimiento.md
+    - 'M: Entrenamiento y Simulacros': anexos/M-Entrenamiento.md
   - Referencias:
     - Glosario: referencias/Glosario.md
     - Bibliografía: referencias/Bibliografia.md
