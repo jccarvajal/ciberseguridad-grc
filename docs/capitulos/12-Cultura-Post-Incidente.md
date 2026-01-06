@@ -12,6 +12,11 @@ Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tra
 * **Cultura de Aprendizaje**: El foco debe situarse estrictamente en el **proceso**, no en la persona.
 * **La Pregunta Crítica**: No es "¿Quién cometió el error?", sino "¿Por qué nuestra arquitectura permitió que ese error humano se convirtiera en un incidente sistémico?".
 
+!!! info "Benchmark: El Pensamiento de Caja Negra"
+    La aviación es el transporte más seguro del mundo gracias a una política radical: si un piloto comete un error y lo reporta, hay inmunidad (salvo dolo). Si lo oculta, hay despido.
+    
+    Esto permite recolectar datos reales de "casi accidentes". En ciberseguridad, buscamos replicar este modelo: queremos saber cada vez que alguien *casi* hace clic, para reforzar el sistema antes del accidente fatal.
+    
 !!! danger "Advertencia de Gobernanza: La Trampa del Chivo Expiatorio"
     Despedir al "culpable" del clic no es una medida correctiva aceptable ante la ANCI; es una **falla de control**.
     

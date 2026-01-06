@@ -30,11 +30,17 @@ El **Mando Medio** no debe decidir qué se recupera primero por intuición, pues
 
 Si el **Ingeniero** no conoce el *RTO* de un proceso, no puede diseñar la arquitectura de respaldos adecuada. Si el *RTO* es de 2 horas y el sistema de restauración tarda 10 horas, hay una **Brecha de Resiliencia** que debe ser informada al Directorio como un riesgo de **debida diligencia** mediante el **Anexo D**.
 
+!!! info "Mnemotecnia: RTO vs. RPO"
+    Para no confundir estos términos críticos ante el Directorio:
+    
+    * **RPO (Point = Pasado):** ¿Cuánto datos hacia atrás puedo perder? (Define la frecuencia del backup).
+    * **RTO (Time = Tiempo):** ¿Cuánto tiempo hacia adelante puedo estar detenido? (Define la velocidad de la restauración).
+
 !!! danger "Advertencia de Gobernanza: La Ilusión del Respaldo (RTO Gap)"
     Tener copias de seguridad **NO** es sinónimo de tener Continuidad de Negocio.
     
     Si su negocio quiebra tras 48 horas sin operar, pero su equipo técnico tarda 72 horas en restaurar los backups (*RTO* > Tiempo Máximo Tolerable), su plan de recuperación es, en la práctica, un **plan de cierre ordenado**. Aprobar un DRP sin validar que el *RTO* cumpla con la supervivencia financiera es negligencia directiva.
-    
+
 ---
 
 ### 3. Operación en Modo Degradado: La esencia del BCP

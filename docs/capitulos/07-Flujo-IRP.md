@@ -36,6 +36,11 @@ El **Flash Report** no es un resumen operativo: es el primer artefacto de **evid
 * **Minuto 15:** Notificación al CISO.
 * **Minuto 60:** Primer reporte ejecutivo: ¿Qué ocurrió?, ¿Cuál es el impacto potencial? y ¿Cuál es la estrategia de contención?
 
+!!! info "Concepto Militar: La Niebla de Guerra"
+    Carl von Clausewitz acuñó el término *Nebel des Krieges* para describir la incertidumbre en la conciencia situacional que experimentan los participantes en operaciones militares.
+    
+    En un ciberataque, esta "niebla" es real: los logs se contradicen, los usuarios mienten por miedo y los sistemas fallan. El IRP no es un plan para cuando las cosas están claras; es un guion para navegar a ciegas hasta recuperar la visibilidad.
+    
 ---
 
 ### 4. Blueprint 7: El Tablero de Comando del Incidente

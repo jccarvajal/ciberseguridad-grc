@@ -36,6 +36,11 @@ La automatización reduce drásticamente los componentes más costosos del ***SL
 * ***MTTR*** (Respuesta): Tiempo necesario para neutralizar la amenaza y restaurar el negocio.
 * **Resultado:** Al reducir el ***MTTR*** de horas a segundos, la exposición financiera total (***ALE***) disminuye de forma exponencial.
 
+!!! info "Estrategia Militar: El Ciclo OODA"
+    La automatización se basa en el concepto del Coronel John Boyd de la Fuerza Aérea de EE. UU.: el ciclo **OODA** (Observar, Orientar, Decidir, Actuar).
+    
+    En combate aéreo (y en ciberseguridad), quien complete este ciclo más rápido, gana. El objetivo del SOAR es "entrar en el ciclo" del adversario: actuar para cerrar la brecha antes de que el atacante pueda orientarse dentro de la red.
+
 !!! danger "Advertencia de Gobernanza: La Negligencia de la Velocidad Manual"
     Confiar en la respuesta humana para detener ataques de "tiempo de máquina" (machine-speed) es una falla de diseño.
     

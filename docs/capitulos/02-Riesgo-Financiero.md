@@ -11,6 +11,14 @@ El cerebro humano, el Sistema 1 (rápido e intuitivo), es particularmente inefic
 
 La matemática del riesgo no busca eliminar la incertidumbre, inherente a cualquier entorno tecnológico, sino hacerla explícita y comparable. Forzamos al Sistema 2 (pensamiento analítico) a tomar el control. No gestionamos miedo, percepciones o titulares; gestionamos la **Exposición Financiera Anualizada (*ALE*)**.
 
+!!! info "Concepto Clave: La Anatomía del Ruido (Kahneman)"
+    En *Ruido: Un fallo en el juicio humano*, el error se define como **$Error = Sesgo + Ruido$**. Mientras el sesgo es predecible, el **Ruido de Juicio** es caótico y se manifiesta en dos formas que destruyen la gobernanza:
+    
+    * **Ruido de Nivel (*Level Noise*):** Variabilidad entre diferentes expertos. (Ej: El Ingeniero A siempre califica los riesgos como "Altos", mientras que el Ingeniero B tiende a calificarlos como "Bajos").
+    * **Ruido de Ocasión (*Occasion Noise*):** Inconsistencia del *mismo* experto consigo mismo. (Ej: Calificar un riesgo más severamente un lunes estresante que un viernes tranquilo).
+    
+    La cuantificación financiera ($ALE$) actúa como **Higiene de Decisión**, eliminando tanto la discrepancia entre personas como la volatilidad emocional del momento.
+
 ---
 
 ### 2. La Ecuación Fundamental del Riesgo

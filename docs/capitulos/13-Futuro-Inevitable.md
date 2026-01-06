@@ -5,6 +5,11 @@ Al llegar al final de este libro en 2026, nos encontramos en un punto de inflexi
 
 Como exploramos en la base doctrinal de esta obra, estamos pasando de la "IA como herramienta" a la "IA como agente". En este nuevo paradigma, el **Vigilante Estratégico** debe entender que la velocidad del silicio ha superado definitivamente la capacidad de reacción biológica. El futuro de la resiliencia no reside en expandir el equipo humano, sino en diseñar y gobernar mejores agentes.
 
+!!! info "Biología Evolutiva: El Efecto de la Reina Roja"
+    Tomado de *Alicia a través del espejo*: "Aquí hace falta correr todo cuanto uno pueda para permanecer en el mismo sitio".
+    
+    En la ciberdefensa agéntica, ocurre lo mismo: cuando implementamos IA defensiva, el adversario adopta IA ofensiva. No corremos para ganar la carrera definitivamente, corremos para no ser devorados por la evolución del depredador. La inmovilidad es la única estrategia garantizada de extinción.
+    
 ### 1. La Amenaza de la IA Adversaria
 
 El adversario actual utiliza Modelos de Lenguaje (LLMs) no solo para sofisticar el engaño, sino para desplegar una **Autonomía Adversaria** capaz de generar malware polimórfico que evade las firmas tradicionales en tiempo real.

@@ -56,12 +56,17 @@ Para que el Directorio decida, el equipo técnico debe entregar certidumbre medi
 
 ---
 
-### 5. Responsabilidad Legal y debida diligencia
+### 5. Responsabilidad Legal y Debida Diligencia
 
 Bajo la **Ley 21.663**, el Directorio no puede delegar la responsabilidad de una crisis mayor. La decisión de apagar, o de seguir operando, quedará registrada en actas como evidencia de gobierno. 
 
 * **Negligencia:** Si el Directorio decide NO apagar y el daño se multiplica de forma previsible.
-* **debida diligencia:** Si el Directorio decide APAGAR basándose en un proceso documentado de ***IRP***, protegiendo la integridad de los datos y la licencia social de la empresa.
+* **Debida Diligencia:** Si el Directorio decide APAGAR basándose en un proceso documentado de ***IRP***, protegiendo la integridad de los datos y la licencia social de la empresa.
+
+!!! info "Doctrina Legal: La Regla del Juicio de Negocios"
+    En derecho corporativo, la *Business Judgment Rule* protege a los directores de responsabilidad personal por decisiones que resulten en pérdidas, **siempre que** hayan actuado de buena fe, con la información disponible y en interés de la empresa.
+    
+    Presionar el "Botón Rojo" y causar pérdidas operativas para salvar los datos está protegido por esta doctrina; no hacerlo por negligencia o miedo, no lo está.
 
 ---
 

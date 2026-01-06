@@ -13,6 +13,11 @@ Para el **Vigilante Estratégico**, Zero Trust se resume en tres mandatos impera
 2.  **Acceso de Mínimo Privilegio (PoLP):** Los usuarios solo deben tener acceso a lo estrictamente necesario para su función y solo durante el tiempo requerido. Si un ingeniero solo necesita ver logs, no debe tener permisos de administrador.
 3.  **Asumir la Brecha (*Assume Breach*):** Diseñamos el sistema asumiendo que el atacante ya tiene éxito en algún punto. Esto nos obliga a minimizar el **radio de explosión** (daño potencial).
 
+!!! info "Filosofía: Desconfianza no es Hostilidad"
+    El término *Zero Trust* a menudo se malinterpreta como una cultura de sospecha hacia el empleado. No es así.
+    
+    El sistema no desconfía de la **persona**, desconfía del **paquete de datos**. Validar continuamente la identidad libera al usuario de la carga de "ser cuidadoso" todo el tiempo, ya que la arquitectura asume la defensa. Es un sistema que protege al usuario incluso de sus propios errores involuntarios.
+    
 ---
 
 ### 2. La Identidad es el Nuevo Perímetro

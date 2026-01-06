@@ -24,6 +24,11 @@ Al evadir los controles oficiales, los líderes de área introducen **Ruido Sist
 
 Incluso con la mejor voluntad, la gobernanza falla debido a la **asimetría de información**. El ingeniero habla de bits, el mando medio de procesos y el Directorio de dividendos. Para romper esta "Torre de Babel", el CISO debe implementar un mecanismo de traducción estratégica que reduzca la variabilidad del juicio (Ruido):
 
+!!! info "Teoría Económica: El Mercado de los Limones"
+    El Nobel George Akerlof describió cómo la **Asimetría de Información** destruye el valor: si el comprador (Directorio) no puede distinguir entre un buen producto y uno malo, termina pagando menos por precaución.
+    
+    El CISO que no traduce el riesgo técnico al lenguaje financiero sufre este efecto: el Directorio asume que la seguridad es un "costo hundido" porque no tiene herramientas para valorar la calidad de la defensa invisible.
+    
 1.  **Nivel Operativo (Verdad Técnica):** Gestiona la realidad cruda del bit. Su insumo son los CVE (vulnerabilidades) y la inteligencia de amenazas. Su reporte es la base de evidencia sobre la que se construye la estrategia (Ver **Anexo: Inteligencia de Ecosistema**).
 2.  **Nivel Táctico (Filtro de Impacto):** Es el traductor crítico. Toma el hallazgo técnico y lo procesa bajo el filtro de la **Gestión de Vulnerabilidades**. Su labor es separar el "ruido" de las miles de alertas diarias de la "señal" de compromiso real de activos críticos.
 3.  **Nivel Estratégico (Decisión de Continuidad):** Recibe información procesada. No ve códigos de error; ve una **exposición financiera y operativa**. Aquí se decide sobre la resiliencia del balance y el cumplimiento legal ante la autoridad.

@@ -32,6 +32,14 @@ Los datos críticos para el relato son:
 * **Integridad:** Estado de la exfiltración de datos según el inventario del Capítulo 6.
 * **Cronología:** Tiempos de detección y contención para probar la diligencia técnica.
 
+!!! info "Semántica Legal: Incidente vs. Ciberataque"
+    Bajo la Ley Marco, la precisión del lenguaje es vital:
+    
+    * **Incidente de Ciberseguridad:** Cualquier evento que comprometa la disponibilidad, integridad o confidencialidad (puede ser un error humano o una falla de hardware).
+    * **Ciberataque:** Un incidente donde existe dolo y una acción deliberada de un tercero.
+    
+    No llame "ataque" a una falla de disco; eso activa protocolos legales y de seguros diferentes e innecesarios.
+    
 ---
 
 ### 3. Gestionando a los *Stakeholders* (Grupos de Interés)

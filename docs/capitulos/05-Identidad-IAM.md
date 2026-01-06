@@ -25,6 +25,11 @@ Para el **Ingeniero**, asegurar la identidad significa pasar de una autenticaci�
 
 **La Regla del Vigilante:** Si un acceso a un activo crítico no cuenta con al menos dos de estos factores, el riesgo de suplantación es absoluto ante ataques de *phishing* moderno.
 
+!!! info "Estándar Técnico: ¿Por qué FIDO2?"
+    A diferencia de un código SMS o una App de autenticación, una llave de seguridad física (FIDO2) es **resistente al Phishing** por diseño criptográfico.
+    
+    Incluso si el usuario es engañado y entra a una web falsa (*clonada*), la llave física detectará que el dominio no coincide con el original y se negará a firmar la petición de acceso. Es la única defensa efectiva contra ataques de ingeniería social en tiempo real.
+    
 ---
 
 ### 3. PAM: Protegiendo las Llaves del Reino y la Trazabilidad

@@ -43,6 +43,11 @@ Adoptamos el **NIST CSF 2.0** como el *Control Loop* de la organización. La fun
 * **Gobernar:** Define la autoridad, los incentivos y la rendición de cuentas. Sin gobierno, la detección es ruido y la respuesta es caos.
 * **Ciclo de Retroalimentación:** Cada incidente y cada ejercicio de respuesta debe alimentar la función de Gobierno para ajustar el presupuesto y la arquitectura de control.
 
+!!! info "Evolución del Estándar: De Proteger a Gobernar"
+    Durante una década, el estándar NIST CSF tuvo solo 5 funciones (Identificar, Proteger, Detectar, Responder, Recuperar).
+    
+    En 2024, con la versión 2.0, se agregó la sexta función: **GOVERN (Gobernar)**. Esto no es semántica; es el reconocimiento global de que la ciberseguridad falló al ser un tema técnico. NIST ahora declara oficialmente que sin una estrategia de gobierno en la cima, las otras 5 funciones operativas son inútiles.
+    
 ---
 
 ### 4. Blueprint 3: El Mapa de Madurez Institucional

@@ -58,6 +58,11 @@ La forma más eficiente de reducir el ***ALE*** es eliminar los datos que no apo
 * **Higiene:** Ejecutar políticas de retención y eliminación segura. Un dato borrado es un dato que no puede ser robado.
 * **Ofuscación:** El uso de datos sintéticos o anonimización en entornos de prueba reduce la superficie de ataque sin afectar la agilidad del desarrollo.
 
+!!! info "Definición de Industria: Dark Data (Datos Oscuros)"
+    Gartner define los *Dark Data* como los activos de información que las organizaciones recopilan, procesan y almacenan durante sus actividades comerciales regulares, pero que **no utilizan para otros fines**.
+    
+    Son el equivalente digital a guardar periódicos viejos: ocupan espacio, cuestan dinero y, en caso de incendio (o hackeo), se convierten en combustible puro para la crisis legal.
+    
 !!! danger "Advertencia de Gobernanza: El Pasivo de los 'Datos Zombis'"
     En ciberseguridad, el dato más seguro es el que no existe.
     
