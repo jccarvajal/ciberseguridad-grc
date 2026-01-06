@@ -36,6 +36,8 @@ Bajo estándares modernos y marcos legales vigentes, el CISO tiene el **deber de
 
 ---
 
+### 4. Blueprint 1: Matriz de Alineación Estratégica
+
 !!! example "Blueprint 1: Matriz de Alineación Estratégica"
     Esta herramienta transforma el "No" en una arquitectura de soporte que permite al negocio alcanzar sus objetivos sin comprometer la soberanía operativa.
 
@@ -44,18 +46,6 @@ Bajo estándares modernos y marcos legales vigentes, el CISO tiene el **deber de
     | **Innovación con IA** | Exfiltración de propiedad intelectual y pérdida de soberanía. | Sandboxes corporativos y políticas de uso ético de modelos. | **Continuidad de Activos IP** |
     | **Agilidad DevOps** | Despliegue de vulnerabilidades 'ciegas' por velocidad. | Seguridad embebida (Shift Left) y escaneo automatizado. | **Velocidad Segura** |
     | **Trabajo Híbrido** | Robo de credenciales y acceso no autorizado. | Arquitectura *Zero Trust* (Nunca confiar, siempre verificar). | **Integridad de Acceso** |
-
----
-
-### 4. Blueprint 1: Matriz de Alineación Estratégica
-
-Esta herramienta transforma el "No" en una arquitectura de soporte que permite al negocio alcanzar sus objetivos sin comprometer la soberanía operativa.
-
-| Objetivo de Negocio | Riesgo (Incertidumbre) | Respuesta (Arquitectura) | Impacto en Resiliencia |
-| :--- | :--- | :--- | :--- |
-| **Innovación con IA** | Exfiltración de propiedad intelectual y pérdida de soberanía. | Sandboxes corporativos y políticas de uso ético de modelos. | **Continuidad de Activos IP** |
-| **Agilidad DevOps** | Despliegue de vulnerabilidades 'ciegas' por velocidad. | Seguridad embebida (Shift Left) y escaneo automatizado. | **Velocidad Segura** |
-| **Trabajo Híbrido** | Robo de credenciales y acceso no autorizado. | Arquitectura *Zero Trust* (Nunca confiar, siempre verificar). | **Integridad de Acceso** |
 
 ---
 
