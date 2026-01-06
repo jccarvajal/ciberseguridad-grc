@@ -27,6 +27,10 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
     * **Por qué leerlo:** Provee el contexto histórico sobre cómo la humanidad pasó de la superstición a la gestión del riesgo mediante la probabilidad.
 * **NIST. (2024).** "Cybersecurity Framework (CSF) 2.0". [PDF]
     * **Por qué leerlo:** El estándar global que introduce la función GOVERN, elevando la ciberseguridad al nivel del Directorio.
+* **Akerlof, G. A. (1970).** "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism". The Quarterly Journal of Economics. [Web]
+    * **Por qué leerlo:** La base académica de la **Asimetría de Información** mencionada en el Capítulo 01. Explica matemáticamente por qué el Directorio devalúa la seguridad cuando no puede distinguir la calidad de la gestión.
+* **FIRST. (2023).** "Exploit Prediction Scoring System (EPSS) User Guide". [Web]
+    * **Por qué leerlo:** Referencia técnica para el Capítulo 02. Documenta el modelo estadístico que permite predecir la probabilidad de explotación futura, superando el enfoque estático del CVSS.
 
 ### Bloque 2: Arquitectura y Prevención (Capítulos 4-6)
 
@@ -49,6 +53,8 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
     * **Por qué leerlo:** Estándar global para el ciclo de vida del incidente (Preparación, Detección, Contención, Post-Incidente) usado como base en el Capítulo 07.
 * **MITRE Corporation. (2024).** "MITRE ATT&CK® Framework". [Web]
     * **Por qué leerlo:** Base de conocimiento esencial para entender las tácticas del adversario y el movimiento lateral discutido en los Capítulos 07 y Anexo E.
+* **Boyd, J. R. (1987).** "A Discourse on Winning and Losing". Air University Press. [PDF]
+    * **Por qué leerlo:** La obra maestra del Coronel John Boyd. Fuente original del ciclo **OODA** explicado en el Capítulo 08 como base de la automatización defensiva.
 
 ### Bloque 4: Resiliencia y Futuro (Capítulos 11-13)
 
@@ -60,3 +66,7 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
     * **Por qué leerlo:** Contexto filosófico para el Capítulo 13 sobre los riesgos existenciales de la IA y la necesidad de alineación en sistemas de defensa agéntica.
 * **FIRST. (2023).** "Common Vulnerability Scoring System (CVSS) v4.0 Specification". [Web]
     * **Por qué leerlo:** Estándar matemático utilizado en el Anexo F para puntuar la severidad técnica de una vulnerabilidad de manera objetiva.
+* **Ridley, M. (1993).** "The Red Queen: Sex and the Evolution of Human Nature". Harper Perennial. [Web]
+    * **Por qué leerlo:** Origen de la hipótesis de la "Reina Roja" aplicada en el Capítulo 13. Ayuda a entender la ciberseguridad no como un problema estático a resolver, sino como una carrera evolutiva co-dependiente contra el adversario.
+* **Syed, M. (2015).** "Black Box Thinking: The Surprising Truth About Success". Portfolio. [Web]
+    * **Por qué leerlo:** Profundiza en la comparación entre la cultura de seguridad aérea y la medicina/negocios citada en el Capítulo 12. Es el manual definitivo para crear una cultura libre de culpa (*Blame-Free*).
