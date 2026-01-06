@@ -43,14 +43,15 @@ Mientras el **Ingeniero** ejecuta el **DRP** para restaurar los sistemas tras ha
 
 ### 4. Blueprint 11: Matriz de Integración de Planes
 
-El **Mando Medio** debe asegurar que la comunicación entre estos tres frentes sea fluida durante el incidente:
+!!! example "Orquestación de Planes de Contingencia"
+    La resiliencia falla cuando estos tres planes operan en silos. El **Mando Medio** actúa como el director de orquesta que asegura la fluidez entre la respuesta técnica y la supervivencia del negocio.
 
-| Plan | Actores Clave | Disparador (*Trigger*) | Objetivo Final |
-| :--- | :--- | :--- | :--- |
-| **IRP** | CSIRT / Ingenieros | Detección de intrusión (Cap. 7). | Contención y Erradicación. |
-| **DRP** | Equipo de Infraestructura | "Botón Rojo" o falla crítica (Cap. 10). | Restauración de Servicios TI. |
-| **BCP** | Gerentes de Área | Interrupción del servicio *core*. | Continuidad de la Operación. |
-
+    | Plan | Actores Clave | Disparador (*Trigger*) | Objetivo Final |
+    | :--- | :--- | :--- | :--- |
+    | **IRP** | CSIRT / Ingenieros | Detección de intrusión (Cap. 7). | Contención y Erradicación. |
+    | **DRP** | Equipo de Infraestructura | "Botón Rojo" o falla crítica (Cap. 10). | Restauración de Servicios TI. |
+    | **BCP** | Gerentes de Área | Interrupción del servicio *core*. | Continuidad de la Operación. |
+    
 ---
 
 ### 5. La Prueba de Resiliencia: Simulacros "*War Games*"

@@ -39,12 +39,15 @@ Para que el Directorio decida, el equipo técnico debe entregar certidumbre medi
 
 ### 4. Blueprint 10: Matriz de Decisión del Botón Rojo
 
-| Escenario de Crisis | Hallazgo Técnico | Acción Recomendada | Quién Decide |
-| :--- | :--- | :--- | :--- |
-| **Ransomware en curso** | Encriptación activa de servidores de respaldo. | **Botón Rojo:** Desconexión total para salvar *backups*. | Directorio / CEO |
-| **Exfiltración Masiva** | Tráfico inusual hacia IP externa identificada. | **Aislamiento Selectivo:** Cortar salida a Internet, mantener red interna. | CISO / Mando Medio |
-| **DDoS (Denegación)** | Saturación de enlaces por *botnets*. | **Limpieza de Tráfico:** Activar peajes de seguridad *cloud*. No apagar. | Mando Medio |
-| **Falla de Integridad (IA)** | Modelos financieros entregando datos falsos. | **Suspensión de Proceso:** Detener ejecución automática de la IA. | Gerente / CISO |
+!!! example "Protocolo de Desconexión de Emergencia"
+    Apagar el negocio es una medida de último recurso. Esta matriz ayuda a distinguir cuándo la desconexión es necesaria para la supervivencia y cuándo es un error por pánico.
+
+    | Escenario de Crisis | Hallazgo Técnico | Acción Recomendada | Quién Decide |
+    | :--- | :--- | :--- | :--- |
+    | **Ransomware en curso** | Encriptación activa de servidores de respaldo. | **Botón Rojo:** Desconexión total para salvar *backups*. | Directorio / CEO |
+    | **Exfiltración Masiva** | Tráfico inusual hacia IP externa identificada. | **Aislamiento Selectivo:** Cortar salida a Internet, mantener red interna. | CISO / Mando Medio |
+    | **DDoS (Denegación)** | Saturación de enlaces por *botnets*. | **Limpieza de Tráfico:** Activar peajes de seguridad *cloud*. No apagar. | Mando Medio |
+    | **Falla de Integridad (IA)** | Modelos financieros entregando datos falsos. | **Suspensión de Proceso:** Detener ejecución automática de la IA. | Gerente / CISO |
 
 ---
 

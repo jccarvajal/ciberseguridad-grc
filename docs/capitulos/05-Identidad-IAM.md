@@ -40,11 +40,14 @@ No todas las identidades tienen el mismo impacto. Las **Cuentas Privilegiadas** 
 
 ### 4. Blueprint 5: Matriz de Control de Acceso (RBAC vs. ABAC)
 
-| Modelo | Definición | Uso Recomendado |
-| :--- | :--- | :--- |
-| **RBAC** (Basado en Roles) | Permisos según el cargo estático (ej: "Contador"). | Organizaciones con estructuras jerárquicas rígidas. |
-| **ABAC** (Basado en Atributos)| Permisos según el contexto dinámico (ej: "Rol" + "Ubicación" + "Dispositivo"). | **Arquitecturas Zero Trust de alta madurez.** |
-| **Mínimo Privilegio** | Otorgar solo la autoridad necesaria para la tarea actual. | **Estándar obligatorio para cumplimiento de Ley 21.663.** |
+!!! example "Comparativa de Modelos de Autorización"
+    La identidad moderna no es un cargo estático, es un contexto dinámico. Esta matriz guía la transición desde la asignación rígida de permisos hacia una validación en tiempo real basada en el riesgo.
+
+    | Modelo | Definición | Uso Recomendado |
+    | :--- | :--- | :--- |
+    | **RBAC** (Basado en Roles) | Permisos según el cargo estático (ej: "Contador"). | Organizaciones con estructuras jerárquicas rígidas. |
+    | **ABAC** (Basado en Atributos)| Permisos según el contexto dinámico (ej: "Rol" + "Ubicación" + "Dispositivo"). | **Arquitecturas Zero Trust de alta madurez.** |
+    | **Mínimo Privilegio** | Otorgar solo la autoridad necesaria para la tarea actual. | **Estándar obligatorio para cumplimiento de Ley 21.663.** |
 
 ---
 

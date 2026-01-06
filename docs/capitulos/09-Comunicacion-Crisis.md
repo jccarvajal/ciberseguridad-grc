@@ -44,12 +44,13 @@ El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero ad
 
 ### 4. Blueprint 9: La Matriz de Comunicación de Crisis
 
-El **Mando Medio** coordina estos hitos para proteger la "Licencia Social" de la empresa:
+!!! example "Cronograma de Comunicación Estratégica"
+    El **Mando Medio** coordina estos hitos para proteger la "Licencia Social" de la empresa ante un incidente visible:
 
-1.  **Hito 1 (T+60 min):** Notificación interna. Confirmación de activación de protocolos de **debida diligencia**.
-2.  **Hito 2 (T+4 horas):** Primera declaración oficial. Enfoque en la contención y protección de datos.
-3.  **Hito 3 (T+24 horas):** Reporte de progreso y transparencia sobre la fase de recuperación (**DRP - Anexo I**).
-4.  **Hito 4 (Post-Crisis):** El *Post-Mortem* público. Demostración de aprendizaje y endurecimiento de la arquitectura (Capítulo 12).
+    1.  **Hito 1 (T+60 min):** Notificación interna. Confirmación de activación de protocolos de **debida diligencia**.
+    2.  **Hito 2 (T+4 horas):** Primera declaración oficial. Enfoque en la contención y protección de datos.
+    3.  **Hito 3 (T+24 horas):** Reporte de progreso y transparencia sobre la fase de recuperación (**DRP - Anexo I**).
+    4.  **Hito 4 (Post-Crisis):** El *Post-Mortem* público. Demostración de aprendizaje y endurecimiento de la arquitectura (Capítulo 12).
 
 ---
 

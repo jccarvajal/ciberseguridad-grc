@@ -38,7 +38,7 @@ Bajo estándares modernos y marcos legales vigentes, el CISO tiene el **deber de
 
 ### 4. Blueprint 1: Matriz de Alineación Estratégica
 
-!!! example "Blueprint 1: Matriz de Alineación Estratégica"
+!!! example "Herramienta de Alineación Estratégica"
     Esta herramienta transforma el "No" en una arquitectura de soporte que permite al negocio alcanzar sus objetivos sin comprometer la soberanía operativa.
 
     | Objetivo de Negocio | Riesgo (Incertidumbre) | Respuesta (Arquitectura) | Impacto en Resiliencia |

@@ -49,15 +49,16 @@ Cuando el costo de un control es menor que la pérdida esperada que evita, la de
 
 ### 4. Blueprint 2: Tabla de Arquitectura de la Decisión
 
-En lugar de matrices de colores, el Mando Medio presenta al Directorio una **Tabla de Exposición**. Este artefacto convierte la ciberseguridad en un problema de decisión financiera y legal, no de opinión técnica.
+!!! example "Tablero de Control de Riesgo Financiero"
+    En lugar de matrices de colores, el Mando Medio presenta al Directorio una **Tabla de Exposición**. Este artefacto convierte la ciberseguridad en un problema de decisión financiera y legal, no de opinión técnica.
 
-| Activo de Negocio | Amenaza (*KEV* / *EPSS*) | Impacto (*SLE* + Ley 21.663) | Frecuencia (*ARO*) | Exposición (*ALE*) | Acción / Deuda de Gobernanza |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Portal de Pagos** | Inyección SQL (EPSS 0.9) | $600,000 USD | 0.8 | $480,000 USD | **Mitigar:** Invertir $20k o asumir riesgo legal. |
-| **Base de Datos Core** | Ransomware (KEV Activo) | $1,500,000 USD | 0.2 | $300,000 USD | **Transferir:** Póliza ciber ante sanciones ANCI. |
-| **Blog Corporativo** | Defacement | $2,000 USD | 2.0 | $4,000 USD | **Aceptar:** Riesgo documentado y aprobado en Acta de Directorio. |
+    | Activo de Negocio | Amenaza (*KEV* / *EPSS*) | Impacto (*SLE* + Ley 21.663) | Frecuencia (*ARO*) | Exposición (*ALE*) | Acción / Deuda de Gobernanza |
+    | :--- | :--- | :--- | :--- | :--- | :--- |
+    | **Portal de Pagos** | Inyección SQL (EPSS 0.9) | $600,000 USD | 0.8 | $480,000 USD | **Mitigar:** Invertir $20k o asumir riesgo legal. |
+    | **Base de Datos Core** | Ransomware (KEV Activo) | $1,500,000 USD | 0.2 | $300,000 USD | **Transferir:** Póliza ciber ante sanciones ANCI. |
+    | **Blog Corporativo** | Defacement | $2,000 USD | 2.0 | $4,000 USD | **Aceptar:** Riesgo documentado y aprobado en Acta de Directorio. |
 
-Esta tabla deja explícito un principio clave: la aceptación del riesgo es una decisión formal, trazable y responsable, no una omisión.
+    Esta tabla deja explícito un principio clave: la aceptación del riesgo es una decisión formal, trazable y responsable, no una omisión.
 
 ---
 

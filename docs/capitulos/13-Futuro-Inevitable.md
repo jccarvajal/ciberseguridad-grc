@@ -34,14 +34,15 @@ A pesar de la automatización agéntica, la **soberanía del criterio** sigue si
 
 ### 4. Blueprint 13: Matriz de Evolución Tecnológica (2026-2030)
 
-El **Mando Medio** debe preparar la hoja de ruta institucional basándose en la transición hacia la autonomía controlada:
+!!! example "Hoja de Ruta hacia la Defensa Agéntica"
+    El **Mando Medio** debe preparar la hoja de ruta institucional basándose en la transición hacia la autonomía controlada:
 
-| Tecnología | Estado Tradicional | Futuro Agéntico | Impacto Estimado en el *ALE* |
-| :--- | :--- | :--- | :--- |
-| **Identidad** | MFA estático y contraseñas. | **Biometría de Comportamiento:** Verificación continua por IA en tiempo real. | Potencial reducción del fraude de suplantación hasta en un 90%. |
-| **Vulnerabilidades** | Escaneo periódico de ***CVE***. | **Pentesting Continuo:** Agentes ofensivos internos buscando fallas 24/7. | Reducción drástica de la ventana de exposición (de meses a minutos). |
-| **DLP** | Reglas basadas en etiquetas fijas. | **Entendimiento Semántico:** IA que identifica la sensibilidad por contexto y propósito. | Prevención dinámica de fuga de propiedad intelectual compleja. |
-
+    | Tecnología | Estado Tradicional | Futuro Agéntico | Impacto Estimado en el *ALE* |
+    | :--- | :--- | :--- | :--- |
+    | **Identidad** | MFA estático y contraseñas. | **Biometría de Comportamiento:** Verificación continua por IA en tiempo real. | Potencial reducción del fraude de suplantación hasta en un 90%. |
+    | **Vulnerabilidades** | Escaneo periódico de ***CVE***. | **Pentesting Continuo:** Agentes ofensivos internos buscando fallas 24/7. | Reducción drástica de la ventana de exposición (de meses a minutos). |
+    | **DLP** | Reglas basadas en etiquetas fijas. | **Entendimiento Semántico:** IA que identifica la sensibilidad por contexto y propósito. | Prevención dinámica de fuga de propiedad intelectual compleja. |
+    
 ---
 
 ### 5. La Matemática del Futuro: Eficiencia Cognitiva

@@ -42,15 +42,16 @@ Para ello, es fundamental actualizar el cálculo del ***ALE*** (Capítulo 2). Tr
 
 ### 4. Blueprint 12: El Reporte de Lecciones Aprendidas
 
-El **Mando Medio** debe liderar la redacción de este documento, que constituye la evidencia final de **debida diligencia** ante la **ANCI** bajo la **Ley 21.663**:
+!!! example "Estructura del Informe Post-Incidente"
+    El **Mando Medio** debe liderar la redacción de este documento, que constituye la evidencia final de **debida diligencia** ante la **ANCI** bajo la **Ley 21.663**:
 
-| Sección del Reporte | Contenido Requerido | Soporte de Evidencia |
-| :--- | :--- | :--- |
-| **Cronología Real** | Línea de tiempo desde la detección hasta la recuperación total. | Logs inalterables del **SOAR** (Capítulo 8). |
-| **Fallas de Control** | Identificación de los peajes de seguridad que fueron superados. | Inventario de Vulnerabilidades y Reportes DLP. |
-| **Brechas de Proceso** | Análisis de la velocidad y eficacia del Comité de Crisis. | Acta del Comité de Crisis y Flash Reports. |
-| **Plan de Mejora** | Tareas específicas con responsable y fecha de ejecución. | Matriz de Responsabilidades (RACI). |
-
+    | Sección del Reporte | Contenido Requerido | Soporte de Evidencia |
+    | :--- | :--- | :--- |
+    | **Cronología Real** | Línea de tiempo desde la detección hasta la recuperación total. | Logs inalterables del **SOAR** (Capítulo 8). |
+    | **Fallas de Control** | Identificación de los peajes de seguridad que fueron superados. | Inventario de Vulnerabilidades y Reportes DLP. |
+    | **Brechas de Proceso** | Análisis de la velocidad y eficacia del Comité de Crisis. | Acta del Comité de Crisis y Flash Reports. |
+    | **Plan de Mejora** | Tareas específicas con responsable y fecha de ejecución. | Matriz de Responsabilidades (RACI). |
+    
 ---
 
 ### 5. Transformando el Incidente en Cultura

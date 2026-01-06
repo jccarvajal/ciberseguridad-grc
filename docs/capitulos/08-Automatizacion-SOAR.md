@@ -40,12 +40,15 @@ La automatización reduce drásticamente los componentes más costosos del ***SL
 
 ### 4. Blueprint 8: Del IRP Manual al Playbook Automatizado
 
-| Proceso Manual (Lento/Riesgoso) | Proceso Automatizado (Playbook) | Ventaja Estratégica |
-| :--- | :--- | :--- |
-| El ingeniero busca el origen de un login fallido manualmente. | El sistema consulta el **Catálogo KEV** (Anexo E) y bloquea la IP en milisegundos. | **Velocidad:** Triage inmediato basado en inteligencia global. |
-| El CISO debe autorizar el bloqueo de una cuenta sospechosa. | El SOAR revoca tokens de acceso en el **IAM** (Capítulo 5) ante riesgos confirmados. | **Contención:** El "radio de explosión" se detiene antes del movimiento lateral. |
-| Se redacta un reporte días después del incidente. | Se genera un **Flash Report** (Anexo D) con evidencia forense inalterable al instante. | **Transparencia:** Prueba de **debida diligencia** ante la autoridad. |
+!!! example "Matriz de Automatización Defensiva (SOAR)"
+    La velocidad del ataque moderno supera la capacidad de reacción humana. Este esquema muestra cómo delegar la contención táctica a la máquina para que el humano pueda concentrarse en la estrategia.
 
+    | Proceso Manual (Lento/Riesgoso) | Proceso Automatizado (Playbook) | Ventaja Estratégica |
+    | :--- | :--- | :--- |
+    | El ingeniero busca el origen de un login fallido manualmente. | El sistema consulta el **Catálogo KEV** (Anexo E) y bloquea la IP en milisegundos. | **Velocidad:** Triage inmediato basado en inteligencia global. |
+    | El CISO debe autorizar el bloqueo de una cuenta sospechosa. | El SOAR revoca tokens de acceso en el **IAM** (Capítulo 5) ante riesgos confirmados. | **Contención:** El "radio de explosión" se detiene antes del movimiento lateral. |
+    | Se redacta un reporte días después del incidente. | Se genera un **Flash Report** (Anexo D) con evidencia forense inalterable al instante. | **Transparencia:** Prueba de **debida diligencia** ante la autoridad. |
+    
 ---
 
 ### 5. Defensa Agéntica: El Humano en el Bucle (*HITL*)

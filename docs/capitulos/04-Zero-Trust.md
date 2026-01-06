@@ -39,15 +39,16 @@ La microsegmentación divide la red en compartimentos estancos. En términos de 
 
 ### 4. Blueprint 4: Los Cinco Dominios de Implementación
 
-El **Mando Medio** debe evaluar la madurez de la arquitectura utilizando estos cinco ejes (Ver **Anexo C: Checklist Zero Trust**):
+!!! example "Ejes de Madurez Zero Trust"
+    El **Mando Medio** debe evaluar la madurez de la arquitectura utilizando estos cinco ejes (Ver **Anexo C: Checklist Zero Trust**):
 
-| Dominio | Requisito Base | Herramienta Clave |
-| :--- | :--- | :--- |
-| **Identidad** | Verificación continua de usuarios y servicios. | IAM / MFA Moderno |
-| **Dispositivo** | Solo equipos autorizados y "sanos" entran. | EDR / Gestión de Activos |
-| **Red** | Microsegmentación y cifrado de extremo a extremo. | Microsegmentación / SDN |
-| **Aplicaciones** | Acceso seguro a apps sin exponer la red interna. | ZTNA (*Zero Trust Network Access*) |
-| **Datos** | Clasificación y cifrado en reposo y tránsito. | DLP / Clasificación Automática |
+    | Dominio | Requisito Base | Herramienta Clave |
+    | :--- | :--- | :--- |
+    | **Identidad** | Verificación continua de usuarios y servicios. | IAM / MFA Moderno |
+    | **Dispositivo** | Solo equipos autorizados y "sanos" entran. | EDR / Gestión de Activos |
+    | **Red** | Microsegmentación y cifrado de extremo a extremo. | Microsegmentación / SDN |
+    | **Aplicaciones** | Acceso seguro a apps sin exponer la red interna. | ZTNA (*Zero Trust Network Access*) |
+    | **Datos** | Clasificación y cifrado en reposo y tránsito. | DLP / Clasificación Automática |
 
 ---
 

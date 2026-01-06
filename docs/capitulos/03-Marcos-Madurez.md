@@ -40,15 +40,16 @@ Adoptamos el **NIST CSF 2.0** como el *Control Loop* de la organización. La fun
 
 ### 4. Blueprint 3: El Mapa de Madurez Institucional
 
-Este mapa mide la **Resiliencia Regulatoria**. Un Nivel 1 no es solo una debilidad técnica; es una exposición patrimonial inmediata para los directivos.
+!!! example "Matriz de Selección de Frameworks"
+    Este mapa mide la **Resiliencia Regulatoria**. Un Nivel 1 no es solo una debilidad técnica; es una exposición patrimonial inmediata para los directivos.
 
-| Nivel | Estado GRC | Cadencia de Revisión | Evidencia de Diligencia | Percepción de la ANCI |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Reactivo** | **Ceguera Estratégica** | Ad-hoc (solo en crisis). | Inexistente. | **Negligencia Presunta.** |
-| **2. Repetible** | **Esfuerzo Fragmentado** | Anual / Semestral. | Reportes aislados. | **Diligencia Insuficiente.** |
-| **3. Definido** | **Cumplimiento Base** | Trimestral. | Alineación con Ley 21.663. | **Cumplimiento Estándar.** |
-| **4. Gestionado** | **Resiliencia Probada** | Mensual / Por Evento. | Decisiones en Acta + ALE. | **Debida Diligencia Probada.** |
-| **5. Optimizado** | **Resiliencia Regulatoria** | Continua (Tiempo Real). | Mejora continua con alta capacidad de absorción regulatoria. | **Referente Nacional.** |
+    | Nivel | Estado GRC | Cadencia de Revisión | Evidencia de Diligencia | Percepción de la ANCI |
+    | :--- | :--- | :--- | :--- | :--- |
+    | **1. Reactivo** | **Ceguera Estratégica** | Ad-hoc (solo en crisis). | Inexistente. | **Negligencia Presunta.** |
+    | **2. Repetible** | **Esfuerzo Fragmentado** | Anual / Semestral. | Reportes aislados. | **Diligencia Insuficiente.** |
+    | **3. Definido** | **Cumplimiento Base** | Trimestral. | Alineación con Ley 21.663. | **Cumplimiento Estándar.** |
+    | **4. Gestionado** | **Resiliencia Probada** | Mensual / Por Evento. | Decisiones en Acta + ALE. | **Debida Diligencia Probada.** |
+    | **5. Optimizado** | **Resiliencia Regulatoria** | Continua (Tiempo Real). | Mejora continua con alta capacidad de absorción regulatoria. | **Referente Nacional.** |
 
 ---
 

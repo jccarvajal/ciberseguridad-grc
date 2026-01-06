@@ -40,13 +40,16 @@ El **Flash Report** no es un resumen operativo: es el primer artefacto de **evid
 
 ### 4. Blueprint 7: El Tablero de Comando del Incidente
 
-| Fase | Acción Clave | Responsable | Soporte |
-| :--- | :--- | :--- | :--- |
-| **Triage** | Clasificar severidad (Baja a Crítica). | Ingeniero | **Anexo F** (CVSS/KEV) |
-| **Aislamiento** | Ejecutar bloqueo de red o de cuentas. | Ingeniero | **Anexo E** (PAM/IAM) |
-| **Comunicación** | Emitir reporte ejecutivo y evaluar umbrales de notificación regulatoria. | Mando Medio | **Anexo D** (Reporting) |
-| **Evidencia** | Preservar logs y memoria para análisis forense. | Ingeniero | **Anexo L** (Glosario) |
+!!! example "Matriz de Respuesta Táctica"
+    En el calor del incidente, la improvisación es el enemigo. Este tablero asigna responsabilidades claras para transformar el caos en un proceso estructurado de contención.
 
+    | Fase | Acción Clave | Responsable | Soporte |
+    | :--- | :--- | :--- | :--- |
+    | **Triage** | Clasificar severidad (Baja a Crítica). | Ingeniero | **Anexo F** (CVSS/KEV) |
+    | **Aislamiento** | Ejecutar bloqueo de red o de cuentas. | Ingeniero | **Anexo E** (PAM/IAM) |
+    | **Comunicación** | Emitir reporte ejecutivo y evaluar umbrales de notificación regulatoria. | Mando Medio | **Anexo D** (Reporting) |
+    | **Evidencia** | Preservar logs y memoria para análisis forense. | Ingeniero | **Anexo L** (Glosario) |
+    
 ---
 
 ### 5. La Regla de Oro: Evidencia vs. Velocidad

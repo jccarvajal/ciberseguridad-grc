@@ -39,14 +39,15 @@ Los reportes de DLP (*Data Loss Prevention*, controles diseñados para detectar,
 
 ### 4. Blueprint 6: Matriz de Control de Fuga de Datos
 
-El **Mando Medio** implementa estos "peajes" de control para asegurar la soberanía institucional:
+!!! example "Canales y Controles DLP"
+    El **Mando Medio** implementa estos "peajes" de control para asegurar la soberanía institucional:
 
-| Canal de Fuga | Método de Control | Nivel de Restricción |
-| :--- | :--- | :--- |
-| **Correo Electrónico** | Escaneo de *keywords* y adjuntos cifrados. | Alto (Bloqueo de PII/RUTs). |
-| **Almacenamiento Cloud** | **CASB** (*Cloud Access Security Broker*). | Crítico (Solo nubes corporativas). |
-| **IA Generativa** | Filtrado de *Prompts* y anonimización. | Alto (Prevención de fuga a modelos externos). |
-| **Endpoint / USB** | Bloqueo de puertos y monitoreo de portapapeles. | Crítico (Prohibición de extracción masiva). |
+    | Canal de Fuga | Método de Control | Nivel de Restricción |
+    | :--- | :--- | :--- |
+    | **Correo Electrónico** | Escaneo de *keywords* y adjuntos cifrados. | Alto (Bloqueo de PII/RUTs). |
+    | **Almacenamiento Cloud** | **CASB** (*Cloud Access Security Broker*). | Crítico (Solo nubes corporativas). |
+    | **IA Generativa** | Filtrado de *Prompts* y anonimización. | Alto (Prevención de fuga a modelos externos). |
+    | **Endpoint / USB** | Bloqueo de puertos y monitoreo de portapapeles. | Crítico (Prohibición de extracción masiva). |
 
 ---
 
