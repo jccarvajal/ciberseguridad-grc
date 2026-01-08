@@ -27,7 +27,7 @@ Este tablero responde a la única pregunta que le importa a la Alta Dirección: 
 | **Riesgo Residual (*ALE*)** | Pérdida anualizada esperada en dinero ($ALE = SLE \times ARO$). | **< $50k USD** | 🔴 **$500k USD** |
 | **Cobertura de Activos Críticos** | % de Sistemas Tier 0/1 protegidos por Backups Inmutables y MFA. | **100%** | 🟡 **60%** |
 | **Tasa de Éxito en Simulacros** | % de pruebas de restauración (**DRP**) que funcionaron en el tiempo prometido (*RTO*). | **100%** | 🟢 **100%** |
-| **Costo de Incidentes Reales** | Dinero real perdido por paradas no planificadas o multas (**Ley 21.663**). | **$0** | 🔴 **$100k** (Caso Akira) |
+| **Costo de Incidentes Reales** | Dinero real perdido por paradas no planificadas o multas (**Ley 21.663**). | **$0** | 🔴 **$100k** (Caso Ransomware) |
 
 ---
 
