@@ -18,24 +18,32 @@ Para cada proceso crítico de ciberseguridad, debe haber un nombre y apellido as
 
 * **[R] Responsible (El Ejecutor):** Quien realiza el trabajo técnico ("Las manos en el teclado").
 * **[A] Accountable (El Dueño):** Quien tiene la autoridad final, aprueba el trabajo y responde ante el Directorio si algo sale mal ("La cabeza que rueda"). **Solo puede haber una "A" por proceso.**
-* **[C] Consulted (El Asesor):** Experto cuya opinión se busca *antes* de decidir o actuar. En nuestro modelo, este suele ser el rol del CISO.
+* **[C] Consulted (El Asesor):** Experto cuya opinión se busca *antes* de decidir o actuar. En nuestro modelo, este suele ser el rol del **CISO** y del **DPO**.
 * **[I] Informed (El Notificado):** A quien se le avisa *después* de que la acción o decisión ha sido tomada.
 
 ---
 
 ### 3. Matriz RACI de Ciberseguridad
 
-Esta tabla define la gobernanza operativa estándar para una organización regulada.
+Esta tabla define la gobernanza operativa estándar para una organización regulada, integrando el rol del **DPO (Data Protection Officer)**.
 
 | Proceso Crítico | [R] Ejecutor (Hacer) | [A] Accountable (Responder) | [C] Consultado (Asesorar) | [I] Informado (Notificar) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Alta de Usuarios (Joiners)** | Mesa de Ayuda (TI) | **Gerente de RRHH** | CISO (Define Roles) | Jefe Directo |
-| **Baja de Usuarios (Leavers)** | Mesa de Ayuda (TI) | **Gerente de RRHH** *(Crítico: RRHH gatilla)* | CISO | Seguridad Física |
+| **Alta de Usuarios (Joiners)** | Mesa de Ayuda (TI) | **Gerente de RRHH** | CISO (Roles) / DPO (Privacidad) | Jefe Directo |
+| **Baja de Usuarios (Leavers)** | Mesa de Ayuda (TI) | **Gerente de RRHH** *(Crítico: RRHH gatilla)* | CISO | Seguridad Física / DPO |
 | **Parchado de Servidores** | Infraestructura (TI) | **CIO / Gerente TI** | CISO (Define Prioridad) | Dueños de Servicio |
-| **Declaración de Incidente** | CISO / SOC | **Comité de Crisis (CEO)** | Legal | Comunicaciones |
-| **Aprobación de Excepciones** | CISO (Evalúa Riesgo) | **Gerente del Negocio Solicitante** | CIO | Riesgo Operacional |
+| **Declaración de Incidente** | CISO / SOC | **Comité de Crisis (CEO)** | Legal y DPO (Impacto Datos) | Comunicaciones |
+| **Evaluación de Impacto (DPIA)**| Dueño de Proyecto | **Gerente del Negocio** | DPO (Dictamen Vinculante) | CISO / Legal |
+| **Aprobación de Excepciones** | CISO (Evalúa Riesgo) | **Gerente del Negocio Solicitante** | CIO / DPO (Si hay datos PII) | Riesgo Operacional |
 | **Gestión de Backups** | Operaciones TI | **CIO / Gerente TI** | CISO (Verifica Integridad) | Auditores |
-| **Pago de Ransomware** | Director Financiero | **Directorio / Ministro** | CISO y Legal | Accionistas |
+| **Pago de Ransomware** | Director Financiero | **Directorio / Ministro** | CISO, Legal y DPO | Accionistas |
+
+!!! info "Concepto Clave: DPIA (Privacidad desde el Diseño)"
+    La **Evaluación de Impacto en Protección de Datos (DPIA)** no es un trámite burocrático; es la evidencia tangible de **Privacidad desde el Diseño**.
+    
+    Se trata de una auditoría de riesgo obligatoria que debe realizarse *antes* de iniciar cualquier proyecto que involucre datos sensibles, IA o perfilamiento masivo. Su función en la Matriz RACI es crítica: formaliza que el **Gerente de Negocio (Accountable)** ha entendido y aceptado los riesgos de privacidad identificados por el **DPO**, asegurando que la búsqueda de rentabilidad no comprometa la legalidad del tratamiento de datos. 
+    
+    **Sin una DPIA firmada, el proyecto nace con "Deuda Legal" desde el día cero.**
 
 ---
 
