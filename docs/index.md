@@ -1,6 +1,5 @@
 # Ciberseguridad Orientada a Resultados
-## Arquitectura de Resiliencia y Gobernanza para la Tríada Estratégica
-
+## Arquitectura, Riesgo y Supervivencia Institucional
 **Versión 1.1 (Enero 2026)**
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)

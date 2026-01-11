@@ -14,6 +14,20 @@ Bienvenido a la trinchera. Aquí no gestionamos certezas, gestionamos la supervi
 
 ---
 
+# Cuándo NO aplicar este libro (Contraindicaciones)
+
+Este marco asume un nivel mínimo de madurez ética y organizacional. No intente implementar el modelo del Vigilante Estratégico si su organización se encuentra en alguno de estos estados:
+
+* **Búsqueda de Culpables:** Si el objetivo del Directorio ante un incidente es encontrar una cabeza para cortar en lugar de revisar el fallo del proceso.
+* **Riesgo Retórico:** Si la gestión de riesgos es un ejercicio de imaginación para llenar planillas y no una herramienta de decisión financiera (*ALE*).
+* **Escudo Político:** Si la ciberseguridad se utiliza como arma arrojadiza entre gerencias en lugar de un activo de protección patrimonial.
+* **Negación de la Señal:** Si el incidente se trata como una anomalía estadística ("mala suerte") y no como una prueba de estrés del sistema.
+* **Ausencia de Firma:** Si nadie en la Alta Dirección está dispuesto a poner su nombre en un documento que acepte explícitamente un riesgo residual.
+
+Si reconoce su entorno en esta lista, este libro no servirá como manual, sino como espejo de lo que falta.
+
+---
+
 # Sobre la Autoría y el uso de Inteligencia Artificial
 
 Este documento fue desarrollado por **Juan Carlos Carvajal**, autor principal y responsable exclusivo de su contenido, estructura conceptual y visión final. Para más información sobre el autor, sus proyectos o para contacto profesional, puede visitar [www.jccarvajal.com](https://www.jccarvajal.com/).
