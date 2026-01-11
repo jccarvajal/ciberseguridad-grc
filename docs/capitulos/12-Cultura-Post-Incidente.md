@@ -8,13 +8,16 @@ Nuestra meta no es solo ser robustos para resistir el golpe, sino ser **Antifrá
 ### 1. Concepto Clave: La Tríada de Taleb
 Para gobernar el riesgo, debemos entender que "Resiliencia" no es la meta final. Según el modelo de Nassim Taleb, los sistemas reaccionan de tres formas ante el caos (ataque):
 
-| Estado del Sistema | Metáfora | Reacción ante el Incidente | Objetivo de Gestión |
+| Estado del Sistema | Metáfora | Reacción ante el Incidente | Tipo de Defensa (Tecnología) |
 | :--- | :--- | :--- | :--- |
-| **1. Frágil** | **La Copa de Cristal** | Se rompe con el impacto. El daño es irreversible o costoso de reparar. | 🔴 **Eliminar.** (Sistemas legados, redes planas). |
-| **2. Resiliente (Robusto)** | **La Roca** | Resiste el golpe y **vuelve a su estado original**. Sobrevive, pero no aprende. | 🟡 **Estándar Base.** (Backups, DRP, Redundancia). |
-| **3. Antifrágil** | **El Sistema Inmunológico** | **Mejora con el golpe.** El ataque activa defensas que lo hacen más fuerte para la próxima vez. | 🟢 **Meta Estratégica.** (Cultura Blame-Free, IA Agéntica). |
+| **1. Frágil** | **La Copa de Cristal** | Se rompe con el impacto. El daño es irreversible o costoso. | **Manual / Reactiva.** (Depende del héroe humano). |
+| **2. Resiliente** | **La Roca** | Resiste el golpe y **vuelve a su estado original**. Sobrevive, pero no aprende. | **Automatizada (SOAR).** (Ejecuta scripts predefinidos). |
+| **3. Antifrágil** | **El Sistema Inmunológico** | **Mejora con el golpe.** El ataque activa defensas que lo hacen más fuerte. | **Agéntica (IA Autónoma).** (Toma decisiones de defensa en tiempo real). |
 
-> **Tesis del Vigilante:** La Resiliencia nos permite sobrevivir al hoy; la Antifragilidad nos asegura dominar el mañana aprovechando el caos.
+!!! info "Definición: ¿Qué es la IA Agéntica aquí?"
+    A diferencia de la automatización tradicional (que sigue instrucciones rígidas), la **IA Agéntica** tiene autorización delegada para tomar decisiones defensivas autónomas (Ver **Capítulo 13**). 
+    
+    Es antifrágil porque utiliza la información del ataque en curso para reconfigurar la defensa (ej: crear nuevas reglas de firewall) más rápido de lo que un humano podría teclear. **El ataque alimenta la defensa.**
 
 ---
 
