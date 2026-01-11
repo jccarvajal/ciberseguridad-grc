@@ -40,6 +40,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** *Tasa de Ocurrencia Anualizada.* Estimación de cuántas veces al año se espera que ocurra un evento de riesgo.
 * **Referencia Principal:** Capítulo 02.
 
+**Apetito de Riesgo**
+
+* **Definición:** El nivel de pérdida financiera o disrupción operativa que el Directorio está dispuesto a aceptar en la búsqueda de sus objetivos de negocio. No es un sentimiento, es una cifra límite (ej: "No aceptamos caídas > 4 horas").
+* **Referencia Principal:** Capítulo 02.
+
 **Asimetría de Información**
 
 * **Definición:** Fenómeno económico donde una parte (el Directorio) tiene menos información que la otra (el CISO) para tomar una decisión, resultando en una valoración ineficiente del riesgo ("Mercado de los Limones").
@@ -59,6 +64,13 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** *Análisis de Impacto al Negocio.* Proceso que determina los tiempos máximos tolerables de interrupción (*RTO*) y pérdida de datos (*RPO*) para cada proceso vital.
 * **Referencia Principal:** Capítulo 11.
+
+**Blue Team / Red Team**
+
+* **Definición:** Distinción de roles en ejercicios de simulación y entrenamiento.
+    * **Red Team:** Grupo (interno o externo) que simula ser el adversario, replicando TTPs reales para atacar la organización.
+    * **Blue Team:** Equipo defensivo (CSIRT) que debe detectar, contener y repeler el ataque en tiempo real.
+* **Referencia Principal:** Anexo M.
 
 **Botón Rojo**
 
@@ -112,6 +124,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Evolución de la ciberseguridad donde sistemas autónomos de IA tienen la facultad de razonar y ejecutar contramedidas (bloqueos, aislamiento) sin intervención humana para combatir amenazas de alta velocidad.
 * **Referencia Principal:** Capítulo 13.
 
+**Deuda Técnica de Seguridad**
+
+* **Definición:** El costo acumulado de tomar atajos en la arquitectura o mantener sistemas legados sin parchar. Como una deuda financiera, genera "intereses" en forma de mayor riesgo operativo y mayor costo de remediación futura.
+* **Referencia Principal:** Capítulo 06 / Anexo K.
+
 **DLP (Data Loss Prevention)**
 
 * **Definición:** *Prevención de Fuga de Datos.* Capacidad técnica para evitar que información sensible abandone la organización en reposo, tránsito o uso.
@@ -137,6 +154,16 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Primer artefacto de evidencia de debida diligencia generado al Minuto 60 de un incidente para informar al Directorio sobre el impacto y la estrategia.
 * **Referencia Principal:** Capítulo 07 / Anexo D.
 
+**Honeypot (Señuelo)**
+
+* **Definición:** Recurso trampa (servidor, archivo o base de datos falsa) diseñado para atraer al atacante. Sirve para dos cosas: desviar el ataque de los activos reales y generar alertas tempranas de alta fidelidad (nadie legítimo debería tocar ese servidor).
+* **Referencia Principal:** Capítulo 04 / Anexo H.
+
+**Human Firewall (Cortafuegos Humano)**
+
+* **Definición:** Estrategia cultural que transforma al empleado de ser el "eslabón más débil" a ser un "sensor activo". Un usuario entrenado que reporta un phishing fallido vale más que un filtro técnico, porque entrega inteligencia temprana al SOC.
+* **Referencia Principal:** Anexo M.
+
 **IAM (Identity and Access Management)**
 
 * **Definición:** Gestión del ciclo de vida de las identidades (*Joiner, Mover, Leaver*) como eje central de la gobernanza.
@@ -151,6 +178,16 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** Distinción jurídica crítica. Un **Incidente** es cualquier interrupción de la tríada CIA (puede ser accidental). Un **Ciberataque** implica dolo y acción deliberada de un tercero. No se deben usar como sinónimos en reportes legales.
 * **Referencia Principal:** Capítulo 09.
+
+**IoC (Indicator of Compromise)**
+
+* **Definición:** *Indicador de Compromiso.* La "huella digital" forense que deja un ataque (una IP, un Hash de archivo, un dominio malicioso). Es la evidencia técnica dura que el Ingeniero busca para confirmar una infección.
+* **Referencia Principal:** Capítulo 07 / Anexo E.
+
+**Insider Threat (Amenaza Interna)**
+
+* **Definición:** Riesgo que proviene de personas dentro de la organización (empleados, contratistas). Puede ser **malicioso** (un empleado descontento que roba datos) o **accidental** (un usuario que cae en phishing o configura mal una nube). Zero Trust se diseña específicamente para esto.
+* **Referencia Principal:** Capítulo 05 / Anexo K.
 
 **IRP (Incident Response Plan)**
 
@@ -171,6 +208,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** Ley Marco de Ciberseguridad en Chile que establece deberes de dirección y sanciones por negligencia.
 * **Referencia Principal:** Capítulo 01 / Capítulo 03.
+
+**Licencia Social**
+
+* **Definición:** El permiso intangible que otorga la sociedad (clientes, empleados y opinión pública) para operar. A diferencia de la licencia legal, esta se pierde instantáneamente cuando se rompe la confianza tras un incidente mal comunicado u ocultado.
+* **Referencia Principal:** Capítulo 09.
 
 **MFA (Multi-Factor Authentication)**
 
@@ -203,6 +245,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Fórmula:** $$MTTR = \frac{\sum (Fin \: Incidente - Detección)}{Número \: de \: Incidentes}$$.
 * **Referencia Principal:** Capítulo 08.
 
+**OIV (Operador de Importancia Vital)**
+
+* **Definición:** Clasificación jurídica crítica bajo la Ley 21.663. Empresas privadas o públicas cuyos servicios son esenciales para el funcionamiento del país (agua, luz, salud, finanzas). Tienen los plazos de notificación más estrictos (3 horas) y las multas más altas.
+* **Referencia Principal:** Capítulo 03.
+
 **OODA (Observar, Orientar, Decidir, Actuar)**
 
 * **Definición:** Ciclo estratégico de combate (John Boyd). En ciberseguridad, el objetivo de la automatización (SOAR) es completar este ciclo más rápido que el adversario para neutralizar la amenaza antes de que se oriente en la red.
@@ -228,15 +275,35 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Matriz de asignación de responsabilidades que elimina la ambigüedad operativa. Define quién ejecuta la tarea (R) y, crucialmente, quién responde (A) por el riesgo final ante el Directorio.
 * **Referencia Principal:** Anexo A.
 
+**RaaS (Ransomware-as-a-Service)**
+
+* **Definición:** *Ransomware como Servicio.* Modelo de negocio criminal donde los desarrolladores de malware alquilan su software a "afiliados" a cambio de una comisión. Esto industrializa el ataque, permitiendo que actores sin conocimientos técnicos lancen ciberataques devastadores.
+* **Referencia Principal:** Capítulo 01.
+
+**Ransomware**
+
+* **Definición:** Tipo de malware que cifra los datos y exige un rescate. Es la amenaza principal que justifica la estrategia de *Ciberseguridad Orientada a Resultados*, ya que ataca simultáneamente la disponibilidad (operación) y la confidencialidad (extorsión).
+* **Referencia Principal:** Capítulo 01.
+
 **Regla 3-2-1-1-0**
 
 * **Definición:** Estándar de oro moderno para respaldos resilientes: 3 copias de datos, 2 medios diferentes, 1 copia fuera del sitio, 1 copia inmutable/offline y 0 errores de verificación (probados).
 * **Referencia Principal:** Anexo I.
 
+**Resiliencia**
+
+* **Definición:** Capacidad de un sistema para absorber un impacto y **volver a su estado original** (metáfora de "La Roca"). Se diferencia de la Antifragilidad en que la resiliencia busca la estabilidad y recuperación del *status quo*, no la mejora a través del caos.
+* **Referencia Principal:** Capítulo 12.
+
 **Responsabilidad Solidaria**
 
 * **Definición:** Principio legal (Ley 21.663) que establece que la organización contratante es responsable ante el regulador por las fallas de seguridad de sus proveedores. "Se delega el servicio, no la responsabilidad".
 * **Referencia Principal:** Anexo L.
+
+**Riesgo Residual**
+
+* **Definición:** El nivel de riesgo que permanece después de haber aplicado todos los controles de seguridad (técnicos, legales y seguros). Es el riesgo final que el Directorio debe firmar y aceptar formalmente.
+* **Referencia Principal:** Capítulo 02.
 
 **ROS (Return on Security)**
 
@@ -270,10 +337,30 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Capa tecnológica que automatiza la respuesta mediante *playbooks* que generan evidencia inalterable.
 * **Referencia Principal:** Capítulo 08.
 
+**Superficie de Ataque**
+
+* **Definición:** La suma total de todos los puntos donde un usuario no autorizado podría intentar entrar o extraer datos (puertos abiertos, APIs públicas, empleados con email). La estrategia de "Simplicidad es Seguridad" busca reducir esta superficie al mínimo.
+* **Referencia Principal:** Nota al Lector / Capítulo 04.
+
+**Supply Chain Attack (Ataque de Cadena de Suministro)**
+
+* **Definición:** Vector de ataque donde el adversario no ataca a la organización directamente, sino que compromete a un proveedor de confianza (software, limpieza, servicio en la nube) para entrar "por la puerta de atrás" saltándose el perímetro.
+* **Referencia Principal:** Anexo L.
+
+**Tabletop Exercise (TTX)**
+
+* **Definición:** *Ejercicio de Escritorio.* Simulación de crisis basada en discusión (sin tocar teclados) donde el Comité de Crisis practica la toma de decisiones, la comunicación y los flujos legales ante un escenario hipotético. Es el entrenamiento vital para la "memoria muscular" ejecutiva.
+* **Referencia Principal:** Anexo M.
+
 **TPRM (Third-Party Risk Management)**
 
 * **Definición:** *Gestión de Riesgos de Terceros.* Disciplina de gobernanza enfocada en identificar y mitigar los riesgos introducidos por la cadena de suministro y proveedores externos.
 * **Referencia Principal:** Anexo L.
+
+**War Room (Sala de Guerra)**
+
+* **Definición:** Espacio físico o virtual (canal OOB) aislado de la red corporativa donde se reúne el Comité de Crisis para tomar decisiones estratégicas sin ser espiados por el adversario que podría estar dentro de la red principal.
+* **Referencia Principal:** Anexo G.
 
 **Zero Trust (Confianza Cero)**
 
