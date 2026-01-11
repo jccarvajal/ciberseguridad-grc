@@ -23,6 +23,9 @@ Esta versión consolida la identidad final de la obra, pasando de un enfoque "t�
 #### Ajustes Operativos y Legales
 * **Capítulo 9 (Comunicación):** Inserción de la tabla "Cronómetro Legal", definiendo tiempos máximos de silencio (ventanas de notificación) bajo la Ley 21.663.
 * **Anexo D (Reporting):** Integración obligatoria de la métrica **ALE** (Annual Loss Expectancy) en los *Flash Reports* ejecutivos.
+* **Anexo G (Protocolo de Decisión Extrema):** Incorporación del marco doctrinal para la gestión de **Ransomware**.
+    * **Matriz de Supervivencia:** Herramienta de decisión binaria para evaluar el pago de rescates basada estrictamente en Vidas Humanas, Viabilidad Financiera (Quiebra inminente) y Legalidad.
+    * **Doctrina de Pago:** Redefinición del pago de rescate como una **"Excepción Soberana bajo Estado de Necesidad"**, eliminando la ambigüedad moral y separando explícitamente la "Voz Técnica" (CISO) del "Voto Soberano" (Directorio).
 
 ---
 

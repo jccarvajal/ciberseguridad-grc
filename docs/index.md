@@ -143,7 +143,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 ---
 
 ## Changelog
-* **v1.2 (Enero 2026):** Actualización "Refinamiento Doctrinal". Nuevo subtítulo "Arquitectura, Riesgo y Supervivencia", integración de la Tríada de Taleb (Antifragilidad) y definición de límites éticos en el Epílogo.
+* **v1.2 (Enero 2026):** Actualización "Refinamiento Doctrinal". Nuevo subtítulo "Arquitectura, Riesgo y Supervivencia", integración de la Tríada de Taleb (Antifragilidad), incorporación del Protocolo de Decisión en caso de Ransomware y definición de límites éticos en el Epílogo.
 * **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.* Ver [Historial Completo](./changelog.md).
 
 ## Sugerencias y Mejoras
