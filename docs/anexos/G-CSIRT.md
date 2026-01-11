@@ -89,7 +89,7 @@ El Comité de Crisis debe responder estas 4 preguntas binarias. Si alguna respue
 | **Vidas Humanas** | ¿El fallo de sistemas implica riesgo directo de muerte o daño físico irreversible? (Ej: Hospitales, Grid Eléctrico, Control de Tráfico). | No. Solo hay impacto financiero u operativo. | **SÍ.** La ética de la vida supera a la política de seguridad. |
 | **Recuperabilidad** | ¿Existen respaldos inmutables (3-2-1-1-0) verificados y funcionales en las últimas 24 horas? | Sí. Podemos restaurar, aunque tarde días o semanas. | **NO.** Los respaldos también fueron cifrados, borrados o son inutilizables. |
 | **Viabilidad Financiera** | ¿El tiempo estimado de reconstrucción manual (RTO Real) supera el tiempo máximo de supervivencia de caja (MTPD)? | No. Podemos aguantar operando a papel/manual dentro del margen de seguridad. | **SÍ.** El tiempo de inoperancia supera el umbral máximo de supervivencia financiera, implicando quiebra o cierre inminente. |
-| **Legalidad** | ¿El pago del rescate viola leyes de financiamiento al terrorismo o sanciones internacionales en la jurisdicción actual? | Sí. Pagar constituye un delito federal/penal explícito. | No. Existe una interpretación legal de **estado de necesidad** o fuerza mayor, validada por asesoría jurídica especializada (consultar Fiscal). |
+| **Legalidad** | ¿El pago del rescate viola leyes de financiamiento al terrorismo o sanciones internacionales en la jurisdicción actual? | Sí. Pagar constituye un delito federal/penal explícito. | **No.** Existe una interpretación legal de **estado de necesidad** o fuerza mayor, validada por asesoría jurídica especializada (consultar Fiscal). |
 
 #### C. Procedimiento de Ejecución (Si se decide pagar)
 
@@ -104,7 +104,7 @@ Si el Directorio decide pagar, debe quedar acta formal de que la decisión se to
 * **Si se PAGA:** Silencio de Contención. El silencio no implica falsedad, sino restricción temporal de información sensible en resguardo de la investigación y la seguridad institucional.
 * **Si NO se paga:** Soberanía Narrativa. Se admite el ataque, se condena al criminal y se comunica la reconstrucción con transparencia.
 
-> **Nota del Auditor:** Pagar el rescate no es una solución estratégica; es la **constatación formal de un fallo previo en la estrategia de resiliencia**. Es el último recurso ante la inviabilidad operativa.
+> **Nota del Auditor:** Pagar el rescate no es una solución estratégica; es la constatación formal de un fallo previo en la estrategia de resiliencia y un **acto de supervivencia institucional bajo coacción**.
 
 ---
 
