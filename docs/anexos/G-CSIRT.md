@@ -69,7 +69,53 @@ En crisis, la democracia se suspende. Se aplica la siguiente matriz de decisión
 
 ---
 
-### 5. Infraestructura de la "Sala de Guerra" (*War Room*)
+### 5. Protocolo de Decisión Extrema: El Dilema del Rescate
+
+**Advertencia de Doctrina:** La postura oficial y recomendada de esta organización es **NO PAGAR**. Sin embargo, la gobernanza requiere prever los escenarios de colapso total. Este protocolo se activa únicamente cuando la continuidad de la institución o la vida humana están en riesgo inminente.
+
+#### A. La Regla de Oro de la Autoridad
+La decisión de pagar un rescate (*Ransom*) **NUNCA** es técnica. Es una decisión **Financiera y Legal** de alto nivel.
+
+* **El CISO:** No tiene voto, solo voz técnica (evalúa la probabilidad de éxito del descifrado y la veracidad de la amenaza).
+* **El CEO/Directorio:** Tienen el voto único y asumen la responsabilidad penal, civil y reputacional ante la decisión.
+
+#### B. Matriz de Evaluación de Supervivencia (Triage)
+
+El Comité de Crisis debe responder estas 4 preguntas binarias. Si alguna respuesta cae en la **ZONA ROJA**, se habilita la discusión formal sobre el pago.
+
+| Factor Crítico | Pregunta de Control | Zona Verde (NO PAGAR) | Zona Roja (EVALUAR PAGO) |
+| :--- | :--- | :--- | :--- |
+| **Vidas Humanas** | ¿El fallo de sistemas implica riesgo directo de muerte o daño físico irreversible? (Ej: Hospitales, Grid Eléctrico, Control de Tráfico). | No. Solo hay impacto financiero u operativo. | **SÍ.** La ética de la vida supera a la política de seguridad. |
+| **Recuperabilidad** | ¿Existen respaldos inmutables (3-2-1-1-0) verificados y funcionales en las últimas 24 horas? | Sí. Podemos restaurar, aunque tarde días o semanas. | **NO.** Los respaldos también fueron cifrados, borrados o son inutilizables. |
+| **Viabilidad Financiera** | ¿El tiempo estimado de reconstrucción manual (RTO Real) supera el tiempo máximo de supervivencia de caja (MTPD)? | No. Podemos aguantar operando a papel/manual dentro del margen de seguridad. | **SÍ.** El tiempo de inoperancia supera el umbral máximo de supervivencia financiera, implicando quiebra o cierre inminente. |
+| **Legalidad** | ¿El pago del rescate viola leyes de financiamiento al terrorismo o sanciones internacionales en la jurisdicción actual? | Sí. Pagar constituye un delito federal/penal explícito. | No. Existe una interpretación legal de **estado de necesidad** o fuerza mayor, validada por asesoría jurídica especializada (consultar Fiscal). |
+
+#### C. Procedimiento de Ejecución (Si se decide pagar)
+
+Si el Directorio decide pagar, debe quedar acta formal de que la decisión se tomó bajo **coacción y estado de necesidad** para salvar la institución:
+
+1.  **Validación de Prueba de Vida:** Exigir al atacante que descifre un archivo crítico (sin valor comercial) para probar que técnicamente tienen la capacidad y la llave funciona. **Sin prueba, no hay pago.**
+2.  **Intermediación:** Nunca pagar desde cuentas bancarias corporativas directas. Utilizar servicios legales especializados en negociación y forense digital que actúen como buffer.
+3.  **Higiene Post-Pago:**
+    * **Asunción de Fuga:** El pago NO garantiza la confidencialidad. Se debe asumir que los datos fueron copiados y podrían filtrarse en el futuro.
+    * **Cuarentena del Descifrador:** La herramienta que entrega el atacante es un ejecutable desconocido; debe ejecutarse en un entorno aislado (*Sandboxing*) para evitar reinfecciones o *backdoors*.
+    * **Rotación Total:** Una vez recuperado el acceso, se deben cambiar todas las credenciales administrativas ("Llaves del Reino") de inmediato.
+
+> **Nota del Auditor:** Pagar el rescate no es una solución estratégica; es la **constatación formal de un fallo previo en la estrategia de resiliencia**. Es el último recurso ante la inviabilidad operativa.
+
+### D. La Derivada Comunicacional: El Costo del Silencio
+
+La decisión tomada en esta matriz define irrevocablemente la estrategia de comunicación (Capítulo 09):
+
+* **Si la decisión fue PAGAR:** La organización entra en una fase de **"Silencio de Contención"**. Legalmente, no se puede admitir el financiamiento de un ilícito. La narrativa pública debe centrarse estrictamente en la "recuperación progresiva de servicios", omitiendo los detalles del método de descifrado. El riesgo de filtración futura por parte del atacante se convierte en un pasivo reputacional permanente ("Espada de Damocles").
+
+* **Si la decisión fue NO PAGAR:** La organización recupera su **"Soberanía Narrativa"**. Al no tener nada que ocultar, puede admitir el ataque, condenar al criminal y comunicar transparentemente el proceso de reconstrucción. El dolor operativo será mayor, pero la integridad institucional permanece intacta.
+
+> **Regla Final:** Se puede pagar por la llave, pero la reputación no tiene *backup*.
+
+---
+
+### 6. Infraestructura de la "Sala de Guerra" (*War Room*)
 
 Si la red interna está comprometida (como en el caso de un ransomware avanzado), no se puede usar el correo corporativo, Teams o Slack internos para gestionar la crisis, ya que el atacante podría estar monitoreando las comunicaciones ("Eavesdropping").
 
@@ -81,7 +127,7 @@ Si la red interna está comprometida (como en el caso de un ransomware avanzado)
 
 ---
 
-### 6. Checklist de Activación (Hora 0)
+### 7. Checklist de Activación (Hora 0)
 
 Cuando el IC declara "Código Rojo" (Nivel 1), se ejecuta esta secuencia inmediata:
 
