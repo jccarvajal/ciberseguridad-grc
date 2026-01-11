@@ -5,7 +5,20 @@ Una vez que el fuego se apaga, los sistemas se restauran y el **"Botón Rojo"** 
 
 Nuestra meta no es solo ser robustos para resistir el golpe, sino ser **Antifrágiles**: lograr que la organización mejore y se fortalezca precisamente a causa del estrés y el desastre.
 
-### 1. El *Post-Mortem* Sin Culpa (*Blame-Free Culture*)
+### 1. Concepto Clave: La Tríada de Taleb
+Para gobernar el riesgo, debemos entender que "Resiliencia" no es la meta final. Según el modelo de Nassim Taleb, los sistemas reaccionan de tres formas ante el caos (ataque):
+
+| Estado del Sistema | Metáfora | Reacción ante el Incidente | Objetivo de Gestión |
+| :--- | :--- | :--- | :--- |
+| **1. Frágil** | **La Copa de Cristal** | Se rompe con el impacto. El daño es irreversible o costoso de reparar. | 🔴 **Eliminar.** (Sistemas legados, redes planas). |
+| **2. Resiliente (Robusto)** | **La Roca** | Resiste el golpe y **vuelve a su estado original**. Sobrevive, pero no aprende. | 🟡 **Estándar Base.** (Backups, DRP, Redundancia). |
+| **3. Antifrágil** | **El Sistema Inmunológico** | **Mejora con el golpe.** El ataque activa defensas que lo hacen más fuerte para la próxima vez. | 🟢 **Meta Estratégica.** (Cultura Blame-Free, IA Agéntica). |
+
+> **Tesis del Vigilante:** La Resiliencia nos permite sobrevivir al hoy; la Antifragilidad nos asegura dominar el mañana aprovechando el caos.
+
+---
+
+### 2. El *Post-Mortem* Sin Culpa (*Blame-Free Culture*)
 
 Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tras un incidente el objetivo primordial es encontrar un culpable para sancionarlo, el equipo técnico aprenderá a ocultar errores en el futuro, lo que aumenta drásticamente el riesgo oculto y degrada la **debida diligencia** organizacional.
 
@@ -24,7 +37,7 @@ Para el **Mando Medio**, el mayor desafío es evitar la "caza de brujas". Si tra
     
 ---
 
-### 2. Análisis de Causa Raíz: Honestidad Técnica
+### 3. Análisis de Causa Raíz: Honestidad Técnica
 
 !!! failure "Nota Editorial: El Riesgo del Silencio Administrativo"
     Un incidente de ransomware sin un proceso formal de investigación administrativa constituye una ruptura del ciclo de **debida diligencia**. La contención técnica y la recuperación operativa, aun cuando sean exitosas, no agotan las obligaciones de una organización diligente. La ausencia de un sumario o mecanismo equivalente interrumpe el ciclo post-incidente en su fase más crítica: la determinación de responsabilidades, la identificación de fallas de control y la generación de evidencia institucional de aprendizaje.
@@ -48,7 +61,7 @@ Para ello, es fundamental actualizar el cálculo del ***ALE*** (Capítulo 2). Tr
 
 ---
 
-### 4. Blueprint 12: El Reporte de Lecciones Aprendidas
+### 5. Blueprint 12: El Reporte de Lecciones Aprendidas
 
 !!! example "Estructura del Informe Post-Incidente"
     El **Mando Medio** debe liderar la redacción de este documento, que constituye la evidencia final de **debida diligencia** ante la **ANCI** bajo la **Ley 21.663**:
@@ -62,7 +75,7 @@ Para ello, es fundamental actualizar el cálculo del ***ALE*** (Capítulo 2). Tr
     
 ---
 
-### 5. Transformando el Incidente en Cultura
+### 6. Transformando el Incidente en Cultura
 
 La resiliencia no es un estado técnico, sino un hábito organizacional alimentado por la experiencia.
 
