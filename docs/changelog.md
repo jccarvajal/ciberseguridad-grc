@@ -6,6 +6,26 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 
 ---
 
+## [1.2.0] - 2026-01-11
+
+### Refinamiento Doctrinal y Nueva Identidad
+
+Esta versión consolida la identidad final de la obra, pasando de un enfoque "técnico-consultivo" a una postura "doctrinal y ejecutiva". Se endurece el tono normativo y se definen los límites éticos del modelo.
+
+#### Cambios de Identidad
+* **Rebranding:** Cambio del subtítulo oficial a **"Arquitectura, Riesgo y Supervivencia Institucional"** para alinear la promesa de valor con la Tríada Estratégica (Ingeniero, CISO, Directorio).
+* **Filtro de Entrada:** Inclusión de "Contraindicaciones" en la *Nota al Lector*. Se define explícitamente cuándo **NO** aplicar este libro (entornos de riesgo retórico o búsqueda de culpables).
+
+#### Doctrina y Conceptos (Nuevos)
+* **Capítulo 12 (Antifragilidad):** Incorporación formal de la **Tríada de Taleb** (Frágil / Resiliente / Antifrágil) y definición de **IA Agéntica** bajo el concepto de "Autoridad Delegada" y "Soberanía del Criterio".
+* **Epílogo (El Borde del Mapa):** Nueva sección de cierre que reconoce los límites de la escritura técnica frente a la decisión ética humana ("El resto no es escribible"). Redefinición de los roles bajo el concepto de "Cadena de Responsabilidad".
+
+#### Ajustes Operativos y Legales
+* **Capítulo 9 (Comunicación):** Inserción de la tabla "Cronómetro Legal", definiendo tiempos máximos de silencio (ventanas de notificación) bajo la Ley 21.663.
+* **Anexo D (Reporting):** Integración obligatoria de la métrica **ALE** (Annual Loss Expectancy) en los *Flash Reports* ejecutivos.
+
+---
+
 ## [1.1.0] - 2026-01-04
 
 ### Consolidación Legal, Cultural y Metodológica
