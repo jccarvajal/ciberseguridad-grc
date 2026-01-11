@@ -19,7 +19,9 @@ Este libro ha dejado de ser solo un manual para el CISO. Es un manifiesto para e
 
 ### El Criterio en la Era de la IA
 
-Estamos entrando en un futuro donde la defensa será agéntica (Capítulo 13). Las máquinas hablarán con máquinas y se defenderán a velocidades inhumanas. En este nuevo mundo, su valor no será la ejecución manual, sino la **Soberanía del Criterio**. 
+A medida que la IA asuma la defensa táctica (Capítulo 13), los roles humanos se volverán más, no menos, importantes. Cuando la máquina opere a la velocidad de la luz, el humano deberá operar a la velocidad de la ética.
+
+No tema a la IA adversaria. Témale a la complacencia humana. Las máquinas fallarán, pero fallarán rápido y con lógica. Los humanos fallamos lento y por miedo. Su trabajo es diseñar sistemas que protejan a las personas de sus propias debilidades humanas. En este nuevo mundo, su valor no será la ejecución manual, sino la **Soberanía del Criterio**.
 
 Como aprendimos en mi obra anterior sobre IA, delegaremos la fuerza bruta, pero nunca abdicaremos la decisión. La IA puede detectar el patrón, pero solo el humano puede entender el impacto en la **Licencia Social** y el propósito de la institución.
 
@@ -37,3 +39,27 @@ Salga de su zona de confort técnica. Hable con el negocio. Entienda qué es lo 
 La ciberseguridad no es un destino al que se llega; es la disciplina de caminar tranquilos en medio de la tormenta, sabiendo que tenemos los frenos necesarios para acelerar hacia el futuro.
 
 Gracias por permitirme ser su pensamiento estratégico en este viaje. Ahora, vaya y gobierne su arquitectura.
+
+---
+
+### El Borde del Mapa
+*(Lo que este libro no puede resolver)*
+
+Este libro ha cubierto arquitectura, gobernanza, métricas, automatización y marco legal.
+Ha entregado lenguaje, estructuras y artefactos para decidir mejor bajo presión.
+
+Pero al cerrar estas páginas, usted volverá a la realidad de la decisión en tiempo real.
+Y hay situaciones que ningún modelo puede resolver por usted:
+
+* **El fracaso honesto:** Cómo enfrentar al regulador cuando se hizo todo lo correcto y, aun así, el adversario ganó.
+* **La sordera voluntaria:** Qué hacer cuando el Directorio entiende el riesgo, pero decide ignorarlo por conveniencia política de corto plazo.
+* **La decisión incómoda:** Cómo se siente firmar un documento que prioriza la continuidad operacional por sobre otros valores legítimos en una crisis de supervivencia.
+* **La frontera de la culpa:** Dónde termina la falta de automatización y comienza la responsabilidad humana en un error operativo.
+
+Este libro entrega doctrina, no coraje.
+Entrega estructura, no instinto.
+
+Las herramientas pueden transferirse.
+El criterio final no.
+
+**El resto no es escribible.**
