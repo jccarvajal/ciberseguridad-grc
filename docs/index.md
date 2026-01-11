@@ -1,6 +1,6 @@
 # Ciberseguridad Orientada a Resultados
 ## Arquitectura, Riesgo y Supervivencia Institucional
-**Versión 1.1 (Enero 2026)**
+**Versión 1.2 (Enero 2026)**
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)
 
