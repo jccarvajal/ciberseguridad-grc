@@ -10,15 +10,15 @@
 
 ## Descripción del Proyecto
 
-Esta obra no es un libro técnico tradicional de TI; es una **documentación técnica y estratégica** diseñada para cerrar la brecha entre la complejidad de las amenazas digitales y la toma de decisiones en los niveles de alta gerencia y directorios.
+**Esta obra no es una guía de implementación técnica. Es una doctrina de gobierno del riesgo para quienes deben responder con su patrimonio y reputación.**
 
 Mientras el mercado se satura con la venta de herramientas y software de defensa, este repositorio se enfoca en el **criterio de arquitectura y gestión** necesario para construir organizaciones verdaderamente resilientes.
 
-El objetivo es proporcionar un **Marco de GRC (Gobernanza, Riesgo y Cumplimiento)** que permita a líderes estratégicos:
+El objetivo es proporcionar un **Marco de GRC (Gobernanza, Riesgo y Cumplimiento)** que permita a la Alta Dirección y al equipo técnico:
 
-1.  **Decidir** inversiones de seguridad basadas en el riesgo financiero y el valor de negocio (ALE/ROI).
-2.  **Diseñar** infraestructuras robustas bajo el paradigma de Confianza Cero (*Zero Trust*).
-3.  **Gobernar** la crisis mediante protocolos de respuesta y recuperación que aseguren la continuidad ante lo inevitable.
+1.  **Decidir (Riesgo):** Inversiones de seguridad basadas en el riesgo financiero y el valor de negocio (ALE/ROI).
+2.  **Diseñar (Arquitectura):** Infraestructuras robustas bajo el paradigma de Confianza Cero (*Zero Trust*).
+3.  **Gobernar (Supervivencia):** Protocolos de respuesta y recuperación que aseguren la continuidad ante lo inevitable.
 
 ---
 
