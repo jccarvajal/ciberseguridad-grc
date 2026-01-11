@@ -103,7 +103,7 @@ Si el Directorio decide pagar, debe quedar acta formal de que la decisión se to
 
 > **Nota del Auditor:** Pagar el rescate no es una solución estratégica; es la **constatación formal de un fallo previo en la estrategia de resiliencia**. Es el último recurso ante la inviabilidad operativa.
 
-### D. La Derivada Comunicacional: El Costo del Silencio
+#### D. La Derivada Comunicacional: El Costo del Silencio
 
 La decisión tomada en esta matriz define irrevocablemente la estrategia de comunicación (Capítulo 09):
 
