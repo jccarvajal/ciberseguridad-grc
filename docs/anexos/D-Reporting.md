@@ -24,12 +24,12 @@ Para que la comunicación fluya y no sature, cada nivel de la organización debe
 
 ### 2. La Regla de Oro: El "Impacto" sobre la "Técnica"
 
-Un reporte ejecutivo nunca debe centrarse en *cómo* funciona el ataque (la curiosidad técnica), sino en *qué* le pasa a la empresa si el ataque tiene éxito (la consecuencia de negocio).
+Un reporte ejecutivo nunca debe centrarse en *cómo* funciona el ataque (la curiosidad técnica), sino en *qué* le pasa a la empresa si el ataque tiene éxito. Se debe utilizar la métrica **ALE** (Annual Loss Expectancy - Ver Capítulo 2) para cuantificar el dolor.
 
-| Enfoque Incorrecto (Técnico) | Enfoque Correcto (De Negocio) |
+| Enfoque Incorrecto (Técnico) | Enfoque Correcto (Financiero - ALE) |
 | :--- | :--- |
-| ❌ "Tenemos un *Buffer Overflow* en el servicio Apache debido a la falta de parches de seguridad." | ✅ "Existe una vulnerabilidad crítica en el **Portal de Clientes** que permitiría a un tercero detener la facturación indefinidamente o exfiltrar la base de pagos." |
-| ❌ "El firewall bloqueó conexiones al puerto 445 desde una IP de China." | ✅ "Nuestros sistemas de defensa perimetral contuvieron un intento de acceso no autorizado dirigido a la propiedad intelectual, sin impacto operativo." |
+| ❌ "Tenemos un *Buffer Overflow* en Apache sin parchar." | ✅ "Una vulnerabilidad en el Portal de Clientes aumenta nuestro **ALE en $500k USD** debido a la alta probabilidad de fuga de datos y multas ANCI." |
+| ❌ "El firewall bloqueó conexiones al puerto 445." | ✅ "La defensa perimetral contuvo un intento de robo de IP. **Impacto Financiero: $0.** Controles efectivos." |
 
 ---
 
@@ -48,11 +48,11 @@ Cada vez que se deba informar un riesgo inminente o un incidente en curso (Minut
 > **3. Gravedad Contextualizada:**
 > **CRÍTICA.** No es un riesgo teórico; existe evidencia de explotación activa en la industria (KEV). Si se materializa, la interrupción del servicio sería total.
 >
-> **4. Costo de la Inacción (Impacto):**
-> De no actuar, estimamos un riesgo de multa por incumplimiento de la Ley 21.663 y una pérdida operativa diaria de $XX,XXX USD.
+> **4. Costo de la Inacción (Impacto Financiero):**
+> De no actuar, el **Incremento del ALE es de $XX,XXX USD** (Multas Ley 21.663 + Pérdida Operativa Diaria). Este monto excede la reserva de contingencia aprobada por el Directorio.
 >
 > **5. Recomendación de Acción (Decisión Solicitada):**
-> Se solicita autorización para una **ventana de mantenimiento de emergencia** hoy a las 20:00 hrs (duración: 2 horas) para aplicar el parche de seguridad.
+> Se solicita autorización para una **ventana de mantenimiento de emergencia** hoy a las 20:00 hrs (duración: 2 horas) para aplicar el parche de seguridad y mitigar la exposición financiera.
 >
 > *Atte. [Nombre], CISO.*
 
@@ -64,7 +64,7 @@ Para los reportes de estado mensuales (Cadencia de Gobierno), el Mando Medio deb
 
 | Estado | Significado GRC | Acción Requerida del Directorio |
 | :--- | :--- | :--- |
-| 🔴 **Crítico** | El riesgo actual supera el apetito de riesgo financiero o legal. | **Inversión Inmediata** o detención de procesos inseguros. |
+| 🔴 **Crítico** | El riesgo actual supera el apetito de riesgo financiero ($ALE > Límite). | **Inversión Inmediata** o detención de procesos inseguros. |
 | 🟡 **Advertencia** | Vulnerabilidades detectadas pero en proceso de remediación dentro de SLA. | **Monitoreo.** Validar que no se conviertan en deuda técnica. |
 | 🟢 **Saludable** | Postura de seguridad alineada con el plan anual y la normativa. | **Mantenimiento.** Continuar con el presupuesto asignado. |
 
@@ -75,7 +75,7 @@ Para los reportes de estado mensuales (Cadencia de Gobierno), el Mando Medio deb
 * **La Parálisis por Análisis:** Entregar reportes de 50 páginas que nadie lee. Un reporte ejecutivo **no debe exceder una página (o dos diapositivas)**.
 * **El "Cries Wolf" (El pastor mentiroso):** Reportar todo como "urgente" o "rojo". Si todo es una crisis, entonces nada lo es, y el Directorio dejará de escuchar.
 * **El Silencio Técnico:** No informar de un riesgo "porque ya lo estamos arreglando". La Alta Gerencia odia las sorpresas; prefiere saber que hay un problema identificado y controlado, a enterarse por la prensa o una demanda.
-* **La Jerga ("Technobabble"):** Usar términos como "Hash", "Salt", "Handshake" sin explicar su relevancia. Si no puede explicarlo en términos de dinero o ley, no lo ponga en el reporte.
+* **La Jerga ("Technobabble"):** Usar términos como "Hash", "Salt", "Handshake" sin explicar su relevancia. Si no puede explicarlo en términos de dinero ($) o ley, no lo ponga en el reporte.
 
 ---
 

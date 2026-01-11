@@ -20,7 +20,22 @@ El mayor error del **Mando Medio** es esperar a tener la "verdad total" para hab
     
 ---
 
-### 2. La Cadena de Reporte: Hechos vs. Especulación
+### 2. El Cronómetro Legal (Tiempos de Silencio Máximo)
+
+Bajo la Ley Marco de Ciberseguridad (Ley 21.663), el tiempo no es solo dinero; es responsabilidad administrativa. El Vigilante Estratégico debe conocer las "Ventanas de Notificación" antes de que el incidente ocurra. Exceder estos tiempos activa multas automáticas y presunción de negligencia.
+
+| Tipo de Entidad / Incidente | Plazo Máximo de Notificación | Destinatario Legal | Consecuencia del Silencio |
+| :--- | :--- | :--- | :--- |
+| **Operador de Importancia Vital** | **3 Horas** | CSIRT Nacional (ANCI) | Infracción Gravísima (Multa tope). |
+| **Servicios Esenciales** | Lo antes posible (**< 24 Horas**) | CSIRT Nacional (ANCI) | Infracción Grave. |
+| **Brecha de Datos Personales** | **72 Horas** (Estándar GDPR/Local) | Agencia de Protección de Datos | Sanción por desprotección de derechos. |
+| **Ransomware con Extorsión** | **Inmediato** (Recomendado) | Ministerio Público / Policía | Pérdida de cadena de custodia. |
+
+> **Nota:** El reloj comienza a correr desde el momento en que la organización tiene **"Toma de Conocimiento"** del incidente, no desde que lo resuelve.
+
+---
+
+### 3. La Cadena de Reporte: Hechos vs. Especulación
 
 Para el **Ingeniero**, su labor es proveer la materia prima del relato: los hechos inalterables. Debe alimentar al Comité de Crisis usando el **Flash Report (Anexo D)**, evitando cualquier especulación que pueda contradecir la evidencia técnica del **SOAR** (Capítulo 8).
 
@@ -42,7 +57,7 @@ Los datos críticos para el relato son:
     
 ---
 
-### 3. Gestionando a los *Stakeholders* (Grupos de Interés)
+### 4. Gestionando a los *Stakeholders* (Grupos de Interés)
 
 El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero adaptado a la necesidad de cada audiencia:
 
@@ -55,7 +70,7 @@ El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero ad
 
 ---
 
-### 4. Blueprint 9: La Matriz de Comunicación de Crisis
+### 5. Blueprint 9: La Matriz de Comunicación de Crisis
 
 !!! example "Cronograma de Comunicación Estratégica"
     El **Mando Medio** coordina estos hitos para proteger la "Licencia Social" de la empresa ante un incidente visible:
@@ -67,7 +82,7 @@ El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero ad
 
 ---
 
-### 5. La Licencia Social y la Verdad Defendible
+### 6. La Licencia Social y la Verdad Defendible
 
 En la era de la IA, la velocidad del engaño es masiva. La **Licencia Social** no se recupera con parches técnicos, sino con la demostración de que la organización actuó con **debida diligencia** demostrable. El relato de crisis debe ser **jurídicamente defendible**: cada palabra dicha en público queda como un registro oficial que será contrastado con la evidencia forense preservada en el Capítulo 7. 
 
