@@ -61,5 +61,3 @@ Entrega estructura, no instinto.
 
 Las herramientas pueden transferirse.
 El criterio final no.
-
-**El resto no es escribible.**
