@@ -71,7 +71,7 @@ En crisis, la democracia se suspende. Se aplica la siguiente matriz de decisión
 
 ### 5. Protocolo de Decisión Extrema: El Dilema del Rescate
 
-**Advertencia de Doctrina:** La postura oficial y recomendada de esta organización es **NO PAGAR**. Sin embargo, la gobernanza requiere prever los escenarios de colapso total. Este protocolo se activa únicamente cuando la continuidad de la institución o la vida humana están en riesgo inminente.
+**Advertencia de Doctrina:** La postura institucional predeterminada en este protocolo es **NO PAGAR**. Sin embargo, la gobernanza requiere prever los escenarios de colapso total. Este protocolo se activa únicamente cuando la continuidad de la institución o la vida humana están en riesgo inminente.
 
 #### A. La Regla de Oro de la Autoridad
 La decisión de pagar un rescate (*Ransom*) **NUNCA** es técnica. Es una decisión **Financiera y Legal** de alto nivel.
