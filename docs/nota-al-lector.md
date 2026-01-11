@@ -16,15 +16,17 @@ Bienvenido a la trinchera. Aquí no gestionamos certezas, gestionamos la supervi
 
 # Cuándo NO aplicar este libro (Contraindicaciones)
 
-Este marco asume un nivel mínimo de madurez ética y organizacional. No intente implementar el modelo del Vigilante Estratégico si su organización se encuentra en alguno de estos estados:
+Este libro describe un modelo de gobernanza del riesgo diseñado para organizaciones que aceptan la responsabilidad de decidir bajo incertidumbre. No es un manual de procedimientos ni una guía de cumplimiento formal.
 
-* **Búsqueda de Culpables:** Si el objetivo del Directorio ante un incidente es encontrar una cabeza para cortar en lugar de revisar el fallo del proceso.
-* **Riesgo Retórico:** Si la gestión de riesgos es un ejercicio de imaginación para llenar planillas y no una herramienta de decisión financiera (*ALE*).
-* **Escudo Político:** Si la ciberseguridad se utiliza como arma arrojadiza entre gerencias en lugar de un activo de protección patrimonial.
-* **Negación de la Señal:** Si el incidente se trata como una anomalía estadística ("mala suerte") y no como una prueba de estrés del sistema.
-* **Ausencia de Firma:** Si nadie en la Alta Dirección está dispuesto a poner su nombre en un documento que acepte explícitamente un riesgo residual.
+No intente aplicar este marco si su organización se encuentra en alguno de los siguientes estados:
 
-Si reconoce su entorno en esta lista, este libro no servirá como manual, sino como espejo de lo que falta.
+* **Búsqueda de culpables:** Si ante un incidente el objetivo principal es identificar responsables individuales en lugar de analizar el fallo sistémico.
+* **Riesgo retórico:** Si la gestión de riesgos es un ejercicio declarativo para completar matrices, sin traducción a impacto financiero ni decisiones reales.
+* **Escudo político:** Si la ciberseguridad se utiliza como arma entre áreas o niveles jerárquicos, en lugar de como un mecanismo de protección patrimonial.
+* **Negación de la señal:** Si los incidentes se explican como “mala suerte” o excepciones, y no como pruebas de estrés del sistema.
+* **Ausencia de firma:** Si nadie en la alta dirección está dispuesto a asumir explícitamente un riesgo residual por escrito.
+
+Si reconoce su entorno en esta lista, este libro no funcionará como manual de acción. Funcionará, a lo sumo, como un espejo de lo que aún no está dispuesto a gobernar.
 
 ---
 
