@@ -8,16 +8,16 @@ Nuestra meta no es solo ser robustos para resistir el golpe, sino ser **Antifrá
 ### 1. Concepto Clave: La Tríada de Taleb
 Para gobernar el riesgo, debemos entender que "Resiliencia" no es la meta final. Según el modelo de Nassim Taleb, los sistemas reaccionan de tres formas ante el caos (ataque):
 
-| Estado del Sistema | Metáfora | Reacción ante el Incidente | Tipo de Defensa (Tecnología) |
+| Estado del Sistema | Metáfora | Reacción ante el Incidente | Modelo de Respuesta |
 | :--- | :--- | :--- | :--- |
-| **1. Frágil** | **La Copa de Cristal** | Se rompe con el impacto. El daño es irreversible o costoso. | **Manual / Reactiva.** (Depende del héroe humano). |
-| **2. Resiliente** | **La Roca** | Resiste el golpe y **vuelve a su estado original**. Sobrevive, pero no aprende. | **Automatizada (SOAR).** (Ejecuta scripts predefinidos). |
-| **3. Antifrágil** | **El Sistema Inmunológico** | **Mejora con el golpe.** El ataque activa defensas que lo hacen más fuerte. | **Agéntica (IA Autónoma).** (Toma decisiones de defensa en tiempo real). |
+| **1. Frágil** | **La Copa de Cristal** | Se rompe con el impacto. El daño es irreversible o costoso. | **Manual / Reactiva.** (Depende del juicio humano bajo presión extrema). |
+| **2. Resiliente** | **La Roca** | Resiste el golpe y **vuelve a su estado original**. Sobrevive, pero no aprende. | **Automatizada (SOAR).** (Ejecución de scripts predefinidos sin juicio contextual). |
+| **3. Antifrágil** | **El Sistema Inmunológico** | **Mejora con el golpe.** El ataque activa defensas que lo hacen más fuerte. | **Agéntica (IA Autónoma).** (Decisión autónoma delegada informada por el contexto). |
 
-!!! info "Definición: ¿Qué es la IA Agéntica aquí?"
-    A diferencia de la automatización tradicional (que sigue instrucciones rígidas), la **IA Agéntica** tiene autorización delegada para tomar decisiones defensivas autónomas (Ver **Capítulo 13**). 
+!!! info "Definición: Autoridad Delegada en IA Agéntica"
+    A diferencia de la automatización tradicional (que sigue instrucciones rígidas), la **IA Agéntica** posee autoridad para tomar decisiones defensivas autónomas dentro de parámetros de riesgo pre-aprobados.
     
-    Es antifrágil porque utiliza la información del ataque en curso para reconfigurar la defensa (ej: crear nuevas reglas de firewall) más rápido de lo que un humano podría teclear. **El ataque alimenta la defensa.**
+    Es antifrágil porque utiliza la inteligencia del ataque en curso para reconfigurar la defensa (ej: crear nuevas reglas de contención) a una velocidad superior a la reacción humana tradicional, **incorporando aprendizaje en tiempo real**. El ataque alimenta la defensa, siempre dentro del perímetro de autoridad definido por el humano responsable (Ver **Capítulo 13** para el marco de implementación).
 
 ---
 
