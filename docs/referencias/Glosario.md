@@ -119,6 +119,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Estado de cumplimiento continuo probado mediante decisiones informadas y documentadas para exonerar de responsabilidad a la dirección ante la ANCI.
 * **Referencia Principal:** Capítulo 03.
 
+**Deepfake**
+
+* **Definición:** Contenido multimedia sintético (audio, video o imagen) generado por IA que suplanta la identidad de una persona real con hiperrealismo. Representa la mayor amenaza futura para los procesos de validación de identidad (KYC) y la reputación corporativa.
+* **Referencia Principal:** Capítulo 13.
+
 **Defensa Agéntica**
 
 * **Definición:** Evolución de la ciberseguridad donde sistemas autónomos de IA tienen la facultad de razonar y ejecutar contramedidas (bloqueos, aislamiento) sin intervención humana para combatir amenazas de alta velocidad.
@@ -228,6 +233,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** Base de conocimiento global que describe las *Tácticas, Técnicas y Procedimientos* (TTPs) que usan los adversarios reales. Se usa para mapear si las defensas actuales cubren ataques específicos.
 * **Referencia Principal:** Anexo E.
+
+**Modelo de Responsabilidad Compartida**
+
+* **Definición:** Marco contractual de la nube (SaaS, PaaS, IaaS) que establece qué partes de la seguridad son deber del proveedor (ej. seguridad física del data center) y cuáles son deber intransferible del cliente (ej. gestión de accesos y cifrado de datos). Ignorar este límite es la causa #1 de fugas en la nube.
+* **Referencia Principal:** Anexo L.
 
 **MTPD (Maximum Tolerable Period of Disruption)**
 
@@ -356,6 +366,11 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 
 * **Definición:** *Gestión de Riesgos de Terceros.* Disciplina de gobernanza enfocada en identificar y mitigar los riesgos introducidos por la cadena de suministro y proveedores externos.
 * **Referencia Principal:** Anexo L.
+
+**Vigilante Estratégico**
+
+* **Definición:** El arquetipo de liderazgo propuesto por este libro. No es una sola persona, sino la alineación funcional entre el **Directorio** (que asume el riesgo), el **Mando Medio** (que traduce) y el **Ingeniero** (que ejecuta), operando bajo una doctrina de defensa activa y responsabilidad financiera.
+* **Referencia Principal:** Epílogo / Introducción.
 
 **War Room (Sala de Guerra)**
 
