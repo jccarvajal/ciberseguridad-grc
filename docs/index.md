@@ -1,6 +1,6 @@
 # Ciberseguridad Orientada a Resultados
 ## Arquitectura, Riesgo y Supervivencia Institucional
-**Versión 1.2 (Enero 2026)**
+**Versión 1.3 (Enero 2026)**
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)
 
@@ -105,6 +105,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *KPIs y KRIs para el reporte ejecutivo.*
 * [Anexo C: Checklist Zero Trust](./anexos/C-ZeroTrust.md)
   *Rúbrica de madurez técnica.*
+* [Anexo N: La Línea Base de Higiene Digital](./anexos/N-Higiene.md)
+  *Controles de Debida Diligencia (Security.txt, DMARC, MFA).*
 
 ### Comunicación e Inteligencia
 * [Anexo D: Guía de Reporting Ejecutivo](./anexos/D-Reporting.md)
@@ -131,7 +133,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Hoja de ruta legal y gestión de proveedores.*
 * [Anexo M: Protocolo de Entrenamiento y Simulación](./anexos/M-Entrenamiento.md) 
   *Ingeniería del Factor Humano y "Human Firewall"*
-
+* [Anexo O: La Brújula Operativa de la Ley 21.663](./anexos/O-Ley-Marco.md)
+  *Traducción Táctica: Obligaciones, Multas y Definiciones (SE vs OIV).*
 ---
 
 ## Referencias y Fundamento
@@ -143,7 +146,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 ---
 
 ## Changelog
-* **v1.2 (Enero 2026):** Actualización "Refinamiento Doctrinal". Nuevo subtítulo "Arquitectura, Riesgo y Supervivencia", integración de la Tríada de Taleb (Antifragilidad), incorporación del Protocolo de Decisión en caso de Ransomware y definición de límites éticos en el Epílogo.
+* **v1.3 (Enero 2026):** Actualización "Consolidación Normativa". Integración total de la Ley 21.663 (Anexo O), protocolo de Ransomware (Anexo G) y controles de Higiene Digital (Anexo N).
 * **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.* Ver [Historial Completo](./changelog.md).
 
 ## Sugerencias y Mejoras

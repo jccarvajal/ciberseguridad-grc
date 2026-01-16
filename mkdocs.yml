@@ -95,6 +95,7 @@ nav:
     - 'A: Matriz RACI': anexos/A-Matriz-RACI.md
     - 'B: Tablero de Métricas': anexos/B-Metricas.md
     - 'C: Checklist Zero Trust': anexos/C-ZeroTrust.md
+    - 'N: Higiene Digital': anexos/N-Higiene.md
     - 'D: Guía de Reporting Ejecutivo': anexos/D-Reporting.md
     - 'E: Ecosistema Global de Inteligencia': anexos/E-Ecosistema.md
     - 'F: Gestión de Vulnerabilidades': anexos/F-Vulnerabilidades.md
@@ -105,6 +106,7 @@ nav:
     - 'K: Patrones de Fracaso': anexos/K-Fracaso.md
     - 'L: Cumplimiento Normativo': anexos/L-Cumplimiento.md
     - 'M: Entrenamiento y Simulacros': anexos/M-Entrenamiento.md
+    - 'O: Ley Marco Ciberseguridad': anexos/O-Ley-Marco.md
   - Referencias:
     - Glosario: referencias/Glosario.md
     - Bibliografía: referencias/Bibliografia.md

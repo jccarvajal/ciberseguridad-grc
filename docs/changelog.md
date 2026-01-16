@@ -6,6 +6,35 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 
 ---
 
+## [1.3.0] - 2026-01-15
+
+### Consolidación Normativa y Doctrina de Supervivencia
+
+Esta versión actualiza la obra para alinearla estrictamente con la entrada en vigencia de la **Ley Marco de Ciberseguridad (Ley 21.663)** y las nuevas exigencias de la **ANCI**. Se incorporan protocolos de decisión extrema y controles de higiene digital obligatorios.
+
+#### Nuevas Capacidades (Anexos Agregados)
+* **Anexo O (Nuevo): La Brújula Operativa de la Ley 21.663.**
+    * Traducción táctica de la ley para la Gerencia: Diferenciación entre Servicios Esenciales (SE) y Operadores de Importancia Vital (OIV).
+    * Mapa de multas (hasta 40.000 UTM) y facultades de la nueva Agencia Nacional de Ciberseguridad (ANCI).
+* **Anexo N (Nuevo): La Línea Base de Higiene Digital.**
+    * Definición de controles de debida diligencia pública (*Security.txt*, DMARC, HSTS) e interna (MFA, Backups Inmutables).
+
+#### Refinamiento Doctrinal y Legal
+* **Anexo G (Estructura CSIRT):** Inclusión del **Protocolo de Decisión Extrema (Ransomware)**.
+    * Doctrina de "No Pago" como estándar, con excepciones reguladas bajo "Estado de Necesidad".
+    * Matriz de Supervivencia (Vidas Humanas vs. Quiebra Financiera).
+* **Anexo L (Cumplimiento Normativo):** Blindaje de roles.
+    * Distinción mandatoria entre CISO (Implementador) y DPO (Auditor) para evitar conflictos de interés.
+    * Inclusión del deber de "Reporte Preventivo de Vulnerabilidades".
+* **Anexo M (Entrenamiento):** Elevación de los simulacros.
+    * Los *Tabletop Exercises* con el Directorio pasan de ser "buenas prácticas" a "evidencia de cumplimiento legal".
+
+#### Ajustes Operativos
+* **Capítulo 9 (Comunicación):** Inserción de la tabla **"Cronómetro Legal"**, ajustando los tiempos de notificación de incidentes (3 horas para Alerta Temprana) al estándar más estricto de la ANCI.
+* **Índice General:** Reestructuración de la sección de Anexos para incluir las nuevas referencias (N y O) bajo la categoría "Cultura y Legal".
+
+---
+
 ## [1.2.0] - 2026-01-11
 
 ### Refinamiento Doctrinal y Nueva Identidad
