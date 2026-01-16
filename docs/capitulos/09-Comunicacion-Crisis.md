@@ -24,14 +24,14 @@ El mayor error del **Mando Medio** es esperar a tener la "verdad total" para hab
 
 Bajo la Ley Marco de Ciberseguridad (Ley 21.663), el tiempo no es solo dinero; es responsabilidad administrativa. El Vigilante Estratégico debe conocer las "Ventanas de Notificación" antes de que el incidente ocurra. Exceder estos tiempos activa multas automáticas y presunción de negligencia.
 
-| Tipo de Entidad / Incidente | Plazo Máximo de Notificación | Destinatario Legal | Consecuencia del Silencio |
+| Tipo de Entidad / Incidente | Plazo Máximo (Alerta Temprana) | Destinatario Legal | Consecuencia del Silencio |
 | :--- | :--- | :--- | :--- |
-| **Operador de Importancia Vital** | **3 Horas** | CSIRT Nacional (ANCI) | Infracción Gravísima (Multa tope). |
-| **Servicios Esenciales** | Lo antes posible (**< 24 Horas**) | CSIRT Nacional (ANCI) | Infracción Grave. |
-| **Brecha de Datos Personales** | **72 Horas** (Estándar GDPR/Local) | Agencia de Protección de Datos | Sanción por desprotección de derechos. |
-| **Ransomware con Extorsión** | **Inmediato** (Recomendado) | Ministerio Público / Policía | Pérdida de cadena de custodia. |
+| **Operador de Importancia Vital (OIV)** | **3 Horas** | CSIRT Nacional (ANCI) | Infracción Gravísima (Multa tope 40k UTM). |
+| **Servicios Esenciales (SE)** | **3 Horas** (Si hay impacto significativo) | CSIRT Nacional (ANCI) | Infracción Grave/Gravísima. |
+| **Brecha de Datos Personales** | **72 Horas** (Estándar Legal) | Agencia de Protección de Datos | Sanción por desprotección de derechos. |
+| **Ransomware con Extorsión** | **Inmediato** (Recomendado) | Ministerio Público / Policía | Pérdida de cadena de custodia penal. |
 
-> **Nota:** El reloj comienza a correr desde el momento en que la organización tiene **"Toma de Conocimiento"** del incidente, no desde que lo resuelve.
+> **Nota Crítica:** El reloj de las 3 horas comienza a correr desde la **"Toma de Conocimiento"** del incidente, no desde su solución. Para la actualización técnica del reporte, los plazos se extienden (24h para OIV, 72h para SE), pero el *aviso inicial* debe ser inmediato.
 
 ---
 
