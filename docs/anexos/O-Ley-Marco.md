@@ -5,92 +5,87 @@
 
 Este documento no pretende ser un resumen jurídico exhaustivo, sino una **guía de aplicabilidad** diseñada para la gerencia y la operación técnica. Su función es traducir los mandatos de la Ley Marco de Ciberseguridad (Ley 21.663) a parámetros concretos de arquitectura, configuración y presupuesto.
 
-El objetivo central es evitar que un incidente técnico, ya de por sí crítico, se transforme en una catástrofe legal por desconocimiento de las nuevas obligaciones de reporte y gestión.
+El objetivo central es evitar que un incidente técnico se transforme en una catástrofe legal.
+
+!!! failure "Crítico: La Trampa del Reglamento Pendiente"
+    Existe la creencia errónea de que "sin reglamento no hay ley". **Falso.**
+    La Ley 21.663 está vigente. Si sufre un incidente hoy y no reporta, la ANCI puede sancionarlo igual invocando los principios generales de la ley. **No espere la "letra chica" para gestionar el riesgo grueso.**
 
 ---
 
 ### 2. El Filtro de Alcance: Clasificación de Entidades
 
-La normativa no afecta a todas las organizaciones por igual. El nivel de exigencia, y la cuantía de las multas, depende estrictamente de la clasificación de la entidad según su impacto en la sociedad.
+La normativa no afecta a todas las organizaciones por igual. El nivel de exigencia (y la multa) depende estrictamente de su clasificación.
 
 #### A. Servicios Esenciales (SE)
-Esta categoría constituye la base de la regulación. Abarca sectores cuyo funcionamiento es vital para la continuidad del país.
+Constituyen la base de la regulación (Energía, Agua, Salud, Banca, Transporte, etc.).
 
-* **Sectores Incluidos:** Energía, Agua, Telecomunicaciones, Salud, Transporte, Servicios Financieros, Logística, Seguridad Social, entre otros.
-* **⚠️ El Riesgo de la Cadena de Suministro:** Es crucial entender que la ley alcanza a los proveedores de estos servicios. Si su empresa es un Datacenter, un MSP (*Managed Service Provider*) o un SaaS que presta servicios a un banco o a un hospital, la ley le aplica por extensión. Usted se convierte en un regulado indirecto.
+!!! danger "Zona de Riesgo: El Efecto Dominó (Supply Chain)"
+    Si usted presta servicios de TI (Hosting, Desarrollo, Soporte) a un Banco o Clínica, **usted es un regulado indirecto.**
+    La ley obliga al Banco a fiscalizarlo a usted. Si usted falla, el Banco cae, y la ANCI lo perseguirá a usted por la vía contractual. **Revise sus SLAs hoy mismo.**
 
 #### B. Operadores de Importancia Vital (OIV)
-Son una subcategoría crítica dentro de los Servicios Esenciales. No es una autodeclaración; una empresa se convierte en OIV solo mediante una resolución expresa de la **ANCI**.
+Subcategoría crítica designada por resolución de la **ANCI**. Tienen carga máxima: auditorías externas y simulacros obligatorios.
 
-* **Criterio de Designación:** Se asigna esta categoría cuando la interrupción de los servicios de la entidad podría paralizar el país, afectar la seguridad nacional, la salud pública o el abastecimiento básico.
-* **Carga de Cumplimiento:** Los OIV tienen obligaciones adicionales, como realizar auditorías externas anuales, certificar sus sistemas de gestión (SGSI) y ejecutar simulacros de crisis obligatorios.
-
-> **Árbol de Decisión Simplificado:**
-> 
-> 1. Si no pertenece a un sector crítico, solo le aplica la Ley de Datos Personales.
-> 2. Si pertenece a un sector crítico, es un **Servicio Esencial (SE)** y debe cumplir los mínimos de reporte.
-> 3. Si recibe una resolución de la ANCI, es un **Operador de Importancia Vital (OIV)** y debe cumplir con el estándar máximo y las multas tope.
+!!! question "Árbol de Decisión Simplificado"
+    1.  ¿Pertenezco a un sector crítico? -> **NO** (Ley de Datos aplica, Ley Marco no).
+    2.  ¿Pertenezco a un sector crítico? -> **SÍ** -> Eres **Servicio Esencial (SE)**.
+    3.  ¿La ANCI me notificó resolución? -> **SÍ** -> Eres **OIV** (Obligaciones Máximas).
 
 ---
 
 ### 3. Diccionario de Traducción (Legal ↔ Técnico)
 
-Para facilitar la comunicación entre el CISO y la Fiscalía corporativa, se presenta la siguiente tabla de equivalencias operativas:
+Para facilitar la comunicación entre el CISO y la Fiscalía corporativa:
 
 | Concepto Legal (ANCI) | Traducción Operativa (TI/CISO) | Acción Técnica Requerida |
 | :--- | :--- | :--- |
-| **"Medida Correctiva Inmediata"** | Mitigación de Vulnerabilidad Crítica. | Implica la aplicación de parches, segmentación de red o aislamiento de activos (*Kill Switch*) en un plazo inferior a 24 horas. |
-| **"Reporte de Ciberamenaza"** | Notificación de Vulnerabilidad (CVE). | Obligación de reportar *Zero-Days* o fallos críticos (CVSS > 9.0) detectados en infraestructura propia, antes de que sean explotados. |
-| **"Simulacro Significativo"** | *Tabletop Exercise* Ejecutivo. | Realización de una simulación de crisis con participación real de la Gerencia General, documentada en un Acta de Lecciones Aprendidas (ver Anexo M). |
-| **"Preservación de Evidencia"** | Cadena de Custodia Forense. | Prohibición de reiniciar o formatear servidores comprometidos sin antes realizar un volcado de memoria y logs para análisis forense (ver Anexo G). |
+| **"Medida Correctiva Inmediata"** | Mitigación de Vulnerabilidad. | Parchear o aplicar *Kill Switch* en < 24 horas. |
+| **"Reporte de Ciberamenaza"** | Notificación de Vulnerabilidad. | Reportar *Zero-Days* o fallos críticos (CVSS > 9.0) antes de ser explotados. |
+| **"Simulacro Significativo"** | *Tabletop Exercise* Ejecutivo. | Simulación con Gerencia General y Acta de Lecciones (ver Anexo M). |
+| **"Preservación de Evidencia"** | Cadena de Custodia Forense. | **Prohibido reiniciar servidores** sin volcado de memoria previo. |
 
 ---
 
 ### 4. La Agencia Nacional de Ciberseguridad (ANCI)
 
-La creación de la ANCI marca el fin de la era de las "recomendaciones". Este nuevo organismo posee facultades fiscalizadoras con efectos punitivos reales:
-
-1.  **Facultad de Instrucción:** La Agencia puede ordenar medidas específicas, como la baja de un servicio inseguro. Desobedecer una instrucción directa se considera una infracción gravísima.
-2.  **Facultad de Acceso:** En el contexto de una investigación, la Agencia puede requerir acceso a las redes, sistemas y registros de la entidad afectada, bajo los resguardos de confidencialidad correspondientes.
-3.  **Facultad Sancionatoria:** Es el organismo encargado de cursar las multas en Unidades Tributarias Mensuales (UTM).
+La ANCI no sugiere; instruye. Posee facultades de **Instrucción** (ordenar bajar servicios), **Acceso** (entrar a redes en investigaciones) y **Sanción**.
 
 #### Régimen Sancionatorio (El Costo de la Negligencia)
 
-| Gravedad | Conducta Típica | Tope Multa (OIV)* | Impacto Organizacional |
+| Gravedad | Conducta Típica | Tope Multa (OIV)* | Impacto |
 | :--- | :--- | :--- | :--- |
-| **Leve** | Retrasos administrativos en reportes no críticos o falta de actualización documental. | **5.000 UTM** | Advertencia financiera significativa. |
-| **Grave** | No contar con protocolos de seguridad, no realizar auditorías obligatorias o no reportar incidentes significativos. | **20.000 UTM** | Impacto directo a los resultados financieros (EBITDA) y evaluación de desempeño. |
-| **Gravísima** | Ocultar vulnerabilidades críticas, entregar información falsa sobre incidentes o no acatar instrucciones de la ANCI. | **40.000 UTM** | **Riesgo Existencial.** Posible responsabilidad legal directa del Directorio. |
+| **Leve** | Retrasos en reportes burocráticos. | **5.000 UTM** | Advertencia financiera. |
+| **Grave** | No auditar, no reportar incidentes. | **20.000 UTM** | Impacto a EBITDA. |
+| **Gravísima** | Ocultar vulnerabilidades, mentir a la ANCI. | **40.000 UTM** | **Riesgo Existencial.** |
 
-*\*Nota: Los montos son referenciales al tope legal para OIVs.*
+!!! quote "Doctrina de Responsabilidad Indelegable"
+    El Directorio puede delegar la *tarea* de la ciberseguridad (al CISO o a un MSSP), pero **jamás puede delegar la responsabilidad legal.**
+    Ante una investigación, el argumento *"yo no sabía de tecnología"* se considera una confesión de negligencia en el deber de supervisión (*Culpa in Vigilando*).
 
 ---
 
 ### 5. Rutinas de Cumplimiento Obligatorio
 
-La ciberseguridad deja de ser un estado pasivo para convertirse en un ciclo activo de cumplimiento legal. El calendario anual debe incluir:
+El calendario anual de supervivencia legal debe incluir:
 
-1.  **SLA Legal de Reporte:**
-    * **Alerta Temprana:** Máximo **3 horas** desde la confirmación del incidente.
-    * **Actualización:** Máximo **72 horas** (se reduce a 24 horas para OIVs).
-2.  **Auditoría Externa:** Obligatoria anualmente para los OIV.
-3.  **Simulacros de Crisis:** Ejecución de al menos un ejercicio anual con alcance ejecutivo/directivo.
-4.  **Revisión de Arquitectura:** Validación continua de controles de seguridad "Por Diseño" y "Por Defecto".
+* **SLA Legal de Reporte:** 3 horas (Alerta) / 72 horas (Informe).
+* **Auditoría Externa:** Anual (OIV).
+* **Simulacros:** Anual con alcance ejecutivo.
+* **Revisión de Arquitectura:** Validación de controles "Por Diseño".
 
 ---
 
 ### 6. Escenarios de Aplicación Práctica
 
-**Caso A: El Banco (OIV)**
+!!! example "Caso A: El Banco (OIV)"
+    **Situación:** Ransomware paraliza sucursales.
+    **Obligación:** Reportar a ANCI en **3 horas**.
+    **Riesgo:** Si paga el rescate sin informar o sin acreditar "estado de necesidad", el Directorio arriesga multas gravísimas y responsabilidad penal.
 
-Ante un ataque de Ransomware que paraliza la atención en sucursales, la entidad tiene la obligación estricta de reportar a la ANCI en un plazo de **3 horas**. Si la organización decide pagar un rescate sin informar a la autoridad o sin poder acreditar el "estado de necesidad", el Directorio se expone a multas gravísimas y a potenciales responsabilidades penales.
+!!! example "Caso B: El Proveedor de Nube (MSP)"
+    **Situación:** Detecta vulnerabilidad crítica propia.
+    **Obligación:** Aunque no sea OIV, debe reportar porque su fallo afecta a un Servicio Esencial.
+    **Riesgo:** Ocultar el fallo conlleva multas de la ANCI y demandas civiles del cliente.
 
-**Caso B: El Proveedor de Nube (MSP de un Servicio Esencial)**
-
-Una empresa de tecnología detecta una vulnerabilidad crítica en sus propios servidores. Aunque la empresa no sea un OIV directo, debe reportar el hallazgo porque su fallo podría comprometer la operación de sus clientes regulados (ej: Clínicas o Bancos). Ocultar el fallo y permitir que afecte al cliente conlleva multas de la ANCI y responsabilidad civil contractual.
-
----
-
-> **Nota Final para la Alta Dirección:**
->
-> Bajo la Ley 21.663, ignorar una vulnerabilidad técnica conocida ya no es un "riesgo aceptable", sino una infracción administrativa fiscalizable. Administrativamente, gestionar mal un ciberincidente es ahora equivalente a la evasión tributaria: un acto ilegal, trazable y multable.
+> **Nota Final:** Bajo la Ley 21.663, gestionar mal un ciberincidente es administrativamente equivalente a la evasión tributaria: ilegal, trazable y multable.
