@@ -80,14 +80,14 @@ El calendario anual de supervivencia legal debe incluir:
 
 !!! example "Caso A: El Banco (OIV)"
 
-    **Situación:** Ransomware paraliza sucursales. 
-    **Obligación:** Reportar a ANCI en **3 horas**. 
-    **Riesgo:** Si paga el rescate sin informar o sin acreditar "estado de necesidad", el Directorio arriesga multas gravísimas y responsabilidad penal.
+    * **Situación:** Ransomware paraliza sucursales. 
+    * **Obligación:** Reportar a ANCI en **3 horas**. 
+    * **Riesgo:** Si paga el rescate sin informar o sin acreditar "estado de necesidad", el Directorio arriesga multas gravísimas y responsabilidad penal.
 
 !!! example "Caso B: El Proveedor de Nube (MSP)"
 
-    **Situación:** Detecta vulnerabilidad crítica propia. 
-    **Obligación:** Aunque no sea OIV, debe reportar porque su fallo afecta a un Servicio Esencial. 
-    **Riesgo:** Ocultar el fallo conlleva multas de la ANCI y demandas civiles del cliente.
+    * **Situación:** Detecta vulnerabilidad crítica propia. 
+    * **Obligación:** Aunque no sea OIV, debe reportar porque su fallo afecta a un Servicio Esencial. 
+    * **Riesgo:** Ocultar el fallo conlleva multas de la ANCI y demandas civiles del cliente.
 
 > **Nota Final:** Bajo la Ley 21.663, gestionar mal un ciberincidente es administrativamente equivalente a la evasión tributaria: ilegal, trazable y multable.
