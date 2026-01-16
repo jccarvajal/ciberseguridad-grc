@@ -21,7 +21,21 @@ Trataremos al personal como un sistema operativo que requiere actualizaciones cr
 
 ---
 
-### 3. Simulaciones de Phishing (El Verdadero Test)
+### 3. Simulacros como Evidencia de Cumplimiento (Tabletop Exercises)
+
+Bajo la nueva potestad fiscalizadora de la ANCI, los simulacros de crisis ya no son un ejercicio de "mejora continua", sino una **evidencia obligatoria de diligencia**.
+
+El Pentesting técnico ya no basta. La Agencia puede exigir demostrar que la **Alta Dirección** sabe qué hacer.
+
+#### El Nuevo Estándar de Simulación
+Para que un simulacro sea válido ante una auditoría regulatoria, debe cumplir tres requisitos:
+1.  **Participación Ejecutiva:** Debe estar presente el Comité de Crisis real (Gerente General, Legal, Comms), no solo técnicos de TI.
+2.  **Escenario de Ruptura:** No simular un virus simple. Simular una parálisis total (Ransomware) o una filtración masiva de datos (Data Breach).
+3.  **Acta de Lecciones Aprendidas:** Documento formal firmado por los asistentes con las brechas detectadas y el plan de remediación. **Sin acta, el simulacro no existió legalmente.**
+
+---
+
+### 4. Simulaciones de Phishing (El Verdadero Test)
 
 La única métrica real de la "Capa 8" (Usuario) es su comportamiento reflejo frente a un ataque simulado.
 
@@ -35,7 +49,7 @@ La única métrica real de la "Capa 8" (Usuario) es su comportamiento reflejo fr
 
 ---
 
-### 4. Métricas de Desempeño Humano
+### 5. Métricas de Desempeño Humano
 
 Para el reporte al Directorio, abandonamos las métricas de vanidad ("Hicimos 4 charlas") y usamos métricas de riesgo conductual:
 
@@ -48,7 +62,7 @@ Para el reporte al Directorio, abandonamos las métricas de vanidad ("Hicimos 4 
 
 ---
 
-### 5. Plan de "Embajadores de Seguridad" (Champions)
+### 6. Plan de "Embajadores de Seguridad" (Champions)
 
 En lugar de que TI sea el "policía" lejano, se recluta a un miembro no-técnico de cada área crítica (Finanzas, RRHH, Ventas) para ser el "Embajador".
 

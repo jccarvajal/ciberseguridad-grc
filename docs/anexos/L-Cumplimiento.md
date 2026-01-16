@@ -75,6 +75,41 @@ Para cumplimiento GRC, la organización debe mantener una lista de tecnologías 
 
 ---
 
+### 6. Nuevas Obligaciones Tácticas (Ley 21.663 y Ley de Datos)
+
+Más allá de la respuesta a incidentes, la normativa impone deberes preventivos y de diseño que transforman la arquitectura de seguridad.
+
+#### A. Deber de Reporte Preventivo (Vulnerabilidades)
+La obligación de informar no nace solo cuando "nos atacan" (Incidente), sino cuando "detectamos que somos vulnerables" (Amenaza).
+* **El Gatillador:** Descubrimiento de una vulnerabilidad crítica (ej: CVSS > 9.0) en un activo esencial, o hallazgo de un *Zero Day* no parchado.
+* **La Acción Legal:** Notificación preventiva al CSIRT Nacional (ANCI) según la normativa técnica vigente.
+* **El Riesgo:** Ocultar una vulnerabilidad conocida que luego es explotada constituye un agravante de negligencia inexcusable.
+
+#### B. La Muralla China: CISO vs. DPO
+La normativa exige dos roles que, por diseño, deben operar con tensiones opuestas para evitar el conflicto de interés:
+
+| Rol | Foco Principal | Ley Madre | Conflicto |
+| :--- | :--- | :--- | :--- |
+| **CISO (Encargado de Ciberseguridad)** | Continuidad Operacional, Seguridad de la Red, Disponibilidad. | Ley Marco (21.663) | Quien *implementa* el control. |
+| **DPO (Delegado de Protección de Datos)** | Privacidad, Derechos ARCO, Consentimiento del Usuario. | Ley de Datos Personales | Quien *audita* el control. |
+
+> **Advertencia de Gobernanza:** En organizaciones reguladas, fusionar ambos roles en una sola persona es un riesgo de cumplimiento. El auditor (DPO) no puede ser la misma persona que el auditado (CISO). "No poner al zorro a cuidar el gallinero".
+
+---
+
+### 57. La Zona Gris: Convergencia Regulatoria
+
+**Cuidado:** Cumplir con la ANCI (Ciberseguridad) no garantiza cumplir con la Agencia de Protección de Datos. Son dos fiscalizadores distintos con multas independientes.
+
+> **El Principio de Seguridad "Por Diseño" (Art. 14 quáter):**
+> Si recuperas el sistema en 2 horas tras un ataque (Éxito ante ANCI), pero se filtraron las contraseñas de clientes en texto plano (Fracaso ante Datos), la multa es inevitable.
+>
+> **La Estrategia de Supervivencia:** El **Cifrado (Encryption)** es el único salvavidas doble.
+> 1. Protege la integridad del activo (Ciberseguridad).
+> 2. Hace que el dato robado sea ilegible, reduciendo drásticamente la multa por impacto a la privacidad (Protección de Datos).
+
+---
+
 ### Resumen para el Directorio
 
 Cuando el Directorio pregunte: *"¿Estamos seguros con este nuevo proveedor de Inteligencia Artificial?"*, la respuesta del Vigilante Estratégico debe ser:
