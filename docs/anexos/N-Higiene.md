@@ -6,8 +6,8 @@
 Este documento define el **"Piso Mínimo de Seguridad"** (*Security Baseline*).
 No representa la excelencia, sino la **supervivencia operativa**.
 
-> **Axioma de Auditoría:**
-> La ausencia de cualquiera de estos controles en una organización moderna no se considera una "brecha técnica" compleja, sino una **negligencia administrativa** por falta de gobierno básico.
+!!! failure "Axioma de Auditoría"
+    La ausencia de cualquiera de estos controles en una organización moderna no se considera una "brecha técnica" compleja, sino una **negligencia administrativa** por falta de gobierno básico.
 
 Estos controles son agnósticos al tamaño de la organización y siguen el **Principio de Pareto**: constituyen el 20% del esfuerzo táctico que mitiga el 80% de los vectores de ataque oportunistas.
 
@@ -88,15 +88,14 @@ Cada control en esta lista ha sido seleccionado no por su popularidad, sino porq
 | **Backup Inmutable** | Extorsión y Cierre Operacional (Ransomware) |
 | **Inventario** | Ataques Invisibles (Shadow IT) |
 
-> **Admonición: Controles Decisivos vs. Controles Tranquilizadores**
->
-> El lector notará la ausencia deliberada del **cifrado de datos** (Encryption) en esta Línea Base. Esta omisión no es un descuido, es una decisión doctrinaria.
->
-> En este marco de trabajo, un control solo se considera "esencial" cuando su ausencia hace inevitable el fracaso operativo frente a ataques comunes.
->
-> El cifrado protege la confidencialidad de los datos, pero no previene la toma de cuentas, no detiene el ransomware, no impide la extorsión ni evita la propagación lateral cuando la identidad ha sido comprometida. En la mayoría de los incidentes reales, los datos ya se encuentran descifrados en el momento del ataque (porque el usuario legítimo accedió a ellos).
->
-> Por esta razón, el cifrado, aunque recomendable y legalmente exigible en muchos contextos, no pertenece al piso mínimo de **supervivencia operativa**, sino a capas posteriores de cumplimiento y gestión reputacional. Confundir controles tranquilizadores con controles decisivos es uno de los errores más costosos en la gestión moderna.
+!!! warning "Admonición: Controles Decisivos vs. Controles Tranquilizadores"
+    El lector notará la ausencia deliberada del **cifrado de datos** (Encryption) en esta Línea Base. Esta omisión no es un descuido, es una decisión doctrinaria.
+
+    En este marco de trabajo, un control solo se considera "esencial" cuando su ausencia hace inevitable el fracaso operativo frente a ataques comunes.
+
+    El cifrado protege la confidencialidad de los datos, pero no previene la toma de cuentas, no detiene el ransomware, no impide la extorsión ni evita la propagación lateral cuando la identidad ha sido comprometida. En la mayoría de los incidentes reales, los datos ya se encuentran descifrados en el momento del ataque (porque el usuario legítimo accedió a ellos).
+
+    Por esta razón, el cifrado —aunque recomendable y legalmente exigible en muchos contextos— no pertenece al **piso mínimo de supervivencia operativa**, sino a capas posteriores de cumplimiento y gestión reputacional. Confundir controles tranquilizadores con controles decisivos es uno de los errores más costosos en la gestión moderna.
 
 ---
 
@@ -111,5 +110,5 @@ La implementación de esta Línea Base cubre los requisitos fundamentales de los
 | **Vulnerabilidades** | ID.RA-01 | A.8.8 | CIS 07 |
 | **Inventario** | ID.AM-01 | A.5.9 | CIS 01 |
 
-> **Nota Final al Directorio:**
-> Priorizar inversiones en tecnologías emergentes (IA, Blockchain) sin haber resuelto esta **Higiene Digital** no es un error tecnológico, sino un **error de priorización estratégica** que compromete el deber fiduciario.
+!!! danger "Nota Final al Directorio"
+    Priorizar inversiones en tecnologías emergentes (IA, Blockchain) sin haber resuelto esta **Higiene Digital** no es un error tecnológico, sino un **error de priorización estratégica** que compromete el deber fiduciario.
