@@ -1,72 +1,91 @@
 # ANEXO N: La Línea Base de Higiene Digital
 **(Controles Esenciales de Debida Diligencia)**
 
-### 1. Propósito de este Anexo
+### 1. Propósito y Alcance
 
-Este documento define el "Suelo Mínimo de Seguridad" (*Security Baseline*).
-No representa la excelencia, sino la **supervivencia**. La ausencia de cualquiera de estos controles en una auditoría moderna no se considera una "brecha técnica", sino una **negligencia administrativa** por falta de gobierno básico.
+Este documento define el **"Suelo Mínimo de Seguridad"** (*Security Baseline*).
+No representa la excelencia, sino la **supervivencia operativa**.
 
-Estos controles siguen el **Principio de Pareto**: constituyen el 20% del esfuerzo que mitiga el 80% de los vectores de ataque comunes (oportunistas).
+> **Axioma de Auditoría:**
+> La ausencia de cualquiera de estos controles en una organización moderna no se considera una "brecha técnica" compleja, sino una **negligencia administrativa** por falta de gobierno básico.
+
+Estos controles son agnósticos al tamaño de la organización y siguen el **Principio de Pareto**: constituyen el 20% del esfuerzo táctico que mitiga el 80% de los vectores de ataque oportunistas.
 
 ---
 
-### 2. Higiene de Presencia Pública (Lo que ve el mundo)
+### 2. Higiene de Presencia Pública
+*(El Perímetro Expuesto)*
 
-Estos controles son visibles desde internet sin necesidad de intrusión. Su ausencia señala a los atacantes (y auditores) que la organización es un objetivo blando (*Low Hanging Fruit*).
+La ausencia de estos controles es visible públicamente sin necesidad de intrusión. Señala a los atacantes y auditores que la organización es un "Objetivo Blando" (*Low Hanging Fruit*), **incrementando exponencialmente la probabilidad de ataques oportunistas**.
 
-#### A. Identidad del Correo (Anti-Phishing)
-* **Control:** Implementación estricta de **SPF, DKIM y DMARC**.
-* **Configuración Requerida:** DMARC debe estar configurado en modo `p=reject` o al menos `p=quarantine`. El modo `p=none` solo sirve para monitoreo y no protege la marca.
-* **Impacto GRC:** Evita que criminales envíen correos fingiendo ser el CEO o la marca oficial (Protección de Reputación y Fraude Financiero).
+#### A. Identidad del Correo (Anti-Spoofing)
+* **Control:** Implementación estricta de la tríada **SPF, DKIM y DMARC**.
+* **Configuración Requerida:** DMARC debe estar configurado en modo `p=reject` o `p=quarantine`.
+* **Advertencia de Auditoría:** Mantener una política `p=none` por periodos extendidos indica una madurez incompleta y no protege la marca.
+* **Impacto GRC:** Previene la suplantación de identidad del CEO o la marca oficial (Fraude Financiero y Daño Reputacional).
 
 #### B. Integridad Web
 * **Control:** **HSTS (HTTP Strict Transport Security)**.
-* **Configuración Requerida:** Cabecera obligatoria en servidores web que fuerza a los navegadores a conectarse *solo* por HTTPS, rechazando conexiones inseguras.
-* **Impacto GRC:** Mitiga ataques de interceptación (*Man-in-the-Middle*) que degradan la seguridad de los datos de clientes en tránsito.
+* **Configuración Requerida:** Cabecera obligatoria en servidores web que fuerza a los navegadores a conectarse *exclusivamente* por HTTPS.
+* **Impacto GRC:** Mitiga ataques de interceptación (*Man-in-the-Middle*) asegurando la confidencialidad de los datos de clientes en tránsito.
 
-#### C. Canal de Reporte Ético
+#### C. Divulgación Coordinada de Vulnerabilidades
 * **Control:** Archivo **`security.txt`** (Estándar RFC 9116).
 * **Ubicación:** `dominio.com/.well-known/security.txt`
-* **Impacto GRC:** Establece un canal oficial para que investigadores de seguridad reporten vulnerabilidades antes de que sean explotadas, demostrando apertura y diligencia en la gestión de amenazas externas.
+* **Impacto GRC:** Establece el canal oficial para que investigadores reporten vulnerabilidades antes de su explotación masiva. Demuestra diligencia proactiva ante la comunidad global y los reguladores.
 
 ---
 
-### 3. Higiene de Identidad y Acceso (El Nuevo Perímetro)
+### 3. Higiene de Identidad y Acceso
+*(El Nuevo Perímetro Lógico)*
 
-Dado que el perímetro físico desapareció con la nube y el teletrabajo, la identidad es la única muralla real.
+Desaparecido el perímetro físico, la identidad es la única barrera efectiva.
 
 #### A. Autenticación Robusta
-* **Control:** **MFA (Multi-Factor Authentication)** Obligatorio.
-* **Alcance:** 100% de los accesos remotos (VPN, Correo, SaaS) y 100% de las cuentas administrativas.
-* **Regla de Oro:** Una contraseña, por compleja que sea, ya no se considera seguridad suficiente.
-* **Impacto GRC:** Detiene el 99.9% de los ataques automatizados de fuerza bruta y reutilización de credenciales robadas.
+* **Control:** **MFA (Multi-Factor Authentication)** Mandatorio.
+* **Alcance:** 100% de los accesos remotos (VPN, Correo, SaaS) y 100% de las cuentas con privilegios administrativos.
+* **Regla de Oro:** Una contraseña, independiente de su complejidad, se considera un control **comprometido por defecto**.
+* **Impacto GRC:** Neutraliza la inmensa mayoría de ataques automatizados de fuerza bruta y reutilización de credenciales (*Credential Stuffing*).
 
 #### B. Segregación de Privilegios
-* **Control:** Separación de cuentas de Usuario vs. Administrador.
-* **Regla de Oro:** Ningún empleado (incluido el personal de TI) debe navegar por internet o leer correos usando una cuenta con privilegios de "Admin de Dominio" o "Root".
-* **Impacto GRC:** Contiene la infección. Si un usuario hace clic en un malware, el daño se limita a su PC y no se propaga a toda la red.
+* **Control:** Separación estricta de cuentas de Usuario vs. Administrador.
+* **Regla de Oro:** Ningún funcionario (incluido personal TI) debe navegar por internet o gestionar correo utilizando credenciales de "Admin de Dominio" o "Root".
+* **Impacto GRC:** **Contención**. Si un usuario ejecuta malware, el daño queda encapsulado en su sesión y se evita la propagación lateral a toda la infraestructura.
 
 ---
 
-### 4. Higiene de Datos (La Última Línea de Defensa)
+### 4. Higiene de Datos
+*(La Última Línea de Defensa)*
 
-Cuando las defensas anteriores fallan, estos controles determinan si la empresa se recupera o cierra.
+Cuando la prevención falla, estos controles determinan la viabilidad futura de la institución.
 
 #### A. Respaldo Inmutable
 * **Control:** Estrategia de Backup **3-2-1-1-0**.
-    * 3 copias de datos.
-    * 2 medios diferentes.
-    * 1 copia fuera del sitio (Off-site).
-    * **1 copia inmutable (Offline o WORM) que no pueda ser borrada ni cifrada por ransomware.**
-    * 0 errores en las pruebas de restauración.
-* **Impacto GRC:** Es el único antídoto real contra el Ransomware. Sin esto, pagar el rescate se vuelve la única (y mala) opción.
+    * **3** copias de los datos.
+    * **2** medios de almacenamiento diferentes.
+    * **1** copia fuera del sitio (*Off-site*).
+    * **1 copia inmutable (Offline/WORM):** Inaccesible para el ransomware.
+    * **0** errores en pruebas de restauración semestrales.
+* **Impacto GRC:** Es el único antídoto real contra el Ransomware moderno. Sin esta capacidad, la continuidad operacional deja de ser una estrategia y se convierte en una **apuesta**.
 
 #### B. Inventario de Activos
-* **Control:** Mapeo actualizado de Hardware y Software.
-* **Axioma:** "No puedes proteger lo que no sabes que existe."
-* **Impacto GRC:** Identifica sistemas legados u olvidados (*Shadow IT*) que suelen ser la puerta de entrada de los atacantes.
+* **Control:** Mapeo actualizado y **automatizado** de Hardware y Software.
+* **Axioma:** "No se puede gobernar lo que no se conoce".
+* **Advertencia:** Los inventarios manuales o declarativos (hojas de cálculo estáticas) se consideran inherentemente incompletos y obsoletos desde su creación.
+* **Impacto GRC:** Visibiliza el *Shadow IT* (sistemas olvidados), que estadísticamente representan la puerta de entrada principal en incidentes de alto impacto.
 
 ---
 
-> **Nota para el Auditor:**
-> La implementación de estos controles es de bajo costo financiero pero de alto impacto en la reducción de riesgo (ALE). Priorizar tecnologías complejas (IA, Blockchain) sin tener esta base resuelta es un error de arquitectura fundamental.
+### 5. Alineación Normativa (Referencia Cruzada)
+
+La implementación de esta Línea Base cubre los requisitos fundamentales de los principales marcos de control:
+
+| Control | NIST CSF 2.0 | ISO 27001:2022 | CIS Controls v8 |
+| :--- | :--- | :--- | :--- |
+| **Identidad (MFA)** | PR.AA-03 | A.5.17 | CIS 06 |
+| **Respaldo (Backup)** | PR.DS-11 | A.8.13 | CIS 11 |
+| **Vulnerabilidades** | ID.RA-01 | A.8.8 | CIS 07 |
+| **Inventario** | ID.AM-01 | A.5.9 | CIS 01 |
+
+> **Nota Final al Directorio:**
+> Priorizar inversiones en tecnologías emergentes (IA, Blockchain) sin haber resuelto esta **Higiene Digital** no es un error tecnológico, sino un **error de priorización estratégica** que compromete el deber fiduciario.
