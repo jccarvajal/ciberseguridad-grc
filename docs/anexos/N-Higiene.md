@@ -3,7 +3,7 @@
 
 ### 1. Propósito y Alcance
 
-Este documento define el **"Suelo Mínimo de Seguridad"** (*Security Baseline*).
+Este documento define el **"Piso Mínimo de Seguridad"** (*Security Baseline*).
 No representa la excelencia, sino la **supervivencia operativa**.
 
 > **Axioma de Auditoría:**
