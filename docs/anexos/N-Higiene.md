@@ -16,7 +16,7 @@ Estos controles son agnósticos al tamaño de la organización y siguen el **Pri
 ### 2. Higiene de Presencia Pública
 *(El Perímetro Expuesto)*
 
-La ausencia de estos controles es visible públicamente sin necesidad de intrusión. Señala a los atacantes y auditores que la organización es un "Objetivo Blando" (*Low Hanging Fruit*), **incrementando exponencialmente la probabilidad de ataques oportunistas**.
+La ausencia de estos controles es visible públicamente sin necesidad de intrusión. Señala a los atacantes y auditores que la organización es un "Objetivo Blando" (*Low Hanging Fruit*), **incrementando significativamente la probabilidad de ataques oportunistas**.
 
 #### A. Identidad del Correo (Anti-Spoofing)
 * **Control:** Implementación estricta de la tríada **SPF, DKIM y DMARC**.
@@ -82,13 +82,13 @@ Cada control en esta lista ha sido seleccionado no por su popularidad, sino porq
 
 | Control de Higiene | Riesgo Existencial que Mitiga |
 | :--- | :--- |
-| **DMARC / SPF** | Fraude Financiero (CEO Fraud) |
+| **DMARC / SPF / DKIM** | Fraude Financiero (CEO Fraud) |
 | **MFA** | Secuestro de Cuentas (Account Takeover) |
 | **Segregación** | Propagación Masiva (Lateral Movement) |
 | **Backup Inmutable** | Extorsión y Cierre Operacional (Ransomware) |
 | **Inventario** | Ataques Invisibles (Shadow IT) |
 
-!!! warning "Controles Decisivos vs. Controles Tranquilizadores"
+!!! warning "Admonición: Controles Decisivos vs. Controles Tranquilizadores"
     El lector notará la ausencia deliberada del **cifrado de datos** (Encryption) en esta Línea Base. Esta omisión no es un descuido, es una decisión doctrinaria.
 
     En este marco de trabajo, un control solo se considera "esencial" cuando su ausencia hace inevitable el fracaso operativo frente a ataques comunes.
