@@ -76,7 +76,31 @@ Cuando la prevención falla, estos controles determinan la viabilidad futura de 
 
 ---
 
-### 5. Alineación Normativa (Referencia Cruzada)
+### 5. Racionalidad de la Selección (Causa-Efecto)
+
+Cada control en esta lista ha sido seleccionado no por su popularidad, sino porque mitiga directamente un riesgo de carácter existencial para la organización:
+
+| Control de Higiene | Riesgo Existencial que Mitiga |
+| :--- | :--- |
+| **DMARC / SPF** | Fraude Financiero (CEO Fraud) |
+| **MFA** | Secuestro de Cuentas (Account Takeover) |
+| **Segregación** | Propagación Masiva (Lateral Movement) |
+| **Backup Inmutable** | Extorsión y Cierre Operacional (Ransomware) |
+| **Inventario** | Ataques Invisibles (Shadow IT) |
+
+> **Admonición: Controles Decisivos vs. Controles Tranquilizadores**
+>
+> El lector notará la ausencia deliberada del **cifrado de datos** (Encryption) en esta Línea Base. Esta omisión no es un descuido, es una decisión doctrinaria.
+>
+> En este marco de trabajo, un control solo se considera "esencial" cuando su ausencia hace inevitable el fracaso operativo frente a ataques comunes.
+>
+> El cifrado protege la confidencialidad de los datos, pero no previene la toma de cuentas, no detiene el ransomware, no impide la extorsión ni evita la propagación lateral cuando la identidad ha sido comprometida. En la mayoría de los incidentes reales, los datos ya se encuentran descifrados en el momento del ataque (porque el usuario legítimo accedió a ellos).
+>
+> Por esta razón, el cifrado, aunque recomendable y legalmente exigible en muchos contextos, no pertenece al piso mínimo de **supervivencia operativa**, sino a capas posteriores de cumplimiento y gestión reputacional. Confundir controles tranquilizadores con controles decisivos es uno de los errores más costosos en la gestión moderna.
+
+---
+
+### 6. Alineación Normativa (Referencia Cruzada)
 
 La implementación de esta Línea Base cubre los requisitos fundamentales de los principales marcos de control:
 
