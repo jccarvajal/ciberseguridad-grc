@@ -88,7 +88,7 @@ Cada control en esta lista ha sido seleccionado no por su popularidad, sino porq
 | **Backup Inmutable** | Extorsión y Cierre Operacional (Ransomware) |
 | **Inventario** | Ataques Invisibles (Shadow IT) |
 
-!!! warning "Admonición: Controles Decisivos vs. Controles Tranquilizadores"
+!!! warning "Controles Decisivos vs. Controles Tranquilizadores"
     El lector notará la ausencia deliberada del **cifrado de datos** (Encryption) en esta Línea Base. Esta omisión no es un descuido, es una decisión doctrinaria.
 
     En este marco de trabajo, un control solo se considera "esencial" cuando su ausencia hace inevitable el fracaso operativo frente a ataques comunes.
