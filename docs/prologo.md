@@ -3,7 +3,8 @@
 
 ---
 
-> *"El futuro ya está aquí, solo que no está equitativamente distribuido."*
+> *“The future is already here, it’s just not evenly distributed.”*
+> 
 > — **William Gibson**
 
 ---
