@@ -75,13 +75,14 @@ El calendario anual de supervivencia legal debe incluir:
 * **Revisión de Arquitectura:** Validación de controles "Por Diseño".
 
 !!! warning "La Trampa del 'Lunes a las 9 AM' (Compliance vs. Realidad)"
-    Existe una peligrosa confusión entre el "Reloj Legal" y el "Reloj Operativo".
-    
+    Existe una peligrosa confusión entre salvarse de la multa por tiempo y salvarse de la multa por negligencia.
+
     * **El Escenario:** Un ataque inicia el sábado a las 03:00 AM. Nadie lo ve. Su equipo llega el lunes a las 09:00 AM y confirma el incidente.
-    * **La Verdad Legal:** El plazo de 3 horas empieza a correr el lunes a las 09:00 AM (*Toma de Conocimiento*). Si reporta a las 11:55 AM, usted es un ciudadano ejemplar ante la ANCI.
-    * **La Verdad Operativa:** El atacante tuvo **54 horas libres (Dwell Time)** para exfiltrar datos y cifrar servidores. Aunque usted cumplió la ley, su negocio probablemente ya está muerto.
-    
-    **Lección:** La Ley mide su burocracia; el Mercado mide su tiempo de respuesta. No diseñe su monitoreo para satisfacer al regulador, diséñelo para sobrevivir al fin de semana.
+    * **La Verdad Legal (El Cronómetro):** El plazo de reporte (3 horas) empieza legalmente el lunes a las 09:00 AM (*Toma de Conocimiento*). Si reporta antes del mediodía, evita la sanción por retraso.
+    * **La Trampa Regulatoria (El Deber de Seguridad):** Aunque cumpla el plazo de reporte, la ANCI puede sancionarlo por **"Falta de Medidas Técnicas Apropiadas"**. La lógica del regulador será: *"Si usted es un Operador Vital, su obligación es tener monitoreo continuo. No lo multo por reportar tarde, lo multo por haber estado ciego durante 54 horas"*.
+    * **La Verdad Operativa:** Independiente de la multa, el atacante tuvo 54 horas libres (*Dwell Time*) para destruir sus respaldos.
+
+    **Lección:** Cumplir con el trámite administrativo no lo exime de la responsabilidad técnica de vigilancia. El monitoreo 24/7 no es para complacer al regulador, es para que su negocio amanezca vivo el lunes.
 
 ---
 
