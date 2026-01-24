@@ -74,6 +74,16 @@ El calendario anual de supervivencia legal debe incluir:
 * **Simulacros:** Anual con alcance ejecutivo.
 * **Revisión de Arquitectura:** Validación de controles "Por Diseño".
 
+!!! warning "La Trampa del Lunes a las 9 AM: Compliance Formal vs. Realidad Operativa"
+    Existe una peligrosa confusión entre salvarse de la multa por tiempo y salvarse de la multa por negligencia.
+
+    * **El Escenario:** Un ataque inicia el sábado a las 03:00 AM. Nadie lo ve. Su equipo llega el lunes a las 09:00 AM y confirma el incidente.
+    * **La Verdad Legal (El Cronómetro):** El plazo de reporte (3 horas) empieza legalmente el lunes a las 09:00 AM (*Toma de Conocimiento*, concepto jurídico que no reemplaza el deber de vigilancia continua en entidades críticas). Si reporta antes del mediodía, evita la sanción por retraso.
+    * **La Trampa Regulatoria (El Deber de Seguridad):** Aunque cumpla el plazo de reporte, la ANCI puede sancionarlo por **"Falta de Medidas Técnicas Apropiadas"**. La lógica del regulador será: *"Si usted es un Operador Vital, su obligación es tener monitoreo continuo. No lo multo por reportar tarde, lo multo por haber estado ciego durante 54 horas"*.
+    * **La Verdad Operativa:** Independiente de la multa, el atacante tuvo 54 horas libres (*Dwell Time*) para destruir sus respaldos.
+
+    **Lección:** Cumplir con el trámite administrativo no lo exime de la responsabilidad técnica de vigilancia. El monitoreo 24/7 no es para complacer al regulador, es para que su negocio amanezca vivo el lunes.
+
 ---
 
 ### 6. Escenarios de Aplicación Práctica
