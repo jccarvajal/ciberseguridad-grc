@@ -1,0 +1,2623 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Arquitectura, Riesgo y Supervivencia Institucional. Doctrina de gobierno del riesgo cibernético.">
+      
+      
+        <meta name="author" content="Juan Carlos Carvajal">
+      
+      
+        <link rel="canonical" href="https://ciber.jccarvajal.com/">
+      
+      
+      
+        <link rel="next" href="nota-al-lector/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Ciberseguridad Orientada a Resultados</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ciberseguridad-orientada-a-resultados" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="." title="Ciberseguridad Orientada a Resultados" class="md-header__button md-logo" aria-label="Ciberseguridad Orientada a Resultados" data-md-component="logo">
+      
+  <img src="assets/images/portada-ciber.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ciberseguridad Orientada a Resultados
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inicio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue-grey" data-md-color-accent="cyan"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="nota-al-lector/" class="md-tabs__link">
+          
+  
+  
+  Introducción
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/01-CISO-Socio-Negocio/" class="md-tabs__link">
+          
+  
+  
+  Bloque 1: Fundamentos y Estrategia
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/04-Zero-Trust/" class="md-tabs__link">
+          
+  
+  
+  Bloque 2: Arquitectura y Prevención
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/07-Flujo-IRP/" class="md-tabs__link">
+          
+  
+  
+  Bloque 3: Gestión de Crisis
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="capitulos/11-Integracion-Resiliencia/" class="md-tabs__link">
+          
+  
+  
+  Bloque 4: Resiliencia y Proyección
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="epilogo/" class="md-tabs__link">
+          
+  
+  
+  Conclusión y Cierre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="anexos/A-Matriz-RACI/" class="md-tabs__link">
+          
+  
+  
+  Anexos Operativos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="referencias/Glosario/" class="md-tabs__link">
+          
+  
+  
+  Referencias
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="acerca/autor/" class="md-tabs__link">
+          
+  
+  
+  Acerca de
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Ciberseguridad Orientada a Resultados" class="md-nav__button md-logo" aria-label="Ciberseguridad Orientada a Resultados" data-md-component="logo">
+      
+  <img src="assets/images/portada-ciber.png" alt="logo">
+
+    </a>
+    Ciberseguridad Orientada a Resultados
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#arquitectura-riesgo-y-supervivencia-institucional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arquitectura, Riesgo y Supervivencia Institucional
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#descripcion-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descripción del Proyecto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tesis-central-resiliencia-e-integridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tesis Central: Resiliencia e Integridad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-de-la-documentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Estructura de la Documentación
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura de la Documentación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduccion-y-preliminares" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción y Preliminares
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-1-fundamentos-y-estrategia-capitulos-1-a-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 1: Fundamentos y Estrategia (Capítulos 1 a 3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-2-arquitectura-y-prevencion-capitulos-4-a-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 2: Arquitectura y Prevención (Capítulos 4 a 6)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-3-gestion-de-crisis-capitulos-7-a-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 3: Gestión de Crisis (Capítulos 7 a 10)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloque-4-resiliencia-y-proyeccion-capitulos-11-a-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloque 4: Resiliencia y Proyección (Capítulos 11 a 13)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion-y-cierre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusión y Cierre
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anexos-operativos-biblioteca-del-arquitecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anexos Operativos (Biblioteca del Arquitecto)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Anexos Operativos (Biblioteca del Arquitecto)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#control-y-medicion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control y Medición
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comunicacion-e-inteligencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comunicación e Inteligencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#respuesta-y-supervivencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Respuesta y Supervivencia
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cultura-y-legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cultura y Legal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-y-fundamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referencias y Fundamento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Changelog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sugerencias-y-mejoras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sugerencias y Mejoras
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licencia
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Introducción
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nota-al-lector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nota al Lector
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nota-metodologica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nota Metodológica
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="prologo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prólogo Ejecutivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ideas-centrales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ideas Centrales
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 1: Fundamentos y Estrategia
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 1: Fundamentos y Estrategia
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/01-CISO-Socio-Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 01: CISO Socio de Negocio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/02-Riesgo-Financiero/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 02: Matemática del Riesgo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/03-Marcos-Madurez/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 03: Marcos y Madurez Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 2: Arquitectura y Prevención
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 2: Arquitectura y Prevención
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/04-Zero-Trust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 04: Zero Trust (Confianza Cero)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/05-Identidad-IAM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 05: Identidad (IAM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/06-Higiene-Datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 06: Higiene de Datos (DLP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 3: Gestión de Crisis
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 3: Gestión de Crisis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/07-Flujo-IRP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 07: Flujo del Incidente (IRP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/08-Automatizacion-SOAR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 08: Automatización y SOAR
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/09-Comunicacion-Crisis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 09: Comunicación de Crisis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/10-Gobierno-Crisis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 10: Gobierno de Crisis y Botón Rojo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bloque 4: Resiliencia y Proyección
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Bloque 4: Resiliencia y Proyección
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/11-Integracion-Resiliencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 11: Integración de la Resiliencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/12-Cultura-Post-Incidente/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 12: Cultura Post-Incidente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="capitulos/13-Futuro-Inevitable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capítulo 13: El Futuro Inevitable
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conclusión y Cierre
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conclusión y Cierre
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="epilogo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epílogo: La Dimensión Humana
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Anexos Operativos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Anexos Operativos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/A-Matriz-RACI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    A: Matriz RACI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/B-Metricas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    B: Tablero de Métricas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/C-ZeroTrust/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C: Checklist Zero Trust
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/N-Higiene/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    N: Higiene Digital
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/D-Reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    D: Guía de Reporting Ejecutivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/E-Ecosistema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    E: Ecosistema Global de Inteligencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/F-Vulnerabilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    F: Gestión de Vulnerabilidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/G-CSIRT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    G: Estructura CSIRT
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/H-Plan-IRP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    H: Plan IRP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/I-Plan-DRP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    I: Plan DRP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/J-Plan-BCP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    J: Plan BCP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/K-Fracaso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    K: Patrones de Fracaso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/L-Cumplimiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    L: Cumplimiento Normativo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/M-Entrenamiento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    M: Entrenamiento y Simulacros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="anexos/O-Ley-Marco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O: Ley Marco Ciberseguridad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referencias
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Referencias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="referencias/Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="referencias/Bibliografia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bibliografía
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acerca de
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acerca de
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/autor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/licence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Licencia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acerca/contribuir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cómo Contribuir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Historial (Changelog)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="ciberseguridad-orientada-a-resultados">Ciberseguridad Orientada a Resultados<a class="headerlink" href="#ciberseguridad-orientada-a-resultados" title="Permanent link">&para;</a></h1>
+<h2 id="arquitectura-riesgo-y-supervivencia-institucional">Arquitectura, Riesgo y Supervivencia Institucional<a class="headerlink" href="#arquitectura-riesgo-y-supervivencia-institucional" title="Permanent link">&para;</a></h2>
+<p><strong>Versión 1.3 (Enero 2026)</strong></p>
+<p><strong>Autor:</strong> <a href="https://www.jccarvajal.com/">Juan Carlos Carvajal</a></p>
+<p><img src="assets/images/portada-ciber.png" alt="Portada del Libro - Ciberseguridad Orientada a Resultados" width="500"></p>
+<hr />
+<h2 id="descripcion-del-proyecto">Descripción del Proyecto<a class="headerlink" href="#descripcion-del-proyecto" title="Permanent link">&para;</a></h2>
+<p><strong>Esta obra no es una guía de implementación técnica. Es una doctrina de gobierno del riesgo para quienes deben responder con su patrimonio y reputación.</strong></p>
+<p>Mientras el mercado se satura con la venta de herramientas y software de defensa, este repositorio se enfoca en el <strong>criterio de arquitectura y gestión</strong> necesario para construir organizaciones verdaderamente resilientes.</p>
+<p>El objetivo es proporcionar un <strong>Marco de GRC (Gobernanza, Riesgo y Cumplimiento)</strong> que permita a la Alta Dirección y al equipo técnico:</p>
+<ol>
+<li><strong>Decidir (Riesgo):</strong> Inversiones de seguridad basadas en el riesgo financiero y el valor de negocio (ALE/ROI).</li>
+<li><strong>Diseñar (Arquitectura):</strong> Infraestructuras robustas bajo el paradigma de Confianza Cero (<em>Zero Trust</em>).</li>
+<li><strong>Gobernar (Supervivencia):</strong> Protocolos de respuesta y recuperación que aseguren la continuidad ante lo inevitable.</li>
+</ol>
+<hr />
+<h2 id="tesis-central-resiliencia-e-integridad">Tesis Central: Resiliencia e Integridad<a class="headerlink" href="#tesis-central-resiliencia-e-integridad" title="Permanent link">&para;</a></h2>
+<p>La premisa fundamental de este libro es que la seguridad absoluta es una imposibilidad técnica. Por lo tanto, la estrategia debe evolucionar desde la "protección perimetral" hacia la <strong>Antifragilidad Operativa</strong>. </p>
+<p>Este repositorio propone el principio de <strong>"Asumir la Brecha" (<em>Assume Breach</em>)</strong>: operamos bajo la certeza de que el sistema será vulnerado. La verdadera ventaja competitiva reside en la capacidad de detectar, contener y recuperarse antes de que el incidente comprometa la licencia social o la viabilidad financiera de la institución.</p>
+<hr />
+<h2 id="estructura-de-la-documentacion">Estructura de la Documentación<a class="headerlink" href="#estructura-de-la-documentacion" title="Permanent link">&para;</a></h2>
+<p>El contenido está organizado modularmente siguiendo el ciclo de vida del riesgo y la anatomía de una crisis.</p>
+<h3 id="introduccion-y-preliminares">Introducción y Preliminares<a class="headerlink" href="#introduccion-y-preliminares" title="Permanent link">&para;</a></h3>
+<p>Marco conceptual y bases metodológicas.</p>
+<ul>
+<li><a href="nota-al-lector/">Nota al Lector</a>
+  <em>Filosofía del manual y reglas de compromiso.</em></li>
+<li><a href="nota-metodologica/">Nota Metodológica</a>
+  <em>Alineación con NIST 2.0, ISO 27001 y Ley 21.663.</em></li>
+<li><a href="prologo/">Prólogo Ejecutivo</a>
+  <em>El cambio de paradigma: de gasto de TI a riesgo de Directorio.</em></li>
+<li><a href="ideas-centrales/">Ideas Centrales</a>
+  <em>Resumen ejecutivo: si solo tienes 5 minutos, lee esto.</em></li>
+</ul>
+<h3 id="bloque-1-fundamentos-y-estrategia-capitulos-1-a-3">Bloque 1: Fundamentos y Estrategia (Capítulos 1 a 3)<a class="headerlink" href="#bloque-1-fundamentos-y-estrategia-capitulos-1-a-3" title="Permanent link">&para;</a></h3>
+<p>Estableciendo el lenguaje del negocio y la gobernanza.</p>
+<ul>
+<li><a href="capitulos/01-CISO-Socio-Negocio/">Capítulo 01: CISO Socio de Negocio</a>
+  <em>Del "No" técnico al "Cómo" estratégico.</em></li>
+<li><a href="capitulos/02-Riesgo-Financiero/">Capítulo 02: Matemática del Riesgo</a>
+  <em>Cuantificación del riesgo: ALE, RTO y el retorno de inversión en seguridad.</em></li>
+<li><a href="capitulos/03-Marcos-Madurez/">Capítulo 03: Marcos y Madurez Legal</a>
+  <em>Cumplimiento regulatorio y responsabilidad legal de la alta dirección.</em></li>
+</ul>
+<h3 id="bloque-2-arquitectura-y-prevencion-capitulos-4-a-6">Bloque 2: Arquitectura y Prevención (Capítulos 4 a 6)<a class="headerlink" href="#bloque-2-arquitectura-y-prevencion-capitulos-4-a-6" title="Permanent link">&para;</a></h3>
+<p>Diseño de la fundación técnica bajo el modelo soberano.</p>
+<ul>
+<li><a href="capitulos/04-Zero-Trust/">Capítulo 04: Zero Trust (Confianza Cero)</a>
+  <em>Arquitectura de Confianza Cero y segmentación lógica.</em></li>
+<li><a href="capitulos/05-Identidad-IAM/">Capítulo 05: Identidad (IAM)</a>
+  <em>La identidad como el nuevo perímetro de seguridad.</em></li>
+<li><a href="capitulos/06-Higiene-Datos/">Capítulo 06: Higiene de Datos (DLP)</a>
+  <em>Estrategias de DLP y protección del activo más crítico.</em></li>
+</ul>
+<h3 id="bloque-3-gestion-de-crisis-capitulos-7-a-10">Bloque 3: Gestión de Crisis (Capítulos 7 a 10)<a class="headerlink" href="#bloque-3-gestion-de-crisis-capitulos-7-a-10" title="Permanent link">&para;</a></h3>
+<p>El manual de guerra: Operación y toma de decisiones bajo presión.</p>
+<ul>
+<li><a href="capitulos/07-Flujo-IRP/">Capítulo 07: Flujo del Incidente (IRP)</a>
+  <em>El Plan de Respuesta a Incidentes: Contención, Erradicación y Recuperación.</em></li>
+<li><a href="capitulos/08-Automatizacion-SOAR/">Capítulo 08: Automatización y SOAR</a>
+  <em>Uso de telemetría y respuesta orquestada ante ataques a gran escala.</em></li>
+<li><a href="capitulos/09-Comunicacion-Crisis/">Capítulo 09: Comunicación de Crisis</a>
+  <em>Gestión de la reputación institucional y comunicación con stakeholders.</em></li>
+<li><a href="capitulos/10-Gobierno-Crisis/">Capítulo 10: Gobierno de Crisis y Botón Rojo</a>
+  <em>Protocolos de mando y la autoridad del "Botón Rojo".</em></li>
+</ul>
+<h3 id="bloque-4-resiliencia-y-proyeccion-capitulos-11-a-13">Bloque 4: Resiliencia y Proyección (Capítulos 11 a 13)<a class="headerlink" href="#bloque-4-resiliencia-y-proyeccion-capitulos-11-a-13" title="Permanent link">&para;</a></h3>
+<p>Aprendizaje sistémico y el futuro de la amenaza.</p>
+<ul>
+<li><a href="capitulos/11-Integracion-Resiliencia/">Capítulo 11: Integración de la Resiliencia</a>
+  <em>Sinergia entre IRP, DRP y BCP basada en el impacto (BIA).</em></li>
+<li><a href="capitulos/12-Cultura-Post-Incidente/">Capítulo 12: Cultura Post-Incidente</a>
+  <em>Análisis forense, lecciones aprendidas y el ciclo de mejora continua.</em></li>
+<li><a href="capitulos/13-Futuro-Inevitable/">Capítulo 13: El Futuro Inevitable</a>
+  <em>Ciberseguridad Agéntica e IA Adversaria.</em></li>
+</ul>
+<hr />
+<h2 id="conclusion-y-cierre">Conclusión y Cierre<a class="headerlink" href="#conclusion-y-cierre" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="epilogo/">Epílogo: La Dimensión Humana</a>
+  <em>El mandato ético del Vigilante Estratégico.</em></li>
+</ul>
+<hr />
+<h2 id="anexos-operativos-biblioteca-del-arquitecto">Anexos Operativos (Biblioteca del Arquitecto)<a class="headerlink" href="#anexos-operativos-biblioteca-del-arquitecto" title="Permanent link">&para;</a></h2>
+<h3 id="control-y-medicion">Control y Medición<a class="headerlink" href="#control-y-medicion" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="anexos/A-Matriz-RACI/">Anexo A: Matriz RACI</a>
+  <em>Accountability organizacional.</em></li>
+<li><a href="anexos/B-Metricas/">Anexo B: Tablero de Métricas</a>
+  <em>KPIs y KRIs para el reporte ejecutivo.</em></li>
+<li><a href="anexos/C-ZeroTrust/">Anexo C: Checklist Zero Trust</a>
+  <em>Rúbrica de madurez técnica.</em></li>
+<li><a href="anexos/N-Higiene/">Anexo N: La Línea Base de Higiene Digital</a>
+  <em>Controles de Debida Diligencia (Security.txt, DMARC, MFA).</em></li>
+</ul>
+<h3 id="comunicacion-e-inteligencia">Comunicación e Inteligencia<a class="headerlink" href="#comunicacion-e-inteligencia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="anexos/D-Reporting/">Anexo D: Guía de Reporting Ejecutivo</a>
+  <em>Traducción de bits a dólares.</em></li>
+<li><a href="anexos/E-Ecosistema/">Anexo E: Ecosistema Global de Inteligencia</a>
+  <em>Fuentes CVE, KEV y NVD.</em></li>
+<li><a href="anexos/F-Vulnerabilidades/">Anexo F: Gestión de Vulnerabilidades</a>
+  <em>Ciclos de parcheo y SLAs.</em></li>
+</ul>
+<h3 id="respuesta-y-supervivencia">Respuesta y Supervivencia<a class="headerlink" href="#respuesta-y-supervivencia" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="anexos/G-CSIRT/">Anexo G: Estructura CSIRT</a>
+  <em>Roles y cadena de mando.</em></li>
+<li><a href="anexos/H-Plan-IRP/">Anexo H: Plan IRP</a>
+  <em>Respuesta táctica a incidentes.</em></li>
+<li><a href="anexos/I-Plan-DRP/">Anexo I: Plan DRP</a>
+  <em>Recuperación técnica de desastres.</em></li>
+<li><a href="anexos/J-Plan-BCP/">Anexo J: Plan BCP</a>
+  <em>Continuidad del negocio y BIA.</em></li>
+</ul>
+<h3 id="cultura-y-legal">Cultura y Legal<a class="headerlink" href="#cultura-y-legal" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="anexos/K-Fracaso/">Anexo K: Patrones de Fracaso</a>
+  <em>Antifragilidad operativa.</em></li>
+<li><a href="anexos/L-Cumplimiento/">Anexo L: Cumplimiento Normativo y Riesgo de Terceros</a>
+  <em>Hoja de ruta legal y gestión de proveedores.</em></li>
+<li><a href="anexos/M-Entrenamiento/">Anexo M: Protocolo de Entrenamiento y Simulación</a> 
+  <em>Ingeniería del Factor Humano y "Human Firewall"</em></li>
+<li><a href="anexos/O-Ley-Marco/">Anexo O: La Brújula Operativa de la Ley 21.663</a>
+  <em>Traducción Táctica: Obligaciones, Multas y Definiciones (SE vs OIV).</em></li>
+</ul>
+<hr />
+<h2 id="referencias-y-fundamento">Referencias y Fundamento<a class="headerlink" href="#referencias-y-fundamento" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="referencias/Glosario/">Glosario</a>
+  <em>Diccionario Técnico-Negocio.</em></li>
+<li><a href="referencias/Bibliografia/">Bibliografia</a>
+  <em>Lecturas Clave para el Arquitecto de Resiliencia y el Vigilante Estratégico.</em></li>
+</ul>
+<hr />
+<h2 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>v1.3 (Enero 2026):</strong> Actualización "Consolidación Normativa". Integración total de la Ley 21.663 (Anexo O), protocolo de Ransomware (Anexo G) y controles de Higiene Digital (Anexo N).</li>
+<li><strong>v1.0 (Enero 2026):</strong> Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.</li>
+<li>Ver <a href="changelog/">Historial Completo</a>.</li>
+</ul>
+<h2 id="sugerencias-y-mejoras">Sugerencias y Mejoras<a class="headerlink" href="#sugerencias-y-mejoras" title="Permanent link">&para;</a></h2>
+<p>Este es un documento vivo. Si encuentras una errata o tienes una sugerencia de mejora, puedes reportarla directamente en el <a href="https://github.com/jccarvajal/Ciberseguridad-GRC">Repositorio de GitHub</a>.</p>
+<h2 id="licencia">Licencia<a class="headerlink" href="#licencia" title="Permanent link">&para;</a></h2>
+<p>El contenido se distribuye bajo licencia <strong>CC BY-NC-ND 4.0</strong>.
+Se autoriza su uso educativo y de referencia profesional. No se permite la modificación ni el uso comercial sin autorización expresa del autor.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+        
+          
+          <a href="nota-al-lector/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Nota al Lector">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Nota al Lector
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Juan Carlos Carvajal - Licencia CC BY-NC-ND 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
