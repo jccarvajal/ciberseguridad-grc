@@ -147,7 +147,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
 
 ## Changelog
 * **v1.3 (Enero 2026):** Actualización "Consolidación Normativa". Integración total de la Ley 21.663 (Anexo O), protocolo de Ransomware (Anexo G) y controles de Higiene Digital (Anexo N).
-* **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.* Ver [Historial Completo](./changelog.md).
+* **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.
+* Ver [Historial Completo](./changelog.md).
 
 ## Sugerencias y Mejoras
 Este es un documento vivo. Si encuentras una errata o tienes una sugerencia de mejora, puedes reportarla directamente en el [Repositorio de GitHub](https://github.com/jccarvajal/Ciberseguridad-GRC).
