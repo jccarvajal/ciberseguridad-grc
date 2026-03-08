@@ -5,7 +5,7 @@
 
 > *“The future is already here, it’s just not evenly distributed.”*
 > 
-> — **William Gibson**
+> — **William Gibson (Distrust That Particular Flavor)**
 
 ---
 
