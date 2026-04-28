@@ -12,7 +12,7 @@
 
 Antes de leer, puedes comenzar por el audio:
 
-⏱️ **Duración:** 20 minutos  
+⏱️ **Duración:** 21 minutos  
 
 <audio controls>
   <source src="assets/audio/ciberseguridad-grc.m4a" type="audio/mp4">
