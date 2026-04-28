@@ -6,7 +6,7 @@
 
 <img src="assets/images/portada-ciber.png" alt="Portada del Libro - Ciberseguridad Orientada a Resultados" width="500">
 
---
+---
 
 ## 🎧 Versión Audio (Resumen / Podcast)
 
