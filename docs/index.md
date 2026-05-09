@@ -118,33 +118,33 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *KPIs y KRIs para el reporte ejecutivo.*
 * [Anexo C: Checklist Zero Trust](./anexos/C-ZeroTrust.md)
   *Rúbrica de madurez técnica.*
-* [Anexo N: La Línea Base de Higiene Digital](./anexos/N-Higiene.md)
+* [Anexo D: La Línea Base de Higiene Digital](./anexos/D-Higiene.md)
   *Controles de Debida Diligencia (Security.txt, DMARC, MFA).*
 
 ### Comunicación e Inteligencia
-* [Anexo D: Guía de Reporting Ejecutivo](./anexos/D-Reporting.md)
+* [Anexo E: Guía de Reporting Ejecutivo](./anexos/E-Reporting.md)
   *Traducción de bits a dólares.*
-* [Anexo E: Ecosistema Global de Inteligencia](./anexos/E-Ecosistema.md)
+* [Anexo F: Ecosistema Global de Inteligencia](./anexos/F-Ecosistema.md)
   *Fuentes CVE, KEV y NVD.*
-* [Anexo F: Gestión de Vulnerabilidades](./anexos/F-Vulnerabilidades.md)
+* [Anexo G: Gestión de Vulnerabilidades](./anexos/G-Vulnerabilidades.md)
   *Ciclos de parcheo y SLAs.*
 
 ### Respuesta y Supervivencia
-* [Anexo G: Estructura CSIRT](./anexos/G-CSIRT.md)
+* [Anexo H: Estructura CSIRT](./anexos/H-CSIRT.md)
   *Roles y cadena de mando.*
-* [Anexo H: Plan IRP](./anexos/H-Plan-IRP.md)
+* [Anexo I: Plan IRP](./anexos/I-Plan-IRP.md)
   *Respuesta táctica a incidentes.*
-* [Anexo I: Plan DRP](./anexos/I-Plan-DRP.md)
+* [Anexo J: Plan DRP](./anexos/J-Plan-DRP.md)
   *Recuperación técnica de desastres.*
-* [Anexo J: Plan BCP](./anexos/J-Plan-BCP.md)
+* [Anexo K: Plan BCP](./anexos/K-Plan-BCP.md)
   *Continuidad del negocio y BIA.*
 
 ### Cultura y Legal
-* [Anexo K: Patrones de Fracaso](./anexos/K-Fracaso.md)
+* [Anexo L: Patrones de Fracaso](./anexos/L-Fracaso.md)
   *Antifragilidad operativa.*
-* [Anexo L: Cumplimiento Normativo y Riesgo de Terceros](./anexos/L-Cumplimiento.md)
+* [Anexo M: Cumplimiento Normativo y Riesgo de Terceros](./anexos/M-Cumplimiento.md)
   *Hoja de ruta legal y gestión de proveedores.*
-* [Anexo M: Protocolo de Entrenamiento y Simulación](./anexos/M-Entrenamiento.md) 
+* [Anexo N: Protocolo de Entrenamiento y Simulación](./anexos/N-Entrenamiento.md) 
   *Ingeniería del Factor Humano y "Human Firewall"*
 * [Anexo O: La Brújula Operativa de la Ley 21.663](./anexos/O-Ley-Marco.md)
   *Traducción Táctica: Obligaciones, Multas y Definiciones (SE vs OIV).*
