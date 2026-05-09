@@ -11,7 +11,7 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
 * **Gibson, W. (1984).** "Neuromancer". Ace Books. [[Ver Libro]](https://www.amazon.com/Neuromancer-Sprawl-Trilogy-William-Gibson/dp/0441569595)
     * **Por qué leerlo:** La referencia cultural que dio origen al concepto de "Ciberespacio" y a la visión de la red como un territorio soberano en disputa.
 * **Stoll, C. (1989).** "The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage". Doubleday. [[Ver Libro]](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787)
-    * **Por qué leerlo:** La historia real fundacional de la forense digital. Ilustra la tenacidad necesaria para el "Hunting" descrito en el Anexo G.
+    * **Por qué leerlo:** La historia real fundacional de la forense digital. Ilustra la tenacidad necesaria para el "Hunting" descrito en el Anexo H.
 
 ### Bloque 1: Fundamentos y Gestión del Riesgo (Capítulos 1-3)
 
@@ -37,13 +37,13 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
 * **Gilman, E., & Barth, D. (2017).** "Zero Trust Networks". O'Reilly Media. [[O'Reilly]](https://www.oreilly.com/library/view/zero-trust-networks/9781491962183/)
     * **Por qué leerlo:** Define la arquitectura de "Confianza Cero" y la estrategia de Asumir la Brecha analizada en el Capítulo 04 y Anexo C.
 * **Kim, G., Behr, K., & Spafford, G. (2013).** "The Phoenix Project". IT Revolution Press. [[IT Revolution]](https://itrevolution.com/product/the-phoenix-project/)
-    * **Por qué leerlo:** Clave para el Capítulo 01 y Anexo K. Ilustra cómo integrar la seguridad en el flujo de valor del negocio mediante la agilidad y la visibilidad operativa.
+    * **Por qué leerlo:** Clave para el Capítulo 01 y Anexo L. Ilustra cómo integrar la seguridad en el flujo de valor del negocio mediante la agilidad y la visibilidad operativa.
 * **Gobierno de Chile. (1999).** "Ley N° 19.628 sobre protección de la vida privada". [[Biblioteca del Congreso Nacional]](https://www.bcn.cl/leychile/Navegar?idNorma=141599)
     * **Por qué leerlo:** Referencia obligatoria para la gestión de datos sensibles y las políticas de DLP discutidas en el Capítulo 06.
 * **Shirow, M. (1989).** "The Ghost in the Shell". Kodansha. [[Kodansha US]](https://kodansha.us/series/the-ghost-in-the-shell/)
     * **Por qué leerlo:** Referencia para el Capítulo 05 sobre Identidad. Plantea la visión de la identidad digital como el único ancla de soberanía en sistemas distribuidos.
 * **NIST. (2022).** "Cybersecurity Supply Chain Risk Management Practices (SP 800-161r1)". [[PDF Oficial NIST]](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-161r1.pdf)
-    * **Por qué leerlo:** La base normativa para el Anexo L. Define cómo gestionar el riesgo de proveedores y terceros de forma estructurada.
+    * **Por qué leerlo:** La base normativa para el Anexo M. Define cómo gestionar el riesgo de proveedores y terceros de forma estructurada.
 
 ### Bloque 3: Gestión de Incidentes y Crisis (Capítulos 7-10)
 
@@ -52,7 +52,7 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
 * **NIST. (2012).** "Computer Security Incident Handling Guide (SP 800-61 Rev. 2)". [[PDF Oficial NIST]](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
     * **Por qué leerlo:** Estándar global para el ciclo de vida del incidente (Preparación, Detección, Contención, Post-Incidente) usado como base en el Capítulo 07.
 * **MITRE Corporation. (2024).** "MITRE ATT&CK® Framework". [[Sitio Oficial MITRE]](https://attack.mitre.org/)
-    * **Por qué leerlo:** Base de conocimiento esencial para entender las tácticas del adversario y el movimiento lateral discutido en los Capítulos 07 y Anexo E.
+    * **Por qué leerlo:** Base de conocimiento esencial para entender las tácticas del adversario y el movimiento lateral discutido en los Capítulos 07 y Anexo F.
 * **Boyd, J. R. (1987).** "A Discourse on Winning and Losing". Air University Press. [[Air University PDF]](https://www.airuniversity.af.edu/AUPress/Display/Article/1528758/a-discourse-on-winning-and-losing/)
     * **Por qué leerlo:** La obra maestra del Coronel John Boyd. Fuente original del ciclo **OODA** explicado en el Capítulo 08 como base de la automatización defensiva.
 
@@ -61,11 +61,11 @@ Este anexo no es una lista exhaustiva, sino un conjunto curado de fuentes primar
 * **Taleb, N. N. (2012).** "Antifragile: Things That Gain from Disorder". Random House. [[Ver Libro]](https://www.amazon.com/Antifragile-Things-That-Gain-Disorder/dp/0812979680)
     * **Por qué leerlo:** Pilar conceptual del Capítulo 12. Define la diferencia entre ser robusto (resistir) y ser antifrágil (mejorar con el estrés), el objetivo final de la cultura post-incidente.
 * **ISO/IEC. (2019).** "Security and resilience – Business continuity management systems (ISO 22301:2019)". [[Sitio Oficial ISO]](https://www.iso.org/standard/75106.html)
-    * **Por qué leerlo:** El estándar internacional que define los requisitos para un BCP y el análisis de impacto (BIA) descritos en el Anexo J.
+    * **Por qué leerlo:** El estándar internacional que define los requisitos para un BCP y el análisis de impacto (BIA) descritos en el Anexo K.
 * **Bostrom, N. (2014).** "Superintelligence: Paths, Dangers, Strategies". Oxford University Press. [[Oxford UP]](https://global.oup.com/academic/product/superintelligence-9780199678112)
     * **Por qué leerlo:** Contexto filosófico para el Capítulo 13 sobre los riesgos existenciales de la IA y la necesidad de alineación en sistemas de defensa agéntica.
 * **FIRST. (2023).** "Common Vulnerability Scoring System (CVSS) v4.0 Specification". [[Sitio Oficial FIRST]](https://www.first.org/cvss/v4-0/)
-    * **Por qué leerlo:** Estándar matemático utilizado en el Anexo F para puntuar la severidad técnica de una vulnerabilidad de manera objetiva.
+    * **Por qué leerlo:** Estándar matemático utilizado en el Anexo G para puntuar la severidad técnica de una vulnerabilidad de manera objetiva.
 * **Ridley, M. (1993).** "The Red Queen: Sex and the Evolution of Human Nature". Harper Perennial. [[Ver Libro]](https://www.amazon.com/Red-Queen-Sex-Evolution-Human/dp/0060556579)
     * **Por qué leerlo:** Origen de la hipótesis de la "Reina Roja" aplicada en el Capítulo 13. Ayuda a entender la ciberseguridad no como un problema estático a resolver, sino como una carrera evolutiva co-dependiente contra el adversario.
 * **Syed, M. (2015).** "Black Box Thinking: The Surprising Truth About Success". Portfolio. [[Ver Libro]](https://www.amazon.com/Black-Box-Thinking-Surprising-Success/dp/1591848229)
