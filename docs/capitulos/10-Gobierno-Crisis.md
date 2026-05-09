@@ -34,7 +34,7 @@ Si mantener el sistema encendido permite que un *ransomware* cifre la totalidad 
 
 ### 3. El Insumo Técnico: Datos sobre Instinto
 
-Para que el Directorio decida, el equipo técnico debe entregar certidumbre mediante el **Flash Report (Anexo D)**. El **Ingeniero** debe informar basándose en la evidencia del ecosistema de seguridad:
+Para que el Directorio decida, el equipo técnico debe entregar certidumbre mediante el **Flash Report (Anexo E)**. El **Ingeniero** debe informar basándose en la evidencia del ecosistema de seguridad:
 
 * **Evidencia de Explotación:** Identificación de vulnerabilidades de alta destructividad (ej. catálogo **KEV**).
 * **Estado de la Propiedad:** Confirmación de compromiso en cuentas con privilegios de administrador (***PAM***).

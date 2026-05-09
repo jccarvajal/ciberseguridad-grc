@@ -37,7 +37,7 @@ Bajo la Ley Marco de Ciberseguridad (Ley 21.663), el tiempo no es solo dinero; e
 
 ### 3. La Cadena de Reporte: Hechos vs. Especulación
 
-Para el **Ingeniero**, su labor es proveer la materia prima del relato: los hechos inalterables. Debe alimentar al Comité de Crisis usando el **Flash Report (Anexo D)**, evitando cualquier especulación que pueda contradecir la evidencia técnica del **SOAR** (Capítulo 8).
+Para el **Ingeniero**, su labor es proveer la materia prima del relato: los hechos inalterables. Debe alimentar al Comité de Crisis usando el **Flash Report (Anexo E)**, evitando cualquier especulación que pueda contradecir la evidencia técnica del **SOAR** (Capítulo 8).
 
 **Toda comunicación externa debe estar estrictamente alineada con la evidencia técnica preservada por el IRP; una declaración inconsistente con los registros forenses no es un error comunicacional, es un riesgo legal mayor.** 
 
@@ -77,7 +77,7 @@ El **Directorio** debe asegurar que el mensaje sea coherente para todos, pero ad
 
     1.  **Hito 1 (T+60 min):** Notificación interna. Confirmación de activación de protocolos de **debida diligencia**.
     2.  **Hito 2 (T+4 horas):** Primera declaración oficial. Enfoque en la contención y protección de datos.
-    3.  **Hito 3 (T+24 horas):** Reporte de progreso y transparencia sobre la fase de recuperación (**DRP - Anexo I**).
+    3.  **Hito 3 (T+24 horas):** Reporte de progreso y transparencia sobre la fase de recuperación (**DRP - Anexo J**).
     4.  **Hito 4 (Post-Crisis):** El *Post-Mortem* público. Demostración de aprendizaje y endurecimiento de la arquitectura (Capítulo 12).
 
 ---

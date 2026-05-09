@@ -9,7 +9,7 @@ La diferencia entre una organización que sobrevive y una que colapsa no es el a
 
 Para el **Vigilante Estratégico**, responder no es correr en círculos; es seguir un ciclo de cuatro fases diseñado para minimizar el *SLE* (Impacto de un solo evento):
 
-1.  **Preparación:** La fase más crítica. Ocurre *antes* del ataque e incluye la formación del equipo **CSIRT** (Anexo G) y la creación de los libros de jugadas (*Playbooks*).
+1.  **Preparación:** La fase más crítica. Ocurre *antes* del ataque e incluye la formación del equipo **CSIRT** (Anexo H) y la creación de los libros de jugadas (*Playbooks*).
 2.  **Detección y Análisis:** El momento en que los sensores (Capítulo 4) disparan una alerta. El **Ingeniero** debe validar si es un falso positivo o un incidente real.
 3.  **Contención, Erradicación y Recuperación (CER):** El corazón de la batalla. El objetivo es detener el fuego, limpiar la casa y restaurar la operación.
 4.  **Actividad Post-Incidente:** El proceso de aprendizaje técnico y estratégico indispensable para la mejora continua (Capítulo 12).
@@ -21,14 +21,14 @@ Para el **Vigilante Estratégico**, responder no es correr en círculos; es segu
 El **Ingeniero** y el **Mando Medio** deben ejecutar estas tres etapas con precisión quirúrgica para salvaguardar la **debida diligencia**:
 
 * **Contención:** Detener la hemorragia. Si un activo está comprometido, se aísla mediante microsegmentación. El objetivo es que el **radio de explosión** no afecte la continuidad sistémica.
-* **Erradicación:** Eliminar la causa raíz. Si el atacante explotó un **CVE crítico** (Anexo F), se cierra la vulnerabilidad y se eliminan las persistencias (*backdoors*) detectadas.
+* **Erradicación:** Eliminar la causa raíz. Si el atacante explotó un **CVE crítico** (Anexo G), se cierra la vulnerabilidad y se eliminan las persistencias (*backdoors*) detectadas.
 * **Recuperación:** Retorno a la normalidad. Se restauran sistemas desde respaldos verificados y se valida la integridad antes de restablecer el servicio.
 
 ---
 
 ### 3. El Rol del Mando Medio: El "Flash Report"
 
-Durante un incidente, el Directorio no requiere detalles de código; exige visibilidad sobre el riesgo de continuidad. El **Mando Medio** actúa como el traductor de crisis mediante el **Flash Report** (Ver **Anexo D**):
+Durante un incidente, el Directorio no requiere detalles de código; exige visibilidad sobre el riesgo de continuidad. El **Mando Medio** actúa como el traductor de crisis mediante el **Flash Report** (Ver **Anexo E**):
 
 El **Flash Report** no es un resumen operativo: es el primer artefacto de **evidencia de debida diligencia** que permite demostrar que la alta dirección fue informada oportunamente y tomó decisiones bajo la mejor información disponible.
 
@@ -50,10 +50,10 @@ El **Flash Report** no es un resumen operativo: es el primer artefacto de **evid
 
     | Fase | Acción Clave | Responsable | Soporte |
     | :--- | :--- | :--- | :--- |
-    | **Triage** | Clasificar severidad (Baja a Crítica). | Ingeniero | **Anexo F** (CVSS/KEV) |
-    | **Aislamiento** | Ejecutar bloqueo de red o de cuentas. | Ingeniero | **Anexo E** (PAM/IAM) |
-    | **Comunicación** | Emitir reporte ejecutivo y evaluar umbrales de notificación regulatoria. | Mando Medio | **Anexo D** (Reporting) |
-    | **Evidencia** | Preservar logs y memoria para análisis forense. | Ingeniero | **Anexo L** (Glosario) |
+    | **Triage** | Clasificar severidad (Baja a Crítica). | Ingeniero | **Anexo G** (CVSS/KEV) |
+    | **Aislamiento** | Ejecutar bloqueo de red o de cuentas. | Ingeniero | **Anexo F** (PAM/IAM) |
+    | **Comunicación** | Emitir reporte ejecutivo y evaluar umbrales de notificación regulatoria. | Mando Medio | **Anexo E** (Reporting) |
+    | **Evidencia** | Preservar logs y memoria para análisis forense. | Ingeniero | **Anexo M** (Glosario) |
     
 ---
 

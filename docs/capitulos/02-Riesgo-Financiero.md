@@ -36,7 +36,7 @@ Donde:
 
 En la era de la **Autonomía Adversaria**, el *ARO* ya no es una estadística histórica estática. Los agentes autónomos buscan vulnerabilidades 24/7, lo que incrementa la frecuencia de exposición de forma dinámica y no lineal. 
 
-Esto no elimina la necesidad de estimar el *ARO*, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo: Inteligencia Técnica**):
+Esto no elimina la necesidad de estimar el *ARO*, pero obliga a una **revisión continua** de sus variables, alimentadas por evidencia técnica objetiva (Ver **Anexo F**):
 
 * ***KEV* (Known Exploited Vulnerabilities):** Si una vulnerabilidad está siendo explotada activamente en el ecosistema global, el *ARO* se dispara.
 * ***EPSS* (Exploit Prediction Scoring System):** Entrega la probabilidad real de explotación en el corto plazo (próximos 30 días).

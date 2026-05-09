@@ -27,7 +27,7 @@ En un mundo sin muros, la **Identidad** (quién eres) y el **Contexto** (desde d
 Para el **Ingeniero**, esto significa implementar:
 
 * **MFA (Autenticación de Múltiple Factor):** La contraseña ha muerto; hoy es solo un factor débil.
-* **Acceso Condicional:** Si un analista se conecta a las 3:00 AM desde una ubicación inusual y con un equipo que tiene un **CVE crítico** pendiente (Ver **Anexo F**), el sistema debe bloquear el acceso automáticamente.
+* **Acceso Condicional:** Si un analista se conecta a las 3:00 AM desde una ubicación inusual y con un equipo que tiene un **CVE crítico** pendiente (Ver **Anexo G**), el sistema debe bloquear el acceso automáticamente.
 
 ---
 

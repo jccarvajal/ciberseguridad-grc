@@ -55,9 +55,9 @@ La automatización reduce drásticamente los componentes más costosos del ***SL
 
     | Proceso Manual (Lento/Riesgoso) | Proceso Automatizado (Playbook) | Ventaja Estratégica |
     | :--- | :--- | :--- |
-    | El ingeniero busca el origen de un login fallido manualmente. | El sistema consulta el **Catálogo KEV** (Anexo E) y bloquea la IP en milisegundos. | **Velocidad:** Triage inmediato basado en inteligencia global. |
+    | El ingeniero busca el origen de un login fallido manualmente. | El sistema consulta el **Catálogo KEV** (Anexo F) y bloquea la IP en milisegundos. | **Velocidad:** Triage inmediato basado en inteligencia global. |
     | El CISO debe autorizar el bloqueo de una cuenta sospechosa. | El SOAR revoca tokens de acceso en el **IAM** (Capítulo 5) ante riesgos confirmados. | **Contención:** El "radio de explosión" se detiene antes del movimiento lateral. |
-    | Se redacta un reporte días después del incidente. | Se genera un **Flash Report** (Anexo D) con evidencia forense inalterable al instante. | **Transparencia:** Prueba de **debida diligencia** ante la autoridad. |
+    | Se redacta un reporte días después del incidente. | Se genera un **Flash Report** (Anexo E) con evidencia forense inalterable al instante. | **Transparencia:** Prueba de **debida diligencia** ante la autoridad. |
     
 ---
 
@@ -71,7 +71,7 @@ La automatización gestiona la "fuerza bruta" (bloqueo de IPs, aislamiento de *h
 
 ### Conclusión: La Automatización como Multiplicador de Resiliencia
 
-La automatización es el multiplicador de fuerzas definitivo. Un solo ingeniero armado con *playbooks* bien diseñados es más efectivo que un ejército de analistas persiguiendo logs. Al automatizar la higiene técnica (**Anexo F**), usted libera el talento humano para la estrategia y el gobierno del riesgo.
+La automatización es el multiplicador de fuerzas definitivo. Un solo ingeniero armado con *playbooks* bien diseñados es más efectivo que un ejército de analistas persiguiendo logs. Al automatizar la higiene técnica (**Anexo G**), usted libera el talento humano para la estrategia y el gobierno del riesgo.
 
 En el próximo capítulo, abordaremos la dimensión más sensible de la crisis: la **Comunicación**. Veremos cómo transformar la data técnica del SOAR en un relato de confianza para proteger la reputación institucional.
 

@@ -7,7 +7,7 @@ La resiliencia moderna se basa en la integración de tres planos de respuesta qu
 
 ### 1. La Trinidad de la Resiliencia
 
-Para el **Vigilante Estratégico**, es vital distinguir el propósito de cada plan para asignar responsabilidades bajo principios de **debida diligencia** (Ver **Anexos H, I y J**):
+Para el **Vigilante Estratégico**, es vital distinguir el propósito de cada plan para asignar responsabilidades bajo principios de **debida diligencia** (Ver **Anexos I, J y K**):
 
 1.  **IRP (*Incident Response Plan*):** Su objetivo es **detener el ataque**. Es un plan táctico liderado por el CSIRT para contener la amenaza y preservar evidencia (Capítulo 7).
 2.  **DRP (*Disaster Recovery Plan*):** Su objetivo es **recuperar la tecnología**. Es un plan técnico para restaurar servidores, bases de datos y redes desde respaldos verificados.
@@ -28,7 +28,7 @@ El **Mando Medio** no debe decidir qué se recupera primero por intuición, pues
 
 *(Nota: Esta no es una fórmula matemática rígida, sino un marco conceptual de diseño).*
 
-Si el **Ingeniero** no conoce el *RTO* de un proceso, no puede diseñar la arquitectura de respaldos adecuada. Si el *RTO* es de 2 horas y el sistema de restauración tarda 10 horas, hay una **Brecha de Resiliencia** que debe ser informada al Directorio como un riesgo de **debida diligencia** mediante el **Anexo D**.
+Si el **Ingeniero** no conoce el *RTO* de un proceso, no puede diseñar la arquitectura de respaldos adecuada. Si el *RTO* es de 2 horas y el sistema de restauración tarda 10 horas, hay una **Brecha de Resiliencia** que debe ser informada al Directorio como un riesgo de **debida diligencia** mediante el **Anexo E**.
 
 !!! info "Mnemotecnia: RTO vs. RPO"
     Para no confundir estos términos críticos ante el Directorio:

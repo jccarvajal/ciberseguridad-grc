@@ -69,9 +69,9 @@ Adoptamos el **NIST CSF 2.0** como el *Control Loop* de la organización. La fun
 
 Ante una fiscalización, el Vigilante Estratégico no muestra "planes", muestra **resultados de fallos controlados**:
 
-1.  **Inventario de Exposición:** ¿Podemos demostrar que el Directorio conocía los activos más vulnerables y su impacto financiero (*ALE*) en los últimos 30 días? (**Ver Anexo F**).
-2.  **Trazabilidad del Recurso:** ¿Existe evidencia de que el Directorio asignó recursos tras detectarse una desviación del estándar legal base? (**Ver Anexo D**).
-3.  **Evidencia de Aprendizaje:** ¿Puede demostrar que el último ejercicio de respuesta (IRP) detectó un fallo y que dicho fallo generó un cambio documentado en la configuración o el presupuesto? (**Ver Anexo H**). *Si no hay registro de fallos en las pruebas, el auditor asumirá que el ejercicio fue un simulacro vacío.*
+1.  **Inventario de Exposición:** ¿Podemos demostrar que el Directorio conocía los activos más vulnerables y su impacto financiero (*ALE*) en los últimos 30 días? (**Ver Anexo G**).
+2.  **Trazabilidad del Recurso:** ¿Existe evidencia de que el Directorio asignó recursos tras detectarse una desviación del estándar legal base? (**Ver Anexo E**).
+3.  **Evidencia de Aprendizaje:** ¿Puede demostrar que el último ejercicio de respuesta (IRP) detectó un fallo y que dicho fallo generó un cambio documentado en la configuración o el presupuesto? (**Ver Anexo I**). *Si no hay registro de fallos en las pruebas, el auditor asumirá que el ejercicio fue un simulacro vacío.*
 
 ---
 
