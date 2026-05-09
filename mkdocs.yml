@@ -95,17 +95,17 @@ nav:
     - 'A: Matriz RACI': anexos/A-Matriz-RACI.md
     - 'B: Tablero de Métricas': anexos/B-Metricas.md
     - 'C: Checklist Zero Trust': anexos/C-ZeroTrust.md
-    - 'N: Higiene Digital': anexos/N-Higiene.md
-    - 'D: Guía de Reporting Ejecutivo': anexos/D-Reporting.md
-    - 'E: Ecosistema Global de Inteligencia': anexos/E-Ecosistema.md
-    - 'F: Gestión de Vulnerabilidades': anexos/F-Vulnerabilidades.md
-    - 'G: Estructura CSIRT': anexos/G-CSIRT.md
-    - 'H: Plan IRP': anexos/H-Plan-IRP.md
-    - 'I: Plan DRP': anexos/I-Plan-DRP.md
-    - 'J: Plan BCP': anexos/J-Plan-BCP.md
-    - 'K: Patrones de Fracaso': anexos/K-Fracaso.md
-    - 'L: Cumplimiento Normativo': anexos/L-Cumplimiento.md
-    - 'M: Entrenamiento y Simulacros': anexos/M-Entrenamiento.md
+    - 'D: Higiene Digital': anexos/D-Higiene.md
+    - 'E: Guía de Reporting Ejecutivo': anexos/E-Reporting.md
+    - 'F: Ecosistema Global de Inteligencia': anexos/F-Ecosistema.md
+    - 'G: Gestión de Vulnerabilidades': anexos/G-Vulnerabilidades.md
+    - 'H: Estructura CSIRT': anexos/H-CSIRT.md
+    - 'I: Plan IRP': anexos/I-Plan-IRP.md
+    - 'J: Plan DRP': anexos/J-Plan-DRP.md
+    - 'K: Plan BCP': anexos/K-Plan-BCP.md
+    - 'L: Patrones de Fracaso': anexos/L-Fracaso.md
+    - 'M: Cumplimiento Normativo': anexos/M-Cumplimiento.md
+    - 'N: Entrenamiento y Simulacros': anexos/N-Entrenamiento.md
     - 'O: Ley Marco Ciberseguridad': anexos/O-Ley-Marco.md
   - Referencias:
     - Glosario: referencias/Glosario.md

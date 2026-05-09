@@ -1,4 +1,4 @@
-# ANEXO F: Gestión Técnica de Vulnerabilidades
+# ANEXO G: Gestión Técnica de Vulnerabilidades
 **(Taxonomía, Análisis y Ciclos de Parcheo - SLAs)**
 
 ### Introducción: Del Escaneo a la Gestión

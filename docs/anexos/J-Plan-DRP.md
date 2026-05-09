@@ -1,4 +1,4 @@
-# ANEXO I: Plan de Recuperación de Desastres (DRP)
+# ANEXO J: Plan de Recuperación de Desastres (DRP)
 **(Plantilla de Restauración Tecnológica)**
 
 ### 1. Alcance y Priorización (Tiers)

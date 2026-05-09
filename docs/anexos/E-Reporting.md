@@ -1,4 +1,4 @@
-# ANEXO D: Guía de Reporting Ejecutivo
+# ANEXO E: Guía de Reporting Ejecutivo
 **(Traducción de Riesgo Técnico a Valor de Negocio)**
 
 ### Introducción: El Puente de Comunicación

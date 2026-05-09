@@ -1,4 +1,4 @@
-# ANEXO J: Plan de Continuidad de Negocio (BCP)
+# ANEXO K: Plan de Continuidad de Negocio (BCP)
 **(Manual de Supervivencia y Operación Manual)**
 
 ### 1. Objetivo y Alcance
