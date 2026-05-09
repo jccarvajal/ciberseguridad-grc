@@ -17,7 +17,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Air-Gap (Brecha de Aire)**
 
 * **Definición:** Medida de seguridad física o lógica donde un sistema de respaldo o red crítica está completamente aislado y desconectado de cualquier otra red, haciendo imposible el acceso remoto para un atacante.
-* **Referencia Principal:** Anexo I / Anexo K.
+* **Referencia Principal:** Anexo J / Anexo L.
 
 **ALE (Annualized Loss Expectancy)**
 
@@ -70,7 +70,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Distinción de roles en ejercicios de simulación y entrenamiento.
     * **Red Team:** Grupo (interno o externo) que simula ser el adversario, replicando TTPs reales para atacar la organización.
     * **Blue Team:** Equipo defensivo (CSIRT) que debe detectar, contener y repeler el ataque en tiempo real.
-* **Referencia Principal:** Anexo M.
+* **Referencia Principal:** Anexo N.
 
 **Botón Rojo**
 
@@ -102,12 +102,12 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 * **Definición:** Estándares universales de fallos. 
     * **CVE:** Identificador único de una vulnerabilidad específica en un producto.
     * **CWE:** Categoría de debilidad de diseño o programación (ej. Inyección SQL).
-* **Referencia Principal:** Anexo E / Anexo F.
+* **Referencia Principal:** Anexo F / Anexo G.
 
 **CVSS (Common Vulnerability Scoring System)**
 
 * **Definición:** Sistema de puntuación (0 a 10) que mide la severidad técnica de una vulnerabilidad.
-* **Referencia Principal:** Anexo F.
+* **Referencia Principal:** Anexo G.
 
 **Dark Data (Datos Oscuros)**
 
@@ -132,7 +132,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Deuda Técnica de Seguridad**
 
 * **Definición:** El costo acumulado de tomar atajos en la arquitectura o mantener sistemas legados sin parchar. Como una deuda financiera, genera "intereses" en forma de mayor riesgo operativo y mayor costo de remediación futura.
-* **Referencia Principal:** Capítulo 06 / Anexo K.
+* **Referencia Principal:** Capítulo 06 / Anexo L.
 
 **DLP (Data Loss Prevention)**
 
@@ -157,17 +157,17 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Flash Report**
 
 * **Definición:** Primer artefacto de evidencia de debida diligencia generado al Minuto 60 de un incidente para informar al Directorio sobre el impacto y la estrategia.
-* **Referencia Principal:** Capítulo 07 / Anexo D.
+* **Referencia Principal:** Capítulo 07 / Anexo E.
 
 **Honeypot (Señuelo)**
 
 * **Definición:** Recurso trampa (servidor, archivo o base de datos falsa) diseñado para atraer al atacante. Sirve para dos cosas: desviar el ataque de los activos reales y generar alertas tempranas de alta fidelidad (nadie legítimo debería tocar ese servidor).
-* **Referencia Principal:** Capítulo 04 / Anexo H.
+* **Referencia Principal:** Capítulo 04 / Anexo I.
 
 **Human Firewall (Cortafuegos Humano)**
 
 * **Definición:** Estrategia cultural que transforma al empleado de ser el "eslabón más débil" a ser un "sensor activo". Un usuario entrenado que reporta un phishing fallido vale más que un filtro técnico, porque entrega inteligencia temprana al SOC.
-* **Referencia Principal:** Anexo M.
+* **Referencia Principal:** Anexo N.
 
 **IAM (Identity and Access Management)**
 
@@ -177,7 +177,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Incident Commander (IC)**
 
 * **Definición:** Rol de autoridad absoluta durante una crisis (Nivel 1 o 2). Es el "Director de Orquesta" que toma las decisiones tácticas y autoriza acciones drásticas (como desconexiones) sin burocracia.
-* **Referencia Principal:** Anexo G / Anexo H.
+* **Referencia Principal:** Anexo H / Anexo I.
 
 **Incidente vs. Ciberataque**
 
@@ -187,12 +187,12 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **IoC (Indicator of Compromise)**
 
 * **Definición:** *Indicador de Compromiso.* La "huella digital" forense que deja un ataque (una IP, un Hash de archivo, un dominio malicioso). Es la evidencia técnica dura que el Ingeniero busca para confirmar una infección.
-* **Referencia Principal:** Capítulo 07 / Anexo E.
+* **Referencia Principal:** Capítulo 07 / Anexo F.
 
 **Insider Threat (Amenaza Interna)**
 
 * **Definición:** Riesgo que proviene de personas dentro de la organización (empleados, contratistas). Puede ser **malicioso** (un empleado descontento que roba datos) o **accidental** (un usuario que cae en phishing o configura mal una nube). Zero Trust se diseña específicamente para esto.
-* **Referencia Principal:** Capítulo 05 / Anexo K.
+* **Referencia Principal:** Capítulo 05 / Anexo L.
 
 **IRP (Incident Response Plan)**
 
@@ -202,7 +202,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **KEV (Known Exploited Vulnerabilities)**
 
 * **Definición:** Catálogo de vulnerabilidades que ya están siendo usadas por atacantes en el mundo real.
-* **Referencia Principal:** Anexo E.
+* **Referencia Principal:** Anexo F.
 
 **KPI vs. KRI**
 
@@ -232,17 +232,17 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **MITRE ATT&CK**
 
 * **Definición:** Base de conocimiento global que describe las *Tácticas, Técnicas y Procedimientos* (TTPs) que usan los adversarios reales. Se usa para mapear si las defensas actuales cubren ataques específicos.
-* **Referencia Principal:** Anexo E.
+* **Referencia Principal:** Anexo F.
 
 **Modelo de Responsabilidad Compartida**
 
 * **Definición:** Marco contractual de la nube (SaaS, PaaS, IaaS) que establece qué partes de la seguridad son deber del proveedor (ej. seguridad física del data center) y cuáles son deber intransferible del cliente (ej. gestión de accesos y cifrado de datos). Ignorar este límite es la causa #1 de fugas en la nube.
-* **Referencia Principal:** Anexo L.
+* **Referencia Principal:** Anexo M.
 
 **MTPD (Maximum Tolerable Period of Disruption)**
 
 * **Definición:** *Período Máximo Tolerable de Interrupción.* El tiempo límite que un proceso de negocio puede estar detenido antes de que el daño sea irreversible (quiebra, sanción fatal). Si el RTO supera al MTPD, el negocio muere.
-* **Referencia Principal:** Anexo J.
+* **Referencia Principal:** Anexo K.
 
 **MTTD (Mean Time To Detect)**
 
@@ -268,7 +268,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Out-of-Band (OOB)**
 
 * **Definición:** Canales de comunicación "Fuera de Banda" (ej: Signal, Satélite, Líneas análogas) que no dependen de la infraestructura corporativa y se usan cuando la red principal está comprometida o no es confiable.
-* **Referencia Principal:** Anexo G.
+* **Referencia Principal:** Anexo H.
 
 **PAM (Privileged Access Management)**
 
@@ -298,7 +298,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Regla 3-2-1-1-0**
 
 * **Definición:** Estándar de oro moderno para respaldos resilientes: 3 copias de datos, 2 medios diferentes, 1 copia fuera del sitio, 1 copia inmutable/offline y 0 errores de verificación (probados).
-* **Referencia Principal:** Anexo I.
+* **Referencia Principal:** Anexo J.
 
 **Resiliencia**
 
@@ -308,7 +308,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Responsabilidad Solidaria**
 
 * **Definición:** Principio legal (Ley 21.663) que establece que la organización contratante es responsable ante el regulador por las fallas de seguridad de sus proveedores. "Se delega el servicio, no la responsabilidad".
-* **Referencia Principal:** Anexo L.
+* **Referencia Principal:** Anexo M.
 
 **Riesgo Residual**
 
@@ -335,7 +335,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Shadow IT (TI en las Sombras)**
 
 * **Definición:** Anti-patrón donde departamentos de negocio contratan software, hardware o servicios en la nube sin el conocimiento ni control del área de TI/Seguridad, creando puertas traseras invisibles.
-* **Referencia Principal:** Anexo K.
+* **Referencia Principal:** Anexo L.
 
 **SLE (Single Loss Expectancy)**
 
@@ -355,17 +355,17 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **Supply Chain Attack (Ataque de Cadena de Suministro)**
 
 * **Definición:** Vector de ataque donde el adversario no ataca a la organización directamente, sino que compromete a un proveedor de confianza (software, limpieza, servicio en la nube) para entrar "por la puerta de atrás" saltándose el perímetro.
-* **Referencia Principal:** Anexo L.
+* **Referencia Principal:** Anexo M.
 
 **Tabletop Exercise (TTX)**
 
 * **Definición:** *Ejercicio de Escritorio.* Simulación de crisis basada en discusión (sin tocar teclados) donde el Comité de Crisis practica la toma de decisiones, la comunicación y los flujos legales ante un escenario hipotético. Es el entrenamiento vital para la "memoria muscular" ejecutiva.
-* **Referencia Principal:** Anexo M.
+* **Referencia Principal:** Anexo N.
 
 **TPRM (Third-Party Risk Management)**
 
 * **Definición:** *Gestión de Riesgos de Terceros.* Disciplina de gobernanza enfocada en identificar y mitigar los riesgos introducidos por la cadena de suministro y proveedores externos.
-* **Referencia Principal:** Anexo L.
+* **Referencia Principal:** Anexo M.
 
 **Vigilante Estratégico**
 
@@ -375,7 +375,7 @@ Este anexo es el léxico centralizado de "Ciberseguridad Orientada a Resultados"
 **War Room (Sala de Guerra)**
 
 * **Definición:** Espacio físico o virtual (canal OOB) aislado de la red corporativa donde se reúne el Comité de Crisis para tomar decisiones estratégicas sin ser espiados por el adversario que podría estar dentro de la red principal.
-* **Referencia Principal:** Anexo G.
+* **Referencia Principal:** Anexo H.
 
 **Zero Trust (Confianza Cero)**
 
