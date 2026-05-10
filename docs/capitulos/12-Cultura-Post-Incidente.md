@@ -54,7 +54,7 @@ Para el **Ingeniero**, la fase post-incidente es el momento de la verdad técnic
 
 ---
 
-### 3. La Matemática del Aprendizaje
+### 4. La Matemática del Aprendizaje
 
 Desde la perspectiva del **Directorio**, un incidente es una inversión forzosa en conocimiento. El **Vigilante Estratégico** debe asegurar que el valor extraído de la crisis supere el costo del daño sufrido.
 
