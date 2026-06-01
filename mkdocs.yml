@@ -107,6 +107,7 @@ nav:
     - 'M: Cumplimiento Normativo': anexos/M-Cumplimiento.md
     - 'N: Entrenamiento y Simulacros': anexos/N-Entrenamiento.md
     - 'O: Ley Marco Ciberseguridad': anexos/O-Ley-Marco.md
+    - 'P: Criptografía': anexos/P-Criptografia.md
   - Referencias:
     - Glosario: referencias/Glosario.md
     - Bibliografía: referencias/Bibliografia.md

@@ -1,6 +1,6 @@
 # Ciberseguridad Orientada a Resultados
 ## Arquitectura, Riesgo y Supervivencia Institucional
-**Versión 1.3 (Enero 2026)**
+**Versión 1.4 (Mayo 2026)**
 
 **Autor:** [Juan Carlos Carvajal](https://www.jccarvajal.com/)
 
@@ -148,6 +148,8 @@ Aprendizaje sistémico y el futuro de la amenaza.
   *Ingeniería del Factor Humano y "Human Firewall"*
 * [Anexo O: La Brújula Operativa de la Ley 21.663](./anexos/O-Ley-Marco.md)
   *Traducción Táctica: Obligaciones, Multas y Definiciones (SE vs OIV).*
+* [Anexo P: Fragilidad Temporal del Control Criptográfico](./anexos/P-Criptografia.md)
+  *Riesgo post-cuántico, deuda técnica y obsolescencia asimétrica del control.*
 ---
 
 ## Referencias y Fundamento
@@ -159,7 +161,7 @@ Aprendizaje sistémico y el futuro de la amenaza.
 ---
 
 ## Changelog
-* **v1.3 (Enero 2026):** Actualización "Consolidación Normativa". Integración total de la Ley 21.663 (Anexo O), protocolo de Ransomware (Anexo G) y controles de Higiene Digital (Anexo N).
+* **v1.4 (Mayo 2026):** Actualización "Gestión Temporal del Riesgo". Incorporación del Anexo P (Fragilidad Temporal del Control Criptográfico) con foco en el riesgo post-cuántico (HNDL), esquemas híbridos de transición a estándares NIST PQC y la formalización de la deuda técnica criptográfica.
 * **v1.0 (Enero 2026):** Lanzamiento oficial. Consolidación del marco GRC, publicación de los 13 capítulos y el kit base de anexos operativos.
 * Ver [Historial Completo](./changelog.md).
 

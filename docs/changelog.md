@@ -6,6 +6,16 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 
 ---
 
+### [1.4.0] - 2026-05-31
+
+### Añadido (Anexo Técnico)
+
+*   **Anexo P: Fragilidad Temporal del Control Criptográfico.** Inclusión de un nuevo marco analítico sobre el riesgo post-cuántico (HNDL) y la obsolescencia asimétrica del control. 
+*   **Concepto de Deuda Técnica Criptográfica:** Formalización de la dependencia de algoritmos vulnerables (RSA, ECC) como un pasivo estructural sobre la confidencialidad futura.
+*   **Estrategias Híbridas de Transición:** Integración de los estándares NIST PQC (FIPS 203, 204, 205) bajo un modelo de migración escalonada, cruzado con una matriz de gobernanza basada en horizontes de confidencialidad y retención de evidencia digital.
+
+---
+
 ## [1.3.0] - 2026-01-15
 
 ### Consolidación Normativa y Doctrina de Supervivencia
