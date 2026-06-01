@@ -9,7 +9,6 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 ## [1.4.0] - 2026-05-31
 
 ### Añadido (Anexo Técnico)
-
 *   **Anexo P: Fragilidad Temporal del Control Criptográfico.** Inclusión de un nuevo marco analítico sobre el riesgo post-cuántico (HNDL) y la obsolescencia asimétrica del control. 
 *   **Concepto de Deuda Técnica Criptográfica:** Formalización de la dependencia de algoritmos vulnerables (RSA, ECC) como un pasivo estructural sobre la confidencialidad futura.
 *   **Estrategias Híbridas de Transición:** Integración de los estándares NIST PQC (FIPS 203, 204, 205) bajo un modelo de migración escalonada, cruzado con una matriz de gobernanza basada en horizontes de confidencialidad y retención de evidencia digital.
@@ -19,7 +18,6 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 ## [1.3.0] - 2026-01-15
 
 ### Consolidación Normativa y Doctrina de Supervivencia
-
 Esta versión actualiza la obra para alinearla estrictamente con la entrada en vigencia de la **Ley Marco de Ciberseguridad (Ley 21.663)** y las nuevas exigencias de la **ANCI**. Se incorporan protocolos de decisión extrema y controles de higiene digital obligatorios.
 
 #### Nuevas Capacidades (Anexos Agregados)
@@ -48,7 +46,6 @@ Esta versión actualiza la obra para alinearla estrictamente con la entrada en v
 ## [1.2.0] - 2026-01-11
 
 ### Refinamiento Doctrinal y Nueva Identidad
-
 Esta versión consolida la identidad final de la obra, pasando de un enfoque "técnico-consultivo" a una postura "doctrinal y ejecutiva". Se endurece el tono normativo y se definen los límites éticos del modelo.
 
 #### Cambios de Identidad
@@ -71,7 +68,6 @@ Esta versión consolida la identidad final de la obra, pasando de un enfoque "t�
 ## [1.1.0] - 2026-01-04
 
 ### Consolidación Legal, Cultural y Metodológica
-
 Esta actualización cierra el ciclo de gobernanza integrando los pilares de Cultura (Anti-patrones) y Cumplimiento Legal (Riesgo de Terceros), además de refinar los estándares de referencia.
 
 #### Añadido (Nuevas Herramientas GRC)
@@ -92,7 +88,6 @@ Esta actualización cierra el ciclo de gobernanza integrando los pilares de Cult
 ## [1.0.0] - 2026-01-03
 
 ### Lanzamiento Oficial: "Ciberseguridad Orientada a Resultados"
-
 Esta versión marca la culminación del desarrollo inicial del manual y la liberación del ecosistema completo de herramientas para el **Vigilante Estratégico**.
 
 #### Añadido (Contenido Estratégico)
