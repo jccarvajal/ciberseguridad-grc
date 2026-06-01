@@ -1,4 +1,4 @@
-# ANEXO P: FRAGILIDAD TEMPORAL DEL CONTROL CRIPTOGRÁFICO
+# ANEXO P: Fragilidad Temporal del Control Criptográfico
 **Riesgo Post-Cuántico, Persistencia del Secreto y Obsolescencia Asimétrica del Control**
 
 > *Todo mecanismo de confianza tiene una fecha de vencimiento, incluso cuando esa fecha no aparece escrita en ninguna parte.*

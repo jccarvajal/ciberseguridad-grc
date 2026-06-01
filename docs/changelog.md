@@ -6,7 +6,7 @@ Este documento registra todas las modificaciones estructurales, técnicas y conc
 
 ---
 
-### [1.4.0] - 2026-05-31
+## [1.4.0] - 2026-05-31
 
 ### Añadido (Anexo Técnico)
 
